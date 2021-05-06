@@ -44,6 +44,11 @@ d.stat <- d.vir.sum %>%
   mutate(firmicute.host = if_else(firmicute.host, "firmicute", "non_firmicute")) %>% 
   pivot_wider(names_from = "firmicute.host", values_from = "n", values_fill = 0)
 
+d.vir %>% 
+   filter(!is.na(gene_id)) %>%
+     filter(!duplicated(virus.tax.id)) %>% 
+     group_by(firmicute.host) %>% 
+     summarise(n=n())
 
 
 # q	: the number of white balls drawn without replacement from an urn which contains both black and white balls.
@@ -82,15 +87,16 @@ str_extract(d.stat$lab, pattern = regex(".*;|.*["))
 d.stat %>% 
   ggplot(aes(K,adj.p+1e-24))+
   geom_hline(yintercept = 0.05, linetype=3, color="grey")+
-  geom_vline(xintercept = 10, linetype=3, color="grey")+
+  geom_vline(xintercept = 8, linetype=3, color="grey")+
   geom_jitter(width = 0.05, height = 0.05,
               shape=21,fill="grey", size=3, stroke = 2, alpha = 0.5)+
   geom_text_repel(aes(label = lab), na.rm = T )+
   scale_y_log10()+
-  scale_x_log10()+
+  # scale_x_log10()+
+  scale_x_continuous(trans = "log2", breaks = (2^(1:8)))+
   theme_classic()+
-  xlab("No. homologs detected")+
-  ylab("log P-value (adj. BH)")+
+  xlab("No. homologs detected (log2)")+
+  ylab("P-value (log10 adj. BH)")+
   labs(title = "Enrichment of phages with Firmicute hosts",
        subtitle = "calculated by hypergeometric distribution",
        caption = paste(d.stat$M[1],"phages infecting Firmicutes\n",
@@ -99,7 +105,7 @@ d.stat %>%
   
   
 
-x <- 0:100
-y <- dhyper(x,303,1044,280)
-qplot(x,y)+geom_line()+geom_vline(xintercept = 54)
-phyper(q = 9,m = 303,n = 1044,k = 10, lower.tail = F, log.p = T)
+# x <- 0:100
+# y <- dhyper(x,303,1044,280)
+# qplot(x,y)+geom_line()+geom_vline(xintercept = 54)
+# phyper(q = 9,m = 303,n = 1044,k = 10, lower.tail = F, log.p = T)
