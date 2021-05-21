@@ -109,3 +109,15 @@ d.stat %>%
 # y <- dhyper(x,303,1044,280)
 # qplot(x,y)+geom_line()+geom_vline(xintercept = 54)
 # phyper(q = 9,m = 303,n = 1044,k = 10, lower.tail = F, log.p = T)
+
+
+#focus on spoIIIE
+d.vir %>% 
+  filter(str_detect(gene_description, "spoIIIE")) %>% 
+  separate(family.etc, into = c("family", "genus", "etc"), extra = "merge", fill = "right") %>% 
+  group_by(phylum,class, order, family, genus) %>% 
+  summarize(n=n())
+
+d.vir %>% 
+  filter(str_detect(gene_description, "spoIIIE")) %>% 
+  pull(virus.name)
