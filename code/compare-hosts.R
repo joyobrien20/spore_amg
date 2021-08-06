@@ -10,9 +10,6 @@ d.vir <- read_csv( here("data/Viruses/amg_summary_wHost.tsv")) %>%
   filter(!is.na(order))
 
 # Firmicute or not
-# d.vir %>% 
-#   group_by(phylum, class) %>% 
-#   summarise()
 d.vir <- d.vir %>% 
   mutate(firmicute.host = str_detect(phylum, "Firmicutes"))
 
@@ -31,23 +28,67 @@ d.vir.sum %>%
   theme_bw()+
   ggsave(here("plots", "AMG_x_hostTax.png"), width = 14, height = 7)
 
+#resolve at family level
+firmi <- d.vir %>%
+  filter(firmicute.host) %>% 
+  separate(family.etc, into = c("family", "genus", "etc"), sep = ";",extra = "merge", remove = F) %>% 
+  group_by(phylum, class, family, genus) %>%
+  summarise(n=n())
+
+# classification of sporulators by Galperin 2013
+spore.fam <- read_csv(here("data/Galperin_2013_MicrobiolSpectrum_table2.csv"))
+# add likelihood of sporulation
+# Galperin table fraction footnote:
+  # "The distribution of sporeformers among the 
+  # experimentally characterized members of the respective
+  # family is indicated as follows: 
+  #   +++, all (or nearly all) characterized members of the family produce spores;
+  #   ++, a significant fraction of species are sporeformers; 
+  #   +, the family includes some sporeformers; 
+  #   -, no known sporeformers in the family."
+spore.fam <- spore.fam %>% 
+  mutate(spore.likley = case_when(Fraction.spore.forming == "+++" ~ TRUE,
+                                  Fraction.spore.forming == "++" ~ TRUE,
+                                  Fraction.spore.forming == "+" ~ FALSE,
+                                  Fraction.spore.forming == "-"  ~ FALSE)) 
+
+#resolve at family level
+d.vir <-
+  d.vir %>%
+  separate(family.etc, into = c("family", "genus", "etc"), sep = ";",extra = "merge", remove = F) 
+
+#add Galperin sporrulation 
+d.vir <- spore.fam %>% 
+  select(Family, spore.likley) %>% 
+  left_join(d.vir, ., by = c("family" = "Family")) %>% 
+  mutate(spore.likley = if_else(is.na(spore.likley), FALSE, spore.likley))
+# %>% group_by(firmicute.host, spore.likley) %>% summarise(n=n())
+
+d.vir.sum <- d.vir %>%
+  # filter(str_detect(header, regex("sporulation", ignore_case = T))) %>%
+  filter(!is.na(gene_id)) %>% 
+  group_by(gene_id, gene_description, category,spore.likley) %>%
+  summarise(n = n()) %>%
+  arrange(desc(n))
+
+# spore.fam$Family %in% fams
 
 #### Enrichment test ####
 
 n.phages <- d.vir %>% 
   # keep one record of each phage
   filter(!duplicated(virus.tax.id)) %>% 
-  group_by(firmicute.host) %>% 
+  group_by(spore.likley) %>% 
   summarise(n=n())
 
 d.stat <- d.vir.sum %>% 
-  mutate(firmicute.host = if_else(firmicute.host, "firmicute", "non_firmicute")) %>% 
-  pivot_wider(names_from = "firmicute.host", values_from = "n", values_fill = 0)
+  mutate(spore.likley = if_else(spore.likley, "sporulator.host", "nonsporulator.host")) %>% 
+  pivot_wider(names_from = "spore.likley", values_from = "n", values_fill = 0)
 
 d.vir %>% 
    filter(!is.na(gene_id)) %>%
      filter(!duplicated(virus.tax.id)) %>% 
-     group_by(firmicute.host) %>% 
+     group_by(spore.likley) %>% 
      summarise(n=n())
 
 
@@ -61,10 +102,10 @@ d.vir %>%
   # Total AMG detected in viruses
 
 d.stat <- d.stat %>% 
-  mutate(M = n.phages$n[n.phages$firmicute.host],
-         N = n.phages$n[!n.phages$firmicute.host],
-         K = non_firmicute + firmicute) %>% 
-  mutate(p.val = phyper(q = firmicute,
+  mutate(M = n.phages$n[n.phages$spore.likley],
+         N = n.phages$n[!n.phages$spore.likley],
+         K = nonsporulator.host + sporulator.host) %>% 
+  mutate(p.val = phyper(q = sporulator.host,
                         m = M, n = N, k = K, lower.tail = F, log.p = F))
 
 d.stat$adj.p <- p.adjust(d.stat$p.val, method = "BH")
@@ -83,7 +124,7 @@ d.stat <- d.stat%>%
   mutate(lab = str_extract(lab, pattern = ".*;")) %>% 
   mutate(lab = str_remove(lab, ";"))
 
-str_extract(d.stat$lab, pattern = regex(".*;|.*["))
+# str_extract(d.stat$lab, pattern = regex(".*;|.*["))
 d.stat %>% 
   ggplot(aes(K,adj.p+1e-24))+
   geom_hline(yintercept = 0.05, linetype=3, color="grey")+
@@ -97,13 +138,15 @@ d.stat %>%
   theme_classic()+
   xlab("No. homologs detected (log2)")+
   ylab("P-value (log10 adj. BH)")+
-  labs(title = "Enrichment of phages with Firmicute hosts",
+  labs(title = "Enrichment of phages with hosts likely to sporulate",
        subtitle = "calculated by hypergeometric distribution",
-       caption = paste(d.stat$M[1],"phages infecting Firmicutes\n",
-                       d.stat$N[1],"phages infecting non-Firmicutes,"))+
-  ggsave(here("plots/enrichmnent.png"), width = 6, height = 6)
+       caption = paste(d.stat$M[1],"phages with hosts likely to sporulate\n",
+                       d.stat$N[1],"phages with hosts NOT likely to sporulate,"))
+  ggsave(here("plots/enrichmnent_likely_sporultor.png"), width = 6, height = 6)
   
-  
+##########
+  # stopped here
+##########
 
 # x <- 0:100
 # y <- dhyper(x,303,1044,280)
