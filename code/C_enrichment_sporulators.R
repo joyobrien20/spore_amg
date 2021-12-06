@@ -121,23 +121,23 @@ d.stat <- d.stat%>%
 
 # str_extract(d.stat$lab, pattern = regex(".*;|.*["))
 d.stat %>% 
-  ggplot(aes(K,adj.p+1e-24))+
-  geom_hline(yintercept = 0.05, linetype=3, color="grey")+
-  geom_vline(xintercept = 8, linetype=3, color="grey")+
+  ggplot(aes(K,-log10(adj.p+1e-24)))+
+  geom_hline(yintercept = -log10(0.05), linetype=2, color="grey", size = 1.5)+
+  geom_vline(xintercept = 8, linetype=2, color="grey", size = 1.5)+
   geom_jitter(width = 0.05, height = 0.05,
-              shape=21,fill="grey", size=3, stroke = 2, alpha = 0.5)+
+              shape=21,fill="grey", size=3, stroke = 1, alpha = 0.5)+
   geom_text_repel(aes(label = lab), na.rm = T )+
-  scale_y_log10()+
+  # scale_y_log10()+
   # scale_x_log10()+
   scale_x_continuous(trans = "log2", breaks = (2^(1:8)))+
   theme_classic()+
-  xlab("No. homologs detected (log2)")+
-  ylab("P-value (log10 adj. BH)")+
-  labs(title = "Enrichment of phages with hosts likely to sporulate",
-       subtitle = "calculated by hypergeometric distribution",
-       caption = paste(d.stat$M[1],"phages with hosts likely to sporulate\n",
-                       d.stat$N[1],"phages with hosts NOT likely to sporulate,"))
-  ggsave(here("plots/enrichmnent_likely_sporultor.png"), width = 6, height = 6)
+  xlab("Sample size\nNo. homologs detected (log2)")+
+  ylab("Enrichment (-log10 adj. P-value)")+
+  # labs(title = "Enrichment of phages with hosts likely to sporulate",
+  #      subtitle = "calculated by hypergeometric distribution",
+  #      caption = paste(d.stat$M[1],"phages with hosts likely to sporulate\n",
+  #                      d.stat$N[1],"phages with hosts NOT likely to sporulate,"))
+  ggsave(here("plots/enrichmnent_likely_sporultor.png"), width = 4, height = 4)
   
   
   write_csv(d.stat, here("data","enrichment_stats.csv"))
