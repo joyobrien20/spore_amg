@@ -1,0 +1,881 @@
+category id,gene,locus tag,category1,category2,category3,category4,category5
+SW 3.1.1,BSU_00010,dnaA,Information processing,Genetics,DNA replication,NA,NA
+SW 3.1.1,BSU_00020,dnaN,Information processing,Genetics,DNA replication,NA,NA
+SW 4.2.1.5,BSU_00080,yaaC,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 2.6.2.12,BSU_00110,pdxS,Metabolism,Additional metabolic pathways,Biosynthesis of cofactors,Biosynthesis of pyridoxal phosphate,NA
+SW 4.2.1.1.1,BSU_00160,yaaH,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Class I
+SW 4.2.1.4,BSU_00230,bofA,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_00240,csfB,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.2,BSU_00320,yaaT,Lifestyles,Sporulation,phosphorelay,NA,NA
+SW 3.4.6,BSU_00370,abrB,Information processing,Regulation of gene expression,Transition state regulators,NA,NA
+SW 3.3.1.2,BSU_00420,ksgA,Information processing,"Protein synthesis, modification and degradation",Translation,rRNA modification and maturation,NA
+SW 4.2.1.1.8,BSU_00430,yabG,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Not yet assigned
+SW 4.2.1.3,BSU_00450,sspF,Lifestyles,Sporulation,Sporulation proteins,Small acid-soluble spore proteins,NA
+SW 2.4.2.3,BSU_00460,ispE,Metabolism,Lipid metabolism,Biosynthesis of lipids,Biosynthesis of isoprenoids,NA
+SW 2.5.2.1,BSU_00470,purR,Metabolism,Nucleotide metabolism,Biosynthesis/ acquisition of nucleotides,Biosynthesis/ acquisition of purine nucleotides,NA
+SW 2.3.1.12,BSU_00480,yabJ,Metabolism,Amino acid/ nitrogen metabolism,Biosynthesis/ acquisition of amino acids,Biosynthesis/ acquisition of branched-chain amino acids,NA
+SW 4.2.3,BSU_00490,spoVG,Lifestyles,Sporulation,Sporulation/ other,NA,NA
+SW 4.3.1,BSU_00530,spoVC,Lifestyles,Coping with stress,General stress proteins (controlled by SigB),NA,NA
+SW 4.2.1.4,BSU_00540,fin,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 3.1.5,BSU_00550,mfd,Information processing,Genetics,DNA repair/ recombination,NA,NA
+SW 4.2.1.4,BSU_00560,spoVT,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_00600,yabP,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_00610,yabQ,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_00620,divIC,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_00630,yabR,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 3.4.1.2,BSU_00640,spoIIE,Information processing,Regulation of gene expression,Sigma factors and their control,Control of sigma factors,NA
+SW 4.2.1.5,BSU_00650,yabS,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.4,BSU_00660,yabT,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_00840,mcsA,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_00850,mcsB,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_00860,clpC,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.3,BSU_00880,disA,Lifestyles,Sporulation,Sporulation/ other,NA,NA
+SW 3.2.1.2,BSU_00980,sigH,Information processing,RNA synthesis and degradation,Transcription,Sigma factors,NA
+SW 4.2.1.4,BSU_01520,ybaK,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_01530,cwlD,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.4.2,BSU_01550,gerD,Lifestyles,Sporulation,Germination,Additional germination proteins,NA
+SW 4.2.2.2,BSU_01560,kbaA,Lifestyles,Sporulation,phosphorelay,Proteins controlling the activity of the kinases,NA
+SW 4.2.1.4,BSU_01570,pdaB,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 1.2.4.12,BSU_01590,ybaS,Cellular processes,Transporters,Transporters/ other,Other transporters,NA
+SW 4.2.1.5,BSU_01650,ybbC,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 1.1.3.3,BSU_01660,nagZ,Cellular processes,Cell envelope and cell division,Cell wall degradation/ turnover,Utilization of cell wall components,NA
+SW 1.1.3.3,BSU_01670,amiE,Cellular processes,Cell envelope and cell division,Cell wall degradation/ turnover,Utilization of cell wall components,NA
+SW 1.1.3.3,BSU_01680,murP,Cellular processes,Cell envelope and cell division,Cell wall degradation/ turnover,Utilization of cell wall components,NA
+SW 3.1.5,BSU_01800,alkA,Information processing,Genetics,DNA repair/ recombination,NA,NA
+SW 3.3.4.2,BSU_02030,prkD,Information processing,"Protein synthesis, modification and degradation",Protein modification,Protein kinases,NA
+SW 4.2.4.2,BSU_02070,csgA,Lifestyles,Sporulation,Germination,Additional germination proteins,NA
+SW 4.2.1.4,BSU_02080,ybxH,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.5,BSU_02150,ybeF,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 2.3.3.5,BSU_02240,mpr,Metabolism,Amino acid/ nitrogen metabolism,Utilization of nitrogen sources other than amino acids,Utilization of proteins,NA
+SW 4.2.1.5,BSU_02250,ybfJ,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.1.3,BSU_02600,cwlJ,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Class III
+SW 4.1.1.4,BSU_02780,ycdA,Lifestyles,Exponential and early post-exponential lifestyles,Motility and chemotaxis,Motility and chemotaxis/ other,NA
+SW 3.3.4.4,BSU_02820,rapJ,Information processing,"Protein synthesis, modification and degradation",Protein modification,Protein phosphatases,NA
+SW 4.3.1,BSU_02840,ycdG,Lifestyles,Coping with stress,General stress proteins (controlled by SigB),NA,NA
+SW 4.2.1.4,BSU_03090,ycgF,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_03100,ycgG,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.5,BSU_03110,ycgH,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_03120,ycgI,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.3.13,BSU_03140,tmrB,Lifestyles,Coping with stress,Resistance against toxins/ antibiotics,NA,NA
+SW 4.2.1.5,BSU_03190,ycgL,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.4,BSU_03390,yckC,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_03400,yckD,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 1.2.4.2,BSU_03670,dtpT,Cellular processes,Transporters,Transporters/ other,Peptide transporter,NA
+SW 4.2.4.1,BSU_03690,gerKD,Lifestyles,Sporulation,Germination,Germinant receptors,NA
+SW 4.2.4.1,BSU_03700,gerKA,Lifestyles,Sporulation,Germination,Germinant receptors,NA
+SW 4.2.4.1,BSU_03710,gerKC,Lifestyles,Sporulation,Germination,Germinant receptors,NA
+SW 4.2.4.1,BSU_03720,gerKB,Lifestyles,Sporulation,Germination,Germinant receptors,NA
+SW 3.1.7,BSU_03770,rapC,Information processing,Genetics,Genetic competence,NA,NA
+SW 3.1.7,BSU_03780,phrC,Information processing,Genetics,Genetic competence,NA,NA
+SW 4.2.1.4,BSU_03920,glcU,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.4.2,BSU_03930,gdh,Lifestyles,Sporulation,Germination,Additional germination proteins,NA
+SW 4.2.2.2,BSU_04080,pxpB,Lifestyles,Sporulation,phosphorelay,Proteins controlling the activity of the kinases,NA
+SW 4.2.2.2,BSU_04090,pxpC,Lifestyles,Sporulation,phosphorelay,Proteins controlling the activity of the kinases,NA
+SW 4.2.2,BSU_04100,kipR,Lifestyles,Sporulation,phosphorelay,NA,NA
+SW 4.2.1.1.5,BSU_04110,lipC,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Class V
+SW 6.2,BSU_04480,ydbI,Groups of genes,Membrane proteins,NA,NA,NA
+SW 1.1.1.1,BSU_04570,murF,Cellular processes,Cell envelope and cell division,Cell wall synthesis,Biosynthesis of peptidoglycan,NA
+SW 4.2.1.4,BSU_04610,ydcA,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_04630,ydcC,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 5.2.1,BSU_04850,ydcP,Prophages and mobile genetic elements,Mobile genetic elements,ICEBs1,NA,NA
+SW 3.3.4.4,BSU_05010,rapI,Information processing,"Protein synthesis, modification and degradation",Protein modification,Protein phosphatases,NA
+SW 4.2.2,BSU_05050,lrpA,Lifestyles,Sporulation,phosphorelay,NA,NA
+SW 4.2.2,BSU_05060,lrpB,Lifestyles,Sporulation,phosphorelay,NA,NA
+SW 4.2.1.5,BSU_05520,ydzH,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_05529,ydzR,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.4,BSU_05530,ydfR,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_05540,ydfS,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.1.5,BSU_05550,cotP,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Class V
+SW 4.2.1.4,BSU_05560,ydgA,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_05570,ydgB,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.1.8,BSU_05710,ydhD,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Not yet assigned
+SW 4.2.1.4,BSU_05730,ydhF,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_05740,phoB,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_06280,ydjP,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_06290,yeaA,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.1.5,BSU_06300,cotA,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Class V
+SW 6.7,BSU_06390,yebD,Groups of genes,Proteins of unknown function,NA,NA,NA
+SW 4.2.1.5,BSU_06559,yezF,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 3.4.2.6,BSU_06580,yerC,Information processing,Regulation of gene expression,Transcription factors and their control,Transcription factor/ other/ based on similarity,NA
+SW 4.2.2.5,BSU_06830,rapH,Lifestyles,Sporulation,phosphorelay,Phosphatases controlling the phosphorelay,NA
+SW 4.2.2,BSU_06839,phrH,Lifestyles,Sporulation,phosphorelay,NA,NA
+SW 4.2.1.1.5,BSU_06850,yeeK,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Class V
+SW 4.2.1.1.8,BSU_06890,cotJA,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Not yet assigned
+SW 4.2.1.1.8,BSU_06900,cotJB,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Not yet assigned
+SW 4.2.1.1.8,BSU_06910,cotJC,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Not yet assigned
+SW 4.2.1.4,BSU_06920,yesJ,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_06930,yesK,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 2.2.2.26,BSU_07050,yesW,Metabolism,Carbon metabolism,Utilization of specific carbon sources,Utilization of pectin,NA
+SW 4.2.1.5,BSU_07130,lplD,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_07140,yetF,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_07250,yetO,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.4,BSU_07270,yfnH,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_07280,yfnG,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_07290,yfnF,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_07300,yfnE,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_07310,yfnD,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.5,BSU_07540,yfmA,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 1.2.4.4,BSU_07610,citM,Cellular processes,Transporters,Transporters/ other,Transporter for organic acids,NA
+SW 4.2.1.5,BSU_07620,yflN,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_07660,yflJ,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.5,BSU_07760,yfkT,Lifestyles,Sporulation,Germination/ based on similarity,NA,NA
+SW 4.2.5,BSU_07770,yfkS,Lifestyles,Sporulation,Germination/ based on similarity,NA,NA
+SW 4.2.5,BSU_07780,yfkR,Lifestyles,Sporulation,Germination/ based on similarity,NA,NA
+SW 4.2.5,BSU_07790,yfkQ,Lifestyles,Sporulation,Germination/ based on similarity,NA,NA
+SW 2.1.4,BSU_07830,hypO,Metabolism,Electron transport and ATP synthesis,Electron transport/ other/ based on similarity,NA,NA
+SW 4.2.1.4,BSU_07920,chaA,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.3.1,BSU_07930,yfkD,Lifestyles,Coping with stress,General stress proteins (controlled by SigB),NA,NA
+SW 4.2.1.4,BSU_07980,pdaA,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 2.2.2.2,BSU_08080,acoC,Metabolism,Carbon metabolism,Utilization of specific carbon sources,Utilization of acetoin,NA
+SW 4.2.1.3,BSU_08110,sspH,Lifestyles,Sporulation,Sporulation proteins,Small acid-soluble spore proteins,NA
+SW 6.4.5,BSU_08150,yfjC,Groups of genes,Phosphoproteins,Phosphorylation on a Ser residue,NA,NA
+SW 4.2.1.4,BSU_08490,yfhD,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.3.1,BSU_08500,yfhE,Lifestyles,Coping with stress,General stress proteins (controlled by SigB),NA,NA
+SW 4.2.1.3,BSU_08550,sspK,Lifestyles,Sporulation,Sporulation proteins,Small acid-soluble spore proteins,NA
+SW 4.3.1,BSU_08590,yfhM,Lifestyles,Coping with stress,General stress proteins (controlled by SigB),NA,NA
+SW 6.2,BSU_08620,yfhP,Groups of genes,Membrane proteins,NA,NA,NA
+SW 4.2.1.4,BSU_08640,yfhS,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_08650,fabL,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.3,BSU_08660,sspE,Lifestyles,Sporulation,Sporulation proteins,Small acid-soluble spore proteins,NA
+SW 6.7,BSU_08670,ygaB,Groups of genes,Proteins of unknown function,NA,NA,NA
+SW 6.2,BSU_08700,ygaE,Groups of genes,Membrane proteins,NA,NA,NA
+SW 4.2.3,BSU_08760,spo0M,Lifestyles,Sporulation,Sporulation/ other,NA,NA
+SW 4.2.1.5,BSU_08770,ygzA,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_08779,ygzC,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.1.8,BSU_08800,ygaK,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Not yet assigned
+SW 4.3.8,BSU_08820,katA,Lifestyles,Coping with stress,Resistance against oxidative and electrophile stress,NA,NA
+SW 3.3.1.8,BSU_08910,queG,Information processing,"Protein synthesis, modification and degradation",Translation,tRNA modification and maturation,NA
+SW 4.2.1.1.8,BSU_08920,yhbB,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Not yet assigned
+SW 3.3.1.8,BSU_08930,cspR,Information processing,"Protein synthesis, modification and degradation",Translation,tRNA modification and maturation,NA
+SW 4.2.1.4,BSU_08970,prkA,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_08980,yhbH,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 6.2,BSU_09000,yhbJ,Groups of genes,Membrane proteins,NA,NA,NA
+SW 1.2.4.11,BSU_09010,yhcA,Cellular processes,Transporters,Transporters/ other,Other exporters,NA
+SW 6.6,BSU_09020,yhcB,Groups of genes,Poorly characterized/ putative enzymes,NA,NA,NA
+SW 6.2,BSU_09030,yhcC,Groups of genes,Membrane proteins,NA,NA,NA
+SW 4.2.1.4,BSU_09140,yhcM,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.4.2,BSU_09150,yhcN,Lifestyles,Sporulation,Germination,Additional germination proteins,NA
+SW 4.2.1.4,BSU_09165,yhcO,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_09180,yhcQ,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.5,BSU_09210,yhcT,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.4,BSU_09230,yhcV,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 2.2.2.3,BSU_09290,glpK,Metabolism,Carbon metabolism,Utilization of specific carbon sources,Utilization of glycerol/ glycerol-3-phosphate,NA
+SW 1.1.1.1,BSU_09310,pgcA,Cellular processes,Cell envelope and cell division,Cell wall synthesis,Biosynthesis of peptidoglycan,NA
+SW 3.3.4.2,BSU_09320,yhcY,Information processing,"Protein synthesis, modification and degradation",Protein modification,Protein kinases,NA
+SW 3.4.2.1,BSU_09330,yhcZ,Information processing,Regulation of gene expression,Transcription factors and their control,Two-component system response regulators,NA
+SW 4.2.1.5,BSU_09350,yhdB,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_09360,yhdC,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.4,BSU_09400,spoVR,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 2.6.3,BSU_09410,phoA,Metabolism,Additional metabolic pathways,Phosphate metabolism,NA,NA
+SW 4.2.1.5,BSU_09740,yheF,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.3,BSU_09750,sspB,Lifestyles,Sporulation,Sporulation proteins,Small acid-soluble spore proteins,NA
+SW 4.2.1.1.2,BSU_09770,yheD,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Class II
+SW 4.2.1.1.8,BSU_09780,yheC,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Not yet assigned
+SW 4.2.1.1.1,BSU_09830,yhaX,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Class I
+SW 2.6.2.6,BSU_09840,hemZ,Metabolism,Additional metabolic pathways,Biosynthesis of cofactors,Biosynthesis of heme/ siroheme,NA
+SW 1.2.4.5,BSU_09860,khtT,Cellular processes,Transporters,Transporters/ other,Metal ion transporter,NA
+SW 1.3.1.3,BSU_09870,khtS,Cellular processes,Homeostasis,"Metal ion homeostasis (K, Na, Ca, Mg)",Potassium uptake/ export,NA
+SW 3.2.4.1,BSU_09930,yhaM,Information processing,RNA synthesis and degradation,RNases,Exoribonucleases,NA
+SW 4.2.1.4,BSU_09940,yhaL,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_09958,sscA,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 3.4.2.5,BSU_09990,scoC,Information processing,Regulation of gene expression,Transcription factors and their control,Transcription factors/ other,NA
+SW 4.2.1.5,BSU_10009,yhzF,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_10080,yhfA,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.4,BSU_10110,pbpF,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 3.4.2.6,BSU_10150,yhgD,Information processing,Regulation of gene expression,Transcription factors and their control,Transcription factor/ other/ based on similarity,NA
+SW 4.2.1.4,BSU_10280,yhfM,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.5,BSU_10290,yhfN,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 6.6,BSU_10310,yhfO,Groups of genes,Poorly characterized/ putative enzymes,NA,NA,NA
+SW 4.2.1.4,BSU_10390,yhfW,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_10400,yhxC,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 2.6.6.1,BSU_10550,ntdA,Metabolism,Additional metabolic pathways,Miscellaneous metabolic pathways,Biosynthesis of antibacterial compounds,NA
+SW 4.2.1.5,BSU_10600,yhjQ,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.1.2,BSU_10610,yhjR,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Class II
+SW 4.2.4.2,BSU_10670,gerPF,Lifestyles,Sporulation,Germination,Additional germination proteins,NA
+SW 4.2.4.2,BSU_10680,gerPE,Lifestyles,Sporulation,Germination,Additional germination proteins,NA
+SW 4.2.4.2,BSU_10690,gerPD,Lifestyles,Sporulation,Germination,Additional germination proteins,NA
+SW 4.2.4.2,BSU_10700,gerPC,Lifestyles,Sporulation,Germination,Additional germination proteins,NA
+SW 4.2.4.2,BSU_10710,gerPB,Lifestyles,Sporulation,Germination,Additional germination proteins,NA
+SW 4.2.4.2,BSU_10720,gerPA,Lifestyles,Sporulation,Germination,Additional germination proteins,NA
+SW 4.2.2.5,BSU_10730,yisI,Lifestyles,Sporulation,phosphorelay,Phosphatases controlling the phosphorelay,NA
+SW 4.2.1.1.8,BSU_10740,yisJ,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Not yet assigned
+SW 4.2.1.5,BSU_10780,yisN,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.4,BSU_10790,asnO,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.2,BSU_10810,yisP,Lifestyles,Sporulation,phosphorelay,NA,NA
+SW 4.2.1.1.3,BSU_10900,yisY,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Class III
+SW 4.2.1.4,BSU_10910,yisZ,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_10920,yitA,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_10930,yitB,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_10940,yitC,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_10950,yitD,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.5,BSU_10960,yitE,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.4,BSU_10970,yitF,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_10980,yitG,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.5,BSU_11080,yitQ,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_11139,yizC,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_11260,yjzC,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_11280,yjaU,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.4,BSU_11290,yjaV,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.1.5,BSU_11320,yjzB,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Class V
+SW 4.2.1.5,BSU_11350,yjaZ,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.4,BSU_11410,yjbA,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.2,BSU_11430,oppA,Lifestyles,Sporulation,phosphorelay,NA,NA
+SW 4.2.2,BSU_11440,oppB,Lifestyles,Sporulation,phosphorelay,NA,NA
+SW 4.2.2,BSU_11450,oppC,Lifestyles,Sporulation,phosphorelay,NA,NA
+SW 4.2.2,BSU_11460,oppD,Lifestyles,Sporulation,phosphorelay,NA,NA
+SW 4.2.2,BSU_11470,oppF,Lifestyles,Sporulation,phosphorelay,NA,NA
+SW 4.2.1.5,BSU_11510,yjbE,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.2,BSU_11540,pepF,Lifestyles,Sporulation,phosphorelay,NA,NA
+SW 4.2.1.5,BSU_11549,yizD,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 3.3.1.3,BSU_11620,yjbO,Information processing,"Protein synthesis, modification and degradation",Translation,rRNA modification and maturation/ based on similarity,NA
+SW 4.2.1.1.2,BSU_11730,cotO,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Class II
+SW 4.2.1.1.3,BSU_11740,cotZ,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Class III
+SW 4.2.1.1.8,BSU_11750,cotY,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Not yet assigned
+SW 4.2.1.1.8,BSU_11760,cotX,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Not yet assigned
+SW 4.2.1.1.5,BSU_11770,cotW,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Class V
+SW 4.2.1.1.8,BSU_11780,cotV,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Not yet assigned
+SW 4.2.1.4,BSU_11790,yjcA,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.5,BSU_11799,yjzK,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_11809,yjcZ,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.4,BSU_11810,spoVIF,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 6.7,BSU_12040,yjdG,Groups of genes,Proteins of unknown function,NA,NA,NA
+SW 4.2.1.1.8,BSU_12050,yjdH,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Not yet assigned
+SW 4.2.1.1.4,BSU_12090,cotT,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Class IV
+SW 4.2.1.4,BSU_12110,yjfA,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 3.1.9,BSU_12280,yjlC,Information processing,Genetics,Newly identified competence genes,NA,NA
+SW 4.2.1.4,BSU_12320,yjmC,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_12330,yjmD,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_12340,uxuA,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_12350,yjmF,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_12360,exuT,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_12370,exuR,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_12380,uxaB,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_12390,uxaA,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.5,BSU_12400,yjnA,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.2.5,BSU_12430,rapA,Lifestyles,Sporulation,phosphorelay,Phosphatases controlling the phosphorelay,NA
+SW 4.2.2.6,BSU_12440,phrA,Lifestyles,Sporulation,phosphorelay,Other protein controlling the activity of the phosphorelay,NA
+SW 4.2.1.1.5,BSU_12490,yjqC,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Class V
+SW 4.2.3,BSU_12820,spoIISB,Lifestyles,Sporulation,Sporulation/ other,NA,NA
+SW 4.2.1.4,BSU_12830,spoIISA,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 2.1.3,BSU_13040,hmp,Metabolism,Electron transport and ATP synthesis,Electron transport/ other,NA,NA
+SW 4.2.1.5,BSU_13050,ykzH,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_13060,ykjA,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 1.2.3.3,BSU_13240,thiU,Cellular processes,Transporters,ECF transporter,Class I ECF transporter,NA
+SW 4.2.1.5,BSU_13290,ykzD,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_13350,ykoN,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_13360,ykoP,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_13370,ykoQ,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_13380,ykoS,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_13390,ykoT,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.4,BSU_13400,ligD,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_13410,ykoV,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 2.5.3,BSU_13420,dgcW,Metabolism,Nucleotide metabolism,Metabolism of signalling nucleotides,NA,NA
+SW 4.2.1.5,BSU_13440,ykoY,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.3,BSU_13470,sspD,Lifestyles,Sporulation,Sporulation proteins,Small acid-soluble spore proteins,NA
+SW 3.3.7.4,BSU_13490,htpX,Information processing,"Protein synthesis, modification and degradation",Proteolysis,Additional proteins involved in proteolysis,NA
+SW 4.2.1.5,BSU_13509,ykzP,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_13510,ykzE,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.2.1,BSU_13530,kinE,Lifestyles,Sporulation,phosphorelay,The kinases,NA
+SW 4.2.2.5,BSU_13640,spo0E,Lifestyles,Sporulation,phosphorelay,Phosphatases controlling the phosphorelay,NA
+SW 4.2.2.1,BSU_13660,kinD,Lifestyles,Sporulation,phosphorelay,The kinases,NA
+SW 4.2.1.4,BSU_13710,ykvI,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 6.6,BSU_13770,ykvO,Groups of genes,Poorly characterized/ putative enzymes,NA,NA,NA
+SW 4.2.1.1.8,BSU_13780,ykvP,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Not yet assigned
+SW 4.2.1.4,BSU_13790,ykvQ,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.4.2,BSU_13830,ykvU,Lifestyles,Sporulation,Germination,Additional germination proteins,NA
+SW 4.2.1.4,BSU_13840,stoA,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_13920,splA,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_13930,splB,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.5,BSU_13940,ykwB,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.2.1,BSU_13990,kinA,Lifestyles,Sporulation,phosphorelay,The kinases,NA
+SW 1.1.1.1,BSU_14000,patA,Cellular processes,Cell envelope and cell division,Cell wall synthesis,Biosynthesis of peptidoglycan,NA
+SW 4.2.1.1.8,BSU_14040,ldt,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Not yet assigned
+SW 4.2.1.5,BSU_14200,ykuS,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 3.1.7,BSU_14240,rok,Information processing,Genetics,Genetic competence,NA,NA
+SW 4.2.1.1.2,BSU_14250,yknT,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Class II
+SW 1.2.1.2.6,BSU_14320,yknU,Cellular processes,Transporters,ABC transporters,Exporters,Exporters of unknown function
+SW 1.2.1.2.6,BSU_14330,yknV,Cellular processes,Transporters,ABC transporters,Exporters,Exporters of unknown function
+SW 4.2.1.5,BSU_14460,ykpC,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.2.1,BSU_14490,kinC,Lifestyles,Sporulation,phosphorelay,The kinases,NA
+SW 2.6.4.1,BSU_14560,defB,Metabolism,Additional metabolic pathways,Sulfur metabolism,Conversion of S-methyl cysteine to cysteine,NA
+SW 4.2.1.5,BSU_14569,ykzV,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.3.1,BSU_14660,ykzI,Lifestyles,Coping with stress,General stress proteins (controlled by SigB),NA,NA
+SW 4.2.4.2,BSU_14800,ylaJ,Lifestyles,Sporulation,Germination,Additional germination proteins,NA
+SW 4.2.1.5,BSU_14810,ylaK,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_14830,ylaM,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.4,BSU_14870,ctaA,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_14950,ylbB,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_14960,ylbC,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.1.5,BSU_14970,ylbD,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Class V
+SW 4.2.1.4,BSU_14980,ylbE,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.2.6,BSU_14990,ylbF,Lifestyles,Sporulation,phosphorelay,Other protein controlling the activity of the phosphorelay,NA
+SW 4.2.1.4,BSU_15030,spoVV,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 6.6,BSU_15040,ylbK,Groups of genes,Poorly characterized/ putative enzymes,NA,NA,NA
+SW 4.2.1.1.8,BSU_15090,gerR,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Not yet assigned
+SW 4.2.1.4,BSU_15170,spoVD,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_15210,spoVE,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_15220,murG,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_15230,murB,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_15240,divIB,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_15250,ylxW,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_15260,ylxX,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_15270,sbp,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 1.1.8.2,BSU_15280,ftsA,Cellular processes,Cell envelope and cell division,Cell division,Other genes,NA
+SW 1.1.8.2,BSU_15290,ftsZ,Cellular processes,Cell envelope and cell division,Cell division,Other genes,NA
+SW 4.2.3,BSU_15310,spoIIGA,Lifestyles,Sporulation,Sporulation/ other,NA,NA
+SW 3.4.1.1,BSU_15320,sigE,Information processing,Regulation of gene expression,Sigma factors and their control,Sigma factors,NA
+SW 4.2.1.4,BSU_15330,sigG,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_15360,ylmC,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 1.1.8.1,BSU_15420,divIVA,Cellular processes,Cell envelope and cell division,Cell division,The Min system,NA
+SW 4.2.1.4,BSU_15440,ylyA,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 2.6.4,BSU_15590,sat,Metabolism,Additional metabolic pathways,Sulfur metabolism,NA,NA
+SW 4.2.1.4,BSU_15650,yloB,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 3.4.2.5,BSU_15670,remA,Information processing,Regulation of gene expression,Transcription factors and their control,Transcription factors/ other,NA
+SW 4.2.4.2,BSU_15770,prkC,Lifestyles,Sporulation,Germination,Additional germination proteins,NA
+SW 2.6.2.3,BSU_15800,yloS,Metabolism,Additional metabolic pathways,Biosynthesis of cofactors,Biosynthesis/ acquisition of thiamine,NA
+SW 4.2.1.1.1,BSU_15810,spoVM,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Class I
+SW 2.4.2.1,BSU_15910,fabG,Metabolism,Lipid metabolism,Biosynthesis of lipids,Biosynthesis of fatty acids,NA
+SW 3.1.3,BSU_15940,smc,Information processing,Genetics,DNA condensation/ segregation,NA,NA
+SW 4.2.1.4,BSU_15950,ftsY,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.2.2,BSU_15960,sivC,Lifestyles,Sporulation,phosphorelay,Proteins controlling the activity of the kinases,NA
+SW 3.4.2.5,BSU_16170,codY,Information processing,Regulation of gene expression,Transcription factors and their control,Transcription factors/ other,NA
+SW 1.1.8.2,BSU_16560,rasP,Cellular processes,Cell envelope and cell division,Cell division,Other genes,NA
+SW 4.2.4.2,BSU_16700,swsB,Lifestyles,Sporulation,Germination,Additional germination proteins,NA
+SW 3.3.7.4,BSU_16710,mlpA,Information processing,"Protein synthesis, modification and degradation",Proteolysis,Additional proteins involved in proteolysis,NA
+SW 4.2.1.4,BSU_16720,ymxH,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_16730,spoVFA,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_16740,spoVFB,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_16750,asd,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_16760,dapG,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_16770,dapA,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.4.2,BSU_16790,tepA,Lifestyles,Sporulation,Germination,Additional germination proteins,NA
+SW 4.2.4.2,BSU_16799,ylzJ,Lifestyles,Sporulation,Germination,Additional germination proteins,NA
+SW 4.2.3,BSU_16800,spoIIIE,Lifestyles,Sporulation,Sporulation/ other,NA,NA
+SW 4.2.1.5,BSU_16825,ymfD,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 3.3.1.14,BSU_16870,ymfI,Information processing,"Protein synthesis, modification and degradation",Translation,Translation factor modification and maturation,NA
+SW 4.2.1.5,BSU_16880,ymfJ,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.3,BSU_16910,rodZ,Lifestyles,Sporulation,Sporulation/ other,NA,NA
+SW 4.1.2,BSU_16970,ymdB,Lifestyles,Exponential and early post-exponential lifestyles,Biofilm formation,NA,NA
+SW 4.2.3,BSU_16980,spoVS,Lifestyles,Sporulation,Sporulation/ other,NA,NA
+SW 4.2.2.6,BSU_17020,ymcA,Lifestyles,Sporulation,phosphorelay,Other protein controlling the activity of the phosphorelay,NA
+SW 4.2.1.1.2,BSU_17030,cotE,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Class II
+SW 4.3.8,BSU_17280,ymaD,Lifestyles,Coping with stress,Resistance against oxidative and electrophile stress,NA,NA
+SW 4.2.1.1.5,BSU_17310,ymaG,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Class V
+SW 4.2.1.5,BSU_17320,ymaF,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 3.3.1.8,BSU_17330,miaA,Information processing,"Protein synthesis, modification and degradation",Translation,tRNA modification and maturation,NA
+SW 4.2.1.4,BSU_17410,cwlC,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_17420,spoVK,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 6.7,BSU_17470,ynxB,Groups of genes,Proteins of unknown function,NA,NA,NA
+SW 4.2.1.1.2,BSU_17640,yncD,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Class II
+SW 4.2.1.5,BSU_17650,yncE,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.1.7,BSU_17670,cotU,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Class VI
+SW 4.2.1.1.8,BSU_17700,cotC,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Not yet assigned
+SW 4.2.1.4,BSU_17720,yndA,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.5,BSU_17740,ynzB,Lifestyles,Sporulation,Germination/ based on similarity,NA,NA
+SW 4.2.5,BSU_17750,yndD,Lifestyles,Sporulation,Germination/ based on similarity,NA,NA
+SW 4.2.5,BSU_17760,yndE,Lifestyles,Sporulation,Germination/ based on similarity,NA,NA
+SW 4.2.5,BSU_17770,yndF,Lifestyles,Sporulation,Germination/ based on similarity,NA,NA
+SW 4.2.1.4,BSU_17820,pghL,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.5,BSU_17830,yndM,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 3.1.5,BSU_17850,lexA,Information processing,Genetics,DNA repair/ recombination,NA,NA
+SW 3.1.1,BSU_17900,sirA,Information processing,Genetics,DNA replication,NA,NA
+SW 4.2.2.5,BSU_17920,ynzD,Lifestyles,Sporulation,phosphorelay,Phosphatases controlling the phosphorelay,NA
+SW 4.2.1.1.2,BSU_17970,cotM,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Class II
+SW 4.2.1.3,BSU_17980,sspP,Lifestyles,Sporulation,Sporulation proteins,Small acid-soluble spore proteins,NA
+SW 4.2.1.3,BSU_17990,sspO,Lifestyles,Sporulation,Sporulation proteins,Small acid-soluble spore proteins,NA
+SW 4.2.1.5,BSU_18019,ynzL,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.3,BSU_18020,sspN,Lifestyles,Sporulation,Sporulation proteins,Small acid-soluble spore proteins,NA
+SW 4.2.1.4,BSU_18030,tlp,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.5,BSU_18140,ynfE,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_18200,nrnB,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.4,BSU_18210,yngE,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_18220,yngF,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_18230,yngG,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_18239,yngHB,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_18240,yngH,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_18250,yngI,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_18260,yngJ,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.5,BSU_18270,ynzE,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_18280,yngK,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_18290,yngL,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 1.1.3.1,BSU_18380,iseA,Cellular processes,Cell envelope and cell division,Cell wall degradation/ turnover,Autolysis,NA
+SW 2.3.1.2,BSU_18470,proJ,Metabolism,Amino acid/ nitrogen metabolism,Biosynthesis/ acquisition of amino acids,Biosynthesis/ acquisition of proline,NA
+SW 2.3.1.2,BSU_18480,proH,Metabolism,Amino acid/ nitrogen metabolism,Biosynthesis/ acquisition of amino acids,Biosynthesis/ acquisition of proline,NA
+SW 6.4.8,BSU_18500,yoxD,Groups of genes,Phosphoproteins,"Phosphorylation on either a Ser, Thr or Tyr residue",NA,NA
+SW 4.2.1.4,BSU_18600,yozQ,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.5,BSU_18620,yoaI,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_18660,yoaM,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.1.5,BSU_18670,oxdD,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Class V
+SW 4.2.1.5,BSU_18700,yoaQ,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_18709,yozT,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_18710,yozF,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.4,BSU_18720,yoaR,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.5,BSU_18760,yoaU,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.4,BSU_18780,yoaW,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 3.1.7,BSU_18910,rapK,Information processing,Genetics,Genetic competence,NA,NA
+SW 4.2.1.1.8,BSU_19020,yobN,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Not yet assigned
+SW 4.2.1.4,BSU_19110,yobW,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.3.1,BSU_19240,yocK,Lifestyles,Coping with stress,General stress proteins (controlled by SigB),NA,NA
+SW 4.2.1.4,BSU_19250,yocL,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.5,BSU_19259,yoyB,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.3.6,BSU_19260,yocM,Lifestyles,Coping with stress,Coping with hyper-osmotic stress,NA,NA
+SW 4.2.1.5,BSU_19270,yozN,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_19280,yocN,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.4,BSU_19320,sqhC,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_19330,sodF,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.3.14,BSU_19420,yojK,Lifestyles,Coping with stress,Resistance against toxins/ antibiotics/ based on similarity,NA,NA
+SW 4.2.1.4,BSU_19430,cdaS,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.1.8,BSU_19490,gerT,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Not yet assigned
+SW 4.2.1.5,BSU_19510,yojB,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 6.2,BSU_19520,yojA,Groups of genes,Membrane proteins,NA,NA,NA
+SW 3.3.7.4,BSU_19590,ctpA,Information processing,"Protein synthesis, modification and degradation",Proteolysis,Additional proteins involved in proteolysis,NA
+SW 4.2.1.4,BSU_19600,yodH,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.1.8,BSU_19610,yodI,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Not yet assigned
+SW 4.2.1.5,BSU_19639,yoyE,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_19640,yodL,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_19660,yozD,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_19669,yoyF,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_19670,yodN,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_19680,yozE,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.4,BSU_19689,yokU,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_19690,kamA,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_19700,yodP,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_19710,yodQ,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_19720,yodR,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_19730,yodS,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_19740,yodT,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.5,BSU_19749,yoyG,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.1.8,BSU_19750,cgeE,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Not yet assigned
+SW 4.2.1.1.8,BSU_19760,cgeD,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Not yet assigned
+SW 4.2.1.1.8,BSU_19770,cgeC,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Not yet assigned
+SW 4.2.1.1.8,BSU_19780,cgeA,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Not yet assigned
+SW 4.2.1.1.8,BSU_19790,cgeB,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Not yet assigned
+SW 4.2.1.5,BSU_19810,yodU,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.4,BSU_19820,sprB,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.3,BSU_19950,sspC,Lifestyles,Sporulation,Sporulation proteins,Small acid-soluble spore proteins,NA
+SW 4.2.1.5,BSU_21670,ypqP,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.4,BSU_21950,ypzA,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.5,BSU_21960,ypeQ,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.1.8,BSU_21970,ypeP,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Not yet assigned
+SW 4.2.1.3,BSU_22000,sspL,Lifestyles,Sporulation,Sporulation proteins,Small acid-soluble spore proteins,NA
+SW 3.1.1,BSU_22010,exoR,Information processing,Genetics,DNA replication,NA,NA
+SW 4.2.1.4,BSU_22019,ypzF,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.5,BSU_22040,bpsB,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_22050,bpsA,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_22160,yptA,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_22169,ypzG,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.1.7,BSU_22200,cotD,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Class VI
+SW 4.2.1.4,BSU_22240,ypqA,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.1.5,BSU_22250,yppG,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Class V
+SW 4.2.1.5,BSU_22280,yppD,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.3,BSU_22290,sspM,Lifestyles,Sporulation,Sporulation proteins,Small acid-soluble spore proteins,NA
+SW 4.2.1.5,BSU_22300,yppC,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 2.4.2.1,BSU_22440,birA,Metabolism,Lipid metabolism,Biosynthesis of lipids,Biosynthesis of fatty acids,NA
+SW 3.3.1.8,BSU_22450,cca,Information processing,"Protein synthesis, modification and degradation",Translation,tRNA modification and maturation,NA
+SW 2.6.6.2,BSU_22460,bshA,Metabolism,Additional metabolic pathways,Miscellaneous metabolic pathways,Biosynthesis of bacillithiol,NA
+SW 2.6.6.2,BSU_22470,bshB1,Metabolism,Additional metabolic pathways,Miscellaneous metabolic pathways,Biosynthesis of bacillithiol,NA
+SW 2.2.1.1,BSU_22480,mgsA,Metabolism,Carbon metabolism,Carbon core metabolism,Glycolysis,NA
+SW 1.1.1.1,BSU_22490,dapB,Cellular processes,Cell envelope and cell division,Cell wall synthesis,Biosynthesis of peptidoglycan,NA
+SW 6.6,BSU_22500,ypjD,Groups of genes,Poorly characterized/ putative enzymes,NA,NA,NA
+SW 4.2.1.4,BSU_22520,ypjB,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 6.2,BSU_22530,ypjA,Groups of genes,Membrane proteins,NA,NA,NA
+SW 6.7,BSU_22590,ypiA,Groups of genes,Proteins of unknown function,NA,NA,NA
+SW 2.5.4,BSU_22730,ndk,Metabolism,Nucleotide metabolism,Nucleotide metabolism/ other,NA,NA
+SW 2.6.2.8,BSU_22750,menH,Metabolism,Additional metabolic pathways,Biosynthesis of cofactors,Biosynthesis of menaquinone,NA
+SW 4.2.1.1.1,BSU_22800,spoIVA,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Class I
+SW 4.2.1.5,BSU_22849,ypzH,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.4,BSU_22850,seaA,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_22860,yphA,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.5,BSU_22869,ypzI,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.4,BSU_22900,ypfB,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.4.2,BSU_22920,ypeB,Lifestyles,Sporulation,Germination,Additional germination proteins,NA
+SW 4.2.4.2,BSU_22930,sleB,Lifestyles,Sporulation,Germination,Additional germination proteins,NA
+SW 3.3.7.4,BSU_22970,ypbH,Information processing,"Protein synthesis, modification and degradation",Proteolysis,Additional proteins involved in proteolysis,NA
+SW 4.3.2,BSU_22980,ypbG,Lifestyles,Coping with stress,"Cell envelope stress proteins (controlled by SigM, V, W, X, Y)",NA,NA
+SW 2.1.2.4,BSU_23150,resA,Metabolism,Electron transport and ATP synthesis,Respiration,Respiration/ other,NA
+SW 4.2.1.4,BSU_23170,spmB,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_23180,spmA,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_23190,dacB,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 3.3.1.2,BSU_23200,ypuI,Information processing,"Protein synthesis, modification and degradation",Translation,rRNA modification and maturation,NA
+SW 2.6.2.2,BSU_23250,ribH,Metabolism,Additional metabolic pathways,Biosynthesis of cofactors,Biosynthesis/ acquisition of riboflavin/ FAD,NA
+SW 4.3.1,BSU_23300,ypuD,Lifestyles,Coping with stress,General stress proteins (controlled by SigB),NA,NA
+SW 3.3.5,BSU_23310,sipS,Information processing,"Protein synthesis, modification and degradation",Protein secretion,NA,NA
+SW 4.2.1.5,BSU_23320,ypzC,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_23350,ypzD,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.4,BSU_23380,lysA,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_23390,spoVAF,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.4.2,BSU_23401,spoVAEA,Lifestyles,Sporulation,Germination,Additional germination proteins,NA
+SW 4.2.4.2,BSU_23402,spoVAEB,Lifestyles,Sporulation,Germination,Additional germination proteins,NA
+SW 4.2.4.2,BSU_23410,spoVAD,Lifestyles,Sporulation,Germination,Additional germination proteins,NA
+SW 4.2.1.4,BSU_23420,spoVAC,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_23430,spoVAB,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_23440,spoVAA,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_23450,sigF,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_23460,spoIIAB,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_23470,spoIIAA,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_23480,dacF,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 3.1.3,BSU_23510,ripX,Information processing,Genetics,DNA condensation/ segregation,NA,NA
+SW 4.2.1.4,BSU_23530,spoIIM,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.5,BSU_23616,mciZ,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 6.6,BSU_23620,yqkF,Groups of genes,Poorly characterized/ putative enzymes,NA,NA,NA
+SW 4.2.1.4,BSU_23930,yqjC,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.5,BSU_23940,yqjB,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.4,BSU_24120,mmgF,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_24130,mmgE,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_24140,mmgD,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_24150,mmgC,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_24160,mmgB,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_24170,mmgA,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.2,BSU_24220,spo0A,Lifestyles,Sporulation,phosphorelay,NA,NA
+SW 4.2.1.4,BSU_24230,spoIVB,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_24360,spoIIIAH,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_24370,spoIIIAG,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_24380,spoIIIAF,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_24390,spoIIIAE,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_24400,spoIIIAD,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_24410,spoIIIAC,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_24420,spoIIIAB,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_24430,spoIIIAA,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.5,BSU_24440,yqhV,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 2.3.3.4,BSU_24460,papA,Metabolism,Amino acid/ nitrogen metabolism,Utilization of nitrogen sources other than amino acids,Utilization of peptides,NA
+SW 4.2.1.5,BSU_24480,yqhR,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.4,BSU_24490,yqhQ,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_24500,yqhP,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.5,BSU_24510,yqhO,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 2.3.2.8,BSU_24550,gcvPB,Metabolism,Amino acid/ nitrogen metabolism,Utilization of amino acids,Utilization of threonine/ glycine,NA
+SW 2.3.2.8,BSU_24560,gcvPA,Metabolism,Amino acid/ nitrogen metabolism,Utilization of amino acids,Utilization of threonine/ glycine,NA
+SW 2.3.2.8,BSU_24570,gcvT,Metabolism,Amino acid/ nitrogen metabolism,Utilization of amino acids,Utilization of threonine/ glycine,NA
+SW 4.2.1.4,BSU_24580,yqhH,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_24590,yqhG,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 3.4.2.7,BSU_24600,sinI,Information processing,Regulation of gene expression,Transcription factors and their control,Control of transcription factor (other than two-component system),NA
+SW 3.4.2.5,BSU_24610,sinR,Information processing,Regulation of gene expression,Transcription factors and their control,Transcription factors/ other,NA
+SW 4.1.2,BSU_24620,tasA,Lifestyles,Exponential and early post-exponential lifestyles,Biofilm formation,NA,NA
+SW 4.1.2,BSU_24640,tapA,Lifestyles,Exponential and early post-exponential lifestyles,Biofilm formation,NA,NA
+SW 4.2.1.4,BSU_24650,yqzG,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.3,BSU_24660,spoIIIL,Lifestyles,Sporulation,Sporulation/ other,NA,NA
+SW 1.1.3.4,BSU_24830,yqgT,Cellular processes,Cell envelope and cell division,Cell wall degradation/ turnover,Endopeptidases,NA
+SW 4.2.1.5,BSU_24880,yqgO,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_25010,yqgE,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.4,BSU_25060,yqfZ,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_25070,ispG,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_25080,yqfX,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 6.2,BSU_25110,yqfU,Groups of genes,Membrane proteins,NA,NA,NA
+SW 4.2.1.1.8,BSU_25120,yqfT,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Not yet assigned
+SW 3.1.5,BSU_25130,nfo,Information processing,Genetics,DNA repair/ recombination,NA,NA
+SW 4.2.1.4,BSU_25150,yqfQ,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 3.2.1.2,BSU_25200,sigA,Information processing,RNA synthesis and degradation,Transcription,Sigma factors,NA
+SW 4.2.1.4,BSU_25350,yqfD,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_25360,yqfC,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 1.2.4.8,BSU_25420,yqeW,Cellular processes,Transporters,Transporters/ other,Uptake of other small ions,NA
+SW 2.6.2.6,BSU_25500,hemN,Metabolism,Additional metabolic pathways,Biosynthesis of cofactors,Biosynthesis of heme/ siroheme,NA
+SW 4.2.1.4,BSU_25520,yqxA,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_25530,spoIIP,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.4.2,BSU_25540,gpr,Lifestyles,Sporulation,Germination,Additional germination proteins,NA
+SW 4.2.1.5,BSU_25600,comER,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.2.2,BSU_25690,sda,Lifestyles,Sporulation,phosphorelay,Proteins controlling the activity of the kinases,NA
+SW 4.2.1.4,BSU_25710,cwlH,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.5,BSU_25730,yqeC,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 2.5.1,BSU_25750,nucB,Metabolism,Nucleotide metabolism,Utilization of nucleotides,NA,NA
+SW 4.2.1.4,BSU_25760,sigK,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_25770,spoIVCA,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.3.11,BSU_25780,arsC,Lifestyles,Coping with stress,Resistance against toxic metals,NA,NA
+SW 1.2.4.5,BSU_25790,arsB,Cellular processes,Transporters,Transporters/ other,Metal ion transporter,NA
+SW 4.2.1.4,BSU_25800,yqcK,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 3.4.2.5,BSU_25810,arsR,Information processing,Regulation of gene expression,Transcription factors and their control,Transcription factors/ other,NA
+SW 4.2.1.5,BSU_25820,yqcI,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.2.5,BSU_25830,rapE,Lifestyles,Sporulation,phosphorelay,Phosphatases controlling the phosphorelay,NA
+SW 4.2.2.6,BSU_25840,phrE,Lifestyles,Sporulation,phosphorelay,Other protein controlling the activity of the phosphorelay,NA
+SW 4.2.1.5,BSU_26240,yqaO,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_26250,yqaN,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_26259,yqzO,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 5.1.3,BSU_26380,yqaB,Prophages and mobile genetic elements,Prophages,Skin element,NA,NA
+SW 4.2.1.4,BSU_26390,sigKC,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.5,BSU_26559,yrzN,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.4,BSU_26560,yrkC,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.5,BSU_26740,cypA,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.2,BSU_26950,yraG,Lifestyles,Sporulation,Sporulation proteins,Spore coat protein/ based on similarity,NA
+SW 4.2.1.2,BSU_26960,yraF,Lifestyles,Sporulation,Sporulation proteins,Spore coat protein/ based on similarity,NA
+SW 4.2.1.4,BSU_26970,adhB,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.2,BSU_26980,yraE,Lifestyles,Sporulation,Sporulation proteins,Spore coat protein/ based on similarity,NA
+SW 4.2.1.2,BSU_26990,yraD,Lifestyles,Sporulation,Sporulation proteins,Spore coat protein/ based on similarity,NA
+SW 2.3.1.9,BSU_27250,mccB,Metabolism,Amino acid/ nitrogen metabolism,Biosynthesis/ acquisition of amino acids,Biosynthesis/ acquisition of cysteine,NA
+SW 2.3.1.9,BSU_27260,mccA,Metabolism,Amino acid/ nitrogen metabolism,Biosynthesis/ acquisition of amino acids,Biosynthesis/ acquisition of cysteine,NA
+SW 4.2.1.5,BSU_27290,yrzA,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.4,BSU_27300,yrrS,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_27310,pbpI,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.5,BSU_27420,yrrI,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.4,BSU_27430,glnQ,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_27440,glnH,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_27450,glnM,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_27460,glnP,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.5,BSU_27468,yrzQ,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_27469,yrzR,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.4,BSU_27470,yrrD,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.5,BSU_27570,yrzK,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.4,BSU_27670,spoVB,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.5,BSU_27680,yrbG,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_27690,yrzE,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.4,BSU_27750,bofC,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_27760,csbX,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.5,BSU_27810,yrbD,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.4,BSU_27830,coxA,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.1.8,BSU_27840,safA,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Not yet assigned
+SW 2.6.2.11,BSU_27850,nadA,Metabolism,Additional metabolic pathways,Biosynthesis of cofactors,Biosynthesis of NAD(P),NA
+SW 4.2.2,BSU_27920,obg,Lifestyles,Sporulation,phosphorelay,NA,NA
+SW 4.2.2.3,BSU_27930,spo0B,Lifestyles,Sporulation,phosphorelay,The phosphotransferases,NA
+SW 4.2.1.4,BSU_27970,spoIVFB,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_27980,spoIVFA,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 1.1.8.1,BSU_27990,minD,Cellular processes,Cell envelope and cell division,Cell division,The Min system,NA
+SW 1.1.8.1,BSU_28000,minC,Cellular processes,Cell envelope and cell division,Cell division,The Min system,NA
+SW 1.1.2,BSU_28030,mreB,Cellular processes,Cell envelope and cell division,Cell shape,NA,NA
+SW 4.2.3,BSU_28060,spoIIB,Lifestyles,Sporulation,Sporulation/ other,NA,NA
+SW 4.2.1.1.3,BSU_28100,ysxE,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Class III
+SW 4.2.1.1.1,BSU_28110,spoVID,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Class I
+SW 4.2.1.4,BSU_28210,lonB,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.1.4,BSU_28320,ysnD,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Class IV
+SW 6.6,BSU_28330,ysnE,Groups of genes,Poorly characterized/ putative enzymes,NA,NA,NA
+SW 6.7,BSU_28350,ysnB,Groups of genes,Proteins of unknown function,NA,NA,NA
+SW 6.6,BSU_28360,ysnA,Groups of genes,Poorly characterized/ putative enzymes,NA,NA,NA
+SW 3.2.4.1,BSU_28370,rph,Information processing,RNA synthesis and degradation,RNases,Exoribonucleases,NA
+SW 4.2.4.2,BSU_28380,gerM,Lifestyles,Sporulation,Germination,Additional germination proteins,NA
+SW 1.1.1.1,BSU_28390,racE,Cellular processes,Cell envelope and cell division,Cell wall synthesis,Biosynthesis of peptidoglycan,NA
+SW 3.4.2.6,BSU_28400,ysmB,Information processing,Regulation of gene expression,Transcription factors and their control,Transcription factor/ other/ based on similarity,NA
+SW 4.2.4.2,BSU_28410,gerE,Lifestyles,Sporulation,Germination,Additional germination proteins,NA
+SW 6.7,BSU_28460,yslB,Groups of genes,Proteins of unknown function,NA,NA,NA
+SW 4.2.1.3,BSU_28660,sspI,Lifestyles,Sporulation,Sporulation proteins,Small acid-soluble spore proteins,NA
+SW 3.4.2.6,BSU_28670,ysfB,Information processing,Regulation of gene expression,Transcription factors and their control,Transcription factor/ other/ based on similarity,NA
+SW 4.2.1.4,BSU_28960,ytxC,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 3.1.1,BSU_28990,dnaB,Information processing,Genetics,DNA replication,NA,NA
+SW 2.2.1.2,BSU_29020,gapB,Metabolism,Carbon metabolism,Carbon core metabolism,Gluconeogenesis,NA
+SW 4.3.14,BSU_29040,ytbD,Lifestyles,Coping with stress,Resistance against toxins/ antibiotics/ based on similarity,NA,NA
+SW 4.2.3,BSU_29070,ytaF,Lifestyles,Sporulation,Sporulation/ other,NA,NA
+SW 4.2.1.4,BSU_29100,phoR,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_29110,phoP,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.5,BSU_29150,ytwI,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.4,BSU_29160,ytvI,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_29239,ytrH,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_29240,ytrI,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 3.2.4.1,BSU_29250,nrnA,Information processing,RNA synthesis and degradation,RNases,Exoribonucleases,NA
+SW 6.6,BSU_29420,ytkK,Groups of genes,Poorly characterized/ putative enzymes,NA,NA,NA
+SW 4.2.4.2,BSU_29500,gerW,Lifestyles,Sporulation,Germination,Additional germination proteins,NA
+SW 4.2.1.4,BSU_29510,ytfI,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.3,BSU_29570,sspA,Lifestyles,Sporulation,Sporulation proteins,Small acid-soluble spore proteins,NA
+SW 4.2.1.4,BSU_29630,refZ,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.3.1,BSU_29780,ytxG,Lifestyles,Coping with stress,General stress proteins (controlled by SigB),NA,NA
+SW 4.2.1.5,BSU_29910,ytzH,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 6.7,BSU_29940,ytlR,Groups of genes,Proteins of unknown function,NA,NA,NA
+SW 3.4.2.6,BSU_30020,ytzE,Information processing,Regulation of gene expression,Transcription factors and their control,Transcription factor/ other/ based on similarity,NA
+SW 1.2.4.9,BSU_30070,opuD,Cellular processes,Transporters,Transporters/ other,Uptake of compatible solutes,NA
+SW 4.2.1.4,BSU_30080,yteV,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.5,BSU_30100,yteT,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_30330,ytvB,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_30470,ytzC,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.3.2,BSU_30500,ytpB,Lifestyles,Coping with stress,"Cell envelope stress proteins (controlled by SigM, V, W, X, Y)",NA,NA
+SW 4.3.2,BSU_30510,ytpA,Lifestyles,Coping with stress,"Cell envelope stress proteins (controlled by SigM, V, W, X, Y)",NA,NA
+SW 4.2.1.4,BSU_30595,ytlA,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_30610,ytlC,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_30620,ytlD,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_30630,rppH,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.5,BSU_30640,ytkC,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_30710,ythA,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_30720,ythB,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_30739,ytzL,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.4,BSU_30840,yteA,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.5,BSU_30850,ytdA,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_30860,ytcA,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.4,BSU_30870,ytcB,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_30880,ytcC,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.1.5,BSU_30890,ytxO,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Class V
+SW 4.2.1.1.5,BSU_30900,cotS,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Class V
+SW 4.2.1.1.8,BSU_30910,cotSA,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Not yet assigned
+SW 4.2.1.1.8,BSU_30920,cotI,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Not yet assigned
+SW 4.2.1.4,BSU_30940,glgP,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_30950,glgA,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_30960,glgD,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_30970,glgC,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_30980,glgB,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.3,BSU_31010,floT,Lifestyles,Sporulation,Sporulation/ other,NA,NA
+SW 6.7,BSU_31030,bstB,Groups of genes,Proteins of unknown function,NA,NA,NA
+SW 4.2.2.2,BSU_31080,bslA,Lifestyles,Sporulation,phosphorelay,Proteins controlling the activity of the kinases,NA
+SW 4.2.1.5,BSU_31140,yubC,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.1.5,BSU_31270,tgl,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Class V
+SW 4.2.1.5,BSU_31290,yugT,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_31300,yugS,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_31310,yugP,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_31319,yuzI,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_31321,mstX,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_31322,yugO,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.4,BSU_31380,yuzA,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.5,BSU_31420,yugF,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 2.3.1.10,BSU_31440,patB,Metabolism,Amino acid/ nitrogen metabolism,Biosynthesis/ acquisition of amino acids,Biosynthesis/ acquisition of methionine/ S-adenosylmethionine,NA
+SW 4.2.2.1,BSU_31450,kinB,Lifestyles,Sporulation,phosphorelay,The kinases,NA
+SW 4.2.2.2,BSU_31460,kapB,Lifestyles,Sporulation,phosphorelay,Proteins controlling the activity of the kinases,NA
+SW 4.2.2,BSU_31470,kapD,Lifestyles,Sporulation,phosphorelay,NA,NA
+SW 4.2.1.5,BSU_31590,yufS,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.1.1,BSU_31730,yuzC,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Class I
+SW 4.2.1.5,BSU_31790,yueG,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_31810,yuzE,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_31820,yuzF,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 2.3.2.7,BSU_31930,ald,Metabolism,Amino acid/ nitrogen metabolism,Utilization of amino acids,Utilization of alanine/ serine,NA
+SW 6.6,BSU_32050,yuiE,Groups of genes,Poorly characterized/ putative enzymes,NA,NA,NA
+SW 4.2.1.4,BSU_32070,yuiC,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.5,BSU_32100,yumB,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 3.4.2.5,BSU_32140,paiB,Information processing,Regulation of gene expression,Transcription factors and their control,Transcription factors/ other,NA
+SW 2.6.6.6,BSU_32150,paiA,Metabolism,Additional metabolic pathways,Miscellaneous metabolic pathways,Metabolism of polyamines,NA
+SW 2.1.4,BSU_32200,yutJ,Metabolism,Electron transport and ATP synthesis,Electron transport/ other/ based on similarity,NA,NA
+SW 4.2.1.1.3,BSU_32270,yutH,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Class III
+SW 4.2.1.5,BSU_32280,yutG,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_32320,yutC,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.4,BSU_32340,lytH,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_32350,fisB,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.5,BSU_32360,yunC,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 2.5.1,BSU_32410,pucH,Metabolism,Nucleotide metabolism,Utilization of nucleotides,NA,NA
+SW 2.5.1,BSU_32450,pucL,Metabolism,Nucleotide metabolism,Utilization of nucleotides,NA,NA
+SW 4.2.1.3,BSU_32640,sspG,Lifestyles,Sporulation,Sporulation proteins,Small acid-soluble spore proteins,NA
+SW 4.2.1.4,BSU_32650,yurS,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.5,BSU_32720,yurZ,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_32849,yuzL,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_32850,fadM,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_32859,yuzM,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.4,BSU_32860,yusN,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.5,BSU_32950,yusW,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.4.1,BSU_33050,gerAA,Lifestyles,Sporulation,Germination,Germinant receptors,NA
+SW 4.2.4.1,BSU_33060,gerAB,Lifestyles,Sporulation,Germination,Germinant receptors,NA
+SW 4.2.4.1,BSU_33070,gerAC,Lifestyles,Sporulation,Germination,Germinant receptors,NA
+SW 4.2.1.3,BSU_33340,sspJ,Lifestyles,Sporulation,Sporulation proteins,Small acid-soluble spore proteins,NA
+SW 4.3.1,BSU_33410,yvgO,Lifestyles,Coping with stress,General stress proteins (controlled by SigB),NA,NA
+SW 4.2.1.4,BSU_33470,bdbC,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_33480,bdbD,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_33540,azoR2,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.5,BSU_33550,yvaC,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 3.3.1.12,BSU_33600,smpB,Information processing,"Protein synthesis, modification and degradation",Translation,Translation/ other,NA
+SW 4.2.1.5,BSU_33640,yvaM,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.2,BSU_33660,rghR,Lifestyles,Sporulation,phosphorelay,NA,NA
+SW 6.7,BSU_33860,yvbH,Groups of genes,Proteins of unknown function,NA,NA,NA
+SW 2.2.1.1,BSU_33910,pgm,Metabolism,Carbon metabolism,Carbon core metabolism,Glycolysis,NA
+SW 2.2.1.1,BSU_33920,tpi,Metabolism,Carbon metabolism,Carbon core metabolism,Glycolysis,NA
+SW 2.1.5.2,BSU_33930,pgk,Metabolism,Electron transport and ATP synthesis,ATP synthesis,Substrate-level phosphorylation,NA
+SW 2.2.2.6,BSU_33970,araR,Metabolism,Carbon metabolism,Utilization of specific carbon sources,Utilization of arabinan/ arabinose/ arabitol,NA
+SW 4.2.1.4,BSU_34470,yveA,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.2,BSU_34510,yvdQ,Lifestyles,Sporulation,Sporulation proteins,Spore coat protein/ based on similarity,NA
+SW 4.2.1.1.5,BSU_34520,cotQ,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Class V
+SW 4.2.1.1.8,BSU_34530,cotR,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Not yet assigned
+SW 1.2.1.1.1,BSU_34600,mdxF,Cellular processes,Transporters,ABC transporters,Importers,Uptake of carbon sources
+SW 4.2.4.2,BSU_34990,lgt,Lifestyles,Sporulation,Germination,Additional germination proteins,NA
+SW 4.2.1.5,BSU_35040,yvnB,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 1.1.8.1,BSU_35220,minJ,Cellular processes,Cell envelope and cell division,Cell division,The Min system,NA
+SW 4.2.1.4,BSU_35240,ctpB,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.2,BSU_35250,ftsX,Lifestyles,Sporulation,phosphorelay,NA,NA
+SW 4.2.2,BSU_35260,ftsE,Lifestyles,Sporulation,phosphorelay,NA,NA
+SW 4.2.1.4,BSU_35540,tuaH,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_35550,tuaG,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_35560,tuaF,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 1.1.1.4,BSU_35670,gtaB,Cellular processes,Cell envelope and cell division,Cell wall synthesis,Biosynthesis of teichoic acid,NA
+SW 1.1.3.1,BSU_35780,lytD,Cellular processes,Cell envelope and cell division,Cell wall degradation/ turnover,Autolysis,NA
+SW 4.2.4.1,BSU_35800,gerBA,Lifestyles,Sporulation,Germination,Germinant receptors,NA
+SW 4.2.4.1,BSU_35810,gerBB,Lifestyles,Sporulation,Germination,Germinant receptors,NA
+SW 4.2.4.1,BSU_35820,gerBC,Lifestyles,Sporulation,Germination,Germinant receptors,NA
+SW 4.2.1.5,BSU_36030,ywrK,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.4,BSU_36040,ywrJ,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.1.5,BSU_36050,cotB,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Class V
+SW 4.2.1.1.8,BSU_36060,cotH,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Not yet assigned
+SW 4.2.1.1.5,BSU_36070,cotG,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Class V
+SW 4.2.3,BSU_36130,ywrA,Lifestyles,Sporulation,Sporulation/ other,NA,NA
+SW 4.2.1.5,BSU_36170,ywqL,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_36180,ywqK,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_36190,ywqJ,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_36200,ywqI,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.1.8,BSU_36210,ywqH,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Not yet assigned
+SW 6.4.7,BSU_36230,ugd,Groups of genes,Phosphoproteins,Phosphorylation on a Tyr residue,NA,NA
+SW 3.1.7,BSU_36380,rapD,Information processing,Genetics,Genetic competence,NA,NA
+SW 4.2.1.4,BSU_36410,mbl,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_36420,spoIIID,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_36430,usd,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.5,BSU_36480,ywoD,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_36490,ywoC,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.4,BSU_36540,ywnJ,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_36550,spoIIQ,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.3.14,BSU_36560,ywnH,Lifestyles,Coping with stress,Resistance against toxins/ antibiotics/ based on similarity,NA,NA
+SW 4.2.1.5,BSU_36570,ywnG,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 6.2,BSU_36580,ywnF,Groups of genes,Membrane proteins,NA,NA,NA
+SW 2.4.2.2,BSU_36590,clsA,Metabolism,Lipid metabolism,Biosynthesis of lipids,Biosynthesis of phospholipids,NA
+SW 4.2.2.5,BSU_36690,rapB,Lifestyles,Sporulation,phosphorelay,Phosphatases controlling the phosphorelay,NA
+SW 4.2.1.4,BSU_36750,spoIID,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.3,BSU_36770,spoIIT,Lifestyles,Sporulation,Sporulation/ other,NA,NA
+SW 4.2.1.5,BSU_36790,ywmA,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 3.1.9,BSU_36950,tsaC,Information processing,Genetics,Newly identified competence genes,NA,NA
+SW 4.3.1,BSU_36960,ywlB,Lifestyles,Coping with stress,General stress proteins (controlled by SigB),NA,NA
+SW 4.2.1.4,BSU_36970,spoIIR,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.5,BSU_36990,ywkF,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 1.1.8.2,BSU_37030,racA,Cellular processes,Cell envelope and cell division,Cell division,Other genes,NA
+SW 4.2.2.3,BSU_37130,spo0F,Lifestyles,Sporulation,phosphorelay,The phosphotransferases,NA
+SW 2.4.1.3,BSU_37170,acdA,Metabolism,Lipid metabolism,Utilization of lipids,Utilization of fatty acids,NA
+SW 2.4.1.3,BSU_37180,fadF,Metabolism,Lipid metabolism,Utilization of lipids,Utilization of fatty acids,NA
+SW 4.2.1.4,BSU_37190,ywjE,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_37200,ywjD,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 3.1.7,BSU_37460,rapF,Information processing,Genetics,Genetic competence,NA,NA
+SW 2.6.6.6,BSU_37500,speE,Metabolism,Additional metabolic pathways,Miscellaneous metabolic pathways,Metabolism of polyamines,NA
+SW 4.2.1.4,BSU_37510,pbpG,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_37620,rsfA,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.2.2,BSU_37800,sivA,Lifestyles,Sporulation,phosphorelay,Proteins controlling the activity of the kinases,NA
+SW 4.2.1.4,BSU_37810,spsL,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_37820,spsK,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_37830,spsJ,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_37840,spsI,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_37850,spsG,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_37860,spsF,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_37870,spsE,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_37880,spsD,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_37890,spsC,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.1.8,BSU_37900,spsB,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Not yet assigned
+SW 4.2.1.4,BSU_37910,spsA,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.1.8,BSU_37920,gerQ,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Not yet assigned
+SW 6.2,BSU_37940,ywdJ,Groups of genes,Membrane proteins,NA,NA,NA
+SW 6.6,BSU_37960,ywdH,Groups of genes,Poorly characterized/ putative enzymes,NA,NA,NA
+SW 4.2.3,BSU_38130,ywcE,Lifestyles,Sporulation,Sporulation/ other,NA,NA
+SW 4.2.1.4,BSU_38230,ywcB,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_38240,ywcA,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 6.7,BSU_38350,ywbE,Groups of genes,Proteins of unknown function,NA,NA,NA
+SW 4.2.1.5,BSU_38380,ywbB,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_38390,ywbA,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_38440,ywaF,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.4,BSU_38630,katX,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 1.2.1.3,BSU_38730,cydD,Cellular processes,Transporters,ABC transporters,Regulatory ABC transporters,NA
+SW 4.2.1.4,BSU_38970,yxjF,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_38980,scoB,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_38990,scoA,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_39000,hbuT,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.5,BSU_39060,citH,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 6.2,BSU_39100,yxiO,Groups of genes,Membrane proteins,NA,NA,NA
+SW 3.2.3,BSU_39110,deaD,Information processing,RNA synthesis and degradation,DEAD-box RNA helicases,NA,NA
+SW 6.6,BSU_39120,yxiM,Groups of genes,Poorly characterized/ putative enzymes,NA,NA,NA
+SW 2.5.1,BSU_39400,pdp,Metabolism,Nucleotide metabolism,Utilization of nucleotides,NA,NA
+SW 4.2.1.1.5,BSU_39580,yxeE,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Class V
+SW 4.2.1.4,BSU_39590,yxeD,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 2.2.2.16,BSU_39770,iolR,Metabolism,Carbon metabolism,Utilization of specific carbon sources,Utilization of inositol,NA
+SW 4.2.1.5,BSU_40260,yycQ,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_40270,yycP,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_40280,yycO,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_40290,yycN,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 3.3.4.4,BSU_40300,rapG,Information processing,"Protein synthesis, modification and degradation",Protein modification,Protein phosphatases,NA
+SW 4.2.1.4,BSU_40360,htrC,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.5,BSU_40430,yycE,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.5,BSU_40460,yyzB,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.1.8,BSU_40530,cotF,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Not yet assigned
+SW 4.2.1.5,BSU_40560,yybP,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.1.4,BSU_40630,yybI,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Class IV
+SW 6.7,BSU_40790,yyaO,Groups of genes,Proteins of unknown function,NA,NA,NA
+SW 4.2.1.5,BSU_40820,yyaL,Lifestyles,Sporulation,Sporulation proteins,Newly identified sporulation proteins (based on transcription profiling),NA
+SW 4.2.1.4,BSU_40870,ccpB,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_40880,exoA,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 2.1.4,BSU_40930,yyaE,Metabolism,Electron transport and ATP synthesis,Electron transport/ other/ based on similarity,NA,NA
+SW 4.2.1.4,BSU_40940,yyaD,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.1.4,BSU_40950,yyaC,Lifestyles,Sporulation,Sporulation proteins,Sporulation proteins/ other,NA
+SW 4.2.3,BSU_40960,parB,Lifestyles,Sporulation,Sporulation/ other,NA,NA
+SW 4.2.3,BSU_40970,parA,Lifestyles,Sporulation,Sporulation/ other,NA,NA
+SW 3.3.1.8,BSU_41010,gidA,Information processing,"Protein synthesis, modification and degradation",Translation,tRNA modification and maturation,NA
+SW 3.3.1.8,BSU_41020,thdF,Information processing,"Protein synthesis, modification and degradation",Translation,tRNA modification and maturation,NA
+SW 4.2.3,BSU_41030,jag,Lifestyles,Sporulation,Sporulation/ other,NA,NA
+SW 4.2.3,BSU_41040,yidC1,Lifestyles,Sporulation,Sporulation/ other,NA,NA
+SW 4.2.1.1.8,G8J2-20,cmpA,Lifestyles,Sporulation,Sporulation proteins,Spore coat proteins,Not yet assigned
+SW 4.3.17.2,new_1348200_1348403_c,spoIISC,Lifestyles,Coping with stress,"Toxins, antitoxins and immunity against toxins",Type 2 TA systems,NA
