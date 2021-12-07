@@ -1,0 +1,875 @@
+﻿uniprot,Cluster ID,Cluster name,Date of creation
+P05648,UniRef90_P05648,Cluster: Chromosomal replication initiator protein DnaA,2020-02-26
+P05649,UniRef90_P05649,Cluster: Beta sliding clamp,2019-12-18
+P37526,UniRef90_P37526,Cluster: Uncharacterized protein YaaC,2020-02-26
+P37527,UniRef90_P37527,Cluster: Pyridoxal 5'-phosphate synthase subunit PdxS,2020-02-26
+P37531,UniRef90_P37531,Cluster: Cortical fragment-lytic enzyme,2020-02-26
+P24282,UniRef90_P24282,Cluster: Sigma-K factor-processing regulatory protein BofA,2020-02-26
+P37534,UniRef90_P37534,Cluster: Anti-sigma-G factor Gin,2020-02-26
+P37541,UniRef90_P37541,Cluster: Stage 0 sporulation protein YaaT,2020-02-26
+P08874,UniRef90_P08874,Cluster: Transition state regulatory protein AbrB,2020-02-26
+P37468,UniRef90_P37468,Cluster: Ribosomal RNA small subunit methyltransferase A,2020-02-26
+P37548,UniRef90_P37548,Cluster: Sporulation-specific protease YabG,2020-02-26
+P37549,UniRef90_P37549,Cluster: Protein SspF,2020-02-26
+P37550,UniRef90_P37550,Cluster: 4-diphosphocytidyl-2-C-methyl-D-erythritol kinase,2020-02-26
+P37551,UniRef90_P37551,Cluster: Pur operon repressor,2020-02-26
+P37552,UniRef90_P37552,Cluster: 2-iminobutanoate/2-iminopropanoate deaminase,2020-02-26
+P28015,UniRef90_P28015,Cluster: Putative septation protein SpoVG,2020-02-26
+P37470,UniRef90_P37470,Cluster: Peptidyl-tRNA hydrolase,2020-02-26
+P37553,UniRef90_P37553,Cluster: Anti-sigma-F factor Fin,2020-02-26
+P37474,UniRef90_P37474,Cluster: Transcription-repair-coupling factor,2020-02-26
+P37554,UniRef90_P37554,Cluster: Stage V sporulation protein T,2020-02-26
+P37558,UniRef90_P37558,Cluster: Spore protein YabP,2020-02-26
+P37559,UniRef90_P37559,Cluster: Spore protein YabQ,2020-02-26
+P37471,UniRef90_P37471,Cluster: Cell division protein DivIC,2020-02-26
+P37560,UniRef90_P37560,Cluster: Uncharacterized protein YabR,2020-02-26
+P37475,UniRef90_P37475,Cluster: Stage II sporulation protein E,2020-02-26
+P37561,UniRef90_P37561,Cluster: Uncharacterized protein YabS,2020-02-26
+P37562,UniRef90_P37562,Cluster: Probable serine/threonine-protein kinase YabT,2020-02-26
+P37569,UniRef90_P37569,Cluster: Protein-arginine kinase activator protein,2020-02-26
+P37570,UniRef90_P37570,Cluster: Protein-arginine kinase,2020-02-26
+P37571,UniRef90_P37571,Cluster: Negative regulator of genetic competence ClpC/MecB,2020-02-26
+P37573,UniRef90_P37573,Cluster: DNA integrity scanning protein DisA,2020-02-26
+P17869,UniRef90_P17869,Cluster: RNA polymerase sigma-H factor,2020-02-26
+P50862,UniRef90_P50862,Cluster: Uncharacterized protein YbaK,2020-02-26
+P50864,UniRef90_P50864,Cluster: Germination-specific N-acetylmuramoyl-L-alanine amidase,2020-02-26
+P16450,UniRef90_P16450,Cluster: Spore germination protein GerD,2020-02-26
+P16449,UniRef90_P16449,Cluster: KinB-signaling pathway activation protein,2020-02-26
+P50865,UniRef90_P50865,Cluster: Probable polysaccharide deacetylase PdaB,2020-02-26
+P55190,UniRef90_P55190,Cluster: Uncharacterized protein YbaS,2020-02-26
+P40407,UniRef90_P40407,Cluster: Uncharacterized protein YbbC,2020-02-26
+P40406,UniRef90_P40406,Cluster: Beta-hexosaminidase,2020-02-26
+O05213,UniRef90_O05213,Cluster: N-acetylmuramyl-L-alanine amidase,2020-02-26
+Q797S1,UniRef90_Q797S1,Cluster: Putative PTS system EIIBC component YbbF,2020-02-26
+P37878,UniRef90_P37878,Cluster: DNA-3-methyladenine glycosylase,2020-02-26
+O31435,UniRef90_O31435,Cluster: Probable serine/threonine-protein kinase YbdM,2020-02-26
+P54379,UniRef90_P54379,Cluster: Sigma-G-dependent sporulation-specific SASP protein,2020-02-26
+P54426,UniRef90_P54426,Cluster: Uncharacterized protein YbxH,2020-02-26
+O31442,UniRef90_O31442,Cluster: Uncharacterized protein YbeF,2019-12-18
+P39790,UniRef90_P39790,Cluster: Extracellular metalloprotease,2020-02-26
+O31451,UniRef90_O31451,Cluster: Uncharacterized protein YbfJ,2020-02-26
+P42249,UniRef90_P42249,Cluster: Cell wall hydrolase CwlJ,2020-02-26
+O34538,UniRef90_O34538,Cluster: Uncharacterized lipoprotein YcdA,2020-02-26
+O34327,UniRef90_O34327,Cluster: Response regulator aspartate phosphatase J,2020-02-26
+O34364,UniRef90_O34364,"Cluster: Probable oligo-1,6-glucosidase 2",2020-02-26
+P94381,UniRef90_P94381,Cluster: Putative amino acid efflux protein YcgF,2020-02-26
+P94382,UniRef90_P94382,Cluster: Uncharacterized protein YcgG,2020-02-26
+P94383,UniRef90_P94383,Cluster: Uncharacterized transporter YcgH,2020-02-26
+O31473,UniRef90_O31473,Cluster: Uncharacterized protein YcgI,2020-02-26
+P12921,UniRef90_P12921,Cluster: Tunicamycin resistance protein,2020-02-26
+P94389,UniRef90_P94389,Cluster: Uncharacterized protein YcgL,2020-02-26
+P42401,UniRef90_P42401,Cluster: Uncharacterized protein YckC,2020-02-26
+P42402,UniRef90_P42402,Cluster: Uncharacterized protein YckD,2020-02-26
+P94408,UniRef90_P94408,Cluster: Uncharacterized transporter YclF,2020-02-26
+O31479,UniRef90_O31479,Cluster: Uncharacterized protein YczF,2020-02-26
+P49939,UniRef90_P49939,Cluster: Spore germination protein KA,2020-02-26
+P49941,UniRef90_P49941,Cluster: Spore germination protein KC,2020-02-26
+P49940,UniRef90_P49940,Cluster: Spore germination protein KB,2020-02-26
+P94415,UniRef90_P94415,Cluster: Response regulator aspartate phosphatase C,2020-02-26
+P94416,UniRef90_P94416,Cluster: Phosphatase RapC inhibitor,2020-02-26
+P40420,UniRef90_P40420,Cluster: Glucose uptake protein GlcU,2020-02-26
+P12310,UniRef90_P12310,Cluster: Glucose 1-dehydrogenase,2020-02-26
+P60495,UniRef90_P60495,Cluster: 5-oxoprolinase subunit B,2020-02-26
+Q7WY77,UniRef90_Q7WY77,Cluster: 5-oxoprolinase subunit C,2020-02-26
+P42968,UniRef90_P42968,Cluster: HTH-type transcriptional regulator KipR,2020-02-26
+P42969,UniRef90_P42969,Cluster: Spore germination lipase LipC,2020-02-26
+P96604,UniRef90_P96604,Cluster: Putative transport protein YdbI,2020-02-26
+P96613,UniRef90_P96613,Cluster: UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase,2020-02-26
+P96617,UniRef90_P96617,Cluster: Putative rhomboid protease YdcA,2020-02-26
+P96619,UniRef90_P96619,Cluster: Sporulation protein YdcC,2020-02-26
+P96633,UniRef90_P96633,Cluster: Putative uncharacterized protein YdcP,2019-12-18
+P96649,UniRef90_P96649,Cluster: Response regulator aspartate phosphatase I,2019-11-13
+P96652,UniRef90_P96652,Cluster: HTH-type transcriptional regulator LrpA,2019-12-18
+P96653,UniRef90_P96653,Cluster: HTH-type transcriptional regulator LrpB,2019-12-18
+O31496,UniRef90_O31496,Cluster: Uncharacterized protein YdzH,2019-12-18
+C0H3W2,UniRef90_C0H3W2,Cluster: Spore germination protein-like protein YdzR,2019-12-18
+P96696,UniRef90_P96696,Cluster: UPF0702 transmembrane protein YdfR,2019-12-18
+P96697,UniRef90_P96697,Cluster: UPF0702 transmembrane protein YdfS,2020-02-26
+P96698,UniRef90_P96698,Cluster: Spore coat protein P,2020-02-26
+P96699,UniRef90_P96699,Cluster: Uncharacterized protein YdgA,2019-12-18
+P96700,UniRef90_P96700,Cluster: Uncharacterized protein YdgB,2020-02-26
+O05495,UniRef90_O05495,Cluster: Putative sporulation-specific glycosylase YdhD,2020-02-26
+O05497,UniRef90_O05497,Cluster: Uncharacterized protein YdhF,2020-02-26
+P19405,UniRef90_P19405,Cluster: Alkaline phosphatase 3,2020-02-26
+O34592,UniRef90_O34592,Cluster: AB hydrolase superfamily protein YdjP,2020-02-26
+O34803,UniRef90_O34803,Cluster: Uncharacterized protein YeaA,2020-02-26
+P07788,UniRef90_P07788,Cluster: Spore coat protein A,2020-02-26
+O34904,UniRef90_O34904,Cluster: Uncharacterized protein YebD,2020-02-26
+C0H3X3,UniRef90_C0H3X3,Cluster: Uncharacterized membrane protein YezF,2020-02-26
+Q7BVT7,UniRef90_Q7BVT7,Cluster: Uncharacterized protein YerC,2020-02-26
+P40771,UniRef90_Q59HN8,Cluster: Response regulator aspartate phosphatase H,2020-02-26
+"P40771,Q59HN7",UniRef90_Q59HN7,Cluster: Phosphatase RapH inhibitor,2020-02-26
+O31510,UniRef90_O31510,Cluster: Spore coat protein YeeK,2020-02-26
+Q45536,UniRef90_Q45536,Cluster: Protein CotJA,2020-02-26
+Q45537,UniRef90_Q45537,Cluster: Protein CotJB,2020-02-26
+Q45538,UniRef90_Q45538,Cluster: Protein CotJC,2020-02-26
+O31513,UniRef90_O31513,Cluster: Uncharacterized N-acetyltransferase YesJ,2020-02-26
+O31514,UniRef90_O31514,Cluster: Uncharacterized protein YesK,2020-02-26
+O31526,UniRef90_O31526,Cluster: Rhamnogalacturonan endolyase YesW,2020-02-26
+P39130,UniRef90_P39130,Cluster: Alpha-galacturonidase,2020-02-26
+O31533,UniRef90_O31533,Cluster: UPF0702 transmembrane protein YetF,2020-02-26
+O08394,UniRef90_O08394,Cluster: Bifunctional cytochrome P450/NADPH--P450 reductase 1,2020-02-26
+O06486,UniRef90_O06486,Cluster: Probable glucose-1-phosphate cytidylyltransferase,2020-02-26
+O06485,UniRef90_O06485,Cluster: Putative sugar dehydratase/epimerase YfnG,2020-02-26
+O06484,UniRef90_O06484,Cluster: Uncharacterized protein YfnF,2020-02-26
+O06483,UniRef90_O06483,Cluster: Uncharacterized glycosyltransferase YfnE,2020-02-26
+O31542,UniRef90_O31542,Cluster: Uncharacterized protein YfnD,2020-02-26
+P55069,UniRef90_P55069,Cluster: Mg(2+)/citrate complex secondary transporter,2020-02-26
+O34409,UniRef90_O34409,Cluster: Probable metallo-hydrolase YflN,2020-02-26
+O34345,UniRef90_O34345,Cluster: Uncharacterized protein YflJ,2020-02-26
+O34573,UniRef90_O34573,Cluster: Putative spore germination protein YfkT,2020-02-26
+O35036,UniRef90_O35036,Cluster: Uncharacterized protein YfkS,2020-02-26
+O35028,UniRef90_O35028,Cluster: Putative spore germination protein YfkR,2020-02-26
+O34486,UniRef90_O34486,Cluster: Uncharacterized membrane protein YfkQ,2020-02-26
+O34475,UniRef90_O34475,Cluster: Putative NAD(P)H nitroreductase YfkO,2020-02-26
+O34840,UniRef90_O34840,Cluster: Ca(2+)/H(+) antiporter ChaA,2020-02-26
+O34579,UniRef90_O34579,Cluster: Uncharacterized protein YfkD,2020-02-26
+O34928,UniRef90_O34928,Cluster: Peptidoglycan-N-acetylmuramic acid deacetylase PdaA,2020-02-26
+O31550,UniRef90_O31550,Cluster: Dihydrolipoyllysine-residue acetyltransferase component of acetoin cleaving system,2020-02-26
+O31552,UniRef90_O31552,"Cluster: Small, acid-soluble spore protein H",2020-02-26
+O31556,UniRef90_O31556,Cluster: Uncharacterized protein YfjC,2019-12-18
+O31572,UniRef90_O31572,Cluster: Uncharacterized protein YfhD,2020-02-26
+O31573,UniRef90_O31573,Cluster: Uncharacterized protein YfhE,2020-02-26
+Q7WY75,UniRef90_Q7WY75,"Cluster: Small, acid-soluble spore protein K",2020-02-26
+O31581,UniRef90_O31581,Cluster: AB hydrolase superfamily protein YfhM,2020-02-26
+O31583,UniRef90_O31583,Cluster: Uncharacterized protein YfhP,2020-02-26
+O31585,UniRef90_O31585,Cluster: Uncharacterized protein YfhS,2020-02-26
+P71079,UniRef90_P71079,Cluster: Enoyl-[acyl-carrier-protein] reductase [NADPH] FabL,2020-02-26
+P07784,UniRef90_P84585,"Cluster: Small, acid-soluble spore protein gamma-type",2020-02-26
+P71080,UniRef90_P71080,Cluster: Uncharacterized protein YgaB,2020-02-26
+P71083,UniRef90_P71083,Cluster: UPF0421 protein YgaE,2020-02-26
+P71088,UniRef90_P71088,Cluster: Sporulation-control protein spo0M,2020-02-26
+O31586,UniRef90_O31586,Cluster: Uncharacterized protein YgzA,2020-02-26
+C0H3X8,UniRef90_C0H3X8,Cluster: Spore coat protein F-like protein YgzC,2019-12-18
+Q796Y5,UniRef90_Q796Y5,Cluster: Uncharacterized FAD-linked oxidoreductase YgaK,2020-02-26
+P26901,UniRef90_P26901,Cluster: Vegetative catalase,2020-02-26
+P97030,UniRef90_P97030,Cluster: Epoxyqueuosine reductase,2020-02-26
+O31589,UniRef90_O31589,Cluster: Uncharacterized protein YhbB,2020-02-26
+O31590,UniRef90_O31590,Cluster: Putative tRNA (cytidine(34)-2'-O)-methyltransferase,2020-02-26
+P39134,UniRef90_P39134,Cluster: Protein PrkA,2020-02-26
+P45742,UniRef90_P45742,Cluster: Stress response UPF0229 protein YhbH,2020-02-26
+O31593,UniRef90_O31593,Cluster: Putative efflux system component YhbJ,2020-02-26
+P54585,UniRef90_P54585,Cluster: Uncharacterized MFS-type transporter YhcA,2020-02-26
+P54586,UniRef90_P54586,Cluster: Uncharacterized protein YhcB,2020-02-26
+P54587,UniRef90_P54587,Cluster: Uncharacterized protein YhcC,2020-02-26
+P54597,UniRef90_P54597,Cluster: Uncharacterized protein YhcM,2020-02-26
+P54598,UniRef90_P54598,Cluster: Probable spore germination lipoprotein YhcN,2020-02-26
+P54599,UniRef90_P54599,Cluster: Uncharacterized protein YhcO,2020-02-26
+P54601,UniRef90_P54601,Cluster: Spore coat protein F-like protein YhcQ,2020-02-26
+P54604,UniRef90_P54604,Cluster: Uncharacterized RNA pseudouridine synthase YhcT,2020-02-26
+P54606,UniRef90_P54606,Cluster: CBS domain-containing protein YhcV,2020-02-26
+P18157,UniRef90_P18157,Cluster: Glycerol kinase,2020-02-26
+P18159,UniRef90_P18159,Cluster: Phosphoglucomutase,2020-02-26
+O07527,UniRef90_O07527,Cluster: Sensor histidine kinase YhcY,2020-02-26
+O07528,UniRef90_O07528,Cluster: Uncharacterized transcriptional regulatory protein YhcZ,2020-02-26
+O07530,UniRef90_O07530,Cluster: Uncharacterized protein YhdB,2020-02-26
+O07531,UniRef90_O07531,Cluster: Uncharacterized protein YhdC,2020-02-26
+P37875,UniRef90_P37875,Cluster: Stage V sporulation protein R,2020-02-26
+P19406,UniRef90_P19406,Cluster: Alkaline phosphatase 4,2020-02-26
+O07547,UniRef90_O07547,Cluster: Uncharacterized protein YheF,2020-02-26
+O07545,UniRef90_O07545,Cluster: Endospore coat-associated protein YheD,2020-02-26
+O07544,UniRef90_O07544,Cluster: Endospore coat-associated protein YheC,2020-02-26
+O07539,UniRef90_O07539,Cluster: Stress response protein YhaX,2020-02-26
+Q796V8,UniRef90_Q796V8,Cluster: Oxygen-independent coproporphyrinogen-III oxidase-like protein HemZ,2020-02-26
+O07535,UniRef90_O07535,Cluster: K(+)/H(+) antiporter subunit KhtT,2020-02-26
+O07534,UniRef90_O07534,Cluster: K(+)/H(+) antiporter modulator KhtS,2020-02-26
+O07521,UniRef90_O07521,Cluster: 3'-5' exoribonuclease YhaM,2020-02-26
+O07520,UniRef90_O07520,Cluster: Sporulation protein YhaL,2020-02-26
+C0H3Y2,UniRef90_C0H3Y2,Cluster: Small spore coat assembly protein A,2020-02-26
+P11065,UniRef90_P11065,Cluster: HTH-type transcriptional regulator Hpr,2020-02-26
+C0H3Y3,UniRef90_C0H3Y3,Cluster: Uncharacterized membrane protein YhzF,2020-02-26
+O07599,UniRef90_O07599,Cluster: Uncharacterized membrane protein YhfA,2020-02-26
+P38050,UniRef90_P38050,Cluster: Penicillin-binding protein 1F,2020-02-26
+P32398,UniRef90_P32398,Cluster: Uncharacterized HTH-type transcriptional regulator YhgD,2020-02-26
+O07611,UniRef90_O07611,Cluster: Uncharacterized protein YhfM,2020-02-26
+P40769,UniRef90_P40769,Cluster: Uncharacterized metalloprotease YhfN,2020-02-26
+O07614,UniRef90_O07614,Cluster: Uncharacterized N-acetyltransferase YhfO,2020-02-26
+O07622,UniRef90_O07622,Cluster: Putative Rieske 2Fe-2S iron-sulfur protein YhfW,2020-02-26
+P40397,UniRef90_P40397,Cluster: Uncharacterized oxidoreductase YhxC,2020-02-26
+O07566,UniRef90_O07566,Cluster: 3-oxo-glucose-6-phosphate:glutamate aminotransferase,2020-02-26
+O07571,UniRef90_O07571,Cluster: Uncharacterized cysteine-rich protein YhjQ,2020-02-26
+O07572,UniRef90_O07572,Cluster: Uncharacterized protein YhjR,2020-02-26
+O06716,UniRef90_O06716,Cluster: Probable spore germination protein GerPF,2020-02-26
+O06717,UniRef90_O06717,Cluster: Probable spore germination protein GerPE,2020-02-26
+O06718,UniRef90_O06718,Cluster: Probable spore germination protein GerPD,2020-02-26
+O06719,UniRef90_O06719,Cluster: Probable spore germination protein GerPC,2020-02-26
+O06720,UniRef90_O06720,Cluster: Probable spore germination protein GerPB,2020-02-26
+O06721,UniRef90_O06721,Cluster: Probable spore germination protein GerPA,2020-02-26
+O06722,UniRef90_O06722,Cluster: Aspartyl-phosphate phosphatase YisI,2020-02-26
+O06723,UniRef90_O06723,Cluster: Inner spore coat protein H-like protein,2020-02-26
+O06727,UniRef90_O06727,Cluster: Uncharacterized protein YisN,2020-02-26
+O05272,UniRef90_O05272,Cluster: Asparagine synthetase [glutamine-hydrolyzing] 3,2020-02-26
+O06728,UniRef90_O06728,Cluster: Putative phytoene/squalene synthase YisP,2020-02-26
+O06734,UniRef90_O06734,Cluster: AB hydrolase superfamily protein YisY,2020-02-26
+O06735,UniRef90_O06735,Cluster: Probable adenylyl-sulfate kinase,2020-02-26
+O06736,UniRef90_O06736,Cluster: Probable sulfate adenylyltransferase,2020-02-26
+O06737,UniRef90_O06737,Cluster: Probable phosphoadenosine phosphosulfate reductase,2020-02-26
+O06738,UniRef90_O06738,Cluster: Probable 2-phosphosulfolactate phosphatase,2020-02-26
+O06739,UniRef90_O06739,Cluster: Phosphosulfolactate synthase,2020-02-26
+O06740,UniRef90_O06740,Cluster: UPF0750 membrane protein YitE,2020-02-26
+O06741,UniRef90_O06741,Cluster: Putative isomerase YitF,2020-02-26
+Q796Q1,UniRef90_Q796Q1,Cluster: Uncharacterized MFS-type transporter YitG,2020-02-26
+O06752,UniRef90_O06752,Cluster: Uncharacterized protein YitQ,2020-02-26
+C0H3Y5,UniRef90_C0H3Y5,Cluster: Uncharacterized protein YizC,2020-02-26
+O34585,UniRef90_O34585,Cluster: Uncharacterized protein YjzC,2020-02-26
+O35001,UniRef90_O35001,Cluster: Uncharacterized protein YjaU,2020-02-26
+O34959,UniRef90_O34959,Cluster: Uncharacterized protein YjaV,2020-02-26
+O34891,UniRef90_O34891,Cluster: Uncharacterized protein YjzB,2020-02-26
+O31596,UniRef90_O31596,Cluster: Uncharacterized protein YjaZ,2020-02-26
+O31597,UniRef90_O31597,Cluster: UPF0736 protein YjbA,2020-02-26
+P24141,UniRef90_P24141,Cluster: Oligopeptide-binding protein OppA,2020-02-26
+P24138,UniRef90_P24138,Cluster: Oligopeptide transport system permease protein OppB,2020-02-26
+P24139,UniRef90_P24139,Cluster: Oligopeptide transport system permease protein OppC,2020-02-26
+P24136,UniRef90_P24136,Cluster: Oligopeptide transport ATP-binding protein OppD,2020-02-26
+P24137,UniRef90_P24137,Cluster: Oligopeptide transport ATP-binding protein OppF,2020-02-26
+O31603,UniRef90_O31603,Cluster: Uncharacterized membrane protein YjbE,2020-02-26
+O31605,UniRef90_O31605,Cluster: Oligoendopeptidase F homolog,2020-02-26
+C0H3Y6,UniRef90_C0H3Y6,Cluster: Uncharacterized membrane protein YizD,2020-02-26
+O31613,UniRef90_O31613,Cluster: Uncharacterized RNA pseudouridine synthase YjbO,2020-02-26
+O31622,UniRef90_O31622,Cluster: Spore coat protein O,2020-02-26
+Q08312,UniRef90_Q08312,Cluster: Spore coat protein Z,2020-02-26
+Q08311,UniRef90_Q08311,Cluster: Spore coat protein Y,2020-02-26
+Q08313,UniRef90_Q08313,Cluster: Spore coat protein X,2020-02-26
+Q08310,UniRef90_Q08310,Cluster: Spore coat protein W,2020-02-26
+Q08309,UniRef90_Q08309,Cluster: Spore coat protein V,2020-02-26
+O31623,UniRef90_O31623,Cluster: Sporulation protein YjcA,2020-02-26
+C0H3Y7,UniRef90_C0H3Y7,Cluster: Uncharacterized protein YjzK,2020-02-26
+C0H3Y8,UniRef90_C0H3Y8,Cluster: Sporulation protein YjcZ,2020-02-26
+O31625,UniRef90_O31625,Cluster: Sporulation-specific transcription factor SpoVIF,2020-02-26
+O31648,UniRef90_O31648,Cluster: Uncharacterized N-acetyltransferase YjdG,2020-02-26
+O31649,UniRef90_O31649,Cluster: Uncharacterized protein YjdH,2019-12-18
+P11863,UniRef90_P11863,Cluster: Spore coat protein T,2020-02-26
+O34554,UniRef90_O34554,Cluster: Uncharacterized protein YjfA,2020-02-26
+O34633,UniRef90_O34633,Cluster: Uncharacterized protein YjlC,2020-02-26
+O34736,UniRef90_O34736,Cluster: Uncharacterized oxidoreductase YjmC,2020-02-26
+O35045,UniRef90_O35045,Cluster: Uncharacterized zinc-type alcohol dehydrogenase-like protein YjmD,2020-02-26
+O34346,UniRef90_O34346,Cluster: Mannonate dehydratase,2020-02-26
+O34896,UniRef90_O34896,Cluster: Uncharacterized oxidoreductase UxuB,2020-02-26
+O34456,UniRef90_O34456,Cluster: Hexuronate transporter,2020-02-26
+Q9JMQ1,UniRef90_Q9JMQ1,Cluster: Probable HTH-type transcriptional repressor ExuR,2020-02-26
+O34354,UniRef90_O34354,Cluster: Altronate oxidoreductase,2020-02-26
+O34673,UniRef90_O34673,Cluster: Altronate dehydratase,2020-02-26
+O34578,UniRef90_O34578,Cluster: Probable membrane transporter protein YjnA,2020-02-26
+Q00828,UniRef90_Q00828,Cluster: Response regulator aspartate phosphatase A,2020-02-26
+Q00829,UniRef90_Q00829,Cluster: Phosphatase RapA inhibitor,2020-02-26
+O34423,UniRef90_O34423,Cluster: Uncharacterized protein YjqC,2020-02-26
+O34800,UniRef90_O34800,Cluster: Stage II sporulation protein SB,2020-02-26
+O34853,UniRef90_O34853,Cluster: Stage II sporulation protein SA,2020-02-26
+P49852,UniRef90_P49852,Cluster: Flavohemoprotein,2020-02-26
+O31653,UniRef90_O31653,Cluster: Uncharacterized protein YkzH,2020-02-26
+P49853,UniRef90_P49853,Cluster: UPF0702 transmembrane protein YkjA,2020-02-26
+O34911,UniRef90_O34911,Cluster: Putative HMP/thiamine-binding protein YkoF,2020-02-26
+O34405,UniRef90_O34405,Cluster: Uncharacterized protein YkzD,2019-12-18
+C0SPB9,UniRef90_C0SPB9,Cluster: Uncharacterized glycosyltransferase YkoN,2020-02-26
+O34495,UniRef90_O34495,Cluster: Uncharacterized protein YkoP,2020-02-26
+O35040,UniRef90_O35040,Cluster: Uncharacterized metallophosphoesterase YkoQ,2020-02-26
+O34830,UniRef90_O34830,Cluster: Uncharacterized membrane protein YkoS,2020-02-26
+O34755,UniRef90_O34755,Cluster: Uncharacterized glycosyltransferase YkoT,2020-02-26
+O34398,UniRef90_O34398,Cluster: Bifunctional non-homologous end joining protein LigD,2020-02-26
+O34859,UniRef90_O34859,Cluster: Non-homologous end joining protein Ku,2020-02-26
+O34311,UniRef90_O34311,Cluster: Signaling protein YkoW,2020-02-26
+O34997,UniRef90_O34997,Cluster: Uncharacterized membrane protein YkoY,2020-02-26
+P04833,UniRef90_P04833,"Cluster: Small, acid-soluble spore protein D",2020-02-26
+O31657,UniRef90_O31657,Cluster: Protease HtpX homolog,2020-02-26
+C0H402,UniRef90_C0H402,Cluster: Uncharacterized protein YkzP,2020-02-26
+O31659,UniRef90_O31659,Cluster: Uncharacterized protein YkzE,2020-02-26
+O31661,UniRef90_O31661,Cluster: Sporulation kinase E,2020-02-26
+P05043,UniRef90_P05043,Cluster: Aspartyl-phosphate phosphatase Spo0E,2020-02-26
+O31671,UniRef90_O31671,Cluster: Sporulation kinase D,2020-02-26
+O31674,UniRef90_O31674,Cluster: Uncharacterized membrane protein YkvI,2020-02-26
+O31680,UniRef90_O31680,Cluster: Uncharacterized oxidoreductase YkvO,2020-02-26
+O31681,UniRef90_O31681,Cluster: Spore protein YkvP,2020-02-26
+O31682,UniRef90_O31682,Cluster: Putative glycosylase YkvQ,2019-12-18
+O31686,UniRef90_O31686,Cluster: Sporulation protein YkvU,2020-02-26
+O31687,UniRef90_O31687,Cluster: Sporulation thiol-disulfide oxidoreductase A,2020-02-26
+P37955,UniRef90_P37955,Cluster: Transcriptional regulator SplA,2020-02-26
+P37956,UniRef90_P37956,Cluster: Spore photoproduct lyase,2020-02-26
+Q796K9,UniRef90_Q796K9,Cluster: Uncharacterized N-acetyltransferase YkwB,2020-02-26
+P16497,UniRef90_P16497,Cluster: Sporulation kinase A,2020-02-26
+P16524,UniRef90_P16524,Cluster: Probable N-acetyl-LL-diaminopimelate aminotransferase,2020-02-26
+O34816,UniRef90_O34816,"Cluster: Putative L,D-transpeptidase YkuD",2020-02-26
+O34783,UniRef90_O34783,Cluster: UPF0180 protein YkuS,2020-02-26
+O34857,UniRef90_O34857,Cluster: Repressor Rok,2020-02-26
+O31700,UniRef90_O31700,Cluster: Sporulation protein cse15,2020-02-26
+O31707,UniRef90_O31707,Cluster: Uncharacterized ABC transporter ATP-binding protein YknU,2020-02-26
+O31708,UniRef90_O31708,Cluster: Uncharacterized ABC transporter ATP-binding protein YknV,2020-02-26
+Q45492,UniRef90_Q45492,Cluster: Uncharacterized protein YkpC,2020-02-26
+P39764,UniRef90_P39764,Cluster: Sporulation kinase C,2020-02-26
+Q45495,UniRef90_Q45495,Cluster: Peptide deformylase 2,2020-02-26
+C0H409,UniRef90_C0H409,Cluster: Uncharacterized membrane protein YkzV,2020-02-26
+O31719,UniRef90_O31719,Cluster: Uncharacterized protein YkzI,2020-02-26
+O07634,UniRef90_O07634,Cluster: Probable spore germination lipoprotein YlaJ,2020-02-26
+O07635,UniRef90_O07635,Cluster: Uncharacterized protein YlaK,2020-02-26
+O07637,UniRef90_O07637,Cluster: Glutaminase 2,2020-02-26
+P12946,UniRef90_P12946,Cluster: Heme A synthase,2020-02-26
+O34682,UniRef90_O34682,Cluster: Uncharacterized protein YlbB,2020-02-26
+O34586,UniRef90_O34586,Cluster: Uncharacterized membrane protein YlbC,2020-02-26
+O34880,UniRef90_O34880,Cluster: Uncharacterized protein YlbD,2020-02-26
+O34958,UniRef90_O34958,Cluster: Uncharacterized protein YlbE,2020-02-26
+O34412,UniRef90_O34412,Cluster: Regulatory protein YlbF,2020-02-26
+O34765,UniRef90_O34765,Cluster: Sporulation integral membrane protein YlbJ,2020-02-26
+O34731,UniRef90_O34731,Cluster: Uncharacterized NTE family protein YlbK,2020-02-26
+O34549,UniRef90_O34549,Cluster: Uncharacterized protein YlbO,2020-02-26
+Q03524,UniRef90_Q03524,Cluster: Stage V sporulation protein D,2020-02-26
+P07373,UniRef90_P07373,Cluster: Stage V sporulation protein E,2020-02-26
+P37585,UniRef90_P37585,Cluster: UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase,2020-02-26
+P18579,UniRef90_P18579,Cluster: UDP-N-acetylenolpyruvoylglucosamine reductase,2020-02-26
+P16655,UniRef90_P16655,Cluster: Cell division protein DivIB,2020-02-26
+C0SPA3,UniRef90_C0SPA3,Cluster: UPF0749 protein YlxW,2020-02-26
+Q45544,UniRef90_Q45544,Cluster: UPF0749 protein YlxX,2020-02-26
+P28265,UniRef90_P28265,Cluster: Small basic protein,2020-02-26
+P28264,UniRef90_P28264,Cluster: Cell division protein FtsA,2020-02-26
+P17865,UniRef90_P17865,Cluster: Cell division protein FtsZ,2020-02-26
+P13801,UniRef90_P13801,Cluster: Sporulation sigma-E factor-processing peptidase,2020-02-26
+P06222,UniRef90_P06222,Cluster: RNA polymerase sigma-E factor,2020-02-26
+P19940,UniRef90_P19940,Cluster: RNA polymerase sigma-G factor,2020-02-26
+O31725,UniRef90_O31725,Cluster: Probable sporulation protein YlmC,2020-02-26
+P71021,UniRef90_P71021,Cluster: Septum site-determining protein DivIVA,2020-02-26
+Q45478,UniRef90_Q45478,Cluster: Uncharacterized protein YlyA,2020-02-26
+O34764,UniRef90_O34764,Cluster: Sulfate adenylyltransferase,2020-02-26
+O34431,UniRef90_O34431,Cluster: Calcium-transporting ATPase,2020-02-26
+Q7WY72,UniRef90_Q7WY72,Cluster: Extracellular matrix regulatory protein A,2020-02-26
+O34507,UniRef90_O34507,Cluster: Serine/threonine-protein kinase PrkC,2020-02-26
+O34664,UniRef90_O34664,Cluster: Thiamine pyrophosphokinase,2020-02-26
+P37817,UniRef90_P37817,Cluster: Stage V sporulation protein M,2020-02-26
+P51831,UniRef90_P51831,Cluster: 3-oxoacyl-[acyl-carrier-protein] reductase FabG,2020-02-26
+P51834,UniRef90_P51834,Cluster: Chromosome partition protein Smc,2020-02-26
+P51835,UniRef90_P51835,Cluster: Signal recognition particle receptor FtsY,2020-02-26
+O31737,UniRef90_O31737,Cluster: Uncharacterized protein YlqB,2020-02-26
+P39779,UniRef90_P39779,Cluster: GTP-sensing transcriptional pleiotropic repressor CodY,2020-02-26
+O31754,UniRef90_O31754,Cluster: Regulator of sigma-W protease RasP,2020-02-26
+P50850,UniRef90_P50850,Cluster: Uncharacterized protein YlxY,2020-02-26
+Q04805,UniRef90_Q04805,Cluster: Uncharacterized zinc protease YmxG,2020-02-26
+Q04811,UniRef90_Q04811,Cluster: Uncharacterized protein YmxH,2020-02-26
+Q04809,UniRef90_Q04809,Cluster: Dipicolinate synthase subunit A,2020-02-26
+Q04810,UniRef90_Q04810,Cluster: Dipicolinate synthase subunit B,2020-02-26
+Q04797,UniRef90_Q04797,Cluster: Aspartate-semialdehyde dehydrogenase,2020-02-26
+Q04795,UniRef90_Q04795,Cluster: Aspartokinase 1,2020-02-26
+Q04796,UniRef90_Q04796,Cluster: 4-hydroxy-tetrahydrodipicolinate synthase,2020-02-26
+Q99171,UniRef90_Q99171,Cluster: Translocation-enhancing protein TepA,2020-02-26
+C0H413,UniRef90_C0H413,Cluster: Uncharacterized protein YlzJ,2020-02-26
+P21458,UniRef90_P21458,Cluster: DNA translocase SpoIIIE,2020-02-26
+O31762,UniRef90_O31762,Cluster: Bacillibactin exporter,2020-02-26
+O31767,UniRef90_O31767,Cluster: Uncharacterized oxidoreductase YmfI,2020-02-26
+O31768,UniRef90_O31768,Cluster: Uncharacterized protein YmfJ,2020-02-26
+O31771,UniRef90_O31771,Cluster: Uncharacterized membrane protein YmfM,2020-02-26
+O31775,UniRef90_O31775,"Cluster: 2',3'-cyclic-nucleotide 2'-phosphodiesterase",2020-02-26
+P45693,UniRef90_P45693,Cluster: Stage V sporulation protein S,2020-02-26
+O31779,UniRef90_O31779,Cluster: Uncharacterized protein YmcA,2020-02-26
+P14016,UniRef90_P14016,Cluster: Spore coat protein E,2020-02-26
+O31790,UniRef90_O31790,Cluster: Uncharacterized protein YmaD,2020-02-26
+O31793,UniRef90_O31793,Cluster: Uncharacterized protein YmaG,2020-02-26
+O31794,UniRef90_O31794,Cluster: Uncharacterized protein YmaF,2020-02-26
+O31795,UniRef90_O31795,Cluster: tRNA dimethylallyltransferase,2020-02-26
+Q06320,UniRef90_Q06320,Cluster: Sporulation-specific N-acetylmuramoyl-L-alanine amidase,2020-02-26
+P27643,UniRef90_P27643,Cluster: Stage V sporulation protein K,2020-02-26
+P31844,UniRef90_P31844,Cluster: Uncharacterized membrane protein YnxB,2020-02-26
+P94494,UniRef90_P94494,Cluster: Alanine racemase 2,2020-02-26
+P94495,UniRef90_P94495,Cluster: Uncharacterized protein YncE,2020-02-26
+O31802,UniRef90_O31802,Cluster: Uncharacterized protein YnzH,2020-02-26
+P07790,UniRef90_P07790,Cluster: Spore coat protein C,2020-02-26
+O31805,UniRef90_O31805,Cluster: Uncharacterized protein YndA,2020-02-26
+O31807,UniRef90_O31807,Cluster: Uncharacterized protein YnzB,2020-02-26
+O31808,UniRef90_O31808,Cluster: Uncharacterized membrane protein YndD,2020-02-26
+O31809,UniRef90_O31809,Cluster: Spore germination protein YndE,2020-02-26
+O31810,UniRef90_O31810,Cluster: Spore germination protein YndF,2020-02-26
+O31815,UniRef90_O31815,Cluster: UPF0714 protein YndL,2020-02-26
+O31816,UniRef90_O31816,Cluster: Uncharacterized membrane protein YndM,2020-02-26
+P31080,UniRef90_P31080,Cluster: LexA repressor,2020-02-26
+P45707,UniRef90_P45707,Cluster: Sporulation inhibitor of replication protein SirA,2020-02-26
+O31819,UniRef90_O31819,Cluster: Aspartyl-phosphate phosphatase YnzD,2020-02-26
+Q45058,UniRef90_Q45058,Cluster: Spore coat protein M,2020-02-26
+P71032,UniRef90_P71032,"Cluster: Small, acid-soluble spore protein P",2020-02-26
+P71031,UniRef90_P71031,"Cluster: Small, acid-soluble spore protein O",2020-02-26
+C0H418,UniRef90_C0H418,Cluster: Uncharacterized protein YnzL,2020-02-26
+Q7WY69,UniRef90_Q7WY69,"Cluster: Small, acid-soluble spore protein N",2020-02-26
+Q45060,UniRef90_Q45060,"Cluster: Small, acid-soluble spore protein Tlp",2020-02-26
+Q45069,UniRef90_Q45069,Cluster: Uncharacterized protein YnfE,2020-02-26
+O31824,UniRef90_O31824,Cluster: Oligoribonuclease NrnB,2020-02-26
+O31825,UniRef90_O31825,Cluster: Uncharacterized carboxylase YngE,2020-02-26
+O34893,UniRef90_O34893,Cluster: Putative enoyl-CoA hydratase/isomerase YngF,2020-02-26
+O34873,UniRef90_O34873,Cluster: Hydroxymethylglutaryl-CoA lyase YngG,2020-02-26
+C0H419,UniRef90_C0H419,Cluster: Biotin/lipoyl attachment protein,2020-02-26
+O34544,UniRef90_O34544,Cluster: Biotin carboxylase 2,2020-02-26
+O31826,UniRef90_O31826,Cluster: Putative acyl-CoA synthetase YngI,2020-02-26
+O34421,UniRef90_O34421,Cluster: Probable acyl-CoA dehydrogenase YngJ,2020-02-26
+O34356,UniRef90_O34356,Cluster: Uncharacterized protein YnzE,2020-02-26
+O35015,UniRef90_O35015,Cluster: UPF0748 protein YngK,2020-02-26
+O34506,UniRef90_O34506,Cluster: UPF0713 protein YngL,2020-02-26
+O34841,UniRef90_O34841,Cluster: Uncharacterized protein YoeB,2020-02-26
+O07509,UniRef90_O07509,Cluster: Glutamate 5-kinase 2,2020-02-26
+P0CI77,UniRef90_P0CI77,Cluster: Pyrroline-5-carboxylate reductase 1,2020-02-26
+P14802,UniRef90_P14802,Cluster: Uncharacterized oxidoreductase YoxD,2019-12-18
+Q7WY68,UniRef90_Q7WY68,Cluster: Uncharacterized protein YozQ,2020-02-26
+C0SPC0,UniRef90_C0SPC0,Cluster: Probable 4-hydroxyphenylacetate 3-monooxygenase,2020-02-26
+O34906,UniRef90_O34906,Cluster: SOS response-associated protein YoaM,2020-02-26
+O34767,UniRef90_O34767,Cluster: Oxalate decarboxylase OxdD,2020-02-26
+O31831,UniRef90_O31831,Cluster: Uncharacterized protein YoaQ,2020-02-26
+C0H421,UniRef90_C0H421,Cluster: Uncharacterized protein YozT,2020-02-26
+O31832,UniRef90_O31832,Cluster: Uncharacterized protein YozF,2020-02-26
+O34611,UniRef90_O34611,Cluster: Uncharacterized protein YoaR,2020-02-26
+O34701,UniRef90_O34701,Cluster: Uncharacterized HTH-type transcriptional regulator YoaU,2020-02-26
+O34541,UniRef90_O34541,Cluster: Uncharacterized protein YoaW,2020-02-26
+O34930,UniRef90_O34930,Cluster: Response regulator aspartate phosphatase K,2020-02-26
+O34363,UniRef90_O34363,Cluster: Putative L-amino-acid oxidase YobN,2020-02-26
+P94497,UniRef90_P94497,Cluster: Protein csk22,2020-02-26
+P80872,UniRef90_P80872,Cluster: General stress protein 16O,2020-02-26
+O34976,UniRef90_O34976,Cluster: Uncharacterized protein YocL,2019-12-18
+C0H429,UniRef90_C0H429,Cluster: Uncharacterized protein YoyB,2020-02-26
+O34321,UniRef90_O34321,Cluster: Salt stress-responsive protein YocM,2019-12-18
+O31846,UniRef90_O31846,Cluster: Uncharacterized protein YozN,2019-12-18
+O34855,UniRef90_O34855,Cluster: Uncharacterized protein YocN,2019-12-18
+Q796C3,UniRef90_Q796C3,Cluster: Sporulenol synthase,2020-02-26
+O35023,UniRef90_O35023,Cluster: Probable superoxide dismutase [Fe],2020-02-26
+O31853,UniRef90_O31853,Cluster: Uncharacterized UDP-glucosyltransferase YojK,2020-02-26
+O31854,UniRef90_O31854,Cluster: Cyclic di-AMP synthase CdaS,2020-02-26
+Q7WY67,UniRef90_Q7WY67,Cluster: Spore germination protein GerT,2020-02-26
+O31861,UniRef90_O31861,Cluster: Uncharacterized protein YojB,2020-02-26
+O31862,UniRef90_O31862,Cluster: Uncharacterized permease YojA,2020-02-26
+O34666,UniRef90_O34666,Cluster: Carboxy-terminal processing protease CtpA,2020-02-26
+O34954,UniRef90_O34954,Cluster: Uncharacterized methyltransferase YodH,2020-02-26
+O34654,UniRef90_O34654,Cluster: Uncharacterized protein YodI,2020-02-26
+C0H432,UniRef90_C0H432,Cluster: Uncharacterized protein YoyE,2019-12-18
+O30472,UniRef90_O30472,Cluster: Uncharacterized protein YodL,2020-02-26
+O31863,UniRef90_O31863,Cluster: Uncharacterized protein YozD,2020-02-26
+C0H433,UniRef90_C0H433,Cluster: Uncharacterized membrane protein YoyF,2020-02-26
+O34414,UniRef90_O34414,Cluster: Uncharacterized protein YodN,2020-02-26
+O31864,UniRef90_O31864,Cluster: UPF0346 protein YozE,2020-02-26
+C0H434,UniRef90_C0H434,Cluster: Uncharacterized protein YokU,2020-02-26
+O34676,UniRef90_O34676,"Cluster: L-lysine 2,3-aminomutase",2020-02-26
+O34895,UniRef90_O34895,Cluster: N-acetyltransferase YodP,2020-02-26
+O34984,UniRef90_O34984,Cluster: Uncharacterized metallohydrolase YodQ,2020-02-26
+O34466,UniRef90_O34466,Cluster: Probable coenzyme A transferase subunit beta,2020-02-26
+O34317,UniRef90_O34317,Cluster: Probable coenzyme A transferase subunit alpha,2020-02-26
+O34662,UniRef90_O34662,Cluster: Uncharacterized aminotransferase YodT,2020-02-26
+C0H435,UniRef90_C0H435,Cluster: Uncharacterized membrane protein YoyG,2020-02-26
+P42093,UniRef90_P42093,Cluster: Uncharacterized N-acetyltransferase CgeE,2020-02-26
+P42092,UniRef90_P42092,Cluster: Protein CgeD,2020-02-26
+P42091,UniRef90_P42091,Cluster: Protein CgeC,2020-02-26
+P42089,UniRef90_P42089,Cluster: Protein CgeA,2019-12-18
+P42090,UniRef90_P42090,Cluster: Protein CgeB,2020-02-26
+O34850,UniRef90_O34850,Cluster: SPbeta prophage-derived uncharacterized protein YotN,2020-02-26
+P02958,UniRef90_P02958,"Cluster: Small, acid-soluble spore protein C",2020-02-26
+O32007,UniRef90_O32007,Cluster: Uncharacterized protein YpzA,2020-02-26
+P54165,UniRef90_P54165,Cluster: Uncharacterized protein YpeQ,2020-02-26
+P54164,UniRef90_P54164,Cluster: Uncharacterized protein YpeP,2020-02-26
+Q7WY66,UniRef90_Q7WY66,"Cluster: Small, acid-soluble spore protein L",2020-02-26
+P54161,UniRef90_P54161,Cluster: 5'-3' exonuclease,2020-02-26
+C0H443,UniRef90_C0H443,Cluster: Uncharacterized protein YpzF,2020-02-26
+P54158,UniRef90_P54158,Cluster: Uncharacterized protein YpbQ,2020-02-26
+P54157,UniRef90_P54157,Cluster: Putative chalcone synthase,2020-02-26
+P50841,UniRef90_P50841,Cluster: Uncharacterized protein YptA,2020-02-26
+C0H444,UniRef90_C0H444,Cluster: Uncharacterized protein YpzG,2020-02-26
+P07791,UniRef90_P07791,Cluster: Spore coat protein D,2020-02-26
+P50836,UniRef90_P50836,Cluster: Uncharacterized protein YpqA,2020-02-26
+P50835,UniRef90_P50835,Cluster: Uncharacterized protein YppG,2020-02-26
+P50832,UniRef90_P50832,Cluster: Uncharacterized protein YppD,2020-02-26
+Q7WY65,UniRef90_Q7WY65,"Cluster: Small, acid-soluble spore protein M",2020-02-26
+P39791,UniRef90_P39791,Cluster: Uncharacterized protein YppC,2020-02-26
+P0CI75,UniRef90_P0CI75,Cluster: Bifunctional ligase/repressor BirA,2020-02-26
+P42977,UniRef90_P42977,Cluster: CCA-adding enzyme,2020-02-26
+P42982,UniRef90_P42982,Cluster: N-acetyl-alpha-D-glucosaminyl L-malate synthase,2020-02-26
+P42981,UniRef90_P42981,Cluster: N-acetyl-alpha-D-glucosaminyl L-malate deacetylase 1,2020-02-26
+P42980,UniRef90_P42980,Cluster: Methylglyoxal synthase,2020-02-26
+P42976,UniRef90_P42976,Cluster: 4-hydroxy-tetrahydrodipicolinate reductase,2020-02-26
+P42979,UniRef90_P42979,Cluster: Uncharacterized protein YpjD,2019-12-18
+P54393,UniRef90_P54393,Cluster: Uncharacterized protein YpjB,2020-02-26
+P54392,UniRef90_P54392,Cluster: Uncharacterized protein YpjA,2020-02-26
+P54389,UniRef90_P54389,Cluster: TPR repeat-containing protein YpiA,2020-02-26
+P31103,UniRef90_P31103,Cluster: Nucleoside diphosphate kinase,2020-02-26
+P31113,UniRef90_P31113,Cluster: Demethylmenaquinone methyltransferase,2020-02-26
+P35149,UniRef90_P35149,Cluster: Stage IV sporulation protein A,2020-02-26
+C0H445,UniRef90_C0H445,Cluster: Uncharacterized protein YpzH,2020-02-26
+P50742,UniRef90_P50742,Cluster: Uncharacterized protein YphB,2020-02-26
+P50741,UniRef90_P50741,Cluster: Uncharacterized protein YphA,2020-02-26
+C0H446,UniRef90_C0H446,Cluster: Uncharacterized protein YpzI,2020-02-26
+P38492,UniRef90_P38492,Cluster: Uncharacterized protein YpfB,2020-02-26
+P38490,UniRef90_P38490,Cluster: Sporulation protein YpeB,2020-02-26
+P50739,UniRef90_P50739,Cluster: Spore cortex-lytic enzyme,2020-02-26
+P50734,UniRef90_P50734,Cluster: Adapter protein MecA 2,2020-02-26
+P50733,UniRef90_P50733,Cluster: Uncharacterized protein YpbG,2020-02-26
+P35160,UniRef90_P35160,Cluster: Thiol-disulfide oxidoreductase ResA,2020-02-26
+P35158,UniRef90_P35158,Cluster: Spore maturation protein B,2020-02-26
+P35157,UniRef90_P35157,Cluster: Spore maturation protein A,2020-02-26
+P35150,UniRef90_P35150,Cluster: D-alanyl-D-alanine carboxypeptidase DacB,2020-02-26
+P35156,UniRef90_P35156,Cluster: Uncharacterized protein YpuI,2020-02-26
+P11998,UniRef90_P11998,"Cluster: 6,7-dimethyl-8-ribityllumazine synthase",2020-02-26
+P17616,UniRef90_P17616,Cluster: Uncharacterized protein YpuD,2020-02-26
+P28628,UniRef90_P28628,Cluster: Signal peptidase I S,2020-02-26
+O32012,UniRef90_O32012,Cluster: Uncharacterized protein YpzC,2020-02-26
+O32013,UniRef90_O32013,Cluster: Spore germination protein-like protein YpzD,2019-12-18
+P23630,UniRef90_P23630,Cluster: Diaminopimelate decarboxylase,2020-02-26
+P31845,UniRef90_P31845,Cluster: Stage V sporulation protein AF,2020-02-26
+C0H449,UniRef90_P40870,Cluster: Stage V sporulation protein AE,2020-02-26
+C0H450,UniRef90_C0H450,Cluster: Stage V sporulation protein AEB,2020-02-26
+P40869,UniRef90_P40869,Cluster: Stage V sporulation protein AD,2020-02-26
+P40868,UniRef90_P40868,Cluster: Stage V sporulation protein AC,2020-02-26
+P40867,UniRef90_P40867,Cluster: Stage V sporulation protein AB,2020-02-26
+P40866,UniRef90_P40866,Cluster: Stage V sporulation protein AA,2020-02-26
+P07860,UniRef90_P07860,Cluster: RNA polymerase sigma-F factor,2020-02-26
+P10728,UniRef90_P10728,Cluster: Anti-sigma F factor,2020-02-26
+P10727,UniRef90_P10727,Cluster: Anti-sigma F factor antagonist,2020-02-26
+P38422,UniRef90_P38422,Cluster: D-alanyl-D-alanine carboxypeptidase DacF,2020-02-26
+P46352,UniRef90_P46352,Cluster: Tyrosine recombinase XerD,2020-02-26
+P37873,UniRef90_P37873,Cluster: Stage II sporulation protein M,2020-02-26
+L8EBJ9,UniRef90_L8EBJ9,Cluster: Cell division inhibitor MciZ,2019-12-18
+P54569,UniRef90_P54569,Cluster: Uncharacterized oxidoreductase YqkF,2020-02-26
+P54540,UniRef90_P54540,Cluster: Uncharacterized protein YqjC,2020-02-26
+P54539,UniRef90_P54539,"Cluster: Putative L,D-transpeptidase YqjB",2020-02-26
+P54528,UniRef90_P54528,Cluster: 2-methylisocitrate lyase,2020-02-26
+P45859,UniRef90_P45859,Cluster: Citrate/2-methylcitrate dehydratase,2020-02-26
+P45858,UniRef90_P45858,Cluster: Citrate/2-methylcitrate synthase,2020-02-26
+P45857,UniRef90_P45857,Cluster: Acyl-CoA dehydrogenase,2020-02-26
+P45856,UniRef90_P45856,Cluster: Probable 3-hydroxybutyryl-CoA dehydrogenase,2019-12-18
+P45855,UniRef90_P45855,Cluster: Acetyl-CoA acetyltransferase,2020-02-26
+P06534,UniRef90_P06534,Cluster: Stage 0 sporulation protein A,2020-02-26
+P17896,UniRef90_P17896,Cluster: SpoIVB peptidase,2020-02-26
+P49785,UniRef90_P49785,Cluster: Stage III sporulation protein AH,2020-02-26
+P49784,UniRef90_P49784,Cluster: Stage III sporulation protein AG,2020-02-26
+P49783,UniRef90_P49783,Cluster: Stage III sporulation protein AF,2020-02-26
+P49782,UniRef90_P49782,Cluster: Stage III sporulation protein AE,2020-02-26
+P49781,UniRef90_P49781,Cluster: Stage III sporulation protein AD,2020-02-26
+P49780,UniRef90_P49780,Cluster: Stage III sporulation protein AC,2020-02-26
+Q01368,UniRef90_Q01368,Cluster: Stage III sporulation protein AB,2020-02-26
+Q01367,UniRef90_Q01367,Cluster: Stage III sporulation protein AA,2020-02-26
+P49779,UniRef90_P49779,Cluster: Uncharacterized protein YqhV,2020-02-26
+P54518,UniRef90_P54518,Cluster: Uncharacterized peptidase YqhT,2020-02-26
+P54516,UniRef90_P54516,Cluster: Uncharacterized protein YqhR,2020-02-26
+P54515,UniRef90_P54515,Cluster: Uncharacterized protein YqhQ,2020-02-26
+P54514,UniRef90_P54514,Cluster: Uncharacterized protein YqhP,2020-02-26
+P54513,UniRef90_P54513,Cluster: Uncharacterized protein YqhO,2020-02-26
+P54377,UniRef90_P54377,Cluster: Probable glycine dehydrogenase (decarboxylating) subunit 2,2020-02-26
+P54376,UniRef90_P54376,Cluster: Probable glycine dehydrogenase (decarboxylating) subunit 1,2020-02-26
+P54378,UniRef90_P54378,Cluster: Aminomethyltransferase,2020-02-26
+P54509,UniRef90_P54509,Cluster: Uncharacterized ATP-dependent helicase YqhH,2020-02-26
+P54508,UniRef90_P54508,Cluster: Uncharacterized protein YqhG,2020-02-26
+P23308,UniRef90_P23308,Cluster: Protein SinI,2020-02-26
+P06533,UniRef90_P06533,Cluster: HTH-type transcriptional regulator SinR,2020-02-26
+P54507,UniRef90_P54507,Cluster: Major biofilm matrix component,2020-02-26
+P40949,UniRef90_P40949,Cluster: TasA anchoring/assembly protein,2020-02-26
+O32019,UniRef90_O32019,Cluster: Uncharacterized protein YqzG,2020-02-26
+O32020,UniRef90_O32020,Cluster: Uncharacterized protein YqzE,2020-02-26
+P54497,UniRef90_P54497,Cluster: Uncharacterized protein YqgT,2020-02-26
+P54492,UniRef90_P54492,Cluster: Uncharacterized protein YqgO,2020-02-26
+P54487,UniRef90_P54487,Cluster: Uncharacterized protein YqgE,2020-02-26
+P54483,UniRef90_P54483,Cluster: Uncharacterized protein YqfZ,2020-02-26
+P54482,UniRef90_P54482,Cluster: 4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (flavodoxin),2020-02-26
+P54481,UniRef90_P54481,Cluster: Uncharacterized protein YqfX,2020-02-26
+P54478,UniRef90_P54478,Cluster: UPF0750 membrane protein YqfU,2020-02-26
+P54477,UniRef90_P54477,Cluster: Uncharacterized protein YqfT,2020-02-26
+P54476,UniRef90_P54476,Cluster: Probable endonuclease 4,2020-02-26
+P54474,UniRef90_P54474,Cluster: Uncharacterized protein YqfQ,2020-02-26
+P06224,UniRef90_P06224,Cluster: RNA polymerase sigma factor SigA,2020-02-26
+P54469,UniRef90_P54469,Cluster: Uncharacterized protein YqfD,2020-02-26
+P54468,UniRef90_P54468,Cluster: Uncharacterized protein YqfC,2020-02-26
+P54463,UniRef90_P54463,Cluster: Uncharacterized protein YqeW,2020-02-26
+P54304,UniRef90_P54304,Cluster: Heme chaperone HemW,2020-02-26
+P38425,UniRef90_P38425,Cluster: Uncharacterized protein YqxA,2020-02-26
+P37968,UniRef90_P37968,Cluster: Stage II sporulation protein P,2020-02-26
+P22322,UniRef90_P22322,Cluster: Germination protease,2020-02-26
+P39696,UniRef90_P39696,Cluster: ComE operon protein 4,2020-02-26
+Q7WY62,UniRef90_Q7WY62,Cluster: Sporulation inhibitor sda,2020-02-26
+P54450,UniRef90_P54450,Cluster: N-acetylmuramoyl-L-alanine amidase CwlH,2020-02-26
+P54448,UniRef90_P54448,Cluster: Putative 6-phosphogluconate dehydrogenase YqeC,2020-02-26
+P42983,UniRef90_P42983,Cluster: Sporulation-specific extracellular nuclease,2020-02-26
+P12254,UniRef90_P12254,Cluster: RNA polymerase sigma-K factor,2019-12-18
+P17867,UniRef90_P17867,Cluster: Putative DNA recombinase,2020-02-26
+P45947,UniRef90_P45947,Cluster: Arsenate reductase,2020-02-26
+P45946,UniRef90_P45946,Cluster: Arsenite resistance protein ArsB,2019-12-18
+P45945,UniRef90_P45945,Cluster: Uncharacterized protein YqcK,2019-12-18
+P45949,UniRef90_P45949,Cluster: Arsenical resistance operon repressor,2019-12-18
+P45944,UniRef90_P45944,Cluster: Uncharacterized protein YqcI,2020-02-26
+P45943,UniRef90_P45943,Cluster: Response regulator aspartate phosphatase E,2020-02-26
+O32025,UniRef90_O32025,Cluster: Phosphatase RapE inhibitor,2020-02-26
+P45912,UniRef90_P45912,Cluster: Uncharacterized protein YqaO,2020-02-26
+P45911,UniRef90_P45911,Cluster: Uncharacterized protein YqaN,2020-02-26
+C0H455,UniRef90_C0H455,Cluster: Uncharacterized protein YqzO,2019-11-13
+P45899,UniRef90_P45899,Cluster: Uncharacterized protein YqaB,2020-02-26
+P54430,UniRef90_P54430,Cluster: Uncharacterized protein YrkC,2020-02-26
+O08469,UniRef90_O08469,Cluster: Cytochrome P450,2020-02-26
+O07919,UniRef90_O07919,Cluster: Spore coat protein F-like protein YraG,2020-02-26
+O07949,UniRef90_O07949,Cluster: Spore coat protein F-like protein YraF,2020-02-26
+O06012,UniRef90_O06012,Cluster: Uncharacterized zinc-type alcohol dehydrogenase-like protein AdhB,2020-02-26
+O06011,UniRef90_O06011,Cluster: Uncharacterized protein YraE,2020-02-26
+O06010,UniRef90_O06010,Cluster: Spore coat protein F-like protein YraD,2020-02-26
+O05394,UniRef90_O05394,Cluster: Cystathionine gamma-lyase,2020-02-26
+O05393,UniRef90_O05393,Cluster: O-acetylserine dependent cystathionine beta-synthase,2020-02-26
+O32030,UniRef90_O32030,Cluster: Uncharacterized protein YrzA,2020-02-26
+O32031,UniRef90_O32031,Cluster: Uncharacterized membrane protein YrrS,2020-02-26
+O32032,UniRef90_O32032,Cluster: Penicillin-binding protein 4B,2020-02-26
+O34472,UniRef90_O34472,Cluster: Putative transport protein YrrI,2020-02-26
+O34677,UniRef90_O34677,Cluster: Glutamine transport ATP-binding protein GlnQ,2020-02-26
+O34563,UniRef90_O34563,Cluster: ABC transporter glutamine-binding protein GlnH,2020-02-26
+O34671,UniRef90_O34671,Cluster: Probable glutamine ABC transporter permease protein GlnM,2020-02-26
+O34606,UniRef90_O34606,Cluster: Probable glutamine ABC transporter permease protein GlnP,2019-12-18
+C0H461,UniRef90_C0H461,Cluster: Uncharacterized protein YrzQ,2020-02-26
+C0H462,UniRef90_C0H462,Cluster: Uncharacterized protein YrzR,2020-02-26
+O34402,UniRef90_O34402,Cluster: Uncharacterized protein YrrD,2020-02-26
+O32040,UniRef90_O32040,Cluster: Uncharacterized protein YrzK,2020-02-26
+Q00758,UniRef90_Q00758,Cluster: Stage V sporulation protein B,2020-02-26
+O32050,UniRef90_O32050,Cluster: UPF0702 transmembrane protein YrbG,2020-02-26
+O32051,UniRef90_O32051,Cluster: Uncharacterized membrane protein YrzE,2020-02-26
+O05391,UniRef90_O05391,Cluster: Protein BofC,2020-02-26
+O05390,UniRef90_O05390,Cluster: Alpha-ketoglutarate permease,2020-02-26
+O32060,UniRef90_O32060,Cluster: Putative sodium/proton-dependent alanine carrier protein YrbD,2020-02-26
+P94446,UniRef90_P94446,Cluster: Sporulation cortex protein CoxA,2020-02-26
+O32062,UniRef90_O32062,Cluster: SpoIVD-associated factor A,2020-02-26
+Q9KWZ1,UniRef90_Q9KWZ1,Cluster: Quinolinate synthase A,2020-02-26
+P20964,UniRef90_P20964,Cluster: GTPase Obg,2020-02-26
+P06535,UniRef90_P06535,Cluster: Sporulation initiation phosphotransferase B,2020-02-26
+P26937,UniRef90_P26937,Cluster: Stage IV sporulation protein FB,2020-02-26
+P26936,UniRef90_P26936,Cluster: Stage IV sporulation protein FA,2020-02-26
+Q01464,UniRef90_Q01464,Cluster: Septum site-determining protein MinD,2020-02-26
+Q01463,UniRef90_Q01463,Cluster: Septum site-determining protein MinC,2020-02-26
+Q01465,UniRef90_Q01465,Cluster: Cell shape-determining protein MreB,2020-02-26
+P37575,UniRef90_P37575,Cluster: Stage II sporulation protein B,2020-02-26
+P37964,UniRef90_P37964,Cluster: Uncharacterized protein YsxE,2020-02-26
+P37963,UniRef90_P37963,Cluster: Stage VI sporulation protein D,2020-02-26
+P42425,UniRef90_P42425,Cluster: Lon protease 2,2020-02-26
+P94563,UniRef90_P94563,Cluster: Uncharacterized protein YsnD,2020-02-26
+P94562,UniRef90_P94562,Cluster: Uncharacterized N-acetyltransferase YsnE,2020-02-26
+P94559,UniRef90_P94559,Cluster: Putative metallophosphoesterase YsnB,2020-02-26
+P94558,UniRef90_P94558,Cluster: dITP/XTP pyrophosphatase,2020-02-26
+P28619,UniRef90_P28619,Cluster: Ribonuclease PH,2020-02-26
+P39072,UniRef90_P39072,Cluster: Spore germination protein GerM,2020-02-26
+P94556,UniRef90_P94556,Cluster: Glutamate racemase 1,2020-02-26
+P97247,UniRef90_P97247,Cluster: Uncharacterized HTH-type transcriptional regulator YsmB,2020-02-26
+P11470,UniRef90_P11470,Cluster: Spore germination protein GerE,2020-02-26
+P42955,UniRef90_P42955,Cluster: Uncharacterized protein YslB,2020-02-26
+P94537,UniRef90_P94537,"Cluster: Small, acid-soluble spore protein I",2020-02-26
+P94536,UniRef90_P94536,Cluster: Uncharacterized protein YsfB,2020-02-26
+P06569,UniRef90_P06569,Cluster: Uncharacterized protein YtxC,2020-02-26
+P07908,UniRef90_P07908,Cluster: Replication initiation and membrane attachment protein,2020-02-26
+O34425,UniRef90_O34425,Cluster: Glyceraldehyde-3-phosphate dehydrogenase 2,2020-02-26
+O34367,UniRef90_O34367,Cluster: Uncharacterized MFS-type transporter YtbD,2020-02-26
+C0SP79,UniRef90_C0SP79,Cluster: Probable sporulation protein YtaF,2020-02-26
+P23545,UniRef90_P23545,Cluster: Alkaline phosphatase synthesis sensor protein PhoR,2020-02-26
+P13792,UniRef90_P13792,Cluster: Alkaline phosphatase synthesis transcriptional regulatory protein PhoP,2020-02-26
+O34811,UniRef90_O34811,Cluster: UPF0756 membrane protein YtwI,2020-02-26
+O34991,UniRef90_O34991,Cluster: Putative transport protein YtvI,2020-02-26
+C0H3P8,UniRef90_C0H3P8,Cluster: Sporulation membrane protein YtrH,2020-02-26
+O34460,UniRef90_O34460,Cluster: Sporulation membrane protein YtrI,2020-02-26
+O34600,UniRef90_O34600,Cluster: Bifunctional oligoribonuclease and PAP phosphatase NrnA,2020-02-26
+O34308,UniRef90_O34308,Cluster: Putative oxidoreductase YtkK,2020-02-26
+O34806,UniRef90_O34806,Cluster: Uncharacterized spore protein YtfJ,2020-02-26
+O34917,UniRef90_O34917,Cluster: Uncharacterized protein YtfI,2020-02-26
+"P04832,P04831",UniRef90_P04832,"Cluster: Small, acid-soluble spore protein B",2020-02-26
+O34970,UniRef90_O34970,Cluster: Probable HTH-type transcriptional regulator YttP,2020-02-26
+P40779,UniRef90_P40779,Cluster: UPF0478 protein YtxG,2020-02-26
+O32066,UniRef90_O32066,Cluster: Uncharacterized protein YtzH,2020-02-26
+O34799,UniRef90_O34799,Cluster: Putative lipid kinase YtlR,2020-02-26
+O32067,UniRef90_O32067,Cluster: Uncharacterized HTH-type transcriptional regulator YtzE,2020-02-26
+P54417,UniRef90_P54417,Cluster: Glycine betaine transporter OpuD,2020-02-26
+P94496,UniRef90_P94496,Cluster: Sporulation protein cse60,2020-02-26
+O34371,UniRef90_O34371,Cluster: Putative oxidoreductase YteT,2020-02-26
+O34881,UniRef90_O34881,Cluster: Uncharacterized protein YtvB,2020-02-26
+O32073,UniRef90_O32073,Cluster: Uncharacterized protein YtzC,2020-02-26
+O34707,UniRef90_O34707,Cluster: Tetraprenyl-beta-curcumene synthase,2020-02-26
+O34705,UniRef90_O34705,Cluster: Phospholipase YtpA,2020-02-26
+C0SP84,UniRef90_C0SP84,Cluster: Putative binding protein YtlA,2020-02-26
+O34314,UniRef90_O34314,Cluster: Uncharacterized ABC transporter ATP-binding protein YtlC,2020-02-26
+O34649,UniRef90_O34649,Cluster: Uncharacterized ABC transporter permease protein YtlD,2020-02-26
+O35013,UniRef90_O35013,Cluster: Putative 8-oxo-dGTP diphosphatase YtkD,2020-02-26
+O34883,UniRef90_O34883,Cluster: Uncharacterized protein YtkC,2020-02-26
+C0SP90,UniRef90_C0SP90,Cluster: Putative cytochrome bd menaquinol oxidase subunit I,2020-02-26
+O34505,UniRef90_O34505,Cluster: Putative cytochrome bd menaquinol oxidase subunit II,2020-02-26
+C0H3Q2,UniRef90_C0H3Q2,Cluster: Uncharacterized protein YtzL,2020-02-26
+P42408,UniRef90_P42408,Cluster: Uncharacterized protein YteA,2020-02-26
+P42407,UniRef90_P42407,Cluster: Putative UTP--glucose-1-phosphate uridylyltransferase,2020-02-26
+O34862,UniRef90_O34862,Cluster: Putative UDP-glucose 6-dehydrogenase YtcA,2020-02-26
+O34886,UniRef90_O34886,Cluster: Uncharacterized UDP-glucose epimerase YtcB,2020-02-26
+O34413,UniRef90_O34413,Cluster: Putative glycosyltransferase YtcC,2020-02-26
+P46916,UniRef90_P46916,Cluster: Uncharacterized protein YtxO,2020-02-26
+P46914,UniRef90_P46914,Cluster: Spore coat protein S,2020-02-26
+P46915,UniRef90_P46915,Cluster: Spore coat protein SA,2020-02-26
+O34656,UniRef90_O34656,Cluster: Spore coat protein I,2020-02-26
+P39123,UniRef90_P39123,Cluster: Glycogen phosphorylase,2020-02-26
+P39125,UniRef90_P39125,Cluster: Glycogen synthase,2020-02-26
+P39124,UniRef90_P39124,Cluster: Glycogen biosynthesis protein GlgD,2020-02-26
+P39122,UniRef90_P39122,Cluster: Glucose-1-phosphate adenylyltransferase,2020-02-26
+P39118,UniRef90_P39118,"Cluster: 1,4-alpha-glucan branching enzyme GlgB",2020-02-26
+O32076,UniRef90_O32076,Cluster: Uncharacterized protein YuaG,2020-02-26
+O32078,UniRef90_O32078,Cluster: Uncharacterized protein YuaE,2020-02-26
+P71014,UniRef90_P71014,Cluster: Biofilm-surface layer protein A,2020-02-26
+O32085,UniRef90_O32085,Cluster: Cysteine dioxygenase,2020-02-26
+P40746,UniRef90_P40746,Cluster: Protein-glutamine gamma-glutamyltransferase,2020-02-26
+O05242,UniRef90_O05242,"Cluster: Probable oligo-1,6-glucosidase 3",2020-02-26
+O05241,UniRef90_O05241,Cluster: UPF0053 protein YugS,2020-02-26
+O05248,UniRef90_O05248,Cluster: Putative membrane protease YugP,2020-02-26
+C0H3Q4,UniRef90_C0H3Q4,Cluster: Uncharacterized membrane protein YuzI,2020-02-26
+Q5BU39,UniRef90_Q5BU39,Cluster: Protein mistic,2019-12-18
+Q795M8,UniRef90_Q795M8,Cluster: Putative potassium channel protein YugO,2020-02-26
+O32087,UniRef90_O32087,Cluster: Uncharacterized membrane protein YuzA,2020-02-26
+O05235,UniRef90_O05235,Cluster: Uncharacterized hydrolase YugF,2020-02-26
+Q08432,UniRef90_Q08432,Cluster: Cystathionine beta-lyase PatB,2020-02-26
+Q08430,UniRef90_Q08430,Cluster: Sporulation kinase B,2020-02-26
+Q08429,UniRef90_Q08429,Cluster: Kinase-associated lipoprotein B,2020-02-26
+O05231,UniRef90_O05231,Cluster: Probable 3'-5' exonuclease KapD,2020-02-26
+O05257,UniRef90_O05257,Cluster: Uncharacterized protein YufS,2020-02-26
+O32089,UniRef90_O32089,Cluster: Uncharacterized protein YuzC,2020-02-26
+O32094,UniRef90_O32094,Cluster: Spore germination protein-like protein YueG,2020-02-26
+O32096,UniRef90_O32096,Cluster: Uncharacterized protein YuzE,2020-02-26
+O32097,UniRef90_O32097,Cluster: Uncharacterized protein YuzF,2020-02-26
+Q08352,UniRef90_Q08352,Cluster: Alanine dehydrogenase,2020-02-26
+O32106,UniRef90_O32106,Cluster: Probable cytosol aminopeptidase,2020-02-26
+O32108,UniRef90_O32108,Cluster: Uncharacterized protein YuiC,2020-02-26
+O05267,UniRef90_O05267,Cluster: NADH dehydrogenase-like protein YumB,2020-02-26
+P21341,UniRef90_P21341,Cluster: Protease synthase and sporulation protein PAI 2,2020-02-26
+P21340,UniRef90_P21340,Cluster: Spermidine/spermine N(1)-acetyltransferase,2020-02-26
+O32117,UniRef90_O32117,Cluster: NADH dehydrogenase-like protein YutJ,2020-02-26
+O32123,UniRef90_O32123,Cluster: Endospore coat-associated protein YutH,2020-02-26
+O32124,UniRef90_O32124,Cluster: Uncharacterized protein YutG,2020-02-26
+O32128,UniRef90_O32128,Cluster: Uncharacterized lipoprotein YutC,2020-02-26
+O32130,UniRef90_O32130,Cluster: L-Ala--D-Glu endopeptidase,2020-02-26
+O32131,UniRef90_O32131,Cluster: Sporulation protein YunB,2020-02-26
+O32132,UniRef90_O32132,Cluster: Uncharacterized protein YunC,2020-02-26
+O32137,UniRef90_O32137,Cluster: Allantoinase,2020-02-26
+O32141,UniRef90_O32141,Cluster: Uric acid degradation bifunctional protein PucL,2020-02-26
+Q7WY59,UniRef90_Q7WY59,"Cluster: Small, acid-soluble spore protein G",2020-02-26
+O32160,UniRef90_O32160,Cluster: Uncharacterized protein YurS,2020-02-26
+O32166,UniRef90_O32166,Cluster: Uncharacterized protein YurZ,2020-02-26
+C0H3R0,UniRef90_C0H3R0,Cluster: Uncharacterized protein YuzL,2020-02-26
+O32179,UniRef90_Q8RMG1,Cluster: Proline dehydrogenase 1,2020-02-26
+C0H3R1,UniRef90_C0H3R1,Cluster: Uncharacterized protein YuzM,2020-02-26
+O32180,UniRef90_O32180,Cluster: Uncharacterized protein YusN,2020-02-26
+O32189,UniRef90_O32189,Cluster: Uncharacterized protein YusW,2020-02-26
+P07868,UniRef90_P07868,Cluster: Spore germination protein A1,2020-02-26
+P07869,UniRef90_P07869,Cluster: Spore germination protein A2,2020-02-26
+P07870,UniRef90_P07870,Cluster: Spore germination protein A3,2020-02-26
+Q7WY58,UniRef90_Q7WY58,"Cluster: Small, acid-soluble spore protein J",2020-02-26
+O32211,UniRef90_O32211,Cluster: Stress response protein YvgO,2020-02-26
+O32217,UniRef90_O32217,Cluster: Disulfide bond formation protein C,2020-02-26
+O32218,UniRef90_O32218,Cluster: Disulfide bond formation protein D,2020-02-26
+O32224,UniRef90_O32224,Cluster: FMN-dependent NADH-azoreductase 2,2020-02-26
+O32225,UniRef90_O32225,Cluster: Uncharacterized membrane protein YvaC,2020-02-26
+O32230,UniRef90_O32230,Cluster: SsrA-binding protein,2020-02-26
+O32234,UniRef90_O32234,Cluster: AB hydrolase superfamily protein YvaM,2019-12-18
+O32236,UniRef90_O32236,Cluster: HTH-type transcriptional repressor RghR,2020-02-26
+O32245,UniRef90_O32245,Cluster: Uncharacterized protein YvbH,2019-12-18
+P39773,UniRef90_P39773,"Cluster: 2,3-bisphosphoglycerate-independent phosphoglycerate mutase",2020-02-26
+P27876,UniRef90_P27876,Cluster: Triosephosphate isomerase,2020-02-26
+P40924,UniRef90_P40924,Cluster: Phosphoglycerate kinase,2020-02-26
+P96711,UniRef90_P96711,Cluster: Arabinose metabolism transcriptional repressor,2020-02-26
+O07002,UniRef90_O07002,Cluster: Aspartate-proton symporter,2020-02-26
+O06998,UniRef90_O06998,Cluster: Uncharacterized protein YvdQ,2020-02-26
+O06997,UniRef90_O06997,Cluster: Uncharacterized FAD-linked oxidoreductase YvdP,2020-02-26
+O06996,UniRef90_O06996,Cluster: Putative sporulation hydrolase CotR,2020-02-26
+O06990,UniRef90_O06990,Cluster: Maltodextrin transport system permease protein MdxF,2020-02-26
+O34752,UniRef90_O34752,Cluster: Phosphatidylglycerol--prolipoprotein diacylglyceryl transferase,2020-02-26
+O34986,UniRef90_O34986,Cluster: Uncharacterized protein YvnB,2020-02-26
+O34375,UniRef90_O34375,Cluster: Cell division topological determinant MinJ,2020-02-26
+O35002,UniRef90_O35002,Cluster: Carboxy-terminal processing protease CtpB,2020-02-26
+O34876,UniRef90_O34876,Cluster: Cell division protein FtsX,2020-02-26
+O34814,UniRef90_O34814,Cluster: Cell division ATP-binding protein FtsE,2020-02-26
+O32267,UniRef90_O32267,Cluster: Putative teichuronic acid biosynthesis glycosyltransferase TuaH,2020-02-26
+O32268,UniRef90_O32268,Cluster: Putative teichuronic acid biosynthesis glycosyltransferase TuaG,2020-02-26
+O32269,UniRef90_O32269,Cluster: Teichuronic acid biosynthesis protein TuaF,2020-02-26
+Q05852,UniRef90_Q05852,Cluster: UTP--glucose-1-phosphate uridylyltransferase,2020-02-26
+P39848,UniRef90_P39848,Cluster: Beta-N-acetylglucosaminidase,2020-02-26
+P39569,UniRef90_P39569,Cluster: Spore germination protein B1,2020-02-26
+P39570,UniRef90_P39570,Cluster: Spore germination protein B2,2020-02-26
+P39571,UniRef90_P39571,Cluster: Spore germination protein B3,2020-02-26
+O05224,UniRef90_O05224,Cluster: Putative arsenical pump membrane protein,2020-02-26
+O05223,UniRef90_O05223,Cluster: Uncharacterized protein YwrJ,2020-02-26
+P07789,UniRef90_P07789,Cluster: Spore coat protein B,2020-02-26
+Q45535,UniRef90_Q45535,Cluster: Inner spore coat protein H,2020-02-26
+P39801,UniRef90_P39801,Cluster: Spore coat protein G,2020-02-26
+O05215,UniRef90_O05215,Cluster: Uncharacterized transporter YwrA,2020-02-26
+P96724,UniRef90_P96724,Cluster: Endonuclease V,2019-12-18
+P96723,UniRef90_P96723,Cluster: Putative antitoxin YwqK,2020-02-26
+P96722,UniRef90_P96722,Cluster: Putative ribonuclease YwqJ,2020-02-26
+P96721,UniRef90_P96721,Cluster: Uncharacterized protein YwqI,2020-02-26
+P96720,UniRef90_P96720,Cluster: Uncharacterized protein YwqH,2019-12-18
+P96718,UniRef90_P96718,Cluster: UDP-glucose 6-dehydrogenase YwqF,2020-02-26
+P94583,UniRef90_P94583,Cluster: Response regulator aspartate phosphatase D,2020-02-26
+P39751,UniRef90_P39751,Cluster: Cell shape-determining protein Mbl,2020-02-26
+P15281,UniRef90_P15281,Cluster: Stage III sporulation protein D,2020-02-26
+O32276,UniRef90_O32276,Cluster: Protein usd,2020-02-26
+P94574,UniRef90_P94574,Cluster: Uncharacterized MFS-type transporter YwoD,2020-02-26
+P94573,UniRef90_P94573,Cluster: Uncharacterized isochorismatase family protein YwoC,2020-02-26
+P71045,UniRef90_P71045,Cluster: Uncharacterized membrane protein YwnJ,2020-02-26
+P71044,UniRef90_P71044,Cluster: Stage II sporulation protein Q,2020-02-26
+P71043,UniRef90_P71043,Cluster: Putative phosphinothricin acetyltransferase YwnH,2020-02-26
+P71042,UniRef90_P71042,Cluster: Uncharacterized protein YwnG,2020-02-26
+P71041,UniRef90_P71041,Cluster: Uncharacterized protein YwnF,2020-02-26
+P71040,UniRef90_P71040,Cluster: Major cardiolipin synthase ClsA,2020-02-26
+P70962,UniRef90_P70962,Cluster: Response regulator aspartate phosphatase B,2020-02-26
+P07372,UniRef90_P07372,Cluster: Stage II sporulation protein D,2020-02-26
+O32277,UniRef90_O32277,Cluster: Uncharacterized protein YwmB,2020-02-26
+P70958,UniRef90_P70958,Cluster: Uncharacterized protein YwmA,2020-02-26
+P39153,UniRef90_P39153,Cluster: Threonylcarbamoyl-AMP synthase,2020-02-26
+P39152,UniRef90_P39152,Cluster: Uncharacterized protein YwlB,2020-02-26
+P39151,UniRef90_P39151,Cluster: Stage II sporulation protein R,2020-02-26
+P45874,UniRef90_P45874,Cluster: Uncharacterized protein YwkF,2020-02-26
+P45870,UniRef90_P45870,Cluster: Chromosome-anchoring protein RacA,2020-02-26
+P06628,UniRef90_P06628,Cluster: Sporulation initiation phosphotransferase F,2020-02-26
+P45867,UniRef90_P45867,Cluster: Acyl-CoA dehydrogenase,2020-02-26
+P45866,UniRef90_P45866,Cluster: Probable iron-sulfur-binding oxidoreductase FadF,2020-02-26
+P45865,UniRef90_P45865,Cluster: Minor cardiolipin synthase ClsB,2020-02-26
+P45864,UniRef90_P45864,Cluster: UV DNA damage endonuclease,2020-02-26
+P71002,UniRef90_P71002,Cluster: Response regulator aspartate phosphatase F,2020-02-26
+P70998,UniRef90_P70998,Cluster: Polyamine aminopropyltransferase,2020-02-26
+P70997,UniRef90_P70997,Cluster: Penicillin-binding protein 2D,2020-02-26
+P39650,UniRef90_P39650,Cluster: Prespore-specific transcriptional regulator RsfA,2020-02-26
+P39632,UniRef90_P39632,Cluster: Probable biofilm-surface layer protein B,2020-02-26
+Q7WY56,UniRef90_Q7WY56,Cluster: Spore coat polysaccharide biosynthesis protein SpsL,2020-02-26
+P39631,UniRef90_P39631,Cluster: Spore coat polysaccharide biosynthesis protein SpsK,2020-02-26
+P39630,UniRef90_P39630,"Cluster: dTDP-glucose 4,6-dehydratase",2020-02-26
+P39629,UniRef90_P39629,Cluster: Glucose-1-phosphate thymidylyltransferase,2020-02-26
+P39627,UniRef90_P39627,Cluster: Spore coat polysaccharide biosynthesis protein SpsG,2020-02-26
+P39626,UniRef90_P39626,Cluster: Spore coat polysaccharide biosynthesis protein SpsF,2020-02-26
+P39625,UniRef90_P39625,Cluster: Spore coat polysaccharide biosynthesis protein SpsE,2020-02-26
+P39624,UniRef90_P39624,Cluster: Spore coat polysaccharide biosynthesis protein SpsD,2020-02-26
+P39623,UniRef90_P39623,Cluster: Spore coat polysaccharide biosynthesis protein SpsC,2020-02-26
+P39622,UniRef90_P39622,Cluster: Spore coat polysaccharide biosynthesis protein SpsB,2020-02-26
+P39621,UniRef90_P39621,Cluster: Spore coat polysaccharide biosynthesis protein SpsA,2020-02-26
+P39620,UniRef90_P39620,Cluster: Spore coat protein GerQ,2020-02-26
+P39618,UniRef90_P39618,Cluster: Putative purine permease YwdJ,2020-02-26
+P39616,UniRef90_P39616,Cluster: Putative aldehyde dehydrogenase YwdH,2020-02-26
+P39603,UniRef90_P39603,Cluster: Spore morphogenesis and germination protein YwcE,2020-02-26
+P39600,UniRef90_P39600,Cluster: Uncharacterized protein YwcB,2020-02-26
+P39599,UniRef90_P39599,Cluster: Uncharacterized symporter YwcA,2020-02-26
+P39588,UniRef90_P39588,Cluster: Uncharacterized protein YwbE,2020-02-26
+P39585,UniRef90_P39585,Cluster: Uncharacterized protein YwbB,2019-12-18
+P39584,UniRef90_P39584,Cluster: Putative permease IIC component YwbA,2020-02-26
+P25149,UniRef90_P25149,Cluster: Uncharacterized protein YwaF,2020-02-26
+P94377,UniRef90_P94377,Cluster: Catalase X,2020-02-26
+P94367,UniRef90_P94367,Cluster: ATP-binding/permease protein CydD,2020-02-26
+P42317,UniRef90_P42317,Cluster: Uncharacterized oxidoreductase YxjF,2020-02-26
+P42316,UniRef90_P42316,Cluster: Probable succinyl-CoA:3-ketoacid coenzyme A transferase subunit B,2020-02-26
+P42315,UniRef90_P42315,Cluster: Probable succinyl-CoA:3-ketoacid coenzyme A transferase subunit A,2020-02-26
+P42314,UniRef90_P42314,Cluster: Uncharacterized transporter YxjC,2020-02-26
+P42308,UniRef90_P42308,Cluster: Citrate transporter,2020-02-26
+P42306,UniRef90_P42306,Cluster: Uncharacterized MFS-type transporter YxiO,2020-02-26
+P42305,UniRef90_P42305,Cluster: ATP-dependent RNA helicase DbpA,2020-02-26
+P42304,UniRef90_P42304,Cluster: Uncharacterized esterase YxiM,2020-02-26
+P39142,UniRef90_P39142,Cluster: Pyrimidine-nucleoside phosphorylase,2020-02-26
+P54944,UniRef90_P54944,Cluster: Uncharacterized protein YxeE,2020-02-26
+P54943,UniRef90_P54943,Cluster: Uncharacterized protein YxeD,2020-02-26
+P46337,UniRef90_P46337,Cluster: HTH-type transcriptional regulator IolR,2020-02-26
+Q45605,UniRef90_Q45605,Cluster: Uncharacterized protein YycQ,2020-02-26
+Q45606,UniRef90_Q45606,Cluster: Uncharacterized protein YycP,2020-02-26
+Q45607,UniRef90_Q45607,Cluster: Uncharacterized protein YycO,2020-02-26
+O32293,UniRef90_O32293,Cluster: Uncharacterized N-acetyltransferase YycN,2020-02-26
+O32294,UniRef90_O32294,Cluster: Response regulator aspartate phosphatase G,2020-02-26
+P39668,UniRef90_P39668,Cluster: Uncharacterized serine protease YyxA,2020-02-26
+P37479,UniRef90_P37479,Cluster: Uncharacterized protein YycE,2020-02-26
+O32296,UniRef90_O32296,Cluster: Uncharacterized protein YyzB,2019-12-18
+P23261,UniRef90_P23261,Cluster: Spore coat protein F,2020-02-26
+P37488,UniRef90_P37488,Cluster: Uncharacterized lipoprotein YybP,2020-02-26
+P37495,UniRef90_P37495,Cluster: Uncharacterized protein YybI,2020-02-26
+P37509,UniRef90_P37509,Cluster: Uncharacterized protein YyaO,2019-12-18
+P37512,UniRef90_P37512,Cluster: Uncharacterized protein YyaL,2020-02-26
+P37517,UniRef90_P37517,Cluster: Catabolite control protein B,2020-02-26
+P37454,UniRef90_P37454,Cluster: Exodeoxyribonuclease,2020-02-26
+P37519,UniRef90_P37519,Cluster: Probable oxidoreductase YyaE,2020-02-26
+P37520,UniRef90_P37520,Cluster: Uncharacterized protein YyaD,2020-02-26
+P37521,UniRef90_P37521,Cluster: Uncharacterized protein YyaC,2020-02-26
+P26497,UniRef90_P26497,Cluster: Stage 0 sporulation protein J,2020-02-26
+P37522,UniRef90_P37522,Cluster: Sporulation initiation inhibitor protein Soj,2020-02-26
+P25812,UniRef90_P25812,Cluster: tRNA uridine 5-carboxymethylaminomethyl modification enzyme MnmG,2020-02-26
+P25811,UniRef90_P25811,Cluster: tRNA modification GTPase MnmE,2020-02-26
+Q01620,UniRef90_Q01620,Cluster: Protein jag,2020-02-26
+Q01625,UniRef90_Q01625,Cluster: Membrane protein insertase MisCA,2020-02-26
+A0A2K4Z9G8,UniRef90_A0A2K4Z9G8,Cluster: Cortex morphogenetic protein A,2020-02-26
+A0A2K4Z9I5,UniRef90_G4NV06,Cluster: Uncharacterized protein,2020-02-26
