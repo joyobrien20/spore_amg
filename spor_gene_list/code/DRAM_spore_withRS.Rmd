@@ -1,0 +1,221 @@
+---
+title: "Formatting spore gene list for DRAM"
+output:
+  html_document:
+    df_print: paged
+editor_options:
+  chunk_output_type: inline
+---
+```{r setup, echo=FALSE}
+library(here)
+library(tidyverse)
+```
+
+# Here I use the list of sporulation genes that includes the genes added from Ramos-Silva et al.  
+
+Here is the format description I got in a mail from Mike Shaffer:  
+
+> In DRAM we try to add a hierarchy to metabolism so that we can categorize it and present it in an easier to understand way for DRAM users.  
+The base level of this hierarchy is a single function. This function is associated with one  more identifiers from any of the databases that DRAM uses (KEGG KOs, UniRef9or0, Pfam, CAZy, MEROPS). I would caution against using UniRef90 since those categories change per release and therefore are not as stable as the other databases.  
+The next level up is a module and then the subsequent levels are subheader, header and sheet. Sheet is pretty strictly defined by DRAM (for now I think we would put sporulation under MISC) but the rest can be called whatever we think is best.  
+In the previous email I defined how I think the subtilwiki categories would fit into this system. We would like to put the sporulation genes in this same hierarchy so we can identify the genes in various bacteria and viruses. As an example I added the Class I Spore Coat proteins from subtiwiki to an example file with a part of the DRAM distillate. We will need to fill this out for all sporulation proteins we would like to detect.   
+
+As an example I got this table:
+
+```{r, message=FALSE}
+dram.eg <- read_csv(here("spor_gene_list/data","DRAM_spore_example.csv" ))
+dram.eg
+```
+
+## Sporulation genes  
+Current list of sporulation genes:  
+```{r, message=FALSE}
+d.spore <- read_csv(here("spor_gene_list/data","SWxWWxRS_sporulation_genes.csv"))
+d.spore
+```
+## Add description  
+
+From Subtiwiki export I got a file with gene descriptions and uniprot numbers. However, the SW descriptions have hyper-links in them making them hard to read. Instead, I will get descriptions from a list I found  in the Alignable Tight Genomic Clusters (ATGC) data base at http://dmk-brain.ecn.uiowa.edu/ATGC/data/ATGC015/genomes/Bacillus_subtilis_subtilis_str_168.GCF_000009045.1.html.  
+
+I will also get the uniprot numbers from SW file.
+
+```{r, message=FALSE}
+d.atgc <- read_csv(here("spor_gene_list/data","uiowa_atgc.csv"))
+SW.mapping <- read_csv(here("spor_gene_list/data","batch.csv"))
+
+# # test that BSU nums are unique
+# sum(duplicated(d.atgc$`Locus tag`))#0
+# sum(duplicated(SW.mapping$locus))#12
+SW.mapping <-
+  SW.mapping%>%
+    filter(!duplicated(SW.mapping$locus))
+# sum(duplicated(SW.mapping$locus))#0
+
+# add underscore to BSU to match SW
+d.atgc$`Locus tag` <- gsub("BSU", "BSU_",d.atgc$`Locus tag`)
+
+# # are all sporulation genes in d.atgc?
+# sum(!d.spore$gene %in% d.atgc$`Locus tag`)
+# #8 are missing
+# d.spore[!d.spore$gene %in% d.atgc$`Locus tag`,]
+#are the descriptions fro SW useful for these 8?
+atgc.8 <- d.spore$gene[!d.spore$gene %in% d.atgc$`Locus tag`]
+
+atgc.8 <- 
+  SW.mapping%>%
+    filter(locus %in% atgc.8)%>%
+    arrange(locus)%>%
+    select(locus, product)
+# not brilliant but they will do for now
+
+
+d.spore <- 
+d.atgc%>%
+  select(locus= `Locus tag`, product=`Product name`)%>%
+  bind_rows(atgc.8)%>%
+  left_join(d.spore,., by=c("gene"="locus"))
+
+# Add the gene name infro of the description
+d.spore$product <- paste(d.spore$`locus tag`,d.spore$product, sep = ";")
+
+# add uniprot nums to d.spore
+d.spore <-
+  SW.mapping%>%
+    select(locus, uniprot=outlinks.uniprot)%>%
+    left_join(d.spore, . , by=c("gene"="locus"))%>%
+    print()
+
+
+# write_lines(paste(d.spore$uniprot,sep = ","),path = "spore_uniprot.txt")
+```
+
+### Any missing uniprot IDs?  
+```{r}
+d.spore%>%
+  filter(is.na(uniprot))
+```
+ 
+* yrzN: unknown, putative pseudogene (from SubtiWiki)   
+* cmpA: this is a small and very interesting protein that appears to be involved in spore quality control. more reaing is required. PMID: 22463703. I also see that it does have a uniprot ID: A0A2K4Z9G8  
+* spoIISC: anti-toxin to SpoIISA  (from SubtiWiki). Also has uniprot ID: A0A2K4Z9I5 
+
+Adding the mising IDs.  
+```{r}
+d.spore[d.spore$gene=="G8J2-20","uniprot"] <- "A0A2K4Z9G8"
+d.spore[d.spore$gene=="new_1348200_1348403_c","uniprot"] <- "A0A2K4Z9I5"
+```
+
+
+## KEGG  
+Which genes have KEGG KOs?
+
+```{r, message=FALSE}
+# ##
+# # Code used to et KEGG numbers for B. subtilis 168
+# # BiocManager::install("KEGGREST")
+# library(KEGGREST)
+# keggs <-  keggLink("bsu", "ko")s
+# keggs <- enframe(keggs, name = "ko", value = "bsu")
+# 
+# keggs$bsu <-  str_replace(keggs$bsu,pattern = "bsu:BSU",replacement = "BSU_")
+# keggs$ko <-  str_replace(keggs$ko,pattern = "ko:",replacement = "")
+# write_csv(keggs,"kegg_bsu.csv")
+
+kegg <- read_csv(here("spor_gene_list/data","kegg_bsu.csv"))
+# sum(duplicated(kegg$bsu)) #0
+
+  
+n.kegg <- sum(d.spore$gene%in%kegg$bsu)
+# add KOs to d.spore
+d.spore <- left_join(d.spore, kegg, by=c("gene"="bsu"))
+
+```
+
+Out of 880 genes in the sporulation list, 474 have KOs, just over half.  
+
+BTW using UNIPROT mapping (https://www.uniprot.org/uploadlists/) I got the same result (saved in file uniprot_ko_mapping.csv): 
+> 472 out of 879 identifiers from UniProtKB AC/ID were successfully mapped to 447 KO IDs. 
+
+Its 879 because of the gene missing uniprot ID (see above).  
+
+## UniRef90
+Using the UNIPROT mapping too with the uniprot numbers from SW I got:
+> 875 out of 879 UniProtKB AC/ID identifiers were successfully mapped to 874 UniRef IDs in the table below.  
+
+I exported that table and will add that data to the spore gene list.
+
+```{r, message=FALSE}
+d.uniref90 <- read_csv(here("spor_gene_list/data","uniprot_uniref_mapping_RS.csv"))
+d.uniref90$`Cluster ID` <- gsub("UniRef90_","",d.uniref90$`Cluster ID`)
+# sum(duplicated(d.uniref90$uniprot))#0
+# sum(duplicated(d.uniref90$`Cluster ID`))#0
+
+d.spore <-
+  d.uniref90%>%
+  
+    select(uniref90=`Cluster ID`, uniprot)%>%
+    left_join(d.spore, . )%>%
+    print()
+
+```
+ uniref90 are mostly uniprot numbers
+
+## Pfam
+
+If we would like to  map to PFAM we could use _89 out of 671 identifiers from UniProtKB AC/ID were successfully mapped to 195 PDB IDs._. see file uniprot_pdb_mapping.csv. 
+
+
+
+## Cast into DRAM format
+
+* I will add a separate "gene_id" column for each database, KEGG and uniref_90
+* I will use categories 2,3,4 for module,header and subheader, respectively. using the class 5 does not make sense to me, as only the coat proteins have this category level.
+* There are 50 genes that have NA in the subheader category. I am not sure what to do with them.
+
+
+```{r}
+dram.col.names <- names(dram.eg)
+d.spore$sheet <- "MISC"
+d.spore$potential_amg <- "TRUE"
+d.dram <- 
+  d.spore%>%
+  select(gene_id.ko=ko,
+         gene_id.uniref90=uniref90,
+         gene_description=product,
+         module=category4,
+         sheet= sheet,
+         header= category2,
+         subheader=category3,
+         potential_amg=potential_amg)
+d.dram
+```
+
+
+Any NAs in any of the categories?  
+
+```{r}
+# any NAs in any of the categories?
+map(d.dram, ~sum(is.na(.)))
+#there are 0 in "header"
+#there are 35 in "subheader"
+#there are 145 in "module", including the 35 that have NA in subheader
+d.dram%>%
+  filter(!is.na(gene_id.ko))%>%
+  filter(is.na(module))%>%
+  group_by(subheader)%>%
+  count()
+
+         
+```
+
+```{r}
+d.dram%>%
+  group_by(header, subheader,module)%>%
+  count
+```
+
+
+```{r}
+write_csv(d.dram, here("spor_gene_list/data","dram_spore_genes_RS.csv"))
+```
+

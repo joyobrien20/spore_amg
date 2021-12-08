@@ -1,0 +1,404 @@
+---
+title: "Sporulation Gene List"
+author: "Daniel Schwartz"
+date: "March/2020"
+output: rmarkdown::github_document
+editor_options: 
+  chunk_output_type: inline
+---
+
+
+```{r setup, include=FALSE}
+library(here)
+library(tidyverse)
+library(knitr)
+library(cowplot)
+
+```
+
+## Sporulation genes  
+The goal here is to compile an inclusive list of B. subtilis sporulation genes. We define sporulation genes as those genes that are involved in the transition into and out of dormancy, that build up the spore or determine its quality. 
+
+### Weller and Wu list  
+We initially relied on a list of 163 gene used by Weller and Wu (Evolution 2015), specified in their table S1. Here are the first few rows from that list:
+
+```{r , message=FALSE}
+d.ww <- read_csv(here("spor_gene_list/data","WW.csv"),
+                      col_names = c('acc','gene','function','strain'))
+head(d.ww)
+```
+
+## SubtiWiki  
+This is an *integrated database for the model bacterium Bacillus subtilis* (Zhu and Stülke, NAR 2018). <http://subtiwiki.uni-goettingen.de/>  
+From there I downloaded a list of all the genes with their associated categories.
+
+```{r , echo=FALSE, message=FALSE}
+categories <- read_csv(here("spor_gene_list/data","categories.csv"),
+                       na = "", col_names = paste0("L", 1:5))
+#fill in list
+last <-categories[1,1]
+for (j in 1:ncol(categories)){
+  for (i in 1:nrow(categories)) {
+    current <- categories[i,j]
+    last <- ifelse(is.na(current), last, current)
+    categories[i,j] <- last
+  }
+  last <- NA
+}
+kable(levels (factor(categories$L1)), col.names ="Primary categories")
+
+```
+
+ 
+
+```{r, echo=FALSE, message=FALSE}
+kable(levels (factor(grep("SW 4.2.", categories$L3, value = T))), col.names = "Sporulation primary categories")
+```
+  
+With further sub-categories:
+
+```{r, echo=FALSE, message=FALSE,}
+kable(levels (factor(grep("SW 4.2.", categories$L4, value = T))), col.names = "Sporulation secondary categories")
+```
+  
+### Gene list from SubtiWiki 
+A list of all the genes and their categories was downloaded from <http://subtiwiki.uni-goettingen.de/v3/geneCategory/export>. This list has multiple rows for genes that are associated with multiple categories. Here are the first few rows of the gene table, and the distribution by second-tier categories:  
+```{r, echo=FALSE, message=FALSE,}
+d <- read_csv(here("spor_gene_list/data","geneCategories.csv"))
+
+kable(head(d))
+
+```
+
+
+```{r, echo=FALSE, message=FALSE,}
+#find genes in sporulation category (SW 4.2)
+dspore <- d[grep("SW 4.2", d$`category id`),]
+
+d%>%
+  filter(!grepl("k", category1))%>%
+  ggplot(aes(x=category2))+
+  geom_bar()+
+  geom_bar(data=dspore, fill="red", color="grey")+
+  coord_flip()+
+  theme_cowplot()+
+  theme(axis.text.y = element_text(size=10))
+
+
+```
+### sporulation genes in SubtiWiki  
+
+```{r, echo=FALSE, message=FALSE}
+#find genes in sporulation category (SW 4.2)
+dspore <- d[grep("SW 4.2", d$`category id`),]
+
+#remove duplicated genes
+dspore <- dspore[!duplicated(dspore$gene),]
+# sum(duplicated(dspore$`locus tag`)) #0
+# sum(duplicated(dspore$gene)) #0
+
+# glimpse(dspore, width = 75)
+```
+
+Gathering all genes in sporulation category (SW 4.2). There are **`r nrow(dspore)`** categorical sporulation genes in SubtiWiki.  
+Classically, all the genes resulting in asporogeneous mutants are named *spo* something (e.g. *spo0A*). Let's make sure these are all included. Searching for *spo* named genes in the genes not included in in sporulation category yields a few genes: 
+```{r}
+d.non.spore <- d[!d$gene %in% dspore$gene,]
+d.non.spore[grep("spo",d.non.spore$`locus tag`),]%>%
+  arrange(gene)%>%
+  print()
+```
+
+#### spoVC
+According to SubtiWiki *spoVC* is a peptidyl-tRNA hydrolase with a function in spore coat formation, and is an essential gene. Being essential, I am not sure how it could have been named a *spo* gene at all. Menez et al. (2002 Molecular microbiology PMID: 12100553) say that *A mutation affecting spoVC renders B. subtilis temperature sensitive for sporulation; at non‐permissive temperature, spo‐285 (Ts) mutant cells cease sporulation at stage IV to stage V (Young, 1976), characterized by spore cortex development and coat formation.* They find that this gene is in fact essential for vegetative growth. I will include it.  
+
+#### spoIIE
+SubtiWiki lists this as  *protein serine phosphatase, septum-associated PP2C* whose function is *control of __SigF__ activity, required for normal formation of the asymmetric septum*. According to Gray et al.(2019 Nat. Comm.) *_spoIIE_ is one of the first essential sporulation genes induced by Spo0A, and is not required for other differentiation processes.* This clearly should be included in the sporulation gene list.  
+
+#### spoIISC  
+According to SubtiWiki *spoIISC* is an antitoxin. Brantl&Muller (2019 Toxins) say that *the physiological role of the spoIISABC system remains unknown. Although toxin expression seems to be highest during sporulation, antitoxin expression is also elevated at the same time.* taking that together with the potential role of TA systems in interaction with phages I think we should include this gene.
+
+#### sigE  
+By chance, I also noticed that sigE (RNA polymerase sporulation mother cell-specific (early) sigma factor SigE) is not categorized as a sporulation gene: 
+```{r}
+d.non.spore[grep("sigE",d.non.spore$`locus tag`),]%>%
+  arrange(gene)%>%
+  print()
+```
+I will add it as well.
+
+```{r}
+# adding 2 spo genes and sigE
+
+d.add <-
+  d.non.spore%>%
+  filter(`locus tag`=="sigE" |`locus tag`=="spoIISC"|`locus tag`=="spoIIE"|`locus tag`=="spoVC")%>%
+  filter(category1=="Information processing"|category1=="Lifestyles")%>%
+  filter(category2=="Regulation of gene expression"|category2=="Coping with stress")
+dspore <- rbind(dspore,d.add)  
+d.add
+```
+
+At this point the list of sporulation genes includes **`r nrow(dspore)`** genes.
+
+## Compare SubtiWiki with Weller and Wu list
+What genes are listed as sporulation gene by Weller&WU and are not on our SubtiWiki-based list?  
+```{r}
+ww.check <- d.ww[!(d.ww$gene%in%dspore$`locus tag`),]
+ww.check%>%
+  arrange(gene)
+```
+
+### Weller and Wu genes to include  
+
+* abrB is a repressor of spo0A.
+* ald is important in linking sporulation-germination "memory" link (PMID: 29302032)
+* hpr is scoC in SubtiWiki.  "ScoC Mediates Catabolite Repression of Sporulation in Bacillus subtilis" (PMID: 14629015). This reminds me of some of the enhanced sporulation work of Bramucci. Adding to the list.
+* nucB (sporulation-specific extracellular nuclease) is missing in SubtiWiki sporulation genes. not sure why. adding it.
+* paiA and paiB are negative regulators of sporulation and I think it would be interesting to include them in searches. adding.  
+* phrC is titled a " competence and sporulation factor" in SubtiWiki. Adding it.
+* pth is spoVC discussed above.
+* sigH is an activator of several early sporulation genes (PMID: 12169614 introduction). Adding it.  
+* spoIIIJ is named yidC1 in SubtiWiki and is present.  
+* tasA seems to be a sporulation related gene. (PMID: 10464223). In the inclusive spirit I will add it.
+```{r}
+d.add <- d[grep("abrB", d$`locus tag`),]
+d.add <- rbind(d.add, d[grep("BSU_31930", d$gene),])
+d.add <- rbind(d.add, d[grep("scoC", d$`locus tag`),])
+d.add <- rbind(d.add, d[grep("nucB", d$`locus tag`),])
+d.add <- rbind(d.add, d[grep("pai", d$`locus tag`),])
+d.add <- rbind(d.add, d[grep("phrC", d$`locus tag`),])
+d.add <- rbind(d.add, d[grep("sigH", d$`locus tag`),])
+d.add <- rbind(d.add, d[grep("tasA", d$`locus tag`),])
+
+d.add <- d.add[!duplicated(d.add$gene),]
+dspore <- rbind(dspore,d.add)
+# sum(duplicated(dspore$gene))#0
+# sum(duplicated(dspore$`locus tag`))#0
+d.add
+```
+
+
+### Weller and Wu genes to exclude 
+* spoVAEA is misnamed in WW file and is present in list
+* ftsA and ftsZ form the division Z-ring
+* sigA is the major vegetative sigma-factor
+* sinI and sinIR are inhibitors of sporulation but are homologous to phage repressor (PMID: 9799632). slrR similarly has an HTH-cro/C1 type domain according to its SubtiWiki page. This would possibly yield false AMG status but should be looked into. Not adding to list.
+
+
+ **List is `r nrow(dspore)` genes long**
+ 
+```{r ,include=FALSE}
+# write_csv(dspore, "SWxWW_curated_sporulation_genes.csv")
+```
+
+# compare with 2019 Ramos-Silva paper 
+A list of sporulation genes for *B. subtilis* and *C. dificile* is the basis for a macro-evolutionary analysis of Firmicutes and sporulation in a paper by Ramos-Silva et al (2019 MBE PMID: 31350897) titled: "From Root to Tips: Sporulation Evolution and Specialization in Bacillus subtilis and the Intestinal Pathogen Clostridioides Difficile". They say that "*For this study, we have manually compiled 726 sporulation genes for B. subtilis strain 168... and 307 sporulation genes from the C. difficile strain 630.* This is expanded in the methods:  
+
+> All known sporulation genes from B. subtilis strain 168 and C. difficile strain 630, the two species that are better characterized in terms of their sporulation machinery, were collected from the literature (Fimlaid et al. 2013; Saujet et al. 2013; Pishdadian et al. 2015; Meeske et al. 2016) and SubtiWiki 2.0 (Mäder et al. 2012). These included the genes coding for the main regulators of sporulation: spo0A—controlling initiation; sigE and sigK—coding for the mother cell early and late specific sigma factors; sigF and sigG—coding for the early and late forespore-specific sigma factors; and the genes under their control (supplementary table S1, Supplementary Material online)  
+
+Here is the supplementary table for B. subtilis:  
+```{r, message=FALSE}
+d.rs <- read_csv(here("spor_gene_list/data","RS_bs_list.csv"))
+
+d.rs
+```
+
+Ramos-Silva lists `r nrow(d.rs)` sporulation genes, while I have curated a list of `r nrow(dspore)` genes above.  
+To compare the genes I need to translate the GI numbers by Ramos-Silva into wither BSU numbers or character-based names. I have found a list for that in the Alignable Tight Genomic Clusters (ATGC) data base at <http://dmk-brain.ecn.uiowa.edu/ATGC/data/ATGC015/genomes/Bacillus_subtilis_subtilis_str_168.GCF_000009045.1.html>. 
+
+```{r, message=FALSE}
+d.atgc <- read_csv(here("spor_gene_list/data","uiowa_atgc.csv"))
+
+# # test that GI are unique
+# sum(duplicated(d.rs$GI))#0
+# sum(duplicated(d.atgc$GI))#0
+# # RS GIs in Iowa GIs?
+# nrow(d.atgc[d.atgc$GI %in% d.rs$GI,])#721, all
+# nrow(d.rs[!d.rs$GI %in% d.atgc$GI,])#0
+# # YES
+
+d.rs <- left_join(d.rs, d.atgc, "GI")
+
+d.rs%>%
+  select("GI","Regulators","Regulators2","Gene name / symbol(s)" ,"Locus tag","Product name")%>%
+  print()
+
+```
+
+#### Comparing the list I put together and the Ramos-Silva list for B. subtilis  
+```{r, message=FALSE}
+library(gplots)
+#make rs BSU notation similar to subtiwiki, i.e. add underline
+d.rs$gene <- gsub("BSU", "BSU_", d.rs$`Locus tag`)
+
+venn.bsu <- venn(list(Curated_SubtiWiki=dspore$gene, Ramos_Silva=d.rs$gene))
+venn.name <- venn(list(Curated_SubtiWiki=dspore$`locus tag`, Ramos_Silva=d.rs$`Gene name / symbol(s)`))
+
+```
+
+That is a very big difference! and the differences are inconsistent between BSU_num comparisons (top Venn) and character-based names (bottom Venn).  
+Which genes are not included by Ramos-Silva?  
+```{r, message=FALSE}
+# the venn diageam also yields list of the intersection and differences
+# attr(venn.bsu, "intersections")$Curated_SubtiWiki
+
+dspore[dspore$gene %in% attr(venn.bsu, "intersections")$Curated_SubtiWiki,]
+```
+
+A quick look shows these are genes that should be included in the list. **sigF is missing from that list!!**
+
+Which genes are not included in my list?  
+```{r, message=FALSE}
+d.rs%>%
+  select("Gene name / symbol(s)" ,"Locus tag","Product name","GI","Regulators","Regulators2")%>%
+  filter(d.rs$gene %in% attr(venn.bsu, "intersections")$Ramos_Silva)
+
+```
+
+
+A quick look suggests these are not sporulation genes.
+
+Lets try and naively reconstruct Ramos-Silva's list from the SubtiWiki regulation data. I have downloaded the regulation data from the Regulation item at <http://subtiwiki.uni-goettingen.de/v3/exports>.   
+
+```{r, message=FALSE}
+d.regulon <- read_csv(here("spor_gene_list/data","regulations.csv"))
+d.regulon
+```
+
+This list has `r length(unique(d.regulon$regulon))` different regulon categories. Bur I think that some regulons are nested within other ones. E.g. spoIIID is a *transcriptional regulator (repressor or activator) of a subset of sigma E-dependent genes*. And , some overlap with sigK regulon, apparently.
+```{r, message=FALSE}
+venn(list(
+  SpoIIID=d.regulon$`locus tag`[grep("SpoIIID", d.regulon$regulon)],
+  sigE=d.regulon$`locus tag`[grep("SigE", d.regulon$regulon)],
+  sigK=d.regulon$`locus tag`[grep("SigK", d.regulon$regulon)]  ))
+
+```
+
+```{r, message=FALSE}
+# venn(list(
+#   sigF=d.regulon$`locus tag`[grep("SigF", d.regulon$regulon)],
+#   sigG=d.regulon$`locus tag`[grep("SigG", d.regulon$regulon)],
+#   sigE=d.regulon$`locus tag`[grep("SigE", d.regulon$regulon)],
+#   sigK=d.regulon$`locus tag`[grep("SigK", d.regulon$regulon)],
+#   spo0A=d.regulon$`locus tag`[grep("Spo0A", d.regulon$regulon)]))%>%
+d.reg.spore <- 
+d.regulon%>%
+  filter(grepl("SigF", d.regulon$regulon)|
+          grepl("SigG", d.regulon$regulon)|
+          grepl("SigE", d.regulon$regulon)|
+          grepl("SigK", d.regulon$regulon)|
+          grepl("Spo0A", d.regulon$regulon)
+         )%>%
+  filter(!duplicated(`locus tag`))
+d.reg.spore
+```
+
+```{r}
+
+venn_3way <- venn(list(Curated_SubtiWiki=dspore$gene, Ramos_Silva=d.rs$gene, Regulons=d.reg.spore$`locus tag`))
+
+```
+
+
+Which genes are specific to my curated list? (Venn shows 120)  
+
+```{r}
+dspore[dspore$gene %in% attr(venn_3way, "intersections")$Curated_SubtiWiki,]
+```
+
+Many of the genes belong to a category of *Newly identified sporulation proteins (based on transcription profiling)*. But there are all sorts of genes in there.
+
+Which genes in the regulon based list are not on my list or Ramos-Silva? (Venn shows 180)  
+
+```{r}
+d.atgc%>%
+  select("Gene name / symbol(s)","Product name","Locus tag" )%>%
+  filter( gsub("BSU", "BSU_",d.atgc$`Locus tag`) %in% 
+            attr(venn_3way, "intersections")$Regulons)%>%
+  filter(!duplicated(`Locus tag`))%>%
+  arrange(`Locus tag`)
+
+```
+ There are 5 missing genes  
+```{r}
+attr(venn_3way, "intersections")$Regulons[!attr(venn_3way, "intersections")$Regulons %in% gsub("BSU", "BSU_",d.atgc$`Locus tag`)]
+```
+  
+The first 3 are ncRNAs and the last 2 are psedogenes. 
+
+
+One gene on this list is *ywzB*. According to SubtiWiki this is a gene of unknown function that is *expressed early during sporulation in the forespore* in a sigF dependent manner. It is part of an operon: *ywzB-spoIIT-murAA*. *spoIIT* is a *co-activator (with SpoIIR) for triggering SpoIIGA-dependent processing of SigE* and is categorized as a sporulation gene. Under phenotypes of a mutant for spoIIT it says:
+* mild sporulation defect due to inefficient activation of SigE <http://www.ncbi.nlm.nih.gov/pubmed/26735940>
+* inactivation of spoIIT reduces sporulation efficiency to 38% that of wild type cells; abortively disporic <http://www.ncbi.nlm.nih.gov/pubmed/26735940>   
+Likely then, ywzB should be considered a sporulation protein.
+
+Another gene on this list is *metS*, a methionyl-tRNA synthetase that is repressed by *spo0A* and is therefore in its regulon. In general I think that including all the *spo0a* regulon as sporulation genes is questionable, being a general post-exponential regulator.
+
+Lets get rid of the spo0A regulon and reassess. Here is the Venn without spo0a:  
+
+```{r}
+d.regulon%>%
+  filter(grepl("SigF", d.regulon$regulon)|
+          grepl("SigG", d.regulon$regulon)|
+          grepl("SigE", d.regulon$regulon)|
+          grepl("SigK", d.regulon$regulon)
+         )%>%
+  filter(!duplicated(`locus tag`))%>%
+  select(`locus tag`)->tmp
+  
+ venn_3way <-venn(list(Curated_SubtiWiki=dspore$gene, Ramos_Silva=d.rs$gene, Regulons=tmp$`locus tag`))
+``` 
+  
+Now, without spo0A, which genes in the regulon based list are not on my list r that of Ramos-Silva? (Venn shows 72)
+
+```{r}
+# d.reg.spore[d.reg.spore$`locus tag` %in% attr(venn_3way, "intersections")$Regulons,]
+d.atgc%>%
+  select("Gene name / symbol(s)","Product name","Locus tag" )%>%
+  filter( gsub("BSU", "BSU_",d.atgc$`Locus tag`) %in% 
+            attr(venn_3way, "intersections")$Regulons)%>%
+  filter(!duplicated(`Locus tag`))%>%
+  arrange(`Locus tag`)
+```
+
+ There are 4 missing genes, 4 of the 5 seen above.  
+```{r}
+attr(venn_3way, "intersections")$Regulons[!attr(venn_3way, "intersections")$Regulons %in% gsub("BSU", "BSU_",d.atgc$`Locus tag`)]
+```
+
+Only a few of these genes look to me related to sporulation. There are competence genes, prophage genes, cell wall biosynthesis, all sorts of stress genes and many hypotheticals. There are also a couple of genes that may be relevant like _ykzR_ (spore-specific glycosyl hydrolase	BSU13799) and _ftsH_	(ATP-dependent zinc metalloprotease FtsH	BSU00690) which seems to be involved in the regulation of sporulation initiation	(PMID: 9076729). However I think that I will just give this up.
+
+
+##### Finalizing the list  
+
+Based on the analysis above and on correspondence with Paula Ramos-Silva I will include in the list of sporulation genes the genes I collected from SubtiWiki vased on sporulation categories, a few extra genes from Weller and Wu (but not all), and the genes in the Ramos-Silva list that were not captured by two former sources (206 extra genes).
+
+```{r}
+# Putting together the sporulation gene list
+# venn(list(Curated_SubtiWiki=dspore$gene, Ramos_Silva=d.rs$gene)))
+# setdiff(d.rs$gene, dspore$gene)
+d%>%
+  filter(gene %in% setdiff(d.rs$gene, dspore$gene))%>%
+  filter(!duplicated(gene))%>%
+    arrange(gene)
+``` 
+
+Add these genes to the sporulation gene list  
+
+```{r}
+d.spore <- 
+d%>%
+  filter(gene %in% setdiff(d.rs$gene, dspore$gene))%>%
+  filter(!duplicated(gene))%>%
+    arrange(gene)%>%
+  bind_rows(.,dspore)%>%
+  arrange(gene)
+# sum(duplicated(d.spore$gene))# 0  
+write_csv(d.spore, here("spor_gene_list/data","SWxWWxRS_sporulation_genes.csv"))
+d.spore
+```
+
+
+
+
