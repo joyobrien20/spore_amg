@@ -1,0 +1,127 @@
+---
+title: "C. difficile sporulation genes"
+author: "Daniel Schwartz"
+date: "Dec/2021"
+output: rmarkdown::github_document
+editor_options: 
+  chunk_output_type: hide
+---
+
+```{r setup, include=FALSE}
+library(here)
+library(tidyverse)
+library(knitr)
+library(cowplot)
+
+# BiocManager::install("KEGGREST")
+library(KEGGREST)
+```
+
+The goal of this analysis is to generate a list of sporulation genes from *Clostridioides difficle* to use in DRAM.
+
+# Lists of C. diff sporulation genes
+
+1. [Fimlaid et al. 2013](https://doi.org/10.1371/journal.pgen.1003660)
+
+> we generated loss-of-function mutations in genes encoding these sporulation sigma factors and performed RNA-Sequencing to identify specific sigma factor-dependent genes.
+
+Analysis done in strain 630, genes listed with locus_tag (*CD630_NNNN*).
+
+```{r}
+d.fim <- read_csv(here("spor_gene_list/data", "cdif_Fimlaid_2013_S9.csv" ))
+```
+
+
+2. [Dembek et al. 2015](https://doi.org/10.1128/mBio.02383-14)
+
+These authors made a transposon mutant library in C. difficile epidemic strain R20291. They then grew library cells in sporulation media and purified spores. Sporulation genes were those Tn-mutants that were missing in the spores. In a similar way they also isentifies germination genes as those absent in a culture grown from purified spores.
+
+Analysis done in strain R20291, genes listed with locus_tag (*CDR20291_NNNN*). They also list for each gene the ortholog in strain 630, if available. However, they do not mention how orthology was determined. 
+
+
+```{r}
+d.dem <- read_csv(here("spor_gene_list/data", "cdif_Dembek_2015_S2.csv" ))
+```
+
+
+3. [Ramos-Silva et al. 2019](https://doi.org/10.1101/473793)
+
+> All known sporulation genes from B. subtilis strain 168 and C. difficile strain 630, the two species that are better characterized in terms of their sporulation machinery, were collected from the literature...)
+
+Genes of strain 630 are listed bu GI number. 
+
+```{r}
+d.ramos <- read_csv(here("spor_gene_list/data", "cdif_RamosSilva_2019_S1CD.csv" ))
+
+```
+
+## convert GI to locus tag
+
+```{r}
+
+# x <- curl::curl("https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=126698479&rettype=acc")
+# 
+# #126698479
+# # https://www.biostars.org/p/145216/
+# # Dependencies
+# library(rentrez) 
+# 
+# # NCBI Protein GI to Genome Accession
+# gi = 126698479
+# gi_link = entrez_link(dbfrom = 'protein', db = 'nuccore', id = gi)
+# nucc_id = gi_link$links$protein_nuccore
+# nucc = entrez_summary(db = 'nuccore', id = nucc_id)
+# nucc$caption
+
+
+```
+
+
+# get KEGG data on C. diff
+
+## Strain 630 
+
+In KEGG this strain has the code *cdf*, and taxon number [*T00487*](https://www.genome.jp/entry/T00487).
+
+```{r}
+# all kegg genes
+raw.kegg.cdf <- keggFind("genes", "cdf:CD630") 
+d.kegg.cdf <- raw.kegg.cdf %>% 
+  enframe(name = "kegg", value = "kegg.txt") %>% 
+  separate(kegg, into = c("strain", "locus_tag"), sep = ":") %>% 
+  separate(kegg.txt, into = c("symbol", "description"), sep = ";", fill = "left", extra = "merge") 
+
+
+# KOs
+ko <- keggLink("cdf", "ko")
+ko <- enframe(ko, name = "ko", value = "cdf")
+ko$cdf <-  str_replace(ko$cdf,pattern = "cdf:",replacement = "")
+ko$ko <-  str_replace(ko$ko,pattern = "ko:",replacement = "")
+
+# join
+d.kegg.cdf <- left_join(d.kegg.cdf, ko, c("locus_tag" = "cdf"))
+```
+
+
+## Strain 630 
+
+In KEGG this strain has the code *cdl*, and taxon number [*T00998*](https://www.genome.jp/entry/T00998).
+
+```{r}
+# all kegg genes
+raw.kegg.cdl <- keggFind("genes", "cdl:CDR20291") 
+d.kegg.cdl <- raw.kegg.cdl %>% 
+  enframe(name = "kegg", value = "kegg.txt") %>% 
+  separate(kegg, into = c("strain", "locus_tag"), sep = ":") %>% 
+  separate(kegg.txt, into = c("symbol", "description"), sep = ";", fill = "left", extra = "merge") 
+
+
+# KOs
+ko <- keggLink("cdl", "ko")
+ko <- enframe(ko, name = "ko", value = "cdl")
+ko$cdl <-  str_replace(ko$cdl,pattern = "cdl:",replacement = "")
+ko$ko <-  str_replace(ko$ko,pattern = "ko:",replacement = "")
+
+# join
+d.kegg.cdl <- left_join(d.kegg.cdl, ko, c("locus_tag" = "cdl"))
+```
