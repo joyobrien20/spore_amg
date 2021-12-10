@@ -1,0 +1,438 @@
+Gene,symbol,Function,FC,header,mutant.strain
+CD0125,  spoIIQ ,  Stage II sporulation protein Q,0.11,Sporulation,sigF
+CD2470,  gpr,  Spore endopeptidase,0.22,Sporulation,sigF
+CD2469,  spoIIP,Stage II sporulation protein P,0.14,Sporulation,sigF
+CD2468,  , Conserved hypothetical protein,0.28,Sporulation,sigF
+CD3564,  spoIIR,Pro-SigE endopeptidase signalling protein,0.43,Sporulation,sigF
+CD3563,  sleB, Spore-cortex-lytic protein,0.16,Sporulation,sigF
+CD3499,  spoVT,   Stage V sporulation protein T,0.07,Sporulation,sigF
+CD0783,  spoIVB ,"  Stage IV sporulation protein SpoIVB, S55 peptidase family",0.1,Sporulation,sigF
+CD0773,  spoVAC ,  Stage V sporulation protein AC,0.24,Sporulation,sigF
+CD0774,  spoVAD ,  Stage V sporulation protein AD,0.27,Sporulation,sigF
+CD0775,  spoVAE ,  Stage V sporulation protein AE,0.32,Sporulation,sigF
+CD2688,  sspA," Small, acid-soluble spore protein alpha",0,Sporulation,sigF
+CD3249,  sspB," Small, acid-soluble spore protein alpha",0.01,Sporulation,sigF
+CD1290, , Putative small acid-soluble spore protein SASP,0.29,Sporulation,sigF
+CD3220.1 ,  ,Small acid-soluble spore protein,0.28,Sporulation,sigF
+CD1230,  sigK,Fragment of RNA polymerase sigma-K factor SigK (Part1),0.47,Sporulation,sigF
+CD1613,  cotA, Spore outer coat layer protein CotA,0.13,Sporulation,sigF
+CD0598,  cotCB, Spore-coat protein CotCB manganese catalase,0.18,Sporulation,sigF
+CD0214,  , Conserved hypothetical protein,0.3,Sporulation,sigF
+CD0213,  , Putative spore coat protein,0.47,Sporulation,sigF
+CD0332,  bclA1, Putative exosporium glycoprotein,0.43,Sporulation,sigF
+CD3230,  bclA2, Putative exosporium glycoprotein,0.16,Sporulation,sigF
+CD3349,  bclA3, Exosporium glycoprotein BclA3,0.12,Sporulation,sigF
+CD1567,,putative manganese catalase,0.25,Stress,sigF
+CD2845,rbr,Rubrerythrin,0.14,Stress,sigF
+CD1631,sodA,Superoxide dismutase (Mn),0.06,Stress,sigF
+CD3462,mazE,Putative antitoxin EndoAI,0.2,Stress,sigF
+CD3461,mazF,Endoribonuclease toxin,0.31,Stress,sigF
+CD1430,pdaA,Putative ?-lactam-biosynthetic deacteylase,0.06,enveloppes,sigF
+CD1291,dacF,D-alanyl-D-alanine carboxypeptidase,0.11,enveloppes,sigF
+CD2141,,Serine-type D-Ala-D-Ala carboxypeptidase,0.3,enveloppes,sigF
+CD2184,,Putative N-acetylmuramoyl-L-alanine amidase,0.39,enveloppes,sigF
+CD3463,alr2,Alanine racemase 2,0.23,enveloppes,sigF
+CD3464,,Conserved hypothetical protein,0.18,enveloppes,sigF
+CD0784,,Putative N-acetylmuramoyl-L-alanine amidase,0.23,enveloppes,sigF
+CD1229,,Putative peptidoglycan glycosyltransferase,0.42,enveloppes,sigF
+CD2664,murE,UDP-N-acetylmuramyl-tripeptide synthetase,0.51,enveloppes,sigF
+CD2762,uppS,Putative undecaprenyl pyrophosphate synthetase,0.2,enveloppes,sigF
+CD0514,cwpV,Cell surface protein,0.61,enveloppes,sigF
+CD0792,,"Putative membrane protein, DUF81 family",0.39,enveloppes,sigF
+CD0793,,"Putative membrane protein, DUF81 family",0.26,enveloppes,sigF
+CD1297,,Putative membrane protein,0.31,enveloppes,sigF
+CD1298,,Conserved hypothetical protein,0.19,enveloppes,sigF
+CD1677,,Putative membrane protein,0.48,enveloppes,sigF
+CD1940,,Putative membrane protein,0.25,enveloppes,sigF
+CD2315,,Putative exported protein,0.31,enveloppes,sigF
+CD2634,,Conserved hypothetical protein,0.27,enveloppes,sigF
+CD2635,,Putative membrane protein,0.33,enveloppes,sigF
+CD2636,,Putative membrane protein,0.2,enveloppes,sigF
+CD2686,,Putative membrane protein,0.33,enveloppes,sigF
+CD2856,,Putative membrane protein,0.46,enveloppes,sigF
+CD3551.1,,Putative membrane protein,0.11,enveloppes,sigF
+CD1707,,"Putative C4-dicarboxylate anaerobic carrier, DcuC family",0.29,enveloppes,sigF
+CD2107,,Xanthine/uracil/thiamine/ascorbate permease family protein,0.37,enveloppes,sigF
+CD1891,,"Fragment of ABC-type transport system, substrate-binding pr",0.4,enveloppes,sigF
+CD2102,,Putative Na(+)/H(+) antiporter,0.49,enveloppes,sigF
+CD2465,,Putative amino acid/polyamine transporter,0.36,enveloppes,sigF
+CD0684,,"Putative ATP-dependent peptidase, M41 family",0.29,metabolism,sigF
+CD1319,,Putative polysaccharide deacetylase,0.37,metabolism,sigF
+CD0580,gapN,Glyceraldehyde-3-phosphate dehydrogenase (NADP(+)) (GA,0.36,metabolism,sigF
+CD1543,,putative FMN-dependent NADH-azoreductase,0.16,metabolism,sigF
+CD2431,,Putative nitrite/sulphite reductase,0.23,metabolism,sigF
+CD2661,,"Putative peptidase, M16 family",0.47,metabolism,sigF
+CD2660,,"Putative peptidase, M16 family",0.48,metabolism,sigF
+CD0047,ispD,2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase,0.48,metabolism,sigF
+CD0048,ispF,"2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase",0.5,metabolism,sigF
+CD3595,,Aminopeptidase,0.55,metabolism,sigF
+CD1707,,"Putative C4-dicarboxylate anaerobic carrier, DcuC family",0.29,metabolism,sigF
+CD3521,,"Putative peptidase T, M20B family",0.38,metabolism,sigF
+CD2537,,Membrane-associated 5'-nucleotidase/phosphoesterase,0.42,metabolism,sigF
+CD0649,,"Putative peptidase, S9 family",3.8,metabolism,sigF
+CD0650,,"Putative peptidase, S9 family",5.21,metabolism,sigF
+CD0651,,Putative permease,4.65,metabolism,sigF
+CD1599,thiD,Phosphomethylpyrimidine kinase,2.36,metabolism,sigF
+CD1600,thiM,Hydroxyethylthiazole kinase,2.23,metabolism,sigF
+CD1601,thiE,Thiamine-phosphate pyrophosphorylase,1.83,metabolism,sigF
+CD1700,ribD,Riboflavin biosynthesis protein ribD [Includes: Diaminohydro,3.74,metabolism,sigF
+CD1699,ribE,Riboflavin synthase alpha subunit,2.31,metabolism,sigF
+CD1908,eutS,Ethanolamine carboxysome structural protein,3.6,metabolism,sigF
+CD1909,eutP,Ethanolamine utilization protein,2.69,metabolism,sigF
+CD1910,eutV,"Two-component response regulator, Ethanolamine specific",2.22,metabolism,sigF
+CD1911,eutW,"Two-component sensor histidine kinase, Ethanolamine specifi",2.15,metabolism,sigF
+CD0108,nrdD,Anaerobic ribonucleoside triphosphate reductase,1.95,metabolism,sigF
+CD0109,nrdG,Anaerobic ribonucleoside-triphosphate reductase-activating p,1.77,metabolism,sigF
+CD1486,,Putative ribosome recycling factor,0.1,miscelaneous,sigF
+CD0761,,Putative ATP-dependent RNA helicase,0.46,miscelaneous,sigF
+CD3220,,Putative methyltransferase,0.39,miscelaneous,sigF
+CD1323,tepA,Protein export-enhancing factor,0.38,miscelaneous,sigF
+CD0648,,"Transcriptional regulator, GntR family",2.79,regulators,sigF
+CD2928,,Conserved hypothetical protein,2.15,regulators,sigF
+CD2927,,"Transcriptional regulator, Phage-type",2.33,regulators,sigF
+CD0311,,Conserved hypothetical protein,0.32,Proteins of unknown function,sigF
+CD0347,,Conserved hypothetical protein,0.35,Proteins of unknown function,sigF
+CD0348,,Fragment of conserved hypothetical protein (Part 2),0.35,Proteins of unknown function,sigF
+CD0543,,Conserved hypothetical protein,0.38,Proteins of unknown function,sigF
+CD0896,,Conserved hypothetical protein,0.21,Proteins of unknown function,sigF
+CD1067,,Conserved hypothetical protein,0.07,Proteins of unknown function,sigF
+CD1301.1,,Conserved hypothetical protein,0.28,Proteins of unknown function,sigF
+CD1354,,Conserved hypothetical protein,0.22,Proteins of unknown function,sigF
+CD1463,,Conserved hypothetical protein,0.06,Proteins of unknown function,sigF
+CD1581,,Conserved hypothetical protein,0.03,Proteins of unknown function,sigF
+CD1880,,Conserved hypothetical protein,0.07,Proteins of unknown function,sigF
+CD2112,,Conserved hypothetical protein,0.03,Proteins of unknown function,sigF
+CD2245.1,,Conserved hypothetical protein,0.1,Proteins of unknown function,sigF
+CD2375,,Conserved hypothetical protein,0.14,Proteins of unknown function,sigF
+CD2687,,Conserved hypothetical protein,0.36,Proteins of unknown function,sigF
+CD2808,,Conserved hypothetical protein,0.05,Proteins of unknown function,sigF
+CD2809,,"Conserved hypothetical protein, DUF1540 family",0.05,Proteins of unknown function,sigF
+CD2816,,Conserved hypothetical protein,0.43,Proteins of unknown function,sigF
+CD3620,,Conserved hypothetical protein,0.35,Proteins of unknown function,sigF
+CD3271,,Conserved hypothetical protein,2.11,Proteins of unknown function,sigF
+CD2067,,Conserved hypothetical protein,2.05,Proteins of unknown function,sigF
+CD0124 , spoIID,peptidoglycane hydrolase SpoIID,0.24,Sporulation,sigE
+CD1192 ,spoIIIAA ,ATP-binding stage III sporulation protein,0.05,Sporulation,sigE
+CD1193 ,spoIIIAB ,Stage III sporulation protein AB,0.05,Sporulation,sigE
+CD1194 ,spoIIIAC ,Stage III sporulation protein AC,0.03,Sporulation,sigE
+CD1195 ,spoIIIAD,Stage III sporulation protein AD,0.07,Sporulation,sigE
+CD1196 ,spoIIIAE ,Stage III sporulation protein AE,0.09,Sporulation,sigE
+CD1197 ,spoiIIIAF,Stage III sporulation protein AF,0.08,Sporulation,sigE
+CD1198 ,spoIIIAG,Stage III sporulation protein AG,0.02,Sporulation,sigE
+CD1199 , spoIIIAH,Stage III sporulation ratchet engulfment protein,0.05,Sporulation,sigE
+CD0126 ,spoIIID,Transcriptional regulator SpoIIID,0.04,Sporulation,sigE
+CD2629 ,spoIVA ,Stage IV sporulation protein A,0.02,Sporulation,sigE
+CD0783 , spoIVB ,"Stage IV sporulation protein SpoIVB, S55 peptidase family",0.12,Sporulation,sigE
+CD3567 , sipL,Functional homolog to SpoIVD,0.05,Sporulation,sigE
+CD2442 , spoIV,Stage IV sporulation protein YqfD-like,0.14,Sporulation,sigE
+CD2443,,Conserved hypothetical protein YqfC-like,0.05,Sporulation,sigE
+CD2967 , spoVFB,Dipicolinate synthase subunit B,0.29,Sporulation,sigE
+CD2968 , dpaA,Dipicolinate synthase subunit A,0.3,Sporulation,sigE
+CD1230 , sigK,Fragment of RNA polymerase sigma-K factor SigK (Part1),0.13,Sporulation,sigE
+CD0782,,Putative sporulation protein YunB,0.32,Sporulation,sigE
+CD1168,,"Putative membrane protein, BDBH YlbJ involved in spore cortex formation 0",0.18,Sporulation,sigE
+CD1613 , cotA,Spore outer coat layer protein CotA,0.1,Sporulation,sigE
+CD1511 , cotB,Spore outer coat layer protein CotB,0.05,Sporulation,sigE
+CD0598 , cotCB,Spore-coat protein CotCB manganese catalase,0.18,Sporulation,sigE
+CD2399,,Conserved hypothetical protein,0.14,Sporulation,sigE
+CD2400 , cotJB2,Spore coat peptide assembly protein CotJB 2,0.1,Sporulation,sigE
+CD2401 , cotD,Spore coat protein CotD manganese catalase,0.11,Sporulation,sigE
+CD1433 , cotE,Spore coat protein CotE peroxiredoxin/chitinase,0.14,Sporulation,sigE
+CD0213,,Putative spore coat protein,0.42,Sporulation,sigE
+CD0214,,Conserved hypothetical protein,0.23,Sporulation,sigE
+CD0551 , sleC,Spore cortex-lytic enzyme pre-pro-form,0.15,Sporulation,sigE
+CD0332 , bclA1,Putative exosporium glycoprotein,0.21,Sporulation,sigE
+CD3230 , bclA2,Putative exosporium glycoprotein,0.12,Sporulation,sigE
+CD3349 , bclA3,Exosporium glycoprotein BclA3,0.01,Sporulation,sigE
+CD3542 , spmA,Spore maturation protein A,0.16,Sporulation,sigE
+CD3541 , spmB,Spore maturation protein B,0.11,Sporulation,sigE
+CD0106 , cwlD,"Germination-specific N-acetylmuramoyl-L-alanine amidase, Autolysin",0.14,Sporulation,sigE
+CD2246 , cspC,Subtilisin-like serine germination related protease,0.16,Sporulation,sigE
+CD2247 , cspBA,Subtilisin-like serine germination related protease,0.11,Sporulation,sigE
+CD3249 , sspB,"Small, acid-soluble spore protein alpha",0.04,Sporulation,sigE
+CD1320,,"Putative peptidase, M16 family",0.25,Sporulation,sigE
+CD1321,,Putative sporulation protein,0.23,Sporulation,sigE
+CD1322 , dapG,Aspartokinase 1,0.32,Sporulation,sigE
+CD1068,,Putative polysaccharide biosynthesis/sporulation protein,0.23,Sporulation,sigE
+CD2639,,Putative cytotoxic factor,0.21,Sporulation,sigE
+CD2640 , nrdR,"Transcriptional regulator, repressor NrdR family",0.23,Sporulation,sigE
+CD2641,,Putative sporulation protein,0.13,Sporulation,sigE
+CD2439,,Putative diacylglycerol kinase/undecaprenol kinase,0.45,Sporulation,sigE
+CD3455,,"Putative carboxy-terminal protease, homolog of CtpB",0.25,Sporulation,sigE
+CD3493,,Putative membrane protein,0.18,Sporulation,sigE
+CD3494,,Putative spore protein,0.2,Sporulation,sigE
+CD1234,,"Putative phage protein, skin element",0.22,Sporulation,sigE
+CD1631 , sodA,Superoxide dismutase (Mn),0.21,stress,sigE
+CD3461 ,mazF,Endoribonuclease toxin,0.11,stress,sigE
+CD3462 ,mazE,Putative antitoxin EndoAI,0.05,stress,sigE
+CD2865,,Putative bacterioferritin,0.19,stress,sigE
+CD2664,murE,UDP-N-acetylmuramyl-tripeptide synthetase,0.45,enveloppes,sigE
+CD3463,alr2,Alanine racemase 2,0.05,enveloppes,sigE
+CD3464,,Conserved hypothetical protein,0.04,enveloppes,sigE
+CD2761,,Putative N-acetylmuramoyl-L-alanine amidase,0.4,enveloppes,sigE
+CD3007,,"Putative L,D-transpeptidases",0.37,enveloppes,sigE
+CD2184,,N-acetylmuramoyl-L-alanine amidase,0.21,enveloppes,sigE
+CD2761,,Putative N-acetylmuramoyl-L-alanine amidase,0.4,enveloppes,sigE
+CD0514 ,cwpV,Cell surface protein,0.63,enveloppes,sigE
+CD2445,,"Putative transmembrane signaling protein, TspO/MBR family",0.07,enveloppes,sigE
+CD1845,,"Putative membrane protein Tn1549-like, CTn5-Orf1",0.14,enveloppes,sigE
+CD1928,,Putative membrane protein,0.14,enveloppes,sigE
+CD1929,,Putative membrane protein,0.27,enveloppes,sigE
+CD2800,,Putative membrane protein,0.11,enveloppes,sigE
+CD1416,,Putative membrane protein,0.2,enveloppes,sigE
+CD0314,,Putative membrane protein,0.15,enveloppes,sigE
+CD1940,,Putative membrane protein,0.08,enveloppes,sigE
+CD3551.1,,Putative membrane protein,0.31,enveloppes,sigE
+CD0131,,Putative membrane protein,0.18,enveloppes,sigE
+CD1301,,Putative membrane protein,0.33,enveloppes,sigE
+CD2144,,Putative membrane protein,0.46,enveloppes,sigE
+CD2465,,Putative amino acid/polyamine transporter,0.2,enveloppes,sigE
+CD0902,,Putative cation efflux protein,0.29,enveloppes,sigE
+CD2833,,Putative calcium-transporting ATPase,0.22,enveloppes,sigE
+CD0760,,Putative Ca2+/Na+ antiporter,0.2,enveloppes,sigE
+CD3483,,Putative zinc/iron permease,0.34,enveloppes,sigE
+CD3635,,Conserved hypothetical protein,0.29,metabolism,sigE
+CD3636,,Putative membrane protein,0.42,metabolism,sigE
+CD3637,,Putative NADPH-dependent FMN reductase,0.27,metabolism,sigE
+CD3638,,Conserved hypothetical protein,0.21,metabolism,sigE
+CD3251,,Putative dehydrogenase,0.25,metabolism,sigE
+CD3258,,Iron hydrogenase,0.08,metabolism,sigE
+CD2428,,Putative flavodoxin/ferredoxin oxidoreductase beta subunit,0.38,metabolism,sigE
+CD2429,,Putative flavodoxin/ferredoxin oxidoreductase alpha subunit,0.31,metabolism,sigE
+CD2429.1,,"Putative 4Fe-4S ferredoxin, iron-sulfur binding domain protein, delta subu",0.27,metabolism,sigE
+CD2000  ,isp,Intracellular serine protease,0.18,metabolism,sigE
+CD3652,,"Putative peptidase, M1 family",0.12,metabolism,sigE
+CD1085,,Putative membrane protein,0.26,metabolism,sigE
+CD1086,,"Putative peptidase, M20D family",0.26,metabolism,sigE
+CD3521,,"Putative peptidase T, M20B family",0.33,metabolism,sigE
+CD1746  ,gltC,Sodium/glutamate symporter,0.2,metabolism,sigE
+CD1555,,Putative amino acid permease,0.22,metabolism,sigE
+CD1259  ,brnQ-1,Branched chain amino acid transport system carrier protein,0.39,metabolism,sigE
+CD1904,,"ABC-type transport system, permease",0.26,metabolism,sigE
+CD1891,,"Fragment of ABC-type transport system, substrate-binding protein (Part 1",0.26,metabolism,sigE
+CD1927  ,ytlC,"putative ABC transporter component, ATP-binding",0.3,metabolism,sigE
+CD1319,,Putative polysaccharide deacetylase,0.06,metabolism,sigE
+CD3248,,Polysaccharide deacetylase,0.09,metabolism,sigE
+CD3257,,Putative polysaccharide deacetylase,0.11,metabolism,sigE
+CD3032,,Putative pyridoxal phosphate-dependent transferase,0.32,metabolism,sigE
+CD0982  ,ubiA,Putative UbiA prenyltransferase,0.39,metabolism,sigE
+CD2537,,Putative membrane-associated 5'-nucleotidase/phosphoesterase,0.15,metabolism,sigE
+CD0749,,"Putative DNA helicase, UvrD/REP type",0.32,miscellaenous,sigE
+CD3235,ssb,Single-stranded DNA-binding protein,0.03,miscellaenous,sigE
+CD1167,recV,"Tyrosine DNA recombinase, XerC/XerD family",0.26,miscellaenous,sigE
+CD1846,,"Putative conjugative transposon protein Tn1549-like, CTn5-Orf2",0.15,miscellaenous,sigE
+CD2864,,Putative hydrolase,0.08,miscellaenous,sigE
+CD3298,,Putative ATP/GTP-binding protein,0.19,miscellaenous,sigE
+CD1486,,Putative ribosome recycling factor,0.26,miscellaenous,sigE
+CD0757,,Putative diguanylate kinase signaling protein,0.45,regulator,sigE
+CD1616,,Putative diguanylate kinase signaling protein,0.37,regulator,sigE
+CD2637,,Two-component sensor histidine kinase,0.3,regulator,sigE
+CD0129,,"Conserved hypothetical protein, DUF1256 family",0.15,Proteins of unknown function,sigE
+CD0196,,"Fragment of conserved hypothetical protein, DUF111 family (part 2)",0.18,Proteins of unknown function,sigE
+CD0311,,Conserved hypothetical protein,0.02,Proteins of unknown function,sigE
+CD0896,,Conserved hypothetical protein,0.05,Proteins of unknown function,sigE
+CD1063,,Conserved hypothetical protein,0.11,Proteins of unknown function,sigE
+CD1063.2,,Conserved hypothetical protein,0.01,Proteins of unknown function,sigE
+CD1063.3,,Conserved hypothetical protein,0.01,Proteins of unknown function,sigE
+CD1063.1,,Conserved hypothetical protein,0.17,Proteins of unknown function,sigE
+CD1065,,Conserved hypothetical protein,0.06,Proteins of unknown function,sigE
+CD1066,,Conserved hypothetical protein,0.16,Proteins of unknown function,sigE
+CD1067,,Conserved hypothetical protein,0,Proteins of unknown function,sigE
+CD1133,,Conserved hypothetical protein,0.12,Proteins of unknown function,sigE
+CD1581,,Conserved hypothetical protein,0.01,Proteins of unknown function,sigE
+CD1726,,Conserved hypothetical protein,0.05,Proteins of unknown function,sigE
+CD1880,,Conserved hypothetical protein,0.21,Proteins of unknown function,sigE
+CD1884,,Conserved hypothetical protein,0.11,Proteins of unknown function,sigE
+CD1930,,Conserved hypothetical protein,0.27,Proteins of unknown function,sigE
+CD2121,,Conserved hypothetical protein,0.23,Proteins of unknown function,sigE
+CD2374,,Conserved hypothetical protein,0.23,Proteins of unknown function,sigE
+CD2816,,Conserved hypothetical protein,0.11,Proteins of unknown function,sigE
+CD3234,,Conserved hypothetical protein,0.09,Proteins of unknown function,sigE
+CD3457,,Conserved hypothetical protein,0.05,Proteins of unknown function,sigE
+CD3465,,Conserved hypothetical protein,0.4,Proteins of unknown function,sigE
+CD3522,,Conserved hypothetical protein,0.09,Proteins of unknown function,sigE
+CD3580,,Conserved hypothetical protein,0.11,Proteins of unknown function,sigE
+CD3620,,"Conserved hypothetical protein, similar to YmaF",0.34,Proteins of unknown function,sigE
+CD2642,sigG,RNA polymerase sigma-G factor,0.23,Sporulation,sigG
+CD0773,spoVAC ,Stage V sporulation protein AC,0.26,Sporulation,sigG
+CD0774,spoVAD ,Stage V sporulation protein AD,0.3,Sporulation,sigG
+CD0775,spoVAE ,Stage V sporulation protein AE,0.28,Sporulation,sigG
+CD1213,spoIVB ,"Stage IV sporulation protein B, peptidase S55 family",0.6,Sporulation,sigG
+CD3499,spoVT,Stage V sporulation protein T,0.22,Sporulation,sigG
+CD3249,sspB,"Small, acid-soluble spore protein alpha",0.07,Sporulation,sigG
+CD2688,sspA,"Small, acid-soluble spore protein alpha",0.02,Sporulation,sigG
+CD1290,,Putative small acid-soluble spore protein SASP,0.52,Sporulation,sigG
+CD3220.1,,Small acid-soluble spore protein,0.66,Sporulation,sigG
+CD2845,rbr,Rubrerythrin,0.27,Stress,sigG
+CD1631,sodA,Superoxide dismutase (Mn),0.32,Stress,sigG
+CD1567,,putative manganese catalase,0.27,Stress,sigG
+CD0784,,Putative N-acetylmuramoyl-L-alanine amidase,0.41,Enveloppes,sigG
+CD1291,dacF,D-alanyl-D-alanine carboxypeptidase,0.31,Enveloppes,sigG
+CD2762,uppS,Putative undecaprenyl pyrophosphate synthetase,0.62,Enveloppes,sigG
+CD1430,,Putative ?-lactam-biosynthetic de-N-acteylase,0.21,Enveloppes,sigG
+CD0792,,"Putative membrane protein, DUF81 family",0.43,Enveloppes,sigG
+CD0793,,"Putative membrane protein, DUF81 family",0.33,Enveloppes,sigG
+CD1788,,Conserved hypothetical protein,0.43,Enveloppes,sigG
+CD1789,,"Putative membrane protein, DUF421 family",0.61,Enveloppes,sigG
+CD2051,,Putative membrane protein,0.52,Enveloppes,sigG
+CD2315,,Putative exported protein,0.38,Enveloppes,sigG
+CD2634,,Conserved hypothetical protein,0.65,Enveloppes,sigG
+CD2635,,Putative membrane protein,0.5,Enveloppes,sigG
+CD2636,,Putative membrane protein,0.34,Enveloppes,sigG
+CD3551.1,,Putative membrane protein,0.18,Enveloppes,sigG
+CD2465,,Putative amino acid/polyamine transporter,0.52,Enveloppes,sigG
+CD0684,,"Putative ATP-dependent peptidase, M41 family",0.46,Metabolism,sigG
+CD3489,,"Putative oligoendopeptidase F, peptidase M3B family",0.62,Metabolism,sigG
+CD2431,,Putative nitrite/sulphite reductase,0.54,Metabolism,sigG
+CD1676,pcp,Pyrrolidone-carboxylate peptidase,0.66,Metabolism,sigG
+CD1677,,Putative membrane protein,0.51,Metabolism,sigG
+CD2841,,Putative amidohydrolase,0.57,Metabolism,sigG
+CD1543,,putative FMN-dependent NADH-azoreductase,0.43,Metabolism,sigG
+CD1707,,"Putative C4-dicarboxylate anaerobic carrier, DcuC family",0.53,Metabolism,sigG
+CD1486,,Putative ribosome recycling factor,0.17,Translation,sigG
+CD0543,,Conserved hypothetical protein,0.57,Proteins of unknown function,sigG
+CD1297,,Conserved hypothetical protein,0.66,Proteins of unknown function,sigG
+CD1298,,Conserved hypothetical protein,0.55,Proteins of unknown function,sigG
+CD1301.1,,Conserved hypothetical protein,0.45,Proteins of unknown function,sigG
+CD1354,,Conserved hypothetical protein,0.48,Proteins of unknown function,sigG
+CD1463,,Conserved hypothetical protein,0.22,Proteins of unknown function,sigG
+CD1568,,Conserved hypothetical protein,0.6,Proteins of unknown function,sigG
+CD1880,,Conserved hypothetical protein,0.25,Proteins of unknown function,sigG
+CD2112,,Conserved hypothetical protein,0.26,Proteins of unknown function,sigG
+CD2245.1,,Conserved hypothetical protein,0.3,Proteins of unknown function,sigG
+CD2375,,Conserved hypothetical protein,0.24,Proteins of unknown function,sigG
+CD2808,,Conserved hypothetical protein,0.64,Proteins of unknown function,sigG
+CD2809,,"Conserved hypotheticalprotein, DUF1540 family",0.45,Proteins of unknown function,sigG
+CD3610,,Conserved hypothetical protein,0.66,Proteins of unknown function,sigG
+CD1230,,Fragment of RNA polymerase sigma-K factor SigK (Part1),0.05,Sporulation,sigK
+CD3569,,"Sporulation-specific protease, YabG-like protein",0.22,Sporulation,sigK
+CD1613  , cotA,Spore outer coat layer protein CotA,0.05,Sporulation,sigK
+CD2399,,Conserved hypothetical protein,0.01,Sporulation,sigK
+CD2400  , cotJB2,Spore coat peptide assembly protein CotJB 2,0.01,Sporulation,sigK
+CD2401  , cotD,Spore coat protein CotD manganese catalase,0.01,Sporulation,sigK
+CD0596,,Conserved hypothetical protein,0.02,Sporulation,sigK
+CD0597  , cotJB1,Spore coat peptide assembly protein,0.02,Sporulation,sigK
+CD0598  , cotCB,Spore-coat protein CotCB manganese catalase,0.01,Sporulation,sigK
+CD1433  , cotE,Spore coat protein CotE peroxiredoxin/chitinase,0.03,Sporulation,sigK
+CD2968  , dpaA,Dipicolinate synthase subunit A,0.08,Sporulation,sigK
+CD2967  , spoVFB,Dipicolinate synthase subunit B,0.09,Sporulation,sigK
+CD0551  , sleC,Spore cortex-lytic enzyme pre-pro-form,0.14,Sporulation,sigK
+CD0332  , bclA1,Putative exosporium glycoprotein,0.08,Sporulation,sigK
+CD3230  , bclA2,Putative exosporium glycoprotein,0.04,Sporulation,sigK
+CD3349  , bclA3,Exosporium glycoprotein BclA3,0.02,Sporulation,sigK
+CD0514,cwpV,Cell surface protein,0.2,Enveloppes,sigK
+CD1898,,"Cell wall hydrolase, N-acetylmuramic acid L-alanine amidase",0.12,Enveloppes,sigK
+CD1897,,Conserved hypothetical protein,0.13,Enveloppes,sigK
+CD2184,,Putative N-acetylmuramoyl-L-alanine amidase (cell wall hydrolase),0.13,Enveloppes,sigK
+CD2664,murE,UDP-N-acetylmuramyl-tripeptide synthetase,0.42,Enveloppes,sigK
+CD3007,,"Putative L,D-transpeptidases",0.48,Enveloppes,sigK
+CD2537,,Putative membrane-associated 5'-nucleotidase/phosphoesterase,0.22,Enveloppes,sigK
+CD2458,,"Transporter, Major Facilitator Superfamily (MFS)",0.39,Enveloppes,sigK
+CD2459,,"Putative glucokinase, ROK family",0.41,Enveloppes,sigK
+CD0902,,Putative cation efflux protein,0.17,Enveloppes,sigK
+CD1517,feoB,Ferrous iron transport protein B,0.05,Enveloppes,sigK
+CD1518,feoA,Ferrous iron transport protein,0.05,Enveloppes,sigK
+CD1904,,"ABC-type transport system, permease",0.13,Enveloppes,sigK
+CD2720,,Putative transporter,0.16,Enveloppes,sigK
+CD1927,ytlC,"Fragment of ABC transporter component, ATP-binding",0.08,Enveloppes,sigK
+CD1891,,"Fragment of ABC-type transport system, substrate-binding protein",0.08,Enveloppes,sigK
+CD2346,,Putative membrane protein,0.24,Enveloppes,sigK
+CD2144,,Putative membrane protein,0.12,Enveloppes,sigK
+CD1824,,P-type calcium transport ATPase,2.69,Enveloppes,sigK
+CD0147,,Putative transporter,2.25,Enveloppes,sigK
+CD3350,,"Putative glycosyl transferase, family 2",0.09,Metabolism,sigK
+CD3032,,Putative pyridoxal phosphate-dependent transferase,0.11,Metabolism,sigK
+CD1951,,putative Acyl-CoA N-acyltransferase,0.19,Metabolism,sigK
+CD0119  , glmM,Phosphoglucosamine mutase,0.49,Metabolism,sigK
+CD0120  , glmS,Glucosamine--fructose-6-phosphate aminotransferase,0.52,Metabolism,sigK
+CD0995  , serA,Putative D-3-phosphoglycerate dehydrogenase,6.49,Metabolism,sigK
+CD0996,,Conserved hypothetical protein,3.08,Metabolism,sigK
+CD2480,,Putative hydrolase,2.03,Metabolism,sigK
+CD0749,,"Putative DNA helicase, UvrD/REP type",0.05,Miscellaenous,sigK
+CD1845,,"Putative membrane protein Tn1549-like, CTn5-Orf1",0.17,Miscellaenous,sigK
+CD1846,,"Putative conjugative transposon protein Tn1549-like, CTn5-Orf2",0.2,Miscellaenous,sigK
+CD0564,,"putative ATP-dependent protease, Lon family",0.39,Miscellaenous,sigK
+CD0309,,"Putative hydrolase, HAD superfamily, subfamily IB",0.38,Miscellaenous,sigK
+CD2048,,"Transcriptional regulator, RpiR family",2.05,Regulator,sigK
+CD0196,,"Fragment of conserved hypothetical protein, DUF111 family (part 2",0.18,Proteins of unknown function,sigK
+CD0896,,Conserved hypothetical protein,0.02,Proteins of unknown function,sigK
+CD1063.1,,Conserved hypothetical protein,0.21,Proteins of unknown function,sigK
+CD1063.2,,Conserved hypothetical protein,0.04,Proteins of unknown function,sigK
+CD1063.3,,Conserved hypothetical protein,0.04,Proteins of unknown function,sigK
+CD1065,,Conserved hypothetical protein,0.3,Proteins of unknown function,sigK
+CD1067,,Conserved hypothetical protein,0.03,Proteins of unknown function,sigK
+CD1133,,Conserved hypothetical protein,0.16,Proteins of unknown function,sigK
+CD1581,,Conserved hypothetical protein,0.01,Proteins of unknown function,sigK
+CD2055,,Conserved hypothetical protein,0.33,Proteins of unknown function,sigK
+CD2409,,Conserved hypothetical protein,0.11,Proteins of unknown function,sigK
+CD3580,,Conserved hypothetical protein,0.12,Proteins of unknown function,sigK
+CD3613,,Conserved hypothetical protein,0.04,Proteins of unknown function,sigK
+CD3620,,Conserved hypothetical protein,0.04,Proteins of unknown function,sigK
+CD1286,,Conserved hypothetical protein,2.17,Proteins of unknown function,sigK
+CD1831.1,,Conserved hypothetical protein,2.36,Proteins of unknown function,sigK
+CD1230,,Fragment of RNA polymerase sigma-K factor SigK (Part1),0.05,Sporulation,sigK
+CD3569,,"Sporulation-specific protease, YabG-like protein",0.22,Sporulation,sigK
+CD1613  , cotA,Spore outer coat layer protein CotA,0.05,Sporulation,sigK
+CD2399,,Conserved hypothetical protein,0.01,Sporulation,sigK
+CD2400  , cotJB2,Spore coat peptide assembly protein CotJB 2,0.01,Sporulation,sigK
+CD2401  , cotD,Spore coat protein CotD manganese catalase,0.01,Sporulation,sigK
+CD0596,,Conserved hypothetical protein,0.02,Sporulation,sigK
+CD0597  , cotJB1,Spore coat peptide assembly protein,0.02,Sporulation,sigK
+CD0598  , cotCB,Spore-coat protein CotCB manganese catalase,0.01,Sporulation,sigK
+CD1433  , cotE,Spore coat protein CotE peroxiredoxin/chitinase,0.03,Sporulation,sigK
+CD2968  , dpaA,Dipicolinate synthase subunit A,0.08,Sporulation,sigK
+CD2967  , spoVFB,Dipicolinate synthase subunit B,0.09,Sporulation,sigK
+CD0551  , sleC,Spore cortex-lytic enzyme pre-pro-form,0.14,Sporulation,sigK
+CD0332  , bclA1,Putative exosporium glycoprotein,0.08,Sporulation,sigK
+CD3230  , bclA2,Putative exosporium glycoprotein,0.04,Sporulation,sigK
+CD3349  , bclA3,Exosporium glycoprotein BclA3,0.02,Sporulation,sigK
+CD0514,cwpV,Cell surface protein,0.2,Enveloppes,sigK
+CD1898,,"Cell wall hydrolase, N-acetylmuramic acid L-alanine amidase",0.12,Enveloppes,sigK
+CD1897,,Conserved hypothetical protein,0.13,Enveloppes,sigK
+CD2184,,Putative N-acetylmuramoyl-L-alanine amidase (cell wall hydrolase),0.13,Enveloppes,sigK
+CD2664,murE,UDP-N-acetylmuramyl-tripeptide synthetase,0.42,Enveloppes,sigK
+CD3007,,"Putative L,D-transpeptidases",0.48,Enveloppes,sigK
+CD2537,,Putative membrane-associated 5'-nucleotidase/phosphoesterase,0.22,Enveloppes,sigK
+CD2458,,"Transporter, Major Facilitator Superfamily (MFS)",0.39,Enveloppes,sigK
+CD2459,,"Putative glucokinase, ROK family",0.41,Enveloppes,sigK
+CD0902,,Putative cation efflux protein,0.17,Enveloppes,sigK
+CD1517,feoB,Ferrous iron transport protein B,0.05,Enveloppes,sigK
+CD1518,feoA,Ferrous iron transport protein,0.05,Enveloppes,sigK
+CD1904,,"ABC-type transport system, permease",0.13,Enveloppes,sigK
+CD2720,,Putative transporter,0.16,Enveloppes,sigK
+CD1927,ytlC,"Fragment of ABC transporter component, ATP-binding",0.08,Enveloppes,sigK
+CD1891,,"Fragment of ABC-type transport system, substrate-binding protein",0.08,Enveloppes,sigK
+CD2346,,Putative membrane protein,0.24,Enveloppes,sigK
+CD2144,,Putative membrane protein,0.12,Enveloppes,sigK
+CD1824,,P-type calcium transport ATPase,2.69,Enveloppes,sigK
+CD0147,,Putative transporter,2.25,Enveloppes,sigK
+CD3350,,"Putative glycosyl transferase, family 2",0.09,Metabolism,sigK
+CD3032,,Putative pyridoxal phosphate-dependent transferase,0.11,Metabolism,sigK
+CD1951,,putative Acyl-CoA N-acyltransferase,0.19,Metabolism,sigK
+CD0119  , glmM,Phosphoglucosamine mutase,0.49,Metabolism,sigK
+CD0120  , glmS,Glucosamine--fructose-6-phosphate aminotransferase,0.52,Metabolism,sigK
+CD0995  , serA,Putative D-3-phosphoglycerate dehydrogenase,6.49,Metabolism,sigK
+CD0996,,Conserved hypothetical protein,3.08,Metabolism,sigK
+CD2480,,Putative hydrolase,2.03,Metabolism,sigK
+CD0749,,"Putative DNA helicase, UvrD/REP type",0.05,Miscellaenous,sigK
+CD1845,,"Putative membrane protein Tn1549-like, CTn5-Orf1",0.17,Miscellaenous,sigK
+CD1846,,"Putative conjugative transposon protein Tn1549-like, CTn5-Orf2",0.2,Miscellaenous,sigK
+CD0564,,"putative ATP-dependent protease, Lon family",0.39,Miscellaenous,sigK
+CD0309,,"Putative hydrolase, HAD superfamily, subfamily IB",0.38,Miscellaenous,sigK
+CD2048,,"Transcriptional regulator, RpiR family",2.05,Regulator,sigK
+CD0196,,"Fragment of conserved hypothetical protein, DUF111 family (part 2",0.18,Proteins of unknown function,sigK
+CD0896,,Conserved hypothetical protein,0.02,Proteins of unknown function,sigK
+CD1063.1,,Conserved hypothetical protein,0.21,Proteins of unknown function,sigK
+CD1063.2,,Conserved hypothetical protein,0.04,Proteins of unknown function,sigK
+CD1063.3,,Conserved hypothetical protein,0.04,Proteins of unknown function,sigK
+CD1065,,Conserved hypothetical protein,0.3,Proteins of unknown function,sigK
+CD1067,,Conserved hypothetical protein,0.03,Proteins of unknown function,sigK
+CD1133,,Conserved hypothetical protein,0.16,Proteins of unknown function,sigK
+CD1581,,Conserved hypothetical protein,0.01,Proteins of unknown function,sigK
+CD2055,,Conserved hypothetical protein,0.33,Proteins of unknown function,sigK
+CD2409,,Conserved hypothetical protein,0.11,Proteins of unknown function,sigK
+CD3580,,Conserved hypothetical protein,0.12,Proteins of unknown function,sigK
+CD3613,,Conserved hypothetical protein,0.04,Proteins of unknown function,sigK
+CD3620,,Conserved hypothetical protein,0.04,Proteins of unknown function,sigK
+CD1286,,Conserved hypothetical protein,2.17,Proteins of unknown function,sigK
+CD1831.1,,Conserved hypothetical protein,2.36,Proteins of unknown function,sigK

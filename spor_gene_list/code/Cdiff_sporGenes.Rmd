@@ -48,33 +48,171 @@ d.dem <- read_csv(here("spor_gene_list/data", "cdif_Dembek_2015_S2.csv" ))
 
 > All known sporulation genes from B. subtilis strain 168 and C. difficile strain 630, the two species that are better characterized in terms of their sporulation machinery, were collected from the literature...)
 
-Genes of strain 630 are listed bu GI number. 
+Genes of strain 630 are listed bu GI number. In a separate script (parse_gi.R) I converted the GI numbers to C. diff 630 locus tags. That is the list I will use here.
 
 ```{r}
-d.ramos <- read_csv(here("spor_gene_list/data", "cdif_RamosSilva_2019_S1CD.csv" ))
+# d.ramos <- read_csv(here("spor_gene_list/data", "cdif_RamosSilva_2019_S1CD.csv" ))
+d.ramos <- read_csv(here("spor_gene_list/data", "giLocus_RamosSilva_.csv" )) %>% 
+  # Remove columns created without need
+  select(locus_tag, old_locus_tag, product, acc, gi)
+
 
 ```
 
-## convert GI to locus tag
+4. [Saujet et al. 2013](https://doi.org/10.1371/journal.pgen.1003756)
+
+These autors constructes mutants in the major regulators of sporulation (sigma factors EFGK and spoIIID) and compared gene expression between each mutant abd  a WT strain during sporulation (time selected by preliminary test to maximize differential expression) using microarrays.
+
+Analysis done in strain 630, genes listed with old locus_taga (*CDNNNN*). To match these I use a gene data table from [Petit et al. 2014](https://doi.org/10.1186/1471-2164-15-160).
 
 ```{r}
+d.sau <- read_csv(here("spor_gene_list/data", "cdif_Saujet_2013_sup.csv"),
+                   trim_ws = T)
+d.pet <- read_csv(here("spor_gene_list/data", "cdif_Pettit_2014_spo0A.csv" ),
+                  trim_ws = T)
 
-# x <- curl::curl("https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=126698479&rettype=acc")
-# 
-# #126698479
-# # https://www.biostars.org/p/145216/
-# # Dependencies
-# library(rentrez) 
-# 
-# # NCBI Protein GI to Genome Accession
-# gi = 126698479
-# gi_link = entrez_link(dbfrom = 'protein', db = 'nuccore', id = gi)
-# nucc_id = gi_link$links$protein_nuccore
-# nucc = entrez_summary(db = 'nuccore', id = nucc_id)
-# nucc$caption
+d.sau <- d.sau %>% 
+  mutate(sub_locus = str_extract(Gene, "\\..*") %>% str_remove("\\.")) 
+
+d.sau <- d.sau %>% 
+  mutate(pet_sub_locus =  LETTERS[as.numeric(d.sau$sub_locus)]) %>% 
+  mutate(pet_locus = str_replace(Gene, "\\..*", pet_sub_locus)) %>% 
+  select(-sub_locus, -pet_sub_locus) 
+
+d.sau <- left_join(d.sau,
+          d.pet %>% select(1:2),
+          by = c("pet_locus" =  "old_locus_tag"))
+
+
+  
+
+```
+
+```{r}
+library(gplots)
+vn <- venn(list(DEM=d.dem$`Cd630 orthologue locus_tag` %>% unique(),
+          FIM=d.fim$locus_tag %>% unique(),
+          RAM=d.ramos$locus_tag %>% unique(),
+          SAU=d.ramos$locus_tag %>% unique()))
 
 
 ```
+
+I will include in the list of sporultion genes those that occur in multiple data sets.
+
+```{r}
+intersections <- attributes(vn)$intersections
+keepers <- names(intersections)
+keepers <- keepers[grep(":", keepers)]
+
+spor_genes <- intersections[keepers] %>% unlist()
+```
+
+currently 329 genes. 
+I will look at the genes left out to see if any should be kept.
+
+Which genes occur only in the Dembek data set?
+```{r}
+look <- d.dem %>% 
+  filter(`Cd630 orthologue locus_tag` %in% intersections$DEM)
+
+look
+```
+
+There are two genes that by description are involved in sporulation. I will keep those in the list.
+
+```{r}
+look <- look %>% 
+  filter(str_detect(`function`, "spore") |
+           str_detect(`function`, "sporulation"))
+
+look
+
+spor_genes <- c(spor_genes, look$`Cd630 orthologue locus_tag`)
+```
+
+
+Which genes occur only in the Fimlaid data set?
+```{r}
+look <- d.fim %>% 
+  filter(locus_tag %in% intersections$FIM)
+
+look
+```
+
+Here too there are two genes that by description are involved in sporulation. I will keep those in the list as well.
+
+```{r}
+look <- look %>% 
+  filter(str_detect(description, "spore") |
+           str_detect(description, "sporulation"))
+
+look
+
+spor_genes <- c(spor_genes, look$locus_tag)
+```
+
+Currently I have 333 sporulation genes.
+
+```{r}
+look <- d.pet %>% 
+  filter(! locus_tag %in% spor_genes)
+
+look %>% 
+  filter(str_detect(`Gene product`, "spore") |
+           str_detect(`Gene product`, "sporulation")) 
+
+
+look %>% 
+  filter(str_detect(`gene name`, "spo")) 
+```
+
+### Check if any other genes were left out
+
+I downloade the reannotated C. Diff 630 ([Genbank:CP016318.1](https://www.ncbi.nlm.nih.gov/nuccore/CP016318.1/)) genome as GFF. I will check if any genes that I donot have are noted as related to sporulation.
+
+```{r}
+library(ape)
+gff <- here("spor_gene_list/data","/Cdiff.gff3")
+d <- read.gff(gff)
+
+d.cds <- d %>% filter(type == "CDS") 
+
+d.parse.cds <- tibble()
+for(i  in 1:nrow(d.cds[])){
+  att <- d.cds$attributes[i]
+  d.parse.cds <- 
+    tibble(locus_tag = str_extract(att, "locus_tag=.*?;") %>% str_remove(";") %>% str_remove("locus_tag="),
+           old_locus_tag = str_extract(att, "corresponds to CD630.*?;") %>% str_remove(";") %>% str_remove("corresponds to"),
+           acc = str_extract(att, "Name=.*?;") %>% str_remove(";") %>% str_remove("Name="),
+           gene = str_extract(att, "gene=.*?;") %>% str_remove(";") %>% str_remove("gene="),
+           product = str_extract(att, "product=.*?;") %>% str_remove(";") %>% str_remove("product=")) %>% 
+    bind_rows(d.parse.cds, .)
+  
+}
+
+d.parse.cds$old_locus_tag <- trimws(d.parse.cds$old_locus_tag)
+
+look <- d.parse.cds %>% 
+  filter(! old_locus_tag %in% spor_genes)
+
+look %>% 
+  filter(str_detect(product, "spore") |
+           str_detect(product, "sporulation")) 
+
+```
+
+There are 17 such genes! I'll add them to the list.
+
+```{r}
+spor_genes <- look %>% 
+  filter(str_detect(product, "spore") |
+           str_detect(product, "sporulation")) %>% 
+  pull(old_locus_tag) %>% 
+  c(spor_genes,.)
+```
+
+This brings me to 350 sporulation genes.
 
 
 # get KEGG data on C. diff
@@ -102,26 +240,51 @@ ko$ko <-  str_replace(ko$ko,pattern = "ko:",replacement = "")
 d.kegg.cdf <- left_join(d.kegg.cdf, ko, c("locus_tag" = "cdf"))
 ```
 
-
-## Strain 630 
-
-In KEGG this strain has the code *cdl*, and taxon number [*T00998*](https://www.genome.jp/entry/T00998).
+# sporulation genes with KO
 
 ```{r}
-# all kegg genes
-raw.kegg.cdl <- keggFind("genes", "cdl:CDR20291") 
-d.kegg.cdl <- raw.kegg.cdl %>% 
-  enframe(name = "kegg", value = "kegg.txt") %>% 
-  separate(kegg, into = c("strain", "locus_tag"), sep = ":") %>% 
-  separate(kegg.txt, into = c("symbol", "description"), sep = ";", fill = "left", extra = "merge") 
+spore_ko <- d.kegg.cdf %>% 
+  filter (locus_tag %in% spor_genes) %>% 
+  filter (! is.na(ko))
 
+n.ko <- spore_ko$ko %>% unique() %>% length()
+spore_ko
 
-# KOs
-ko <- keggLink("cdl", "ko")
-ko <- enframe(ko, name = "ko", value = "cdl")
-ko$cdl <-  str_replace(ko$cdl,pattern = "cdl:",replacement = "")
-ko$ko <-  str_replace(ko$ko,pattern = "ko:",replacement = "")
-
-# join
-d.kegg.cdl <- left_join(d.kegg.cdl, ko, c("locus_tag" = "cdl"))
 ```
+
+Finally we are left with 152 Cdiff sporulation genes that correspond to `r n.ko` uniqe KOs.
+
+```{r export}
+write.csv(spore_ko, here("spor_gene_list/data", "cdif_spor_KOs.csv"))
+
+# spor_genes[!spor_genes %in% d.kegg.cdf$locus_tag]
+d.kegg.cdf %>% filter(locus_tag %in% spor_genes) %>% 
+write.csv(here("spor_gene_list/data", "cdif_spor_KEGSs.csv"))
+```
+
+
+
+
+
+<!-- ## Strain R20291  -->
+
+<!-- In KEGG this strain has the code *cdl*, and taxon number [*T00998*](https://www.genome.jp/entry/T00998). -->
+
+<!-- ```{r} -->
+<!-- # all kegg genes -->
+<!-- raw.kegg.cdl <- keggFind("genes", "cdl:CDR20291")  -->
+<!-- d.kegg.cdl <- raw.kegg.cdl %>%  -->
+<!--   enframe(name = "kegg", value = "kegg.txt") %>%  -->
+<!--   separate(kegg, into = c("strain", "locus_tag"), sep = ":") %>%  -->
+<!--   separate(kegg.txt, into = c("symbol", "description"), sep = ";", fill = "left", extra = "merge")  -->
+
+
+<!-- # KOs -->
+<!-- ko <- keggLink("cdl", "ko") -->
+<!-- ko <- enframe(ko, name = "ko", value = "cdl") -->
+<!-- ko$cdl <-  str_replace(ko$cdl,pattern = "cdl:",replacement = "") -->
+<!-- ko$ko <-  str_replace(ko$ko,pattern = "ko:",replacement = "") -->
+
+<!-- # join -->
+<!-- d.kegg.cdl <- left_join(d.kegg.cdl, ko, c("locus_tag" = "cdl")) -->
+<!-- ``` -->
