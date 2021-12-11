@@ -4,7 +4,7 @@ author: "Daniel Schwartz"
 date: "Dec/2021"
 output: rmarkdown::github_document
 editor_options: 
-  chunk_output_type: hide
+  chunk_output_type: inline
 ---
 
 ```{r setup, include=FALSE}
@@ -229,7 +229,6 @@ d.kegg.cdf <- raw.kegg.cdf %>%
   separate(kegg, into = c("strain", "locus_tag"), sep = ":") %>% 
   separate(kegg.txt, into = c("symbol", "description"), sep = ";", fill = "left", extra = "merge") 
 
-
 # KOs
 ko <- keggLink("cdf", "ko")
 ko <- enframe(ko, name = "ko", value = "cdf")
@@ -246,26 +245,57 @@ d.kegg.cdf <- left_join(d.kegg.cdf, ko, c("locus_tag" = "cdf"))
 spore_ko <- d.kegg.cdf %>% 
   filter (locus_tag %in% spor_genes) %>% 
   filter (! is.na(ko))
-
 n.ko <- spore_ko$ko %>% unique() %>% length()
 spore_ko
 
 ```
 
-Finally we are left with 152 Cdiff sporulation genes that correspond to `r n.ko` uniqe KOs.
+Finally we are left with 152 Cdiff sporulation genes that correspond to `r n.ko` unique KOs.
 
 ```{r export}
+d.spore_genes <- d.kegg.cdf %>% filter(locus_tag %in% spor_genes) 
+
+
 write.csv(spore_ko, here("spor_gene_list/data", "cdif_spor_KOs.csv"))
 
-# spor_genes[!spor_genes %in% d.kegg.cdf$locus_tag]
-d.kegg.cdf %>% filter(locus_tag %in% spor_genes) %>% 
-write.csv(here("spor_gene_list/data", "cdif_spor_KEGSs.csv"))
+write.csv(d.spore_genes,here("spor_gene_list/data", "cdif_spor_KEGSs.csv"))
+```
+
+#add uniref
+
+Dowloaded from [UNIPROT](https://www.uniprot.org/uniprot/?query=taxonomy:272563)
+```{r}
+d.uni <- read_csv(here("spor_gene_list/data","cdiff_uniprot.csv"))
+
+d.spore_genes <- d.uni %>% 
+  select(uniprot.id = Entry, locus_tag) %>% 
+  left_join(d.spore_genes,.)
 ```
 
 
+# Format for DRAM
+B. subtilis list of sporulation genes in dram format:  
+```{r, message=FALSE}
+dram_bsub <- read_csv(here("spor_gene_list/data","dram_spore_genes_RS.csv"))
 
+```
 
+```{r}
+dram.col.names <- names(dram_bsub)
+d.dram <- 
+  d.spore_genes%>%
+  select(gene_id.ko=ko,
+         gene_id.uniref90=uniprot.id,
+         gene_description=description) %>% 
+  mutate(module="sporulation",
+         sheet= "MISC",
+         header= "sporulation",
+         subheader="sporulation",
+         potential_amg="TRUE")
 
+write_csv(d.dram, here("spor_gene_list/data","dram_spore_genes_Cdiff.csv"))
+d.dram
+```
 <!-- ## Strain R20291  -->
 
 <!-- In KEGG this strain has the code *cdl*, and taxon number [*T00998*](https://www.genome.jp/entry/T00998). -->

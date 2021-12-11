@@ -14,20 +14,21 @@ from *Clostridioides difficle* to use in DRAM.
 > sporulation sigma factors and performed RNA-Sequencing to identify
 > specific sigma factor-dependent genes.
 
-Analysis done in strain 630, genes listed with locus\_tag
-(*CD630\_NNNN*).
+Analysis done in strain 630, genes listed with locus_tag (*CD630_NNNN*).
 
 ``` r
 d.fim <- read_csv(here("spor_gene_list/data", "cdif_Fimlaid_2013_S9.csv" ))
 ```
 
-    ## 
+    ## Rows: 314 Columns: 3
+
     ## -- Column specification --------------------------------------------------------
-    ## cols(
-    ##   Name = col_character(),
-    ##   locus_tag = col_character(),
-    ##   description = col_character()
-    ## )
+    ## Delimiter: ","
+    ## chr (3): Name, locus_tag, description
+
+    ## 
+    ## i Use `spec()` to retrieve the full column specification for this data.
+    ## i Specify the column types or set `show_col_types = FALSE` to quiet this message.
 
 2.  [Dembek et al. 2015](https://doi.org/10.1128/mBio.02383-14)
 
@@ -37,8 +38,8 @@ purified spores. Sporulation genes were those Tn-mutants that were
 missing in the spores. In a similar way they also isentifies germination
 genes as those absent in a culture grown from purified spores.
 
-Analysis done in strain R20291, genes listed with locus\_tag
-(*CDR20291\_NNNN*). They also list for each gene the ortholog in strain
+Analysis done in strain R20291, genes listed with locus_tag
+(*CDR20291_NNNN*). They also list for each gene the ortholog in strain
 630, if available. However, they do not mention how orthology was
 determined.
 
@@ -46,15 +47,16 @@ determined.
 d.dem <- read_csv(here("spor_gene_list/data", "cdif_Dembek_2015_S2.csv" ))
 ```
 
-    ## 
+    ## Rows: 777 Columns: 5
+
     ## -- Column specification --------------------------------------------------------
-    ## cols(
-    ##   locus_tag = col_character(),
-    ##   `function` = col_character(),
-    ##   logFC = col_double(),
-    ##   q.value = col_double(),
-    ##   `Cd630 orthologue locus_tag` = col_character()
-    ## )
+    ## Delimiter: ","
+    ## chr (3): locus_tag, function, Cd630 orthologue locus_tag
+    ## dbl (2): logFC, q.value
+
+    ## 
+    ## i Use `spec()` to retrieve the full column specification for this data.
+    ## i Specify the column types or set `show_col_types = FALSE` to quiet this message.
 
 3.  [Ramos-Silva et al. 2019](https://doi.org/10.1101/473793)
 
@@ -64,7 +66,7 @@ d.dem <- read_csv(here("spor_gene_list/data", "cdif_Dembek_2015_S2.csv" ))
 > literature…)
 
 Genes of strain 630 are listed bu GI number. In a separate script
-(parse\_gi.R) I converted the GI numbers to C. diff 630 locus tags. That
+(parse_gi.R) I converted the GI numbers to C. diff 630 locus tags. That
 is the list I will use here.
 
 ``` r
@@ -74,18 +76,17 @@ d.ramos <- read_csv(here("spor_gene_list/data", "giLocus_RamosSilva_.csv" )) %>%
   select(locus_tag, old_locus_tag, product, acc, gi)
 ```
 
-    ## 
+    ## Rows: 302 Columns: 8
+
     ## -- Column specification --------------------------------------------------------
-    ## cols(
-    ##   locus_tag = col_character(),
-    ##   old_locus_tag = col_character(),
-    ##   product = col_character(),
-    ##   acc = col_character(),
-    ##   gi = col_double(),
-    ##   `substrate for methyltransfer, creating the product` = col_logical(),
-    ##   note = col_character(),
-    ##   `(DIM6/NTAB) family [Energy production and conversion];` = col_logical()
-    ## )
+    ## Delimiter: ","
+    ## chr (5): locus_tag, old_locus_tag, product, acc, note
+    ## dbl (1): gi
+    ## lgl (2): substrate for methyltransfer, creating the product, (DIM6/NTAB) fam...
+
+    ## 
+    ## i Use `spec()` to retrieve the full column specification for this data.
+    ## i Specify the column types or set `show_col_types = FALSE` to quiet this message.
 
 4.  [Saujet et al. 2013](https://doi.org/10.1371/journal.pgen.1003756)
 
@@ -94,7 +95,7 @@ These autors constructes mutants in the major regulators of sporulation
 each mutant abd a WT strain during sporulation (time selected by
 preliminary test to maximize differential expression) using microarrays.
 
-Analysis done in strain 630, genes listed with old locus\_taga
+Analysis done in strain 630, genes listed with old locus_taga
 (*CDNNNN*). To match these I use a gene data table from [Petit et
 al. 2014](https://doi.org/10.1186/1471-2164-15-160).
 
@@ -103,36 +104,32 @@ d.sau <- read_csv(here("spor_gene_list/data", "cdif_Saujet_2013_sup.csv"),
                    trim_ws = T)
 ```
 
-    ## 
+    ## Rows: 437 Columns: 6
+
     ## -- Column specification --------------------------------------------------------
-    ## cols(
-    ##   Gene = col_character(),
-    ##   symbol = col_character(),
-    ##   Function = col_character(),
-    ##   FC = col_double(),
-    ##   header = col_character(),
-    ##   mutant.strain = col_character()
-    ## )
+    ## Delimiter: ","
+    ## chr (5): Gene, symbol, Function, header, mutant.strain
+    ## dbl (1): FC
+
+    ## 
+    ## i Use `spec()` to retrieve the full column specification for this data.
+    ## i Specify the column types or set `show_col_types = FALSE` to quiet this message.
 
 ``` r
 d.pet <- read_csv(here("spor_gene_list/data", "cdif_Pettit_2014_spo0A.csv" ),
                   trim_ws = T)
 ```
 
-    ## 
+    ## Rows: 3897 Columns: 10
+
     ## -- Column specification --------------------------------------------------------
-    ## cols(
-    ##   old_locus_tag = col_character(),
-    ##   locus_tag = col_character(),
-    ##   `Gene product` = col_character(),
-    ##   `gene name` = col_character(),
-    ##   `Functional class` = col_character(),
-    ##   `Functional colour` = col_double(),
-    ##   `Transcriptome p-adj value` = col_character(),
-    ##   `Transcriptome log2fold change in 630?erm?spo0A` = col_character(),
-    ##   `Proteome log2fold change in 630?erm?spo0A` = col_character(),
-    ##   `Mature spore proteome (PMID:19542279)` = col_character()
-    ## )
+    ## Delimiter: ","
+    ## chr (9): old_locus_tag, locus_tag, Gene product, gene name, Functional class...
+    ## dbl (1): Functional colour
+
+    ## 
+    ## i Use `spec()` to retrieve the full column specification for this data.
+    ## i Specify the column types or set `show_col_types = FALSE` to quiet this message.
 
 ``` r
 d.sau <- d.sau %>% 
@@ -192,18 +189,18 @@ look
 ```
 
     ## # A tibble: 656 x 5
-    ##    locus_tag   `function`                     logFC  q.value `Cd630 orthologue ~
-    ##    <chr>       <chr>                          <dbl>    <dbl> <chr>              
-    ##  1 CDR20291_0~ seryl-tRNA synthetase          -3.53 2.97e- 2 CD630_00140        
-    ##  2 CDR20291_0~ putative cytosine/adenosine ~ -10.8  3.18e- 9 CD630_00150        
-    ##  3 CDR20291_0~ recombination protein          -9.64 3.48e- 6 CD630_00180        
-    ##  4 CDR20291_0~ putative membrane protein      -9.58 1.39e- 6 CD630_00290        
-    ##  5 CDR20291_0~ AraC-family transcriptional ~  -2.82 1.31e-14 CD630_00310        
-    ##  6 CDR20291_0~ acetoin:2,6-dichlorophenolin~  -7.55 4.01e-13 CD630_00360        
-    ##  7 CDR20291_0~ E2 component of acetoin dehy~  -2.30 1.17e- 7 CD630_00380        
-    ##  8 CDR20291_0~ E3 component of acetoin dehy~  -2.12 4.80e-15 CD630_00390        
-    ##  9 CDR20291_0~ putative dual-specificity pr~  -2.68 1.38e-10 CD630_00500        
-    ## 10 CDR20291_0~ RNA polymerase sigma-H factor  -9.89 1.73e-39 CD630_00570        
+    ##    locus_tag     `function`                   logFC  q.value `Cd630 orthologue ~
+    ##    <chr>         <chr>                        <dbl>    <dbl> <chr>              
+    ##  1 CDR20291_0003 seryl-tRNA synthetase        -3.53 2.97e- 2 CD630_00140        
+    ##  2 CDR20291_0004 putative cytosine/adenosin~ -10.8  3.18e- 9 CD630_00150        
+    ##  3 CDR20291_0007 recombination protein        -9.64 3.48e- 6 CD630_00180        
+    ##  4 CDR20291_0018 putative membrane protein    -9.58 1.39e- 6 CD630_00290        
+    ##  5 CDR20291_0020 AraC-family transcriptiona~  -2.82 1.31e-14 CD630_00310        
+    ##  6 CDR20291_0025 acetoin:2,6-dichlorophenol~  -7.55 4.01e-13 CD630_00360        
+    ##  7 CDR20291_0027 E2 component of acetoin de~  -2.30 1.17e- 7 CD630_00380        
+    ##  8 CDR20291_0028 E3 component of acetoin de~  -2.12 4.8 e-15 CD630_00390        
+    ##  9 CDR20291_0039 putative dual-specificity ~  -2.68 1.38e-10 CD630_00500        
+    ## 10 CDR20291_0050 RNA polymerase sigma-H fac~  -9.89 1.73e-39 CD630_00570        
     ## # ... with 646 more rows
 
 There are two genes that by description are involved in sporulation. I
@@ -218,10 +215,10 @@ look
 ```
 
     ## # A tibble: 2 x 5
-    ##   locus_tag    `function`                logFC  q.value `Cd630 orthologue locus~
-    ##   <chr>        <chr>                     <dbl>    <dbl> <chr>                   
-    ## 1 CDR20291_33~ putative spore protein    -3.81 4.21e- 4 CD630_34940             
-    ## 2 CDR20291_33~ stage V sporulation pro~ -11.4  4.38e-11 CD630_35160
+    ##   locus_tag     `function`                     logFC  q.value `Cd630 orthologue~
+    ##   <chr>         <chr>                          <dbl>    <dbl> <chr>             
+    ## 1 CDR20291_3331 putative spore protein         -3.81 4.21e- 4 CD630_34940       
+    ## 2 CDR20291_3353 stage V sporulation protein G -11.4  4.38e-11 CD630_35160
 
 ``` r
 spor_genes <- c(spor_genes, look$`Cd630 orthologue locus_tag`)
@@ -284,25 +281,25 @@ look %>%
 ```
 
     ## # A tibble: 17 x 10
-    ##    old_locus_tag locus_tag  `Gene product`          `gene name` `Functional cla~
-    ##    <chr>         <chr>      <chr>                   <chr>       <chr>           
-    ##  1 CD0007        CD630_000~ putative spore protein  <NA>        1.8.1           
-    ##  2 CD1021        CD630_102~ putative spore coat pr~ <NA>        1.8.1           
-    ##  3 CD1492        CD630_149~ Two-component sensor h~ <NA>        6.1.2           
-    ##  4 CD1579        CD630_157~ Two-component sensor h~ <NA>        6.1.2           
-    ##  5 CD1935        CD630_193~ Stage V sporulation pr~ spoVS       1.8.1           
-    ##  6 CD2035        CD630_203~ putative sporulation i~ <NA>        1.8.1           
-    ##  7 CD2273        CD630_227~ putative sporulation i~ <NA>        1.8.1           
-    ##  8 CD2492        CD630_249~ Two-component sensor h~ <NA>        1.8.1           
-    ##  9 CD2498        CD630_249~ D-alanyl-D-alanine car~ dacF1       1.8.1           
-    ## 10 CD2681        CD630_268~ putative sporulation p~ <NA>        1.8.1           
-    ## 11 CD2717        CD630_271~ putative sporulation p~ <NA>        1.8.1           
-    ## 12 CD3397        CD630_339~ putative sporulation t~ whiA        1.8.1           
-    ## 13 CD3498        CD630_349~ Stage V sporulation pr~ spoVB       1.8.1           
-    ## 14 CD3548        CD630_354~ putative YaaT-like pro~ <NA>        1.8.1           
-    ## 15 CD3671        CD630_367~ Stage 0 sporulation pr~ spo0J       1.8.1           
-    ## 16 CD3672        CD630_367~ Transcriptional regula~ soj         1.8.1           
-    ## 17 CD3673        CD630_367~ putative stage 0 sporu~ <NA>        1.8.1           
+    ##    old_locus_tag locus_tag   `Gene product`         `gene name` `Functional cla~
+    ##    <chr>         <chr>       <chr>                  <chr>       <chr>           
+    ##  1 CD0007        CD630_00070 putative spore protein <NA>        1.8.1           
+    ##  2 CD1021        CD630_10210 putative spore coat p~ <NA>        1.8.1           
+    ##  3 CD1492        CD630_14920 Two-component sensor ~ <NA>        6.1.2           
+    ##  4 CD1579        CD630_15790 Two-component sensor ~ <NA>        6.1.2           
+    ##  5 CD1935        CD630_19350 Stage V sporulation p~ spoVS       1.8.1           
+    ##  6 CD2035        CD630_20350 putative sporulation ~ <NA>        1.8.1           
+    ##  7 CD2273        CD630_22730 putative sporulation ~ <NA>        1.8.1           
+    ##  8 CD2492        CD630_24920 Two-component sensor ~ <NA>        1.8.1           
+    ##  9 CD2498        CD630_24980 D-alanyl-D-alanine ca~ dacF1       1.8.1           
+    ## 10 CD2681        CD630_26810 putative sporulation ~ <NA>        1.8.1           
+    ## 11 CD2717        CD630_27170 putative sporulation ~ <NA>        1.8.1           
+    ## 12 CD3397        CD630_33970 putative sporulation ~ whiA        1.8.1           
+    ## 13 CD3498        CD630_34980 Stage V sporulation p~ spoVB       1.8.1           
+    ## 14 CD3548        CD630_35480 putative YaaT-like pr~ <NA>        1.8.1           
+    ## 15 CD3671        CD630_36710 Stage 0 sporulation p~ spo0J       1.8.1           
+    ## 16 CD3672        CD630_36720 Transcriptional regul~ soj         1.8.1           
+    ## 17 CD3673        CD630_36730 putative stage 0 spor~ <NA>        1.8.1           
     ## # ... with 5 more variables: Functional colour <dbl>,
     ## #   Transcriptome p-adj value <chr>,
     ## #   Transcriptome log2fold change in 630?erm?spo0A <chr>,
@@ -315,11 +312,11 @@ look %>%
 ```
 
     ## # A tibble: 3 x 10
-    ##   old_locus_tag locus_tag  `Gene product`           `gene name` `Functional cla~
-    ##   <chr>         <chr>      <chr>                    <chr>       <chr>           
-    ## 1 CD1935        CD630_193~ Stage V sporulation pro~ spoVS       1.8.1           
-    ## 2 CD3498        CD630_349~ Stage V sporulation pro~ spoVB       1.8.1           
-    ## 3 CD3671        CD630_367~ Stage 0 sporulation pro~ spo0J       1.8.1           
+    ##   old_locus_tag locus_tag   `Gene product`          `gene name` `Functional cla~
+    ##   <chr>         <chr>       <chr>                   <chr>       <chr>           
+    ## 1 CD1935        CD630_19350 Stage V sporulation pr~ spoVS       1.8.1           
+    ## 2 CD3498        CD630_34980 Stage V sporulation pr~ spoVB       1.8.1           
+    ## 3 CD3671        CD630_36710 Stage 0 sporulation pr~ spo0J       1.8.1           
     ## # ... with 5 more variables: Functional colour <dbl>,
     ## #   Transcriptome p-adj value <chr>,
     ## #   Transcriptome log2fold change in 630?erm?spo0A <chr>,
@@ -364,25 +361,25 @@ look %>%
 ```
 
     ## # A tibble: 17 x 5
-    ##    locus_tag    old_locus_tag acc     gene  product                             
-    ##    <chr>        <chr>         <chr>   <chr> <chr>                               
-    ##  1 CDIF630erm_~ CD630_00070   ARE609~ <NA>  putative spore protein              
-    ##  2 CDIF630erm_~ CD630_02750   ARE611~ splB  spore photoproduct (thymine dimer) ~
-    ##  3 CDIF630erm_~ CD630_10210   ARE619~ <NA>  putative spore coat protein         
-    ##  4 CDIF630erm_~ CD630_14920   ARE624~ <NA>  two-component sensor histidine kina~
-    ##  5 CDIF630erm_~ CD630_15790   ARE625~ <NA>  two-component sensor histidine kina~
-    ##  6 CDIF630erm_~ CD630_19350   ARE628~ spoVS stage V sporulation protein S       
-    ##  7 CDIF630erm_~ CD630_20350   ARE629~ <NA>  putative sporulation integral membr~
-    ##  8 CDIF630erm_~ CD630_22730   ARE631~ <NA>  putative sporulation integral membr~
-    ##  9 CDIF630erm_~ CD630_24920   ARE634~ <NA>  two-component sensor histidine kina~
-    ## 10 CDIF630erm_~ CD630_26810   ARE636~ <NA>  putative sporulation protein        
-    ## 11 CDIF630erm_~ CD630_27170   ARE636~ <NA>  putative sporulation protein        
-    ## 12 CDIF630erm_~ CD630_32710   ARE642~ <NA>  Spo0E-like sporulation regulatory p~
-    ## 13 CDIF630erm_~ CD630_33970   ARE643~ whiA  putative sporulation transcription ~
-    ## 14 CDIF630erm_~ CD630_34980   ARE644~ spoVB stage V sporulation protein B       
-    ## 15 CDIF630erm_~ CD630_35480   ARE645~ <NA>  putative YaaT-like protein involved~
-    ## 16 CDIF630erm_~ CD630_36710   ARE646~ spo0J stage 0 sporulation protein J       
-    ## 17 CDIF630erm_~ CD630_36720   ARE646~ soj   sporulation initiation inhibitor pr~
+    ##    locus_tag        old_locus_tag acc        gene  product                      
+    ##    <chr>            <chr>         <chr>      <chr> <chr>                        
+    ##  1 CDIF630erm_00007 CD630_00070   ARE60904.1 <NA>  putative spore protein       
+    ##  2 CDIF630erm_00399 CD630_02750   ARE61180.1 splB  spore photoproduct (thymine ~
+    ##  3 CDIF630erm_01157 CD630_10210   ARE61930.1 <NA>  putative spore coat protein  
+    ##  4 CDIF630erm_01657 CD630_14920   ARE62418.1 <NA>  two-component sensor histidi~
+    ##  5 CDIF630erm_01748 CD630_15790   ARE62507.1 <NA>  two-component sensor histidi~
+    ##  6 CDIF630erm_02139 CD630_19350   ARE62844.1 spoVS stage V sporulation protein S
+    ##  7 CDIF630erm_02257 CD630_20350   ARE62950.1 <NA>  putative sporulation integra~
+    ##  8 CDIF630erm_02507 CD630_22730   ARE63194.1 <NA>  putative sporulation integra~
+    ##  9 CDIF630erm_02739 CD630_24920   ARE63418.1 <NA>  two-component sensor histidi~
+    ## 10 CDIF630erm_02935 CD630_26810   ARE63604.1 <NA>  putative sporulation protein 
+    ## 11 CDIF630erm_02975 CD630_27170   ARE63642.1 <NA>  putative sporulation protein 
+    ## 12 CDIF630erm_03571 CD630_32710   ARE64222.1 <NA>  Spo0E-like sporulation regul~
+    ## 13 CDIF630erm_03702 CD630_33970   ARE64386.1 whiA  putative sporulation transcr~
+    ## 14 CDIF630erm_03811 CD630_34980   ARE64491.1 spoVB stage V sporulation protein B
+    ## 15 CDIF630erm_03863 CD630_35480   ARE64541.1 <NA>  putative YaaT-like protein i~
+    ## 16 CDIF630erm_04000 CD630_36710   ARE64669.1 spo0J stage 0 sporulation protein J
+    ## 17 CDIF630erm_04001 CD630_36720   ARE64670.1 soj   sporulation initiation inhib~
 
 There are 17 such genes! I’ll add them to the list.
 
@@ -411,7 +408,6 @@ d.kegg.cdf <- raw.kegg.cdf %>%
   separate(kegg, into = c("strain", "locus_tag"), sep = ":") %>% 
   separate(kegg.txt, into = c("symbol", "description"), sep = ";", fill = "left", extra = "merge") 
 
-
 # KOs
 ko <- keggLink("cdf", "ko")
 ko <- enframe(ko, name = "ko", value = "cdf")
@@ -428,7 +424,6 @@ d.kegg.cdf <- left_join(d.kegg.cdf, ko, c("locus_tag" = "cdf"))
 spore_ko <- d.kegg.cdf %>% 
   filter (locus_tag %in% spor_genes) %>% 
   filter (! is.na(ko))
-
 n.ko <- spore_ko$ko %>% unique() %>% length()
 spore_ko
 ```
@@ -449,15 +444,83 @@ spore_ko
     ## # ... with 142 more rows
 
 Finally we are left with 152 Cdiff sporulation genes that correspond to
-140 uniqe KOs.
+140 unique KOs.
 
 ``` r
+d.spore_genes <- d.kegg.cdf %>% filter(locus_tag %in% spor_genes) 
+
+
 write.csv(spore_ko, here("spor_gene_list/data", "cdif_spor_KOs.csv"))
 
-# spor_genes[!spor_genes %in% d.kegg.cdf$locus_tag]
-d.kegg.cdf %>% filter(locus_tag %in% spor_genes) %>% 
-write.csv(here("spor_gene_list/data", "cdif_spor_KEGSs.csv"))
+write.csv(d.spore_genes,here("spor_gene_list/data", "cdif_spor_KEGSs.csv"))
 ```
+
+#add uniref
+
+Dowloaded from
+[UNIPROT](https://www.uniprot.org/uniprot/?query=taxonomy:272563)
+
+``` r
+d.uni <- read_csv(here("spor_gene_list/data","cdiff_uniprot.csv"))
+```
+
+    ## Rows: 3763 Columns: 5
+
+    ## -- Column specification --------------------------------------------------------
+    ## Delimiter: ","
+    ## chr (5): Entry, locus_tag, product, synonym, gene
+
+    ## 
+    ## i Use `spec()` to retrieve the full column specification for this data.
+    ## i Specify the column types or set `show_col_types = FALSE` to quiet this message.
+
+``` r
+d.spore_genes <- d.uni %>% 
+  select(uniprot.id = Entry, locus_tag) %>% 
+  left_join(d.spore_genes,.)
+```
+
+    ## Joining, by = "locus_tag"
+
+# Format for DRAM
+
+B. subtilis list of sporulation genes in dram format:
+
+``` r
+dram_bsub <- read_csv(here("spor_gene_list/data","dram_spore_genes_RS.csv"))
+```
+
+``` r
+dram.col.names <- names(dram_bsub)
+d.dram <- 
+  d.spore_genes%>%
+  select(gene_id.ko=ko,
+         gene_id.uniref90=uniprot.id,
+         gene_description=description) %>% 
+  mutate(module="sporulation",
+         sheet= "MISC",
+         header= "sporulation",
+         subheader="sporulation",
+         potential_amg="TRUE")
+
+write_csv(d.dram, here("spor_gene_list/data","dram_spore_genes_Cdiff.csv"))
+d.dram
+```
+
+    ## # A tibble: 350 x 8
+    ##    gene_id.ko gene_id.uniref90 gene_description    module sheet header subheader
+    ##    <chr>      <chr>            <chr>               <chr>  <chr> <chr>  <chr>    
+    ##  1 <NA>       Q18C91           "putative spore pr~ sporu~ MISC  sporu~ sporulat~
+    ##  2 K02343     Q18C99           " DNA polymerase I~ sporu~ MISC  sporu~ sporulat~
+    ##  3 K09747     Q18CA3           "DNA binding prote~ sporu~ MISC  sporu~ sporulat~
+    ##  4 K00991     Q18CD1           " 2-C-methyl-D-ery~ sporu~ MISC  sporu~ sporulat~
+    ##  5 K01770     Q18CD3           " 2-C-methyl-D-ery~ sporu~ MISC  sporu~ sporulat~
+    ##  6 K01448     Q18CJ4           " Germination-spec~ sporu~ MISC  sporu~ sporulat~
+    ##  7 K03431     Q18CL0           " Phosphoglucosami~ sporu~ MISC  sporu~ sporulat~
+    ##  8 K00820     Q18CK9           " Glucosamine--fru~ sporu~ MISC  sporu~ sporulat~
+    ##  9 K06381     Q18CL6           " Stage II sporula~ sporu~ MISC  sporu~ sporulat~
+    ## 10 <NA>       Q18CL5           "putative cell wal~ sporu~ MISC  sporu~ sporulat~
+    ## # ... with 340 more rows, and 1 more variable: potential_amg <chr>
 
 <!-- ## Strain R20291  -->
 <!-- In KEGG this strain has the code *cdl*, and taxon number [*T00998*](https://www.genome.jp/entry/T00998). -->

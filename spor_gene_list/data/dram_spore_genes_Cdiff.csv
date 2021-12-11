@@ -1,0 +1,351 @@
+gene_id.ko,gene_id.uniref90,gene_description,module,sheet,header,subheader,potential_amg
+NA,Q18C91,putative spore protein,sporulation,MISC,sporulation,sporulation,TRUE
+K02343,Q18C99, DNA polymerase III subunits gamma and tau,sporulation,MISC,sporulation,sporulation,TRUE
+K09747,Q18CA3,DNA binding protein,sporulation,MISC,sporulation,sporulation,TRUE
+K00991,Q18CD1, 2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase,sporulation,MISC,sporulation,sporulation,TRUE
+K01770,Q18CD3," 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase",sporulation,MISC,sporulation,sporulation,TRUE
+K01448,Q18CJ4," Germination-specific N-acetylmuramoyl-L-alanine amidase, Autolysin",sporulation,MISC,sporulation,sporulation,TRUE
+K03431,Q18CL0, Phosphoglucosamine mutase,sporulation,MISC,sporulation,sporulation,TRUE
+K00820,Q18CK9, Glucosamine--fructose-6-phosphate aminotransferase [isomerizing],sporulation,MISC,sporulation,sporulation,TRUE
+K06381,Q18CL6, Stage II sporulation protein D,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q18CL5,putative cell wall endopeptidase,sporulation,MISC,sporulation,sporulation,TRUE
+K06283,Q18CL4, Stage III sporulation protein D,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q18CL8,putative sporulation protein yyac,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q18CM2,putative membrane protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q18CV2,putative spore coat protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q18CV1,uncharacterised protein,sporulation,MISC,sporulation,sporulation,TRUE
+K02412,Q18CY8, ATP synthase subunit beta FliI,sporulation,MISC,sporulation,sporulation,TRUE
+K03716,Q18D17," Spore photoproduct (thymine dimer) lyase,radical S-adenosylmethionine superfamily",sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q18D36,conserved hypothetical protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q18D48,"putative hydrolase, HAD superfamily, subfamily IB",sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q18D54,putative spore coat assembly asparagine-rich protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q18D52,putative membrane protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q18D69, putative exosporium glycoprotein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q18D91,conserved hypothetical protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q188M1,"putative drug/sodium antiporter, MATE family,Tn1549-like, CTn2-Orf29",sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q188W0, putative hemagglutinin/adhesin cwpV,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q188Z5, Spore cortex-lytic enzyme pre-pro-form,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q189A2,putative sugar isomerase / endonuclease,sporulation,MISC,sporulation,sporulation,TRUE
+K00876,Q189A1,putative uridine kinase,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q189A7,putative ATP-dependent protease,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q189B7,putative sporulation protein,sporulation,MISC,sporulation,sporulation,TRUE
+K00131,Q189C4, Glyceraldehyde-3-phosphate dehydrogenase (NADP(+)) (GADPH),sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q189D6,uncharacterised protein,sporulation,MISC,sporulation,sporulation,TRUE
+K06333,Q189E5, Spore coat peptide assembly protein CotF,sporulation,MISC,sporulation,sporulation,TRUE
+K06334,Q189E4," Spore-coat protein, manganese catalase",sporulation,MISC,sporulation,sporulation,TRUE
+K01420,Q189H6,"Transcriptional regulator, Crp family",sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q189M1,putative acetyltransferase,sporulation,MISC,sporulation,sporulation,TRUE
+K03798,Q189M8,"putative ATP-dependent peptidase, M41 family",sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q189N8,putative exported metalloendopeptidase,sporulation,MISC,sporulation,sporulation,TRUE
+K03657,Q189U3,"putative DNA helicase, UvrD/REP type",sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q189V1,putative diguanylate kinase signaling protein,sporulation,MISC,sporulation,sporulation,TRUE
+K07301,Q189V4,putative Ca2+/Na+ antiporter,sporulation,MISC,sporulation,sporulation,TRUE
+K05592,Q189V7,putative ATP-dependent RNA helicase,sporulation,MISC,sporulation,sporulation,TRUE
+K06378,Q189W5, Anti-sigma F factor antagonist,sporulation,MISC,sporulation,sporulation,TRUE
+K06379,Q189W4, Anti-sigma F factor (Stage II sporulation protein AB),sporulation,MISC,sporulation,sporulation,TRUE
+K03091,Q189W8, RNA polymerase sigma-F factor,sporulation,MISC,sporulation,sporulation,TRUE
+K06405,Q189X2, Stage V sporulation protein AC,sporulation,MISC,sporulation,sporulation,TRUE
+K06406,Q189X1, Stage V sporulation protein AD,sporulation,MISC,sporulation,sporulation,TRUE
+K06407,Q189X0, Stage V sporulation protein AE,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q189X9, putative sporulation protein YunB,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q189X8," Stage IV sporulation protein SpoIVB, S55 peptidase family",sporulation,MISC,sporulation,sporulation,TRUE
+K01448,Q189Y1,putative N-acetylmuramoyl-L-alanine amidase,sporulation,MISC,sporulation,sporulation,TRUE
+K07090,Q189Y4,"putative membrane protein, DUF81 family",sporulation,MISC,sporulation,sporulation,TRUE
+K07090,Q189Z1,"putative membrane protein, DUF81 family",sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q18A24, Rubrerythrin,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q18A88,conserved hypothetical protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q18A94,putative cation efflux protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q18AI2, putative UbiA prenyltransferase,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q18AM0,putative spore coat protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q18AM9,putative signaling protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q18AN0,putative cell wall anchored protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q18AP7,putative sporulation integral membrane protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q18AR3,conserved hypothetical protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q18AR2,uncharacterised protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q18AR1,conserved hypothetical protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q18AR6,conserved hypothetical protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q18AR7,uncharacterised protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q18AS3,conserved hypothetical protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q18AS2, exosporium cysteine rich protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q18AS1,putative polysaccharide biosynthesis/sporulation protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q18AT7,putative membrane protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q18AU1,"putative peptidase, M20D family",sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q18AY5,conserved hypothetical protein,sporulation,MISC,sporulation,sporulation,TRUE
+K02335,Q18AY7, DNA polymerase I (POLI),sporulation,MISC,sporulation,sporulation,TRUE
+K00859,Q18AZ0, Dephospho-CoA kinase (Dephosphocoenzyme A kinase),sporulation,MISC,sporulation,sporulation,TRUE
+K08309,Q18AY9,putative lytic transglycosylase-like protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q18AZ4,putative solute-binding lipoprotein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q18AZ3,putative heavy-metal transport/detoxification protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q18AZ2,uncharacterised protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q18B30,putative integrase/recombinase,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q18B29,putative membrane protein,sporulation,MISC,sporulation,sporulation,TRUE
+K00059,Q18B45, 3-oxoacyl-[acyl-carrier protein] reductase (3-ketoacyl-acyl carrier protein reductase),sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q18B48,putative diguanylate kinase signaling protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q18B49,putative amino acid/polyamine transporter I,sporulation,MISC,sporulation,sporulation,TRUE
+K06390,Q18B54, Stage III sporulation protein AA,sporulation,MISC,sporulation,sporulation,TRUE
+K06391,Q18B53, Stage III sporulation protein AB,sporulation,MISC,sporulation,sporulation,TRUE
+K06392,Q18B52, Stage III sporulation protein AC,sporulation,MISC,sporulation,sporulation,TRUE
+K06393,Q18B60, Stage III sporulation protein AD,sporulation,MISC,sporulation,sporulation,TRUE
+K06394,Q18B59, Stage III sporulation protein AE,sporulation,MISC,sporulation,sporulation,TRUE
+K06395,Q18B58, Stage III sporulation protein AF,sporulation,MISC,sporulation,sporulation,TRUE
+K06396,Q18B57, Stage III sporulation protein AG,sporulation,MISC,sporulation,sporulation,TRUE
+K06397,Q18B63, Stage III sporulation protein AH,sporulation,MISC,sporulation,sporulation,TRUE
+K06399,Q18B75," Stage IV sporulation protein B, peptidase S55 family",sporulation,MISC,sporulation,sporulation,TRUE
+K07699,Q18B74, Stage 0 sporulation protein A,sporulation,MISC,sporulation,sporulation,TRUE
+K05515,Q18B92,putative peptidoglycan glycosyltransferase,sporulation,MISC,sporulation,sporulation,TRUE
+K03091,X1W3M1, Sigma K,sporulation,MISC,sporulation,sporulation,TRUE
+NA,F3Y5Y6,putative phage regulator,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q18B99,putative phage protein,sporulation,MISC,sporulation,sporulation,TRUE
+K03311,Q18BB9, Branched chain amino acid transport system carrier protein,sporulation,MISC,sporulation,sporulation,TRUE
+K07447,Q18BF1,putative Holliday junction resolvase,sporulation,MISC,sporulation,sporulation,TRUE
+K03537,Q18BF5,putative small acid-soluble spore protein SASP,sporulation,MISC,sporulation,sporulation,TRUE
+K07258,Q18BF4, D-alanyl-D-alanine carboxypeptidase (penicillin-binding protein),sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q18BG2,conserved hypothetical protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q18BG1,putative sporulation protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q18BG7,putative membrane protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q18BG6,conserved hypothetical protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q18BI3,putative polysaccharide deacetylase,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q18BI7,"putative peptidase, M16 family",sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q18BI6,putative sporulation protein,sporulation,MISC,sporulation,sporulation,TRUE
+K00928,Q18BI5, Aspartokinase 1 (Aspartokinase I) (1spartate kinase I),sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q18BJ0, Protein export-enhancing factor,sporulation,MISC,sporulation,sporulation,TRUE
+K00965,Q18BK5,putative galactose-1-phosphate uridylyltransferase,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q18BM0,putative exported protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q18BP4,"Transporter, Major Facilitator Superfamily (MFS)",sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q18BR3,putative membrane protein,sporulation,MISC,sporulation,sporulation,TRUE
+K16203,Q18BR2,putative amino acid amidase,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q18BS0,conserved hypothetical protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q18BR9,"putative peptidase, M20D family",sporulation,MISC,sporulation,sporulation,TRUE
+K01297,Q18BR8,"putative muramoyltetrapeptide carboxypeptidase,S66 family",sporulation,MISC,sporulation,sporulation,TRUE
+K01126,Q18BR5, Glycerophosphoryl diester phosphodiesterase,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q18BS4,putative synthetase,sporulation,MISC,sporulation,sporulation,TRUE
+K01921,Q18BS9, D-alanine--D-alanine ligase (D-alanylalanine synthetase) (D-Ala-D-Ala ligase),sporulation,MISC,sporulation,sporulation,TRUE
+K09936,Q18BT7,putative membrane protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q18BU7,"Transcriptional regulator, hxlR family",sporulation,MISC,sporulation,sporulation,TRUE
+K01567,Q18BV2,putative delta-lactam-biosynthetic de-N-acteylase,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q18BV5, spore coat protein: peroxiredoxin/chitinase,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q18BY4,uncharacterised protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q18C05,putative lipoprotein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q18C12,"Two-component sensor histidine kinase,sporulation-associated spo0A",sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q18C29, spore coat protein,sporulation,MISC,sporulation,sporulation,TRUE
+K04759,Q18C39, Ferrous iron transport protein B,sporulation,MISC,sporulation,sporulation,TRUE
+K04758,Q18C38, Ferrous iron transport protein,sporulation,MISC,sporulation,sporulation,TRUE
+K01118,Q18C63,putative FMN-dependent NADH-azoreductase,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q18C75,putative amino acid permease,sporulation,MISC,sporulation,sporulation,TRUE
+K07217,Q186C1, spore coat protein-manganese catalase,sporulation,MISC,sporulation,sporulation,TRUE
+K06888,Q186C3,conserved hypothetical protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q186C8,putative g5 domain protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q186D3,"Two-component sensor histidine kinase,sporulation-associated spo0A",sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q186D6,uncharacterised protein,sporulation,MISC,sporulation,sporulation,TRUE
+K00640,Q186E9, Serine acetyltransferase (SAT),sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q186G8, spore coat assembly protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q186H2,putative diguanylate kinase signaling protein,sporulation,MISC,sporulation,sporulation,TRUE
+K04564,Q186I6, spore coat protein-superoxide dismutase (Mn),sporulation,MISC,sporulation,sporulation,TRUE
+K01304,Q186N3, Pyrrolidone-carboxylate peptidase,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q186N2,putative membrane protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q186N4,putative membrane protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q186R3,"putative C4-dicarboxylate anaerobic carrier,DcuC family",sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q186T2,conserved hypothetical protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q186T4,conserved hypothetical protein,sporulation,MISC,sporulation,sporulation,TRUE
+K21583,Q186U8,"Glycine/sarcosine/betaine reductase complex,protein B, alpha and beta subunits",sporulation,MISC,sporulation,sporulation,TRUE
+K03312,Q186V2, Sodium/glutamate symporter,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q186Z7,putative membrane protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q187A0,putative membrane protein,sporulation,MISC,sporulation,sporulation,TRUE
+K09861,Q187D2,"conserved hypothetical protein, UPF0246 family",sporulation,MISC,sporulation,sporulation,TRUE
+K01736,Q187E5, Chorismate synthase (5-enolpyruvylshikimate-3-phosphate phospholyase),sporulation,MISC,sporulation,sporulation,TRUE
+K14170,Q187E6," Bifunctional P-protein, chorismate mutase/prephenate dehydratase",sporulation,MISC,sporulation,sporulation,TRUE
+NA,NA,pseudogene,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q187F6,"putative membrane protein Tn1549-like,CTn5-Orf1",sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q187F5,"putative conjugative transposon protein Tn1549-like, CTn5-Orf2",sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q187J3,uncharacterised protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q187K7,uncharacterised protein,sporulation,MISC,sporulation,sporulation,TRUE
+K01448,Q187L1,putative phage-related cell wall hydrolase (endolysin),sporulation,MISC,sporulation,sporulation,TRUE
+K02050,Q187L5,"ABC-type transport system, permease",sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q187L8,"Site-specific recombinase, resolvase family",sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q187N9,putative membrane protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q187N8,putative membrane protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q187P0,putative exported protein,sporulation,MISC,sporulation,sporulation,TRUE
+K06416,Q187P4, Stage V sporulation protein S,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q187P9,putative membrane protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q187Q2,uncharacterised protein,sporulation,MISC,sporulation,sporulation,TRUE
+K03790,Q187R1,putative Acyl-CoA N-acyltransferase,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q187S3,putative permease,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q187S7,putative acyl-CoA thioesterase,sporulation,MISC,sporulation,sporulation,TRUE
+K13275,Q187W2, Intracellular serine protease,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q188A3,putative sporulation integral membrane protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q188B9,putative membrane protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q188C3,conserved hypothetical protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q188F3,"putative peptidase, M20 family",sporulation,MISC,sporulation,sporulation,TRUE
+K11105,Q188H0,putative Na(+)/H(+) antiporter,sporulation,MISC,sporulation,sporulation,TRUE
+K06901,Q188H4,Xanthine/uracil/thiamine/ascorbate permease family protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q185Q3,uncharacterised protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q185R1,conserved hypothetical protein,sporulation,MISC,sporulation,sporulation,TRUE
+K00806,Q185S4, Undecaprenyl pyrophosphate synthetase,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q185T0,Serine-type D-Ala-D-Ala carboxypeptidase,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q185T4,putative membrane protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,F3Y5V2,conserved hypothetical protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q185V6,Acyl transferase/acyl hydrolase/lysophospholipase,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q185W9,putative alpha/beta hydrolase,sporulation,MISC,sporulation,sporulation,TRUE
+K01893,Q185B5, Asparaginyl-tRNA synthetase (Asparagine--tRNA ligase) (AsnRS),sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q185C1,uncharacterised protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q185C0, Subtilisin-like serine germination related protease,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q185B9, Subtilisin-like serine germination related protease,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q185D7,putative membrane protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q185D9,"putative oxidoreductase, FAD dependent",sporulation,MISC,sporulation,sporulation,TRUE
+K02770,Q185E0," PTS system, fructose-specific IIABC component",sporulation,MISC,sporulation,sporulation,TRUE
+K00882,Q185E1, Fructose 1-phosphate kinase,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q185E3,putative sporulation integral membrane protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q185I9,putative exported protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q185I8,Two-component response regulator,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q185M0,putative membrane protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q185P7,conserved hypothetical protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q185P6,uncharacterised protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q185P5,putative membrane protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q181W3,"putative hydrolase, NUDIX family",sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q181Y0,conserved hypothetical protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q181Y3,putative spore coat protein,sporulation,MISC,sporulation,sporulation,TRUE
+K06333,Q181Y6, Spore coat peptide assembly protein CotJB 2,sporulation,MISC,sporulation,sporulation,TRUE
+K06334,Q181Y5," Spore coat protein, manganese catalase",sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q181Z5,conserved hypothetical protein,sporulation,MISC,sporulation,sporulation,TRUE
+K00177,Q182B3,putative flavodoxin/ferredoxin oxidoreductase gamma subunit,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q182B2,putative flavodoxin/ferredoxin oxidoreductase beta subunit,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q182B5,putative flavodoxin/ferredoxin oxidoreductase alpha subunit,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q182B4,"putative 4Fe-4S ferredoxin, iron-sulfur binding domain protein, delta subunit",sporulation,MISC,sporulation,sporulation,TRUE
+K00366,Q182B6,putative nitrite/sulphite reductase,sporulation,MISC,sporulation,sporulation,TRUE
+K03595,Q182C3, GTP-binding protein Era,sporulation,MISC,sporulation,sporulation,TRUE
+K01489,Q182C5, Cytidine deaminase (Cytidine aminohydrolase) (CDA),sporulation,MISC,sporulation,sporulation,TRUE
+K00901,Q182C4,putative diacylglycerol kinase,sporulation,MISC,sporulation,sporulation,TRUE
+K07042,Q182C6,putative metal-dependent hydrolase,sporulation,MISC,sporulation,sporulation,TRUE
+K06217,Q182C7,PhoH-like protein,sporulation,MISC,sporulation,sporulation,TRUE
+K06438,Q182D1, Stage IV sporulation protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q182D0,putative sporulation protein yqfc,sporulation,MISC,sporulation,sporulation,TRUE
+K05770,Q182C8,"putative transmembrane signaling protein,TspO/MBR family",sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q182E4,"Transporter, Major Facilitator Superfamily (MFS)",sporulation,MISC,sporulation,sporulation,TRUE
+K25026,Q182E6,"putative glucokinase, ROK family",sporulation,MISC,sporulation,sporulation,TRUE
+K03294,Q182F2,putative amino acid/polyamine transporter,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q182F5,conserved hypothetical protein,sporulation,MISC,sporulation,sporulation,TRUE
+K06385,Q182F7, Stage II sporulation protein P,sporulation,MISC,sporulation,sporulation,TRUE
+K06012,Q182F6, Spore endopeptidase,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q182H8,"Two-component sensor histidine kinase,sporulation-associated spo0A",sporulation,MISC,sporulation,sporulation,TRUE
+K11751,Q182M3,putative membrane-associated 5'-nucleotidase/phosphoesterase,sporulation,MISC,sporulation,sporulation,TRUE
+K22278,Q182T7,putative oligosaccharide deacetylase,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q182T9,putative transcriptional regulator,sporulation,MISC,sporulation,sporulation,TRUE
+K06398,Q182W3, Stage IV sporulation protein A,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q182W9,uncharacterised protein,sporulation,MISC,sporulation,sporulation,TRUE
+K05739,Q182W8,putative spore envelope protein,sporulation,MISC,sporulation,sporulation,TRUE
+K05739,Q182X1,putative membrane protein,sporulation,MISC,sporulation,sporulation,TRUE
+K07636,Q182X0,Two-component sensor histidine kinase,sporulation,MISC,sporulation,sporulation,TRUE
+K07658,Q182X2,Two-component response regulator,sporulation,MISC,sporulation,sporulation,TRUE
+K05810,Q182X4,conserved hypothetical protein,sporulation,MISC,sporulation,sporulation,TRUE
+K07738,Q182X3," Transcriptional regulator, repressor NrdR family",sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q182X6,putative sporulation protein,sporulation,MISC,sporulation,sporulation,TRUE
+K03091,Q182X5, RNA polymerase sigma-G factor,sporulation,MISC,sporulation,sporulation,TRUE
+K03091,Q182X7, RNA polymerase sigma-E factor,sporulation,MISC,sporulation,sporulation,TRUE
+K06383,Q182X8, Sporulation sigma-E factor processing peptidase,sporulation,MISC,sporulation,sporulation,TRUE
+K03588,Q182Y5, Cell division/stage V sporulation protein,sporulation,MISC,sporulation,sporulation,TRUE
+K08384,Q182Z0, Stage V sporulation protein D (Sporulation-specific penicillin-binding protein),sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q182Z1,conserved hypothetical protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q182Z3,"putative peptidase, M16 family",sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q182Z5,"putative peptidase, M16 family",sporulation,MISC,sporulation,sporulation,TRUE
+K01928,Q182Z8, UDP-N-acetylmuramyl-tripeptide synthetase,sporulation,MISC,sporulation,sporulation,TRUE
+K20118,Q183A0," PTS system, glucose-specific IIBC component",sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q183B3,putative sporulation protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q183C1,"putative sporulation stage II, protein E",sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q183C0,putative membrane protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q183B9,conserved hypothetical protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q183C2," Small, acid-soluble spore protein alpha",sporulation,MISC,sporulation,sporulation,TRUE
+K03311,Q183D6, Branched-chain amino acid transport system II carrier protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q183F0,putative sporulation protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q183F5,putative transporter,sporulation,MISC,sporulation,sporulation,TRUE
+K01448,Q183J9,putative N-acetylmuramoyl-L-alanine amidase,sporulation,MISC,sporulation,sporulation,TRUE
+K03980,Q183L8," Transmembrane virulence factor, MviN family protein",sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q183N4, Cell wall binding protein cwp8,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q183N7,putative membrane protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q183P2,conserved hypothetical protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q183P9,uncharacterised protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q183Q1,conserved hypothetical protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q183R9,putative calcium-transporting ATPase,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q183S5,Two-component sensor histidine kinase,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q183S9,putative amidohydrolase,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q183T4, Rubrerythrin,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q183U4,putative membrane protein,sporulation,MISC,sporulation,sporulation,TRUE
+K03699,Q183U2,putative membrane protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q183V1,"Transcriptional regulator, sigma-54-dependent",sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q183V0,putative hydrolase,sporulation,MISC,sporulation,sporulation,TRUE
+K03594,Q183U9,putative bacterioferritin,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q183V4,putative oxidoreductase,sporulation,MISC,sporulation,sporulation,TRUE
+K06411,Q184F7, Dipicolinate synthase subunit B,sporulation,MISC,sporulation,sporulation,TRUE
+K06410,Q184G1, Dipicolinate synthase subunit A,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q184J8,uncharacterised protein with SH3 domain,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q184M0,putative aminotransferase,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q184Y9,putative phage protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q181U2,putative xanthine dehydrogenase,sporulation,MISC,sporulation,sporulation,TRUE
+K01464,Q181U3,D-hydantoinase (Dihydropyrimidinase),sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q181U4," Dihydroorotate dehydrogenase, catalytic subunit",sporulation,MISC,sporulation,sporulation,TRUE
+K24206,Q181U5,putative purine permease,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q181U7,putative amidohydrolase,sporulation,MISC,sporulation,sporulation,TRUE
+K06015,Q181U6,putative D-aminoacylase,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q181U8,"putative peptidase, M20 family",sporulation,MISC,sporulation,sporulation,TRUE
+K01751,Q181U9, Diaminopropionate ammonia-lyase,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q17ZW4,putative methyltransferase,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q17ZW6,Small acid-soluble spore protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q17ZX5, putative exosporium glycoprotein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q17ZX9,conserved hypothetical protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q17ZY1, Single-stranded DNA-binding protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q17ZZ1,Polysaccharide deacetylase,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q17ZZ3," Small, acid-soluble spore protein beta",sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q17ZZ6,putative dehydrogenase,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q180A0,putative polysaccharide deacetylase,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q180A2,Iron hydrogenase,sporulation,MISC,sporulation,sporulation,TRUE
+K08602,Q180B4,"putative oligoendopeptidase F, M3B family",sporulation,MISC,sporulation,sporulation,TRUE
+K07507,Q180B3,"putative magnesium transport ATPase, MgtC/SapB family",sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q180B5,conserved hypothetical protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q180E2,putative ATP/GTP-binding protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q180F6,"Transporter, Major Facilitator Superfamily (MFS)",sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q180J4, Exosporium glycoprotein BclA3,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q180J5,"putative glycosyl transferase, family 2",sporulation,MISC,sporulation,sporulation,TRUE
+K06949,Q180L2, putative EngC-like GTPase,sporulation,MISC,sporulation,sporulation,TRUE
+K09762,Q180P5, putative sporulation transcription regulator whiA,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q180T9,putative glycoside hydrolase-type carbohydrate-binding protein,sporulation,MISC,sporulation,sporulation,TRUE
+K03797,Q180V3,putative carboxy-terminal protease,sporulation,MISC,sporulation,sporulation,TRUE
+K01934,Q180V5,5-formyltetrahydrofolate cyclo-ligase,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q180V4,uncharacterised protein,sporulation,MISC,sporulation,sporulation,TRUE
+K07171,Q180V9, Endoribonuclease toxin,sporulation,MISC,sporulation,sporulation,TRUE
+K07723,Q180W1,putative antitoxin EndoAI,sporulation,MISC,sporulation,sporulation,TRUE
+K01775,Q180W0, Alanine racemase 2,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q180W3,putative lipoprotein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q180W2,uncharacterised CBS domain protein,sporulation,MISC,sporulation,sporulation,TRUE
+K00997,Q180W4, Holo-[acyl-carrier-protein] synthase,sporulation,MISC,sporulation,sporulation,TRUE
+K02112,Q180W5, ATP synthase subunit beta (ATPase subunit beta) (ATP synthase F1 sector subunit beta),sporulation,MISC,sporulation,sporulation,TRUE
+K07238,Q180Y1,putative zinc/iron permease,sporulation,MISC,sporulation,sporulation,TRUE
+K08602,Q180Y9,"putative oligoendopeptidase F, peptidase M3B family",sporulation,MISC,sporulation,sporulation,TRUE
+K06382,Q180Y8, stage II sporulation protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q180Z2,putative spore protein,sporulation,MISC,sporulation,sporulation,TRUE
+K06409,Q180Z7, Stage V sporulation protein B,sporulation,MISC,sporulation,sporulation,TRUE
+K04769,Q180Z9, Stage V sporulation protein T,sporulation,MISC,sporulation,sporulation,TRUE
+K06412,Q181B5, Regulator required for spore cortex synthesis,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q181B8,putative cation efflux protein,sporulation,MISC,sporulation,sporulation,TRUE
+K01258,Q181C0,"putative peptidase T, M20B family",sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q181C2,uncharacterised protein,sporulation,MISC,sporulation,sporulation,TRUE
+K06374,Q181E0, Spore maturation protein B,sporulation,MISC,sporulation,sporulation,TRUE
+K06373,Q181E2, Spore maturation protein A,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q181E9,putative YaaT-like protein involved in sporulation or related to DNA replication,sporulation,MISC,sporulation,sporulation,TRUE
+K01585,Q181F1,putative arginine decarboxylase,sporulation,MISC,sporulation,sporulation,TRUE
+K09779,Q181F0,putative membrane protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q181F3,conserved hypothetical protein,sporulation,MISC,sporulation,sporulation,TRUE
+K01449,Q181G4,putative spore cortex-lytic hydrolase,sporulation,MISC,sporulation,sporulation,TRUE
+K06387,Q181G6, Pro-sigma(E) endopeptidase (stage II sporulation),sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q181G7, spore coat protein,sporulation,MISC,sporulation,sporulation,TRUE
+K06436,Q181G9,Sporulation-specific protease,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q181I4,uncharacterised protein,sporulation,MISC,sporulation,sporulation,TRUE
+K19689,Q181J7,Aminopeptidase,sporulation,MISC,sporulation,sporulation,TRUE
+K01759,Q181L2,putative glyoxalase,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q181L4,uncharacterised protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q181M3,uncharacterised protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q181N7,conserved hypothetical protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q181N6,putative membrane protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q181N8,putative NADPH-dependent FMN reductase,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q181P1,conserved hypothetical protein,sporulation,MISC,sporulation,sporulation,TRUE
+NA,Q181Q6,"putative peptidase, M1 family",sporulation,MISC,sporulation,sporulation,TRUE
+K03497,Q181S3," Stage 0 sporulation protein J, site-specific DNA-binding protein",sporulation,MISC,sporulation,sporulation,TRUE
+K03496,Q181S6," Transcriptional regulator, sporulation initiation inhibitor, chromosome partitioning protein",sporulation,MISC,sporulation,sporulation,TRUE
