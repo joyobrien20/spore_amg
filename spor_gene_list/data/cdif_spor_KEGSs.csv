@@ -1,0 +1,351 @@
+"","strain","locus_tag","symbol","description","ko"
+"1","cdf","CD630_00070",NA,"putative spore protein",NA
+"2","cdf","CD630_00160","dnaX"," DNA polymerase III subunits gamma and tau","K02343"
+"3","cdf","CD630_00170",NA,"DNA binding protein","K09747"
+"4","cdf","CD630_00470","ispD"," 2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase","K00991"
+"5","cdf","CD630_00480","ispF"," 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase","K01770"
+"6","cdf","CD630_01060","cwlD"," Germination-specific N-acetylmuramoyl-L-alanine amidase, Autolysin","K01448"
+"7","cdf","CD630_01190","glmM"," Phosphoglucosamine mutase","K03431"
+"8","cdf","CD630_01200","glmS"," Glucosamine--fructose-6-phosphate aminotransferase [isomerizing]","K00820"
+"9","cdf","CD630_01240","spoIID"," Stage II sporulation protein D","K06381"
+"10","cdf","CD630_01250",NA,"putative cell wall endopeptidase",NA
+"11","cdf","CD630_01260","spoIIID"," Stage III sporulation protein D","K06283"
+"12","cdf","CD630_01290",NA,"putative sporulation protein yyac",NA
+"13","cdf","CD630_01310",NA,"putative membrane protein",NA
+"14","cdf","CD630_02130",NA,"putative spore coat protein",NA
+"15","cdf","CD630_02140",NA,"uncharacterised protein",NA
+"16","cdf","CD630_02510","fliI"," ATP synthase subunit beta FliI","K02412"
+"17","cdf","CD630_02750","splB"," Spore photoproduct (thymine dimer) lyase,radical S-adenosylmethionine superfamily","K03716"
+"18","cdf","CD630_02960",NA,"conserved hypothetical protein",NA
+"19","cdf","CD630_03090",NA,"putative hydrolase, HAD superfamily, subfamily IB",NA
+"20","cdf","CD630_03110",NA,"putative spore coat assembly asparagine-rich protein",NA
+"21","cdf","CD630_03140",NA,"putative membrane protein",NA
+"22","cdf","CD630_03320","bclA1"," putative exosporium glycoprotein",NA
+"23","cdf","CD630_03470",NA,"conserved hypothetical protein",NA
+"24","cdf","CD630_04340",NA,"putative drug/sodium antiporter, MATE family,Tn1549-like, CTn2-Orf29",NA
+"25","cdf","CD630_05140","cwpV"," putative hemagglutinin/adhesin cwpV",NA
+"26","cdf","CD630_05510","sleC"," Spore cortex-lytic enzyme pre-pro-form",NA
+"27","cdf","CD630_05560",NA,"putative sugar isomerase / endonuclease",NA
+"28","cdf","CD630_05570",NA,"putative uridine kinase","K00876"
+"29","cdf","CD630_05640",NA,"putative ATP-dependent protease",NA
+"30","cdf","CD630_05720",NA,"putative sporulation protein",NA
+"31","cdf","CD630_05800","gapN"," Glyceraldehyde-3-phosphate dehydrogenase (NADP(+)) (GADPH)","K00131"
+"32","cdf","CD630_05960",NA,"uncharacterised protein",NA
+"33","cdf","CD630_05970","cotF"," Spore coat peptide assembly protein CotF","K06333"
+"34","cdf","CD630_05980","cotCB"," Spore-coat protein, manganese catalase","K06334"
+"35","cdf","CD630_06290",NA,"Transcriptional regulator, Crp family","K01420"
+"36","cdf","CD630_06750",NA,"putative acetyltransferase",NA
+"37","cdf","CD630_06840",NA,"putative ATP-dependent peptidase, M41 family","K03798"
+"38","cdf","CD630_06950",NA,"putative exported metalloendopeptidase",NA
+"39","cdf","CD630_07490",NA,"putative DNA helicase, UvrD/REP type","K03657"
+"40","cdf","CD630_07570",NA,"putative diguanylate kinase signaling protein",NA
+"41","cdf","CD630_07600",NA,"putative Ca2+/Na+ antiporter","K07301"
+"42","cdf","CD630_07610",NA,"putative ATP-dependent RNA helicase","K05592"
+"43","cdf","CD630_07700","spoIIAA"," Anti-sigma F factor antagonist","K06378"
+"44","cdf","CD630_07710","spoIIAB"," Anti-sigma F factor (Stage II sporulation protein AB)","K06379"
+"45","cdf","CD630_07720","sigF"," RNA polymerase sigma-F factor","K03091"
+"46","cdf","CD630_07730","spoVAC"," Stage V sporulation protein AC","K06405"
+"47","cdf","CD630_07740","spoVAD"," Stage V sporulation protein AD","K06406"
+"48","cdf","CD630_07750","spoVAE"," Stage V sporulation protein AE","K06407"
+"49","cdf","CD630_07820","yunB"," putative sporulation protein YunB",NA
+"50","cdf","CD630_07830","spoIVB2"," Stage IV sporulation protein SpoIVB, S55 peptidase family",NA
+"51","cdf","CD630_07840",NA,"putative N-acetylmuramoyl-L-alanine amidase","K01448"
+"52","cdf","CD630_07920",NA,"putative membrane protein, DUF81 family","K07090"
+"53","cdf","CD630_07930",NA,"putative membrane protein, DUF81 family","K07090"
+"54","cdf","CD630_08250","rbr"," Rubrerythrin",NA
+"55","cdf","CD630_08960",NA,"conserved hypothetical protein",NA
+"56","cdf","CD630_09020",NA,"putative cation efflux protein",NA
+"57","cdf","CD630_09820","ubiA"," putative UbiA prenyltransferase",NA
+"58","cdf","CD630_10210",NA,"putative spore coat protein",NA
+"59","cdf","CD630_10280",NA,"putative signaling protein",NA
+"60","cdf","CD630_10310",NA,"putative cell wall anchored protein",NA
+"61","cdf","CD630_10450",NA,"putative sporulation integral membrane protein",NA
+"62","cdf","CD630_10630",NA,"conserved hypothetical protein",NA
+"63","cdf","CD630_10631",NA,"uncharacterised protein",NA
+"64","cdf","CD630_10632",NA,"conserved hypothetical protein",NA
+"65","cdf","CD630_10633",NA,"conserved hypothetical protein",NA
+"66","cdf","CD630_10650",NA,"uncharacterised protein",NA
+"67","cdf","CD630_10660",NA,"conserved hypothetical protein",NA
+"68","cdf","CD630_10670","CdeC"," exosporium cysteine rich protein",NA
+"69","cdf","CD630_10680",NA,"putative polysaccharide biosynthesis/sporulation protein",NA
+"70","cdf","CD630_10850",NA,"putative membrane protein",NA
+"71","cdf","CD630_10860",NA,"putative peptidase, M20D family",NA
+"72","cdf","CD630_11241",NA,"conserved hypothetical protein",NA
+"73","cdf","CD630_11280","polA"," DNA polymerase I (POLI)","K02335"
+"74","cdf","CD630_11290","coaE"," Dephospho-CoA kinase (Dephosphocoenzyme A kinase)","K00859"
+"75","cdf","CD630_11300",NA,"putative lytic transglycosylase-like protein","K08309"
+"76","cdf","CD630_11310",NA,"putative solute-binding lipoprotein",NA
+"77","cdf","CD630_11320",NA,"putative heavy-metal transport/detoxification protein",NA
+"78","cdf","CD630_11330",NA,"uncharacterised protein",NA
+"79","cdf","CD630_11670",NA,"putative integrase/recombinase",NA
+"80","cdf","CD630_11680",NA,"putative membrane protein",NA
+"81","cdf","CD630_11820","fabG"," 3-oxoacyl-[acyl-carrier protein] reductase (3-ketoacyl-acyl carrier protein reductase)","K00059"
+"82","cdf","CD630_11850",NA,"putative diguanylate kinase signaling protein",NA
+"83","cdf","CD630_11890",NA,"putative amino acid/polyamine transporter I",NA
+"84","cdf","CD630_11920","spoIIIAA"," Stage III sporulation protein AA","K06390"
+"85","cdf","CD630_11930","spoIIIAB"," Stage III sporulation protein AB","K06391"
+"86","cdf","CD630_11940","spoIIIAC"," Stage III sporulation protein AC","K06392"
+"87","cdf","CD630_11950","spoIIIAD"," Stage III sporulation protein AD","K06393"
+"88","cdf","CD630_11960","spoIIIAE"," Stage III sporulation protein AE","K06394"
+"89","cdf","CD630_11970","spoiIIIAF"," Stage III sporulation protein AF","K06395"
+"90","cdf","CD630_11980","spoIIIAG"," Stage III sporulation protein AG","K06396"
+"91","cdf","CD630_11990","spoIIIAH"," Stage III sporulation protein AH","K06397"
+"92","cdf","CD630_12130","spoIVB"," Stage IV sporulation protein B, peptidase S55 family","K06399"
+"93","cdf","CD630_12140","spo0A"," Stage 0 sporulation protein A","K07699"
+"94","cdf","CD630_12290",NA,"putative peptidoglycan glycosyltransferase","K05515"
+"95","cdf","CD630_12300","sigK"," Sigma K","K03091"
+"96","cdf","CD630_12333",NA,"putative phage regulator",NA
+"97","cdf","CD630_12340",NA,"putative phage protein",NA
+"98","cdf","CD630_12590","brnQ-1"," Branched chain amino acid transport system carrier protein","K03311"
+"99","cdf","CD630_12850",NA,"putative Holliday junction resolvase","K07447"
+"100","cdf","CD630_12900",NA,"putative small acid-soluble spore protein SASP","K03537"
+"101","cdf","CD630_12910","dacF"," D-alanyl-D-alanine carboxypeptidase (penicillin-binding protein)","K07258"
+"102","cdf","CD630_12970",NA,"conserved hypothetical protein",NA
+"103","cdf","CD630_12980",NA,"putative sporulation protein",NA
+"104","cdf","CD630_13010",NA,"putative membrane protein",NA
+"105","cdf","CD630_13011",NA,"conserved hypothetical protein",NA
+"106","cdf","CD630_13190",NA,"putative polysaccharide deacetylase",NA
+"107","cdf","CD630_13200",NA,"putative peptidase, M16 family",NA
+"108","cdf","CD630_13210",NA,"putative sporulation protein",NA
+"109","cdf","CD630_13220","dapG"," Aspartokinase 1 (Aspartokinase I) (1spartate kinase I)","K00928"
+"110","cdf","CD630_13230","tepA"," Protein export-enhancing factor",NA
+"111","cdf","CD630_13400",NA,"putative galactose-1-phosphate uridylyltransferase","K00965"
+"112","cdf","CD630_13540",NA,"putative exported protein",NA
+"113","cdf","CD630_13800",NA,"Transporter, Major Facilitator Superfamily (MFS)",NA
+"114","cdf","CD630_13950",NA,"putative membrane protein",NA
+"115","cdf","CD630_13960",NA,"putative amino acid amidase","K16203"
+"116","cdf","CD630_13970",NA,"conserved hypothetical protein",NA
+"117","cdf","CD630_13980",NA,"putative peptidase, M20D family",NA
+"118","cdf","CD630_13990",NA,"putative muramoyltetrapeptide carboxypeptidase,S66 family","K01297"
+"119","cdf","CD630_14020","glpQ"," Glycerophosphoryl diester phosphodiesterase","K01126"
+"120","cdf","CD630_14030",NA,"putative synthetase",NA
+"121","cdf","CD630_14080","ddl"," D-alanine--D-alanine ligase (D-alanylalanine synthetase) (D-Ala-D-Ala ligase)","K01921"
+"122","cdf","CD630_14160",NA,"putative membrane protein","K09936"
+"123","cdf","CD630_14280",NA,"Transcriptional regulator, hxlR family",NA
+"124","cdf","CD630_14300",NA,"putative delta-lactam-biosynthetic de-N-acteylase","K01567"
+"125","cdf","CD630_14330","cotE"," spore coat protein: peroxiredoxin/chitinase",NA
+"126","cdf","CD630_14630",NA,"uncharacterised protein",NA
+"127","cdf","CD630_14860",NA,"putative lipoprotein",NA
+"128","cdf","CD630_14920",NA,"Two-component sensor histidine kinase,sporulation-associated spo0A",NA
+"129","cdf","CD630_15110","cotB"," spore coat protein",NA
+"130","cdf","CD630_15170","feoB"," Ferrous iron transport protein B","K04759"
+"131","cdf","CD630_15180","feoA2"," Ferrous iron transport protein","K04758"
+"132","cdf","CD630_15430",NA,"putative FMN-dependent NADH-azoreductase","K01118"
+"133","cdf","CD630_15550",NA,"putative amino acid permease",NA
+"134","cdf","CD630_15670","cotG"," spore coat protein-manganese catalase","K07217"
+"135","cdf","CD630_15680",NA,"conserved hypothetical protein","K06888"
+"136","cdf","CD630_15750",NA,"putative g5 domain protein",NA
+"137","cdf","CD630_15790",NA,"Two-component sensor histidine kinase,sporulation-associated spo0A",NA
+"138","cdf","CD630_15810",NA,"uncharacterised protein",NA
+"139","cdf","CD630_15950","cysE"," Serine acetyltransferase (SAT)","K00640"
+"140","cdf","CD630_16130","cotA"," spore coat assembly protein",NA
+"141","cdf","CD630_16160",NA,"putative diguanylate kinase signaling protein",NA
+"142","cdf","CD630_16310","sodA"," spore coat protein-superoxide dismutase (Mn)","K04564"
+"143","cdf","CD630_16760","pcp"," Pyrrolidone-carboxylate peptidase","K01304"
+"144","cdf","CD630_16770",NA,"putative membrane protein",NA
+"145","cdf","CD630_16780",NA,"putative membrane protein",NA
+"146","cdf","CD630_17070",NA,"putative C4-dicarboxylate anaerobic carrier,DcuC family",NA
+"147","cdf","CD630_17240",NA,"conserved hypothetical protein",NA
+"148","cdf","CD630_17260",NA,"conserved hypothetical protein",NA
+"149","cdf","CD630_17400",NA,"Glycine/sarcosine/betaine reductase complex,protein B, alpha and beta subunits","K21583"
+"150","cdf","CD630_17460","gltC"," Sodium/glutamate symporter","K03312"
+"151","cdf","CD630_17880",NA,"putative membrane protein",NA
+"152","cdf","CD630_17890",NA,"putative membrane protein",NA
+"153","cdf","CD630_18230",NA,"conserved hypothetical protein, UPF0246 family","K09861"
+"154","cdf","CD630_18350","aroC"," Chorismate synthase (5-enolpyruvylshikimate-3-phosphate phospholyase)","K01736"
+"155","cdf","CD630_18360","pheA"," Bifunctional P-protein, chorismate mutase/prephenate dehydratase","K14170"
+"156","cdf","CD630_18441",NA,"pseudogene",NA
+"157","cdf","CD630_18450",NA,"putative membrane protein Tn1549-like,CTn5-Orf1",NA
+"158","cdf","CD630_18460",NA,"putative conjugative transposon protein Tn1549-like, CTn5-Orf2",NA
+"159","cdf","CD630_18800",NA,"uncharacterised protein",NA
+"160","cdf","CD630_18970",NA,"uncharacterised protein",NA
+"161","cdf","CD630_18980",NA,"putative phage-related cell wall hydrolase (endolysin)","K01448"
+"162","cdf","CD630_19040",NA,"ABC-type transport system, permease","K02050"
+"163","cdf","CD630_19050",NA,"Site-specific recombinase, resolvase family",NA
+"164","cdf","CD630_19280",NA,"putative membrane protein",NA
+"165","cdf","CD630_19290",NA,"putative membrane protein",NA
+"166","cdf","CD630_19300",NA,"putative exported protein",NA
+"167","cdf","CD630_19350","spoVS"," Stage V sporulation protein S","K06416"
+"168","cdf","CD630_19400",NA,"putative membrane protein",NA
+"169","cdf","CD630_19410",NA,"uncharacterised protein",NA
+"170","cdf","CD630_19510",NA,"putative Acyl-CoA N-acyltransferase","K03790"
+"171","cdf","CD630_19650",NA,"putative permease",NA
+"172","cdf","CD630_19660",NA,"putative acyl-CoA thioesterase",NA
+"173","cdf","CD630_20000","isp"," Intracellular serine protease","K13275"
+"174","cdf","CD630_20350",NA,"putative sporulation integral membrane protein",NA
+"175","cdf","CD630_20510",NA,"putative membrane protein",NA
+"176","cdf","CD630_20550",NA,"conserved hypothetical protein",NA
+"177","cdf","CD630_20840",NA,"putative peptidase, M20 family",NA
+"178","cdf","CD630_21020",NA,"putative Na(+)/H(+) antiporter","K11105"
+"179","cdf","CD630_21070",NA,"Xanthine/uracil/thiamine/ascorbate permease family protein","K06901"
+"180","cdf","CD630_21120",NA,"uncharacterised protein",NA
+"181","cdf","CD630_21210",NA,"conserved hypothetical protein",NA
+"182","cdf","CD630_21360","uppS"," Undecaprenyl pyrophosphate synthetase","K00806"
+"183","cdf","CD630_21410",NA,"Serine-type D-Ala-D-Ala carboxypeptidase",NA
+"184","cdf","CD630_21440",NA,"putative membrane protein",NA
+"185","cdf","CD630_21501",NA,"conserved hypothetical protein",NA
+"186","cdf","CD630_21670",NA,"Acyl transferase/acyl hydrolase/lysophospholipase",NA
+"187","cdf","CD630_21810",NA,"putative alpha/beta hydrolase",NA
+"188","cdf","CD630_22450","asnC"," Asparaginyl-tRNA synthetase (Asparagine--tRNA ligase) (AsnRS)","K01893"
+"189","cdf","CD630_22451",NA,"uncharacterised protein",NA
+"190","cdf","CD630_22460","cspC"," Subtilisin-like serine germination related protease",NA
+"191","cdf","CD630_22470","cspBA"," Subtilisin-like serine germination related protease",NA
+"192","cdf","CD630_22650",NA,"putative membrane protein",NA
+"193","cdf","CD630_22660",NA,"putative oxidoreductase, FAD dependent",NA
+"194","cdf","CD630_22690","fruABC"," PTS system, fructose-specific IIABC component","K02770"
+"195","cdf","CD630_22700","fruK"," Fructose 1-phosphate kinase","K00882"
+"196","cdf","CD630_22730",NA,"putative sporulation integral membrane protein",NA
+"197","cdf","CD630_23150",NA,"putative exported protein",NA
+"198","cdf","CD630_23160",NA,"Two-component response regulator",NA
+"199","cdf","CD630_23460",NA,"putative membrane protein",NA
+"200","cdf","CD630_23740",NA,"conserved hypothetical protein",NA
+"201","cdf","CD630_23750",NA,"uncharacterised protein",NA
+"202","cdf","CD630_23760",NA,"putative membrane protein",NA
+"203","cdf","CD630_23770",NA,"putative hydrolase, NUDIX family",NA
+"204","cdf","CD630_23950",NA,"conserved hypothetical protein",NA
+"205","cdf","CD630_23990",NA,"putative spore coat protein",NA
+"206","cdf","CD630_24000","cotJB2"," Spore coat peptide assembly protein CotJB 2","K06333"
+"207","cdf","CD630_24010","cotD"," Spore coat protein, manganese catalase","K06334"
+"208","cdf","CD630_24090",NA,"conserved hypothetical protein",NA
+"209","cdf","CD630_24270",NA,"putative flavodoxin/ferredoxin oxidoreductase gamma subunit","K00177"
+"210","cdf","CD630_24280",NA,"putative flavodoxin/ferredoxin oxidoreductase beta subunit",NA
+"211","cdf","CD630_24290",NA,"putative flavodoxin/ferredoxin oxidoreductase alpha subunit",NA
+"212","cdf","CD630_24291",NA,"putative 4Fe-4S ferredoxin, iron-sulfur binding domain protein, delta subunit",NA
+"213","cdf","CD630_24310",NA,"putative nitrite/sulphite reductase","K00366"
+"214","cdf","CD630_24370","era"," GTP-binding protein Era","K03595"
+"215","cdf","CD630_24380","cdd"," Cytidine deaminase (Cytidine aminohydrolase) (CDA)","K01489"
+"216","cdf","CD630_24390",NA,"putative diacylglycerol kinase","K00901"
+"217","cdf","CD630_24400",NA,"putative metal-dependent hydrolase","K07042"
+"218","cdf","CD630_24411",NA,"PhoH-like protein","K06217"
+"219","cdf","CD630_24420","spoIV"," Stage IV sporulation protein","K06438"
+"220","cdf","CD630_24430",NA,"putative sporulation protein yqfc",NA
+"221","cdf","CD630_24450",NA,"putative transmembrane signaling protein,TspO/MBR family","K05770"
+"222","cdf","CD630_24580",NA,"Transporter, Major Facilitator Superfamily (MFS)",NA
+"223","cdf","CD630_24590",NA,"putative glucokinase, ROK family","K25026"
+"224","cdf","CD630_24650",NA,"putative amino acid/polyamine transporter","K03294"
+"225","cdf","CD630_24680",NA,"conserved hypothetical protein",NA
+"226","cdf","CD630_24690","spoIIP"," Stage II sporulation protein P","K06385"
+"227","cdf","CD630_24700","gpr"," Spore endopeptidase","K06012"
+"228","cdf","CD630_24920",NA,"Two-component sensor histidine kinase,sporulation-associated spo0A",NA
+"229","cdf","CD630_25370",NA,"putative membrane-associated 5'-nucleotidase/phosphoesterase","K11751"
+"230","cdf","CD630_25980",NA,"putative oligosaccharide deacetylase","K22278"
+"231","cdf","CD630_25990",NA,"putative transcriptional regulator",NA
+"232","cdf","CD630_26290","spoIVA"," Stage IV sporulation protein A","K06398"
+"233","cdf","CD630_26340",NA,"uncharacterised protein",NA
+"234","cdf","CD630_26350",NA,"putative spore envelope protein","K05739"
+"235","cdf","CD630_26360",NA,"putative membrane protein","K05739"
+"236","cdf","CD630_26370",NA,"Two-component sensor histidine kinase","K07636"
+"237","cdf","CD630_26380",NA,"Two-component response regulator","K07658"
+"238","cdf","CD630_26390",NA,"conserved hypothetical protein","K05810"
+"239","cdf","CD630_26400","nrdR"," Transcriptional regulator, repressor NrdR family","K07738"
+"240","cdf","CD630_26410",NA,"putative sporulation protein",NA
+"241","cdf","CD630_26420","sigG"," RNA polymerase sigma-G factor","K03091"
+"242","cdf","CD630_26430","sigE"," RNA polymerase sigma-E factor","K03091"
+"243","cdf","CD630_26440","spoIIGA"," Sporulation sigma-E factor processing peptidase","K06383"
+"244","cdf","CD630_26520","spoVE"," Cell division/stage V sporulation protein","K03588"
+"245","cdf","CD630_26560","spoVD"," Stage V sporulation protein D (Sporulation-specific penicillin-binding protein)","K08384"
+"246","cdf","CD630_26570",NA,"conserved hypothetical protein",NA
+"247","cdf","CD630_26600",NA,"putative peptidase, M16 family",NA
+"248","cdf","CD630_26610",NA,"putative peptidase, M16 family",NA
+"249","cdf","CD630_26640","murE"," UDP-N-acetylmuramyl-tripeptide synthetase","K01928"
+"250","cdf","CD630_26670","ptsG-BC"," PTS system, glucose-specific IIBC component","K20118"
+"251","cdf","CD630_26810",NA,"putative sporulation protein",NA
+"252","cdf","CD630_26850",NA,"putative sporulation stage II, protein E",NA
+"253","cdf","CD630_26860",NA,"putative membrane protein",NA
+"254","cdf","CD630_26870",NA,"conserved hypothetical protein",NA
+"255","cdf","CD630_26880","sspA"," Small, acid-soluble spore protein alpha",NA
+"256","cdf","CD630_27020","brnQ"," Branched-chain amino acid transport system II carrier protein","K03311"
+"257","cdf","CD630_27170",NA,"putative sporulation protein",NA
+"258","cdf","CD630_27200",NA,"putative transporter",NA
+"259","cdf","CD630_27610",NA,"putative N-acetylmuramoyl-L-alanine amidase","K01448"
+"260","cdf","CD630_27810","mviN"," Transmembrane virulence factor, MviN family protein","K03980"
+"261","cdf","CD630_27990","cwp8"," Cell wall binding protein cwp8",NA
+"262","cdf","CD630_28000",NA,"putative membrane protein",NA
+"263","cdf","CD630_28080",NA,"conserved hypothetical protein",NA
+"264","cdf","CD630_28090",NA,"uncharacterised protein",NA
+"265","cdf","CD630_28160",NA,"conserved hypothetical protein",NA
+"266","cdf","CD630_28330",NA,"putative calcium-transporting ATPase",NA
+"267","cdf","CD630_28390",NA,"Two-component sensor histidine kinase",NA
+"268","cdf","CD630_28410",NA,"putative amidohydrolase",NA
+"269","cdf","CD630_28450","rbr1"," Rubrerythrin",NA
+"270","cdf","CD630_28560",NA,"putative membrane protein",NA
+"271","cdf","CD630_28580",NA,"putative membrane protein","K03699"
+"272","cdf","CD630_28630",NA,"Transcriptional regulator, sigma-54-dependent",NA
+"273","cdf","CD630_28640",NA,"putative hydrolase",NA
+"274","cdf","CD630_28650",NA,"putative bacterioferritin","K03594"
+"275","cdf","CD630_28680",NA,"putative oxidoreductase",NA
+"276","cdf","CD630_29670","spoVFB"," Dipicolinate synthase subunit B","K06411"
+"277","cdf","CD630_29680","spoVFA"," Dipicolinate synthase subunit A","K06410"
+"278","cdf","CD630_30070",NA,"uncharacterised protein with SH3 domain",NA
+"279","cdf","CD630_30320",NA,"putative aminotransferase",NA
+"280","cdf","CD630_31510",NA,"putative phage protein",NA
+"281","cdf","CD630_31770",NA,"putative xanthine dehydrogenase",NA
+"282","cdf","CD630_31780",NA,"D-hydantoinase (Dihydropyrimidinase)","K01464"
+"283","cdf","CD630_31790","pyrD2"," Dihydroorotate dehydrogenase, catalytic subunit",NA
+"284","cdf","CD630_31800",NA,"putative purine permease","K24206"
+"285","cdf","CD630_31810",NA,"putative amidohydrolase",NA
+"286","cdf","CD630_31820",NA,"putative D-aminoacylase","K06015"
+"287","cdf","CD630_31830",NA,"putative peptidase, M20 family",NA
+"288","cdf","CD630_31840","dpaL1"," Diaminopropionate ammonia-lyase","K01751"
+"289","cdf","CD630_32200",NA,"putative methyltransferase",NA
+"290","cdf","CD630_32201",NA,"Small acid-soluble spore protein",NA
+"291","cdf","CD630_32300","bclA2"," putative exosporium glycoprotein",NA
+"292","cdf","CD630_32340",NA,"conserved hypothetical protein",NA
+"293","cdf","CD630_32350","ssb"," Single-stranded DNA-binding protein",NA
+"294","cdf","CD630_32480",NA,"Polysaccharide deacetylase",NA
+"295","cdf","CD630_32490","sspB"," Small, acid-soluble spore protein beta",NA
+"296","cdf","CD630_32510",NA,"putative dehydrogenase",NA
+"297","cdf","CD630_32570",NA,"putative polysaccharide deacetylase",NA
+"298","cdf","CD630_32580",NA,"Iron hydrogenase",NA
+"299","cdf","CD630_32690",NA,"putative oligoendopeptidase F, M3B family","K08602"
+"300","cdf","CD630_32700",NA,"putative magnesium transport ATPase, MgtC/SapB family","K07507"
+"301","cdf","CD630_32710",NA,"conserved hypothetical protein",NA
+"302","cdf","CD630_32980",NA,"putative ATP/GTP-binding protein",NA
+"303","cdf","CD630_33120",NA,"Transporter, Major Facilitator Superfamily (MFS)",NA
+"304","cdf","CD630_33490","bclA3"," Exosporium glycoprotein BclA3",NA
+"305","cdf","CD630_33500",NA,"putative glycosyl transferase, family 2",NA
+"306","cdf","CD630_33680","putative ribosome biogenesis GTPase RsgA"," putative EngC-like GTPase","K06949"
+"307","cdf","CD630_33970","whiA"," putative sporulation transcription regulator whiA","K09762"
+"308","cdf","CD630_34400",NA,"putative glycoside hydrolase-type carbohydrate-binding protein",NA
+"309","cdf","CD630_34550",NA,"putative carboxy-terminal protease","K03797"
+"310","cdf","CD630_34560",NA,"5-formyltetrahydrofolate cyclo-ligase","K01934"
+"311","cdf","CD630_34570",NA,"uncharacterised protein",NA
+"312","cdf","CD630_34610","EndoA"," Endoribonuclease toxin","K07171"
+"313","cdf","CD630_34620",NA,"putative antitoxin EndoAI","K07723"
+"314","cdf","CD630_34630","alr2"," Alanine racemase 2","K01775"
+"315","cdf","CD630_34640",NA,"putative lipoprotein",NA
+"316","cdf","CD630_34650",NA,"uncharacterised CBS domain protein",NA
+"317","cdf","CD630_34660","acpS"," Holo-[acyl-carrier-protein] synthase","K00997"
+"318","cdf","CD630_34680","atpD1"," ATP synthase subunit beta (ATPase subunit beta) (ATP synthase F1 sector subunit beta)","K02112"
+"319","cdf","CD630_34830",NA,"putative zinc/iron permease","K07238"
+"320","cdf","CD630_34890",NA,"putative oligoendopeptidase F, peptidase M3B family","K08602"
+"321","cdf","CD630_34900","spoIIE"," stage II sporulation protein","K06382"
+"322","cdf","CD630_34940",NA,"putative spore protein",NA
+"323","cdf","CD630_34980","spoVB"," Stage V sporulation protein B","K06409"
+"324","cdf","CD630_34990","spoVT"," Stage V sporulation protein T","K04769"
+"325","cdf","CD630_35160","spoVG"," Regulator required for spore cortex synthesis","K06412"
+"326","cdf","CD630_35200",NA,"putative cation efflux protein",NA
+"327","cdf","CD630_35210",NA,"putative peptidase T, M20B family","K01258"
+"328","cdf","CD630_35220",NA,"uncharacterised protein",NA
+"329","cdf","CD630_35410","spmB"," Spore maturation protein B","K06374"
+"330","cdf","CD630_35420","spmA"," Spore maturation protein A","K06373"
+"331","cdf","CD630_35480",NA,"putative YaaT-like protein involved in sporulation or related to DNA replication",NA
+"332","cdf","CD630_35510",NA,"putative arginine decarboxylase","K01585"
+"333","cdf","CD630_35511",NA,"putative membrane protein","K09779"
+"334","cdf","CD630_35512",NA,"conserved hypothetical protein",NA
+"335","cdf","CD630_35630",NA,"putative spore cortex-lytic hydrolase","K01449"
+"336","cdf","CD630_35640","spoIIR"," Pro-sigma(E) endopeptidase (stage II sporulation)","K06387"
+"337","cdf","CD630_35670","sipL"," spore coat protein",NA
+"338","cdf","CD630_35690",NA,"Sporulation-specific protease","K06436"
+"339","cdf","CD630_35800",NA,"uncharacterised protein",NA
+"340","cdf","CD630_35950",NA,"Aminopeptidase","K19689"
+"341","cdf","CD630_36100",NA,"putative glyoxalase","K01759"
+"342","cdf","CD630_36130",NA,"uncharacterised protein",NA
+"343","cdf","CD630_36200",NA,"uncharacterised protein",NA
+"344","cdf","CD630_36350",NA,"conserved hypothetical protein",NA
+"345","cdf","CD630_36360",NA,"putative membrane protein",NA
+"346","cdf","CD630_36370",NA,"putative NADPH-dependent FMN reductase",NA
+"347","cdf","CD630_36380",NA,"conserved hypothetical protein",NA
+"348","cdf","CD630_36520",NA,"putative peptidase, M1 family",NA
+"349","cdf","CD630_36710","spo0J"," Stage 0 sporulation protein J, site-specific DNA-binding protein","K03497"
+"350","cdf","CD630_36720","soj"," Transcriptional regulator, sporulation initiation inhibitor, chromosome partitioning protein","K03496"
