@@ -1,0 +1,1231 @@
+gene_id.ko,gene_id.uniref90,gene_description,module,sheet,header,subheader,potential_amg,strain
+K02313,P05648,dnaA;chromosomal replication initiator protein DnaA,NA,MISC,Genetics,DNA replication,TRUE,bs
+K02338,P05649,dnaN;DNA polymerase III subunit beta,NA,MISC,Genetics,DNA replication,TRUE,bs
+NA,P37526,yaaC;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06215,P37527,pdxS;pyridoxal biosynthesis lyase PdxS,Biosynthesis of pyridoxal phosphate,MISC,Additional metabolic pathways,Biosynthesis of cofactors,TRUE,bs
+K06306,P37531,yaaH;spore germination protein YaaH,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06317,P24282,bofA;sigma-K factor-processing regulator BofA,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P37534,csfB;sporulation protein CsfB,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P37541,yaaT;stage 0 sporulation protein YaaT,NA,MISC,Sporulation,phosphorelay,TRUE,bs
+K06284,P08874,abrB;transition state regulatory protein AbrB,NA,MISC,Regulation of gene expression,Transition state regulators,TRUE,bs
+K02528,P37468,ksgA;ribosomal RNA small subunit methyltransferase A,rRNA modification and maturation,MISC,"Protein synthesis, modification and degradation",Translation,TRUE,bs
+K06436,P37548,yabG;sporulation-specific protease YabG,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06423,P37549,sspF;small acid-soluble spore protein SspF,Small acid-soluble spore proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K00919,P37550,ispE;4-diphosphocytidyl-2-c-methyl-d-erythritol kinase,Biosynthesis of isoprenoids,MISC,Lipid metabolism,Biosynthesis of lipids,TRUE,bs
+K09685,P37551,purR;Pur operon repressor,Biosynthesis/ acquisition of purine nucleotides,MISC,Nucleotide metabolism,Biosynthesis/ acquisition of nucleotides,TRUE,bs
+K09022,P37552,yabJ;enamine/imine deaminase,Biosynthesis/ acquisition of branched-chain amino acids,MISC,Amino acid/ nitrogen metabolism,Biosynthesis/ acquisition of amino acids,TRUE,bs
+K06412,P28015,spoVG;septation protein SpoVG,NA,MISC,Sporulation,Sporulation/ other,TRUE,bs
+K01056,P37470,spoVC;peptidyl-tRNA hydrolase,NA,MISC,Coping with stress,General stress proteins (controlled by SigB),TRUE,bs
+NA,P37553,fin;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K03723,P37474,mfd;transcription-repair-coupling factor,NA,MISC,Genetics,DNA repair/ recombination,TRUE,bs
+K04769,P37554,spoVT;stage V sporulation protein T,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P37558,yabP;spore protein YabP,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P37559,yabQ;spore protein YabQ,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K13052,P37471,divIC;cell division protein DivIC,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K07571,P37560,yabR;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06382,P37475,spoIIE;stage II sporulation protein E,Control of sigma factors,MISC,Regulation of gene expression,Sigma factors and their control,TRUE,bs
+K07114,P37561,yabS;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K08884,P37562,yabT;serine/threonine protein kinase,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K19411,P37569,mcsA;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K19405,P37570,mcsB;ATP:guanido phosphotransferase YacI,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K03696,P37571,clpC;negative regulator of genetic competence ClpC/MecB,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K07067,P37573,disA;DNA integrity scanning protein DisA,NA,MISC,Sporulation,Sporulation/ other,TRUE,bs
+K03091,P17869,sigH;RNA polymerase sigma-H factor,Sigma factors,MISC,RNA synthesis and degradation,Transcription,TRUE,bs
+NA,P50862,ybaK;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K01448,P50864,cwlD;germination-specific N-acetylmuramoyl-L-alanine amidase,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06294,P16450,gerD;spore germination protein GerD,Additional germination proteins,MISC,Sporulation,Germination,TRUE,bs
+K06349,P16449,kbaA;kinB-signaling pathway activation protein,Proteins controlling the activity of the kinases,MISC,Sporulation,phosphorelay,TRUE,bs
+NA,P50865,pdaB;polysaccharide deacetylase PdaB,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P55190,ybaS;hypothetical protein,Other transporters,MISC,Transporters,Transporters/ other,TRUE,bs
+NA,P40407,ybbC;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K01207,P40406,nagZ;lipoprotein,Utilization of cell wall components,MISC,Cell envelope and cell division,Cell wall degradation/ turnover,TRUE,bs
+K21469,O05213,amiE;hypothetical protein,Utilization of cell wall components,MISC,Cell envelope and cell division,Cell wall degradation/ turnover,TRUE,bs
+K02810,Q797S1,murP;PTS system transporter subunit EIIBC,Utilization of cell wall components,MISC,Cell envelope and cell division,Cell wall degradation/ turnover,TRUE,bs
+K01247,P37878,alkA;DNA-3-methyladenine glycosylase,NA,MISC,Genetics,DNA repair/ recombination,TRUE,bs
+K08884,O31435,prkD;serine/threonine protein kinase,Protein kinases,MISC,"Protein synthesis, modification and degradation",Protein modification,TRUE,bs
+NA,P54379,csgA;sigma-G-dependent sporulation-specific SASP protein,Additional germination proteins,MISC,Sporulation,Germination,TRUE,bs
+NA,P54426,ybxH;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O31442,ybeF;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P39790,mpr;extracellular metalloprotease,Utilization of proteins,MISC,Amino acid/ nitrogen metabolism,Utilization of nitrogen sources other than amino acids,TRUE,bs
+NA,O31451,ybfJ;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K01449,P42249,cwlJ;cell wall hydrolase CwlJ,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O34538,ycdA;lipoprotein,Motility and chemotaxis/ other,MISC,Exponential and early post-exponential lifestyles,Motility and chemotaxis,TRUE,bs
+K06368,O34327,rapJ;response regulator aspartate phosphatase J,Protein phosphatases,MISC,"Protein synthesis, modification and degradation",Protein modification,TRUE,bs
+K01182,O34364,"ycdG;oligo-1,6-glucosidase 2",NA,MISC,Coping with stress,General stress proteins (controlled by SigB),TRUE,bs
+NA,P94381,ycgF;amino acid efflux protein YcgF,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K09190,P94382,ycgG;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K03293,P94383,ycgH;transporter,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K09967,O31473,ycgI;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P12921,tmrB;tunicamycin resistance protein,NA,MISC,Coping with stress,Resistance against toxins/ antibiotics,TRUE,bs
+K07074,P94389,ycgL;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P42401,yckC;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P42402,yckD;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K03305,P94408,dtpT;transporter,Peptide transporter,MISC,Transporters,Transporters/ other,TRUE,bs
+NA,O31479,gerKD;hypothetical protein,Germinant receptors,MISC,Sporulation,Germination,TRUE,bs
+K06295,P49939,gerKA;spore germination protein KA,Germinant receptors,MISC,Sporulation,Germination,TRUE,bs
+K06297,P49941,gerKC;spore germination protein KC,Germinant receptors,MISC,Sporulation,Germination,TRUE,bs
+K06296,P49940,gerKB;spore germination protein KB,Germinant receptors,MISC,Sporulation,Germination,TRUE,bs
+K06361,P94415,rapC;response regulator aspartate phosphatase C,NA,MISC,Genetics,Genetic competence,TRUE,bs
+K06353,P94416,phrC;phosphatase RapC inhibitor,NA,MISC,Genetics,Genetic competence,TRUE,bs
+K05340,P40420,glcU;glucose uptake protein GlcU,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K00034,P12310,gdh;glucose 1-dehydrogenase,Additional germination proteins,MISC,Sporulation,Germination,TRUE,bs
+K06351,P60495,pxpB;kinase A inhibitor,Proteins controlling the activity of the kinases,MISC,Sporulation,phosphorelay,TRUE,bs
+K06350,Q7WY77,pxpC;kipi antagonist,Proteins controlling the activity of the kinases,MISC,Sporulation,phosphorelay,TRUE,bs
+NA,P42968,kipR;IclR family transcriptional regulator,NA,MISC,Sporulation,phosphorelay,TRUE,bs
+NA,P42969,lipC;spore germination lipase LipC,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P96604,ydbI;hypothetical protein,NA,MISC,Membrane proteins,NA,TRUE,bs
+K01929,P96613,murF;UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D- alanine ligase,Biosynthesis of peptidoglycan,MISC,Cell envelope and cell division,Cell wall synthesis,TRUE,bs
+NA,P96617,ydcA;rhomboid protease YdcA,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P96619,ydcC;sporulation protein YdcC,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P96633,ydcP;hypothetical protein,NA,MISC,Mobile genetic elements,ICEBs1,TRUE,bs
+K06367,P96649,rapI;response regulator aspartate phosphatase I,Protein phosphatases,MISC,"Protein synthesis, modification and degradation",Protein modification,TRUE,bs
+K03719,P96652,lrpA;AsnC family transcriptional regulator,NA,MISC,Sporulation,phosphorelay,TRUE,bs
+NA,P96653,lrpB;AsnC family transcriptional regulator,NA,MISC,Sporulation,phosphorelay,TRUE,bs
+NA,O31496,ydzH;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,C0H3W2,ydzR;spore germination protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P96696,ydfR;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P96697,ydfS;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P96698,cotP;spore coat protein P,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P96699,ydgA;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P96700,ydgB;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O05495,ydhD;sporulation protein,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O05497,ydhF;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K01077,P19405,phoB;alkaline phosphatase 3,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O34592,ydjP;AB hydrolase superfamily protein YdjP,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O34803,yeaA;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06324,P07788,cotA;spore coat protein A,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O34904,yebD;hypothetical protein,NA,MISC,Proteins of unknown function,NA,TRUE,bs
+NA,C0H3X3,yezF;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,Q7BVT7,yerC;hypothetical protein,Transcription factor/ other/ based on similarity,MISC,Regulation of gene expression,Transcription factors and their control,TRUE,bs
+K06366,Q59HN8,rapH;response regulator aspartate phosphatase H,Phosphatases controlling the phosphorelay,MISC,Sporulation,phosphorelay,TRUE,bs
+K20389,NA,phrH;inhibitor of regulatory cascade,NA,MISC,Sporulation,phosphorelay,TRUE,bs
+NA,O31510,yeeK;spore coat protein YeeK,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06332,Q45536,cotJA;spore coat associated protein CotJA,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06333,Q45537,cotJB;spore coat protein CotJB,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06334,Q45538,cotJC;spore coat peptide assembly protein CotJC,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O31513,yesJ;N-acetyltransferase YesJ,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O31514,yesK;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K18197,O31526,yesW;rhamnogalacturonan endolyase YesW,Utilization of pectin,MISC,Carbon metabolism,Utilization of specific carbon sources,TRUE,bs
+K22933,P39130,lplD;alpha-galacturonidase,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O31533,yetF;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K14338,O08394,yetO;bifunctional P-450/NADPH-P450 reductase 1,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K00978,O06486,yfnH;glucose-1-phosphate cytidylyltransferase,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O06485,yfnG;CDP-sugar-dehydratase/epimerase,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O06484,yfnF;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O06483,yfnE;glycosyltransferase YfnE,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O31542,yfnD;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,NA,yfmA;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K11639,P55069,citM;Mg(2+)/citrate complex secondary transporter,Transporter for organic acids,MISC,Transporters,Transporters/ other,TRUE,bs
+NA,O34409,yflN;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O34345,yflJ;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06309,O34573,yfkT;spore germination protein YfkT,NA,MISC,Sporulation,Germination/ based on similarity,TRUE,bs
+NA,O35036,yfkS;hypothetical protein,NA,MISC,Sporulation,Germination/ based on similarity,TRUE,bs
+K06308,O35028,yfkR;spore germination protein YfkR,NA,MISC,Sporulation,Germination/ based on similarity,TRUE,bs
+K06307,O34486,yfkQ;hypothetical protein,NA,MISC,Sporulation,Germination/ based on similarity,TRUE,bs
+NA,O34475,hypO;NAD(P)H nitroreductase YfkO,NA,MISC,Electron transport and ATP synthesis,Electron transport/ other/ based on similarity,TRUE,bs
+K07300,O34840,chaA;cation exchanger YfkE,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O34579,yfkD;hypothetical protein,NA,MISC,Coping with stress,General stress proteins (controlled by SigB),TRUE,bs
+K01567,O34928,pdaA;polysaccharide deacetylase PdaA,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K00627,O31550,acoC;dihydrolipoyllysine-residue acetyltransferase component of acetoin cleaving system,Utilization of acetoin,MISC,Carbon metabolism,Utilization of specific carbon sources,TRUE,bs
+K06425,O31552,sspH;small acid-soluble spore protein H,Small acid-soluble spore proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O31556,yfjC;hypothetical protein,NA,MISC,Phosphoproteins,Phosphorylation on a Ser residue,TRUE,bs
+NA,O31572,yfhD;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O31573,yfhE;hypothetical protein,NA,MISC,Coping with stress,General stress proteins (controlled by SigB),TRUE,bs
+K06428,Q7WY75,sspK;small acid-soluble spore protein K,Small acid-soluble spore proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O31581,yfhM;AB hydrolase superfamily protein YfhM,NA,MISC,Coping with stress,General stress proteins (controlled by SigB),TRUE,bs
+K07038,O31583,yfhP;hypothetical protein,NA,MISC,Membrane proteins,NA,TRUE,bs
+NA,O31585,yfhS;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K10780,P71079,fabL;enoyl-[acyl-carrier-protein] reductase [NADPH] FabL,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06422,P84585,sspE;small acid-soluble spore protein gamma-type,Small acid-soluble spore proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P71080,ygaB;hypothetical protein,NA,MISC,Proteins of unknown function,NA,TRUE,bs
+NA,P71083,ygaE;hypothetical protein,NA,MISC,Membrane proteins,NA,TRUE,bs
+K06377,P71088,spo0M;sporulation-control protein spo0M,NA,MISC,Sporulation,Sporulation/ other,TRUE,bs
+NA,O31586,ygzA;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,C0H3X8,ygzC;spore coat protein F,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,Q796Y5,ygaK;FAD-linked oxidoreductase YgaK,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K03781,P26901,katA;vegetative catalase,NA,MISC,Coping with stress,Resistance against oxidative and electrophile stress,TRUE,bs
+K18979,P97030,queG;epoxyqueuosine reductase,tRNA modification and maturation,MISC,"Protein synthesis, modification and degradation",Translation,TRUE,bs
+NA,O31589,yhbB;hypothetical protein,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K03216,O31590,cspR;tRNA (cytidine(34)-2'-O)-methyltransferase,tRNA modification and maturation,MISC,"Protein synthesis, modification and degradation",Translation,TRUE,bs
+K07180,P39134,prkA;serine protein kinase PrkA,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K09786,P45742,yhbH;stress response UPF0229 protein YhbH,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O31593,yhbJ;efflux system component YhbJ,NA,MISC,Membrane proteins,NA,TRUE,bs
+NA,P54585,yhcA;MFS transporter,Other exporters,MISC,Transporters,Transporters/ other,TRUE,bs
+NA,P54586,yhcB;hypothetical protein,NA,MISC,Poorly characterized/ putative enzymes,NA,TRUE,bs
+NA,P54587,yhcC;hypothetical protein,NA,MISC,Membrane proteins,NA,TRUE,bs
+NA,P54597,yhcM;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P54598,yhcN;lipoprotein,Additional germination proteins,MISC,Sporulation,Germination,TRUE,bs
+NA,P54599,yhcO;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P54601,yhcQ;spore coat protein F,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06180,P54604,yhcT;RNA pseudouridine synthase YhcT,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P54606,yhcV;CBS domain-containing protein YhcV,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K00864,P18157,glpK;glycerol kinase,Utilization of glycerol/ glycerol-3-phosphate,MISC,Carbon metabolism,Utilization of specific carbon sources,TRUE,bs
+K01835,P18159,pgcA;phosphoglucomutase,Biosynthesis of peptidoglycan,MISC,Cell envelope and cell division,Cell wall synthesis,TRUE,bs
+K02480,O07527,yhcY;sensor histidine kinase,Protein kinases,MISC,"Protein synthesis, modification and degradation",Protein modification,TRUE,bs
+K02479,O07528,yhcZ;transcriptional regulator,Two-component system response regulators,MISC,Regulation of gene expression,Transcription factors and their control,TRUE,bs
+NA,O07530,yhdB;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O07531,yhdC;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06415,P37875,spoVR;stage V sporulation protein R,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K01077,P19406,phoA;alkaline phosphatase,NA,MISC,Additional metabolic pathways,Phosphate metabolism,TRUE,bs
+NA,O07547,yheF;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06419,NA,sspB;small acid-soluble spore protein B,Small acid-soluble spore proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O07545,yheD;endospore coat-associated protein YheD,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O07544,yheC;endospore coat-associated protein YheC,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O07539,yhaX;hydrolase,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K02495,Q796V8,hemZ;oxygen-independent coproporphyrinogen-III oxidase,Biosynthesis of heme/ siroheme,MISC,Additional metabolic pathways,Biosynthesis of cofactors,TRUE,bs
+K07228,O07535,khtT;K(+)/H(+) antiporter subunit KhtT,Metal ion transporter,MISC,Transporters,Transporters/ other,TRUE,bs
+NA,O07534,khtS;hypothetical protein,Potassium uptake/ export,MISC,Homeostasis,"Metal ion homeostasis (K, Na, Ca, Mg)",TRUE,bs
+K03698,O07521,yhaM;3'-5' exoribonuclease YhaM,Exoribonucleases,MISC,RNA synthesis and degradation,RNases,TRUE,bs
+NA,O07520,yhaL;sporulation protein YhaL,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,C0H3Y2,sscA;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K09682,P11065,scoC;MarR family transcriptional regulator,Transcription factors/ other,MISC,Regulation of gene expression,Transcription factors and their control,TRUE,bs
+NA,C0H3Y3,yhzF;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O07599,yhfA;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K12555,P38050,pbpF;penicillin-binding protein 1F,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P32398,yhgD;TetR family transcriptional regulator,Transcription factor/ other/ based on similarity,MISC,Regulation of gene expression,Transcription factors and their control,TRUE,bs
+NA,O07611,yhfM;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P40769,yhfN;metalloprotease YhfN,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O07614,yhfO;N-acetyltransferase YhfO,NA,MISC,Poorly characterized/ putative enzymes,NA,TRUE,bs
+NA,O07622,yhfW;rieske 2Fe-2S iron-sulfur protein YhfW,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P40397,yhxC;oxidoreductase,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K18653,O07566,ntdA;NTD biosynthesis operon protein NtdA,Biosynthesis of antibacterial compounds,MISC,Additional metabolic pathways,Miscellaneous metabolic pathways,TRUE,bs
+NA,O07571,yhjQ;cysteine-rich protein YhjQ,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O07572,yhjR;hypothetical protein,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06304,O06716,gerPF;spore germination protein,Additional germination proteins,MISC,Sporulation,Germination,TRUE,bs
+K06303,O06717,gerPE;spore germination protein GerPE,Additional germination proteins,MISC,Sporulation,Germination,TRUE,bs
+K06302,O06718,gerPD;spore germination protein GerPD,Additional germination proteins,MISC,Sporulation,Germination,TRUE,bs
+K06301,O06719,gerPC;spore germination protein GerPC,Additional germination proteins,MISC,Sporulation,Germination,TRUE,bs
+K06300,O06720,gerPB;spore germination protein,Additional germination proteins,MISC,Sporulation,Germination,TRUE,bs
+K06299,O06721,gerPA;spore germination protein GerPA,Additional germination proteins,MISC,Sporulation,Germination,TRUE,bs
+NA,O06722,yisI;aspartyl-phosphate phosphatase YisI,Phosphatases controlling the phosphorelay,MISC,Sporulation,phosphorelay,TRUE,bs
+NA,O06723,yisJ;inner spore coat protein H-like protein,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O06727,yisN;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K01953,O05272,asnO;asparagine synthetase 3,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K02291,O06728,yisP;squalene/phytoene synthase,NA,MISC,Sporulation,phosphorelay,TRUE,bs
+NA,O06734,yisY;AB hydrolase superfamily protein YisY,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K00860,O06735,yisZ;adenylyl-sulfate kinase,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K00958,O06736,yitA;sulfate adenylyltransferase,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K00390,O06737,yitB;phosphoadenosine phosphosulfate reductase,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K05979,O06738,yitC;2-phosphosulfolactate phosphatase,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K08097,O06739,yitD;phosphosulfolactate synthase,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O06740,yitE;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O06741,yitF;isomerase,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K08221,Q796Q1,yitG;MFS transporter,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O06752,yitQ;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,C0H3Y5,yizC;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O34585,yjzC;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O35001,yjaU;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O34959,yjaV;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O34891,yjzB;hypothetical protein,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O31596,yjaZ;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O31597,yjbA;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K15580,P24141,oppA;oligopeptide ABC transporter binding lipoprotein,NA,MISC,Sporulation,phosphorelay,TRUE,bs
+K15581,P24138,oppB;oligopeptide transport system permease protein OppB,NA,MISC,Sporulation,phosphorelay,TRUE,bs
+K15582,P24139,oppC;oligopeptide transport system permease protein OppC,NA,MISC,Sporulation,phosphorelay,TRUE,bs
+K15583,P24136,oppD;oligopeptide transport ATP-binding protein OppD,NA,MISC,Sporulation,phosphorelay,TRUE,bs
+K10823,P24137,oppF;oligopeptide transport ATP-binding protein OppF,NA,MISC,Sporulation,phosphorelay,TRUE,bs
+NA,O31603,yjbE;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K08602,O31605,pepF;oligoendopeptidase F,NA,MISC,Sporulation,phosphorelay,TRUE,bs
+NA,C0H3Y6,yizD;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06180,O31613,yjbO;RNA pseudouridine synthase YjbO,rRNA modification and maturation/ based on similarity,MISC,"Protein synthesis, modification and degradation",Translation,TRUE,bs
+NA,O31622,cotO;spore coat protein O,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06344,Q08312,cotZ;spore coat protein Z,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06343,Q08311,cotY;spore coat protein Y,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06342,Q08313,cotX;spore coat protein X,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06341,Q08310,cotW;spore coat protein W,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06340,Q08309,cotV;spore coat protein V,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O31623,yjcA;sporulation protein YjcA,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,C0H3Y7,yjzK;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,C0H3Y8,yjcZ;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O31625,spoVIF;sporulation-specific transcription factor SpoVIF,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O31648,yjdG;N-acetyltransferase YjdG,NA,MISC,Proteins of unknown function,NA,TRUE,bs
+NA,O31649,yjdH;hypothetical protein,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06339,P11863,cotT;spore coat protein,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O34554,yjfA;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O34633,yjlC;hypothetical protein,NA,MISC,Genetics,Newly identified competence genes,TRUE,bs
+NA,O34736,yjmC;oxidoreductase,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O35045,yjmD;zinc-type alcohol dehydrogenase,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K01686,O34346,uxuA;mannonate dehydratase,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O34896,yjmF;oxidoreductase,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K08191,O34456,exuT;hexuronate transporter,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,Q9JMQ1,exuR;LacI family transcriptional regulator,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K00041,O34354,uxaB;altronate oxidoreductase,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K01685,O34673,uxaA;altronate dehydratase,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K07090,O34578,yjnA;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06359,Q00828,rapA;response regulator aspartate phosphatase A,Phosphatases controlling the phosphorelay,MISC,Sporulation,phosphorelay,TRUE,bs
+K06352,Q00829,phrA;phosphatase RapA inhibitor,Other protein controlling the activity of the phosphorelay,MISC,Sporulation,phosphorelay,TRUE,bs
+K07217,O34423,yjqC;hypothetical protein,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06389,O34800,spoIISB;stage II sporulation protein SB,NA,MISC,Sporulation,Sporulation/ other,TRUE,bs
+K06388,O34853,spoIISA;stage II sporulation protein SA,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K05916,P49852,hmp;flavohemoprotein,NA,MISC,Electron transport and ATP synthesis,Electron transport/ other,TRUE,bs
+NA,O31653,ykzH;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P49853,ykjA;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K24620,O34911,thiU;HMP/thiamine-binding protein YkoF,Class I ECF transporter,MISC,Transporters,ECF transporter,TRUE,bs
+NA,O34405,ykzD;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,C0SPB9,ykoN;glycosyltransferase,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O34495,ykoP;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O35040,ykoQ;metallophosphoesterase,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O34830,ykoS;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K20534,O34755,ykoT;glycosyltransferase YkoT,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K01971,O34398,ligD;ATP-dependent DNA ligase YkoU,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K10979,O34859,ykoV;DNA repair protein YkoV,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O34311,dgcW;diguanylate cyclase,NA,MISC,Nucleotide metabolism,Metabolism of signalling nucleotides,TRUE,bs
+NA,O34997,ykoY;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06421,P04833,sspD;small acid-soluble spore protein D,Small acid-soluble spore proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K03799,O31657,htpX;protease HtpX,Additional proteins involved in proteolysis,MISC,"Protein synthesis, modification and degradation",Proteolysis,TRUE,bs
+NA,C0H402,ykzP;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O31659,ykzE;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K13533,O31661,kinE;sporulation kinase E,The kinases,MISC,Sporulation,phosphorelay,TRUE,bs
+K06376,P05043,spo0E;aspartyl-phosphate phosphatase Spo0E,Phosphatases controlling the phosphorelay,MISC,Sporulation,phosphorelay,TRUE,bs
+K13532,O31671,kinD;sporulation kinase D,The kinases,MISC,Sporulation,phosphorelay,TRUE,bs
+NA,O31674,ykvI;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O31680,ykvO;oxidoreductase,NA,MISC,Poorly characterized/ putative enzymes,NA,TRUE,bs
+NA,O31681,ykvP;spore protein YkvP,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O31682,ykvQ;glycosylase YkvQ,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O31686,ykvU;sporulation protein YkvU,Additional germination proteins,MISC,Sporulation,Germination,TRUE,bs
+NA,O31687,stoA;sporulation thiol-disulfide oxidoreductase A,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06315,P37955,splA;transcriptional regulator SplA,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K03716,P37956,splB;spore photoproduct lyase,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,Q796K9,ykwB;N-acetyltransferase YkwB,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K02491,P16497,kinA;sporulation kinase A,The kinases,MISC,Sporulation,phosphorelay,TRUE,bs
+K00841,P16524,patA;N-acetyl-LL-diaminopimelate aminotransferase,Biosynthesis of peptidoglycan,MISC,Cell envelope and cell division,Cell wall synthesis,TRUE,bs
+NA,O34816,"ldt;L,D-transpeptidase YkuD",Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O34783,ykuS;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O34857,rok;repressor rok,NA,MISC,Genetics,Genetic competence,TRUE,bs
+K06437,O31700,yknT;sporulation protein cse15,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K18889,O31707,yknU;ABC transporter ATP-binding protein,Exporters,MISC,Transporters,ABC transporters,TRUE,bs
+K18890,O31708,yknV;ABC transporter ATP-binding protein,Exporters,MISC,Transporters,ABC transporters,TRUE,bs
+NA,Q45492,ykpC;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K07698,P39764,kinC;sporulation kinase C,The kinases,MISC,Sporulation,phosphorelay,TRUE,bs
+K01462,Q45495,defB;peptide deformylase,Conversion of S-methyl cysteine to cysteine,MISC,Additional metabolic pathways,Sulfur metabolism,TRUE,bs
+NA,C0H409,ykzV;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O31719,ykzI;hypothetical protein,NA,MISC,Coping with stress,General stress proteins (controlled by SigB),TRUE,bs
+NA,O07634,ylaJ;lipoprotein,Additional germination proteins,MISC,Sporulation,Germination,TRUE,bs
+K07175,O07635,ylaK;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K01425,O07637,ylaM;glutaminase,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K02259,P12946,ctaA;heme A synthase,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O34682,ylbB;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O34586,ylbC;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O34880,ylbD;hypothetical protein,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O34958,ylbE;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O34412,ylbF;regulatory protein YlbF,Other protein controlling the activity of the phosphorelay,MISC,Sporulation,phosphorelay,TRUE,bs
+NA,O34765,spoVV;sporulation integral membrane protein YlbJ,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K07001,O34731,ylbK;NTE family protein YlbK,NA,MISC,Poorly characterized/ putative enzymes,NA,TRUE,bs
+NA,O34549,gerR;hypothetical protein,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K08384,Q03524,spoVD;stage V sporulation protein D,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K03588,P07373,spoVE;stage V sporulation protein E,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K02563,P37585,murG;UDP-N-acetylglucosamine--N-acetylmuramyl- (pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K00075,P18579,murB;UDP-N-acetylenolpyruvoylglucosamine reductase,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K03589,P16655,divIB;cell division protein DivIB,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,C0SPA3,ylxW;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,Q45544,ylxX;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P28265,sbp;small basic protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K03590,P28264,ftsA;cell division protein FtsA,Other genes,MISC,Cell envelope and cell division,Cell division,TRUE,bs
+K03531,P17865,ftsZ;cell division protein FtsZ,Other genes,MISC,Cell envelope and cell division,Cell division,TRUE,bs
+K06383,P13801,spoIIGA;sporulation sigma-E factor-processing peptidase,NA,MISC,Sporulation,Sporulation/ other,TRUE,bs
+K03091,P06222,sigE;RNA polymerase sigma-E factor,Sigma factors,MISC,Regulation of gene expression,Sigma factors and their control,TRUE,bs
+K03091,P19940,sigG;RNA polymerase sigma-G factor,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O31725,ylmC;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K04074,P71021,divIVA;septum site-determining protein DivIVA,The Min system,MISC,Cell envelope and cell division,Cell division,TRUE,bs
+NA,Q45478,ylyA;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K00958,O34764,sat;sulfate adenylyltransferase,NA,MISC,Additional metabolic pathways,Sulfur metabolism,TRUE,bs
+K01537,O34431,yloB;calcium-transporting ATPase,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K09777,Q7WY72,remA;hypothetical protein,Transcription factors/ other,MISC,Regulation of gene expression,Transcription factors and their control,TRUE,bs
+K12132,O34507,prkC;serine/threonine protein kinase,Additional germination proteins,MISC,Sporulation,Germination,TRUE,bs
+K00949,O34664,yloS;thiamine pyrophosphokinase,Biosynthesis/ acquisition of thiamine,MISC,Additional metabolic pathways,Biosynthesis of cofactors,TRUE,bs
+K06414,P37817,spoVM;stage V sporulation protein M,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K00059,P51831,fabG;3-oxoacyl-[acyl-carrier-protein] reductase FabG,Biosynthesis of fatty acids,MISC,Lipid metabolism,Biosynthesis of lipids,TRUE,bs
+K03529,P51834,smc;chromosome partition protein Smc,NA,MISC,Genetics,DNA condensation/ segregation,TRUE,bs
+K03110,P51835,ftsY;signal recognition particle receptor FtsY,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O31737,sivC;hypothetical protein,Proteins controlling the activity of the kinases,MISC,Sporulation,phosphorelay,TRUE,bs
+K03706,P39779,codY;GTP-sensing transcriptional pleiotropic repressor CodY,Transcription factors/ other,MISC,Regulation of gene expression,Transcription factors and their control,TRUE,bs
+K11749,O31754,rasP;zinc metalloprotease RasP,Other genes,MISC,Cell envelope and cell division,Cell division,TRUE,bs
+NA,P50850,swsB;hypothetical protein,Additional germination proteins,MISC,Sporulation,Germination,TRUE,bs
+NA,Q04805,mlpA;zinc protease YmxG,Additional proteins involved in proteolysis,MISC,"Protein synthesis, modification and degradation",Proteolysis,TRUE,bs
+NA,Q04811,ymxH;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06410,Q04809,spoVFA;dipicolinate synthase subunit A,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06411,Q04810,spoVFB;dipicolinate synthase subunit B,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K00133,Q04797,asd;aspartate-semialdehyde dehydrogenase,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K00928,Q04795,dapG;aspartokinase 1,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K01714,Q04796,dapA;4-hydroxy-tetrahydrodipicolinate synthase,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,Q99171,tepA;translocation-enhancing protein TepA,Additional germination proteins,MISC,Sporulation,Germination,TRUE,bs
+NA,C0H413,ylzJ;hypothetical protein,Additional germination proteins,MISC,Sporulation,Germination,TRUE,bs
+K03466,P21458,spoIIIE;spore DNA translocase,NA,MISC,Sporulation,Sporulation/ other,TRUE,bs
+K08221,O31762,ymfD;bacillibactin exporter,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K00059,O31767,ymfI;oxidoreductase,Translation factor modification and maturation,MISC,"Protein synthesis, modification and degradation",Translation,TRUE,bs
+NA,O31768,ymfJ;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O31771,rodZ;hypothetical protein,NA,MISC,Sporulation,Sporulation/ other,TRUE,bs
+K09769,O31775,ymdB;hypothetical protein,NA,MISC,Exponential and early post-exponential lifestyles,Biofilm formation,TRUE,bs
+K06416,P45693,spoVS;stage V sporulation protein S,NA,MISC,Sporulation,Sporulation/ other,TRUE,bs
+NA,O31779,ymcA;hypothetical protein,Other protein controlling the activity of the phosphorelay,MISC,Sporulation,phosphorelay,TRUE,bs
+K06328,P14016,cotE;spore coat protein E,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O31790,ymaD;hypothetical protein,NA,MISC,Coping with stress,Resistance against oxidative and electrophile stress,TRUE,bs
+NA,O31793,ymaG;hypothetical protein,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O31794,ymaF;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K00791,O31795,miaA;tRNA dimethylallyltransferase,tRNA modification and maturation,MISC,"Protein synthesis, modification and degradation",Translation,TRUE,bs
+K01448,Q06320,cwlC;sporulation-specific N-acetylmuramoyl-L-alanine amidase,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06413,P27643,spoVK;stage V sporulation protein K,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P31844,ynxB;hypothetical protein,NA,MISC,Proteins of unknown function,NA,TRUE,bs
+K01775,P94494,yncD;alanine racemase 2,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P94495,yncE;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O31802,cotU;hypothetical protein,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06326,P07790,cotC;spore coat protein C,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O31805,yndA;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O31807,ynzB;hypothetical protein,NA,MISC,Sporulation,Germination/ based on similarity,TRUE,bs
+K06310,O31808,yndD;hypothetical protein,NA,MISC,Sporulation,Germination/ based on similarity,TRUE,bs
+K06311,O31809,yndE;spore germination protein YndE,NA,MISC,Sporulation,Germination/ based on similarity,TRUE,bs
+K06312,O31810,yndF;spore germination protein YndF,NA,MISC,Sporulation,Germination/ based on similarity,TRUE,bs
+NA,O31815,pghL;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O31816,yndM;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K01356,P31080,lexA;lexa repressor,NA,MISC,Genetics,DNA repair/ recombination,TRUE,bs
+NA,P45707,sirA;sporulation inhibitor of replication protein SirA,NA,MISC,Genetics,DNA replication,TRUE,bs
+NA,O31819,ynzD;aspartyl-phosphate phosphatase YnzD,Phosphatases controlling the phosphorelay,MISC,Sporulation,phosphorelay,TRUE,bs
+K06335,Q45058,cotM;spore coat protein M,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06433,P71032,sspP;small acid-soluble spore protein P,Small acid-soluble spore proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06432,P71031,sspO;small acid-soluble spore protein O,Small acid-soluble spore proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,C0H418,ynzL;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06431,Q7WY69,sspN;small acid-soluble spore protein N,Small acid-soluble spore proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06434,Q45060,tlp;small acid-soluble spore protein Tlp,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,Q45069,ynfE;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K07097,O31824,nrnB;oligoribonuclease NrnB,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O31825,yngE;carboxylase YngE,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O34893,yngF;enoyl-CoA hydratase/isomerase YngF,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K01640,O34873,yngG;hydroxymethylglutaryl-CoA lyase YngG,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,C0H419,yngHB;biotin/lipoyl attachment protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K01961,O34544,yngH;biotin carboxylase 2,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K00666,O31826,yngI;acyl-CoA synthetase YngI,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O34421,yngJ;acyl-CoA dehydrogenase YngJ,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O34356,ynzE;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O35015,yngK;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O34506,yngL;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K23598,O34841,iseA;hypothetical protein,Autolysis,MISC,Cell envelope and cell division,Cell wall degradation/ turnover,TRUE,bs
+K00931,O07509,proJ;glutamate 5-kinase,Biosynthesis/ acquisition of proline,MISC,Amino acid/ nitrogen metabolism,Biosynthesis/ acquisition of amino acids,TRUE,bs
+K00286,P0CI77,proH;pyrroline-5-carboxylate reductase 1,Biosynthesis/ acquisition of proline,MISC,Amino acid/ nitrogen metabolism,Biosynthesis/ acquisition of amino acids,TRUE,bs
+NA,P14802,yoxD;oxidoreductase,NA,MISC,Phosphoproteins,"Phosphorylation on either a Ser, Thr or Tyr residue",TRUE,bs
+NA,Q7WY68,yozQ;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K00483,C0SPC0,yoaI;4-hydroxyphenylacetate 3-monooxygenase,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O34906,yoaM;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K01569,O34767,oxdD;oxalate decarboxylase OxdD,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O31831,yoaQ;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,C0H421,yozT;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O31832,yozF;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O34611,yoaR;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O34701,yoaU;LysR family transcriptional regulator,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O34541,yoaW;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06369,O34930,rapK;response regulator aspartate phosphatase K,NA,MISC,Genetics,Genetic competence,TRUE,bs
+NA,O34363,yobN;amine oxidase,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P94497,yobW;mother cell-specific membrane sporulation protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P80872,yocK;general stress protein 16O,NA,MISC,Coping with stress,General stress proteins (controlled by SigB),TRUE,bs
+NA,O34976,yocL;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,C0H429,yoyB;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O34321,yocM;hypothetical protein,NA,MISC,Coping with stress,Coping with hyper-osmotic stress,TRUE,bs
+NA,O31846,yozN;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O34855,yocN;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K18115,Q796C3,sqhC;sporulenol synthase,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K04564,O35023,sodF;superoxide dismutase,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O31853,yojK;UDP-glucosyltransferase YojK,NA,MISC,Coping with stress,Resistance against toxins/ antibiotics/ based on similarity,TRUE,bs
+K18672,O31854,cdaS;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,Q7WY67,gerT;spore germination protein GerT,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O31861,yojB;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K03299,O31862,yojA;permease YojA,NA,MISC,Membrane proteins,NA,TRUE,bs
+K03797,O34666,ctpA;carboxy-terminal processing protease CtpA,Additional proteins involved in proteolysis,MISC,"Protein synthesis, modification and degradation",Proteolysis,TRUE,bs
+NA,O34954,yodH;methyltransferase,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O34654,yodI;hypothetical protein,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,C0H432,yoyE;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O30472,yodL;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O31863,yozD;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,C0H433,yoyF;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O34414,yodN;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O31864,yozE;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,C0H434,yokU;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K01843,O34676,"kamA;L-lysine 2,3-aminomutase",Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K21935,O34895,yodP;N-acetyltransferase YodP,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K01438,O34984,yodQ;metallohydrolase YodQ,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O34466,yodR;coenzyme A transferase subunit beta,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O34317,yodS;coenzyme A transferase subunit alpha,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O34662,yodT;aminotransferase YodT,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,C0H435,yoyG;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06323,P42093,cgeE;N-acetyltransferase CgeE,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06322,P42092,cgeD;spore maturation protein CgeD,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06321,P42091,cgeC;spore maturation protein CgeC,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06319,P42089,cgeA;spore maturation protein CgeA,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06320,P42090,cgeB;spore maturation protein CgeB,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,NA,"yodU;UDP-NAcGlcA inverting 4,6-dehydratase (N-terminal part)",Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O34850,sprB;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06420,P02958,sspC;small acid-soluble spore protein C,Small acid-soluble spore proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,NA,ypqP;unknown,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O32007,ypzA;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P54165,ypeQ;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K03469,P54164,ypeP;hypothetical protein,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06429,Q7WY66,sspL;small acid-soluble spore protein L,Small acid-soluble spore proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K23786,P54161,exoR;5'-3' exonuclease,NA,MISC,Genetics,DNA replication,TRUE,bs
+NA,C0H443,ypzF;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K16168,P54158,bpsB;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K16167,P54157,bpsA;chalcone synthase,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P50841,yptA;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,C0H444,ypzG;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06327,P07791,cotD;spore coat protein D,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P50836,ypqA;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P50835,yppG;hypothetical protein,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P50832,yppD;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06430,Q7WY65,sspM;small acid-soluble spore protein M,Small acid-soluble spore proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P39791,yppC;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K03524,P0CI75,birA;bifunctional protein BirA,Biosynthesis of fatty acids,MISC,Lipid metabolism,Biosynthesis of lipids,TRUE,bs
+K00974,P42977,cca;CCA-adding enzyme,tRNA modification and maturation,MISC,"Protein synthesis, modification and degradation",Translation,TRUE,bs
+K00754,P42982,bshA;glycosyltransferase YpjH,Biosynthesis of bacillithiol,MISC,Additional metabolic pathways,Miscellaneous metabolic pathways,TRUE,bs
+K01463,P42981,bshB1;deacetylase YpjG,Biosynthesis of bacillithiol,MISC,Additional metabolic pathways,Miscellaneous metabolic pathways,TRUE,bs
+K01734,P42980,mgsA;methylglyoxal synthase,Glycolysis,MISC,Carbon metabolism,Carbon core metabolism,TRUE,bs
+K00215,P42976,dapB;4-hydroxy-tetrahydrodipicolinate reductase,Biosynthesis of peptidoglycan,MISC,Cell envelope and cell division,Cell wall synthesis,TRUE,bs
+NA,P42979,ypjD;hypothetical protein,NA,MISC,Poorly characterized/ putative enzymes,NA,TRUE,bs
+NA,P54393,ypjB;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P54392,ypjA;hypothetical protein,NA,MISC,Membrane proteins,NA,TRUE,bs
+NA,P54389,ypiA;TPR repeat-containing protein YpiA,NA,MISC,Proteins of unknown function,NA,TRUE,bs
+K00940,P31103,ndk;nucleoside diphosphate kinase,NA,MISC,Nucleotide metabolism,Nucleotide metabolism/ other,TRUE,bs
+K03183,P31113,menH;demethylmenaquinone methyltransferase,Biosynthesis of menaquinone,MISC,Additional metabolic pathways,Biosynthesis of cofactors,TRUE,bs
+K06398,P35149,spoIVA;stage IV sporulation protein A,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,C0H445,ypzH;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K05739,P50742,seaA;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P50741,yphA;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,C0H446,ypzI;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P38492,ypfB;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06313,P38490,ypeB;sporulation protein YpeB,Additional germination proteins,MISC,Sporulation,Germination,TRUE,bs
+K01449,P50739,sleB;spore cortex-lytic enzyme,Additional germination proteins,MISC,Sporulation,Germination,TRUE,bs
+K16511,P50734,ypbH;adapter protein MecA 2,Additional proteins involved in proteolysis,MISC,"Protein synthesis, modification and degradation",Proteolysis,TRUE,bs
+NA,P50733,ypbG;hypothetical protein,NA,MISC,Coping with stress,"Cell envelope stress proteins (controlled by SigM, V, W, X, Y)",TRUE,bs
+NA,P35160,resA;thiol-disulfide oxidoreductase ResA,Respiration/ other,MISC,Electron transport and ATP synthesis,Respiration,TRUE,bs
+K06374,P35158,spmB;spore maturation protein B,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06373,P35157,spmA;spore maturation protein A,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K07258,P35150,dacB;D-alanyl-D-alanine carboxypeptidase DacB,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P35156,ypuI;hypothetical protein,rRNA modification and maturation,MISC,"Protein synthesis, modification and degradation",Translation,TRUE,bs
+K00794,P11998,"ribH;6,7-dimethyl-8-ribityllumazine synthase",Biosynthesis/ acquisition of riboflavin/ FAD,MISC,Additional metabolic pathways,Biosynthesis of cofactors,TRUE,bs
+NA,P17616,ypuD;hypothetical protein,NA,MISC,Coping with stress,General stress proteins (controlled by SigB),TRUE,bs
+K03100,P28628,sipS;signal peptidase I S,NA,MISC,"Protein synthesis, modification and degradation",Protein secretion,TRUE,bs
+NA,O32012,ypzC;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O32013,ypzD;spore germination protein-like protein YpzD,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K01586,P23630,lysA;diaminopimelate decarboxylase,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06408,P31845,spoVAF;stage V sporulation protein AF,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06407,P40870,spoVAEA;stage V sporulation protein AE,Additional germination proteins,MISC,Sporulation,Germination,TRUE,bs
+K06407,C0H450,spoVAEB;stage V sporulation protein AEB,Additional germination proteins,MISC,Sporulation,Germination,TRUE,bs
+K06406,P40869,spoVAD;stage V sporulation protein AD,Additional germination proteins,MISC,Sporulation,Germination,TRUE,bs
+K06405,P40868,spoVAC;stage V sporulation protein AC,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06404,P40867,spoVAB;stage V sporulation protein AB,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06403,P40866,spoVAA;stage V sporulation protein AA,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K03091,P07860,sigF;RNA polymerase sigma-F factor,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06379,P10728,spoIIAB;anti-sigma F factor,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06378,P10727,spoIIAA;anti-sigma F factor antagonist,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K07258,P38422,dacF;D-alanyl-D-alanine carboxypeptidase DacF,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K04763,P46352,ripX;tyrosine recombinase XerD,NA,MISC,Genetics,DNA condensation/ segregation,TRUE,bs
+K06384,P37873,spoIIM;stage II sporulation protein M,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,L8EBJ9,mciZ;[[protein|41872E2EF00C79918DD077F2EF78F37E24FEB110]] inhibition peptide,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P54569,yqkF;oxidoreductase,NA,MISC,Poorly characterized/ putative enzymes,NA,TRUE,bs
+K05606,P54540,yqjC;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P54539,"yqjB;L,D-transpeptidase YqjB",Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K03417,P54528,mmgF;methylisocitrate lyase,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K01720,P45859,mmgE;2-methylcitrate dehydratase,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K01647,P45858,mmgD;2-methylcitrate synthase,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K18244,P45857,mmgC;acyl-CoA dehydrogenase,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K00074,P45856,mmgB;3-hydroxybutyryl-CoA dehydrogenase,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K00626,P45855,mmgA;acetyl-CoA acetyltransferase,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K07699,P06534,spo0A;stage 0 sporulation protein A,NA,MISC,Sporulation,phosphorelay,TRUE,bs
+K06399,P17896,spoIVB;peptidase S55,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06397,P49785,spoIIIAH;stage III sporulation protein AH,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06396,P49784,spoIIIAG;stage III sporulation protein AG,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06395,P49783,spoIIIAF;stage III sporulation protein AF,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06394,P49782,spoIIIAE;stage III sporulation protein AE,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06393,P49781,spoIIIAD;stage III sporulation protein AD,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06392,P49780,spoIIIAC;stage III sporulation protein AC,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06391,Q01368,spoIIIAB;stage III sporulation protein AB,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06390,Q01367,spoIIIAA;stage III sporulation protein AA,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P49779,yqhV;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K01262,P54518,papA;peptidase YqhT,Utilization of peptides,MISC,Amino acid/ nitrogen metabolism,Utilization of nitrogen sources other than amino acids,TRUE,bs
+NA,P54516,yqhR;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P54515,yqhQ;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P54514,yqhP;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K07001,P54513,yqhO;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K00283,P54377,gcvPB;glycine dehydrogenase subunit 2,Utilization of threonine/ glycine,MISC,Amino acid/ nitrogen metabolism,Utilization of amino acids,TRUE,bs
+K00282,P54376,gcvPA;glycine dehydrogenase subunit 1,Utilization of threonine/ glycine,MISC,Amino acid/ nitrogen metabolism,Utilization of amino acids,TRUE,bs
+K00605,P54378,gcvT;aminomethyltransferase,Utilization of threonine/ glycine,MISC,Amino acid/ nitrogen metabolism,Utilization of amino acids,TRUE,bs
+NA,P54509,yqhH;ATP-dependent helicase YqhH,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P54508,yqhG;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06372,P23308,sinI;SinR antagonist SinI,Control of transcription factor (other than two-component system),MISC,Regulation of gene expression,Transcription factors and their control,TRUE,bs
+K19449,P06533,sinR;XRE family transcriptional regulator,Transcription factors/ other,MISC,Regulation of gene expression,Transcription factors and their control,TRUE,bs
+K06336,P54507,tasA;spore coat protein N,NA,MISC,Exponential and early post-exponential lifestyles,Biofilm formation,TRUE,bs
+K19433,P40949,tapA;hypothetical protein,NA,MISC,Exponential and early post-exponential lifestyles,Biofilm formation,TRUE,bs
+NA,O32019,yqzG;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O32020,spoIIIL;hypothetical protein,NA,MISC,Sporulation,Sporulation/ other,TRUE,bs
+K01308,P54497,yqgT;hypothetical protein,Endopeptidases,MISC,Cell envelope and cell division,Cell wall degradation/ turnover,TRUE,bs
+NA,P54492,yqgO;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K08222,P54487,yqgE;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P54483,yqfZ;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K03526,P54482,ispG;4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P54481,yqfX;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P54478,yqfU;hypothetical protein,NA,MISC,Membrane proteins,NA,TRUE,bs
+NA,P54477,yqfT;hypothetical protein,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K01151,P54476,nfo;endonuclease IV,NA,MISC,Genetics,DNA repair/ recombination,TRUE,bs
+NA,P54474,yqfQ;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K03086,P06224,sigA;RNA polymerase sigma factor RpoD,Sigma factors,MISC,RNA synthesis and degradation,Transcription,TRUE,bs
+K06438,P54469,yqfD;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P54468,yqfC;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K03324,P54463,yqeW;hypothetical protein,Uptake of other small ions,MISC,Transporters,Transporters/ other,TRUE,bs
+NA,P54304,hemN;oxygen-independent coproporphyrinogen-III oxidase 1,Biosynthesis of heme/ siroheme,MISC,Additional metabolic pathways,Biosynthesis of cofactors,TRUE,bs
+NA,P38425,yqxA;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06385,P37968,spoIIP;stage II sporulation protein P,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06012,P22322,gpr;germination protease,Additional germination proteins,MISC,Sporulation,Germination,TRUE,bs
+K02239,P39696,comER;ComE operon protein 4,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06371,Q7WY62,sda;sporulation inhibitor sda,Proteins controlling the activity of the kinases,MISC,Sporulation,phosphorelay,TRUE,bs
+K01447,P54450,cwlH;N-acetylmuramoyl-L-alanine amidase CwlH,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K00033,P54448,yqeC;6-phosphogluconate dehydrogenase YqeC,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P42983,nucB;sporulation-specific extracellular nuclease,NA,MISC,Nucleotide metabolism,Utilization of nucleotides,TRUE,bs
+NA,P12254,sigK;[SW|RNA polymerase ][SW|sporulation]-specific [SW|sigma factor](sigma-K) (5' part of the gene),Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06400,P17867,spoIVCA;DNA recombinase,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K03741,P45947,arsC;arsenate reductase ArsC,NA,MISC,Coping with stress,Resistance against toxic metals,TRUE,bs
+K03325,P45946,arsB;arsenite resistance protein ArsB,Metal ion transporter,MISC,Transporters,Transporters/ other,TRUE,bs
+NA,P45945,yqcK;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K03892,P45949,arsR;arsenical resistance operon repressor,Transcription factors/ other,MISC,Regulation of gene expression,Transcription factors and their control,TRUE,bs
+K09190,P45944,yqcI;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06363,P45943,rapE;response regulator aspartate phosphatase E,Phosphatases controlling the phosphorelay,MISC,Sporulation,phosphorelay,TRUE,bs
+K06354,O32025,phrE;phosphatase RapE inhibitor,Other protein controlling the activity of the phosphorelay,MISC,Sporulation,phosphorelay,TRUE,bs
+NA,P45912,yqaO;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P45911,yqaN;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,C0H455,yqzO;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P45899,yqaB;hypothetical protein,NA,MISC,Prophages,Skin element,TRUE,bs
+NA,P12254,sigKC;[SW|RNA polymerase ][SW|sporulation]-specific [SW|sigma factor ](SigK) (3' part of the interrupted [[gene|24F7FD5C7C3A68BB2760ABB8CBD8FBD65E5FF7D4]] gene),Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,NA,yrzN;unknown,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P54430,yrkC;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O08469,cypA;cytochrome P450,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06440,O07919,yraG;spore coat protein F,Spore coat protein/ based on similarity,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O07949,yraF;spore coat protein F,Spore coat protein/ based on similarity,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K00121,O06012,adhB;zinc-type alcohol dehydrogenase,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O06011,yraE;hypothetical protein,Spore coat protein/ based on similarity,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06439,O06010,yraD;spore coat protein F,Spore coat protein/ based on similarity,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K17217,O05394,mccB;cystathionine gamma-lyase,Biosynthesis/ acquisition of cysteine,MISC,Amino acid/ nitrogen metabolism,Biosynthesis/ acquisition of amino acids,TRUE,bs
+K17216,O05393,mccA;O-acetylserine dependent cystathionine beta-synthase,Biosynthesis/ acquisition of cysteine,MISC,Amino acid/ nitrogen metabolism,Biosynthesis/ acquisition of amino acids,TRUE,bs
+NA,O32030,yrzA;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O32031,yrrS;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K21468,O32032,pbpI;penicillin-binding protein 4B,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O34472,yrrI;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K10041,O34677,glnQ;glutamine transport ATP-binding protein GlnQ,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K10039,O34563,glnH;ABC transporter substrate-binding protein GlnH,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K10040,O34671,glnM;glutamine ABC transporter permease protein GlnM,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K10040,O34606,glnP;glutamine ABC transporter permease protein GlnP,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,C0H461,yrzQ;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,C0H462,yrzR;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O34402,yrrD;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O32040,yrzK;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06409,Q00758,spoVB;stage V sporulation protein B,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O32050,yrbG;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O32051,yrzE;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06318,O05391,bofC;general stress protein BofC,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O05390,csbX;alpha-ketoglutarate permease,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K03310,O32060,yrbD;sodium/proton-dependent alanine carrier protein YrbD,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06345,P94446,coxA;sporulation cortex protein CoxA,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06370,O32062,safA;spoivd-associated factor A,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K03517,Q9KWZ1,nadA;quinolinate synthase A,Biosynthesis of NAD(P),MISC,Additional metabolic pathways,Biosynthesis of cofactors,TRUE,bs
+K03979,P20964,obg;GTPase ObgE,NA,MISC,Sporulation,phosphorelay,TRUE,bs
+K06375,P06535,spo0B;sporulation initiation phosphotransferase B,The phosphotransferases,MISC,Sporulation,phosphorelay,TRUE,bs
+K06402,P26937,spoIVFB;stage IV sporulation protein FB,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06401,P26936,spoIVFA;stage IV sporulation protein FA,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K03609,Q01464,minD;septum site-determining protein MinD,The Min system,MISC,Cell envelope and cell division,Cell division,TRUE,bs
+K03610,Q01463,minC;septum site-determining protein MinC,The Min system,MISC,Cell envelope and cell division,Cell division,TRUE,bs
+K03569,Q01465,mreB;rod shape-determining protein MreB,NA,MISC,Cell envelope and cell division,Cell shape,TRUE,bs
+K06380,P37575,spoIIB;stage II sporulation protein B,NA,MISC,Sporulation,Sporulation/ other,TRUE,bs
+NA,P37964,ysxE;hypothetical protein,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06417,P37963,spoVID;stage VI sporulation protein D,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K04076,P42425,lonB;Lon protease 2,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P94563,ysnD;hypothetical protein,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K03829,P94562,ysnE;N-acetyltransferase YsnE,NA,MISC,Poorly characterized/ putative enzymes,NA,TRUE,bs
+K07095,P94559,ysnB;metallophosphoesterase,NA,MISC,Proteins of unknown function,NA,TRUE,bs
+K02428,P94558,ysnA;non-canonical purine NTP pyrophosphatase,NA,MISC,Poorly characterized/ putative enzymes,NA,TRUE,bs
+K00989,P28619,rph;ribonuclease PH,Exoribonucleases,MISC,RNA synthesis and degradation,RNases,TRUE,bs
+K06298,P39072,gerM;spore germination protein GerM,Additional germination proteins,MISC,Sporulation,Germination,TRUE,bs
+K01776,P94556,racE;glutamate racemase,Biosynthesis of peptidoglycan,MISC,Cell envelope and cell division,Cell wall synthesis,TRUE,bs
+NA,P97247,ysmB;MarR family transcriptional regulator,Transcription factor/ other/ based on similarity,MISC,Regulation of gene expression,Transcription factors and their control,TRUE,bs
+K01994,P11470,gerE;spore germination protein GerE,Additional germination proteins,MISC,Sporulation,Germination,TRUE,bs
+NA,P42955,yslB;hypothetical protein,NA,MISC,Proteins of unknown function,NA,TRUE,bs
+K06426,P94537,sspI;small acid-soluble spore protein I,Small acid-soluble spore proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K02647,P94536,ysfB;hypothetical protein,Transcription factor/ other/ based on similarity,MISC,Regulation of gene expression,Transcription factors and their control,TRUE,bs
+NA,P06569,ytxC;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K03346,P07908,dnaB;replication initiation and membrane attachment protein,NA,MISC,Genetics,DNA replication,TRUE,bs
+K00134,O34425,gapB;glyceraldehyde-3-phosphate dehydrogenase 2,Gluconeogenesis,MISC,Carbon metabolism,Carbon core metabolism,TRUE,bs
+NA,O34367,ytbD;MFS transporter,NA,MISC,Coping with stress,Resistance against toxins/ antibiotics/ based on similarity,TRUE,bs
+NA,C0SP79,ytaF;hypothetical protein,NA,MISC,Sporulation,Sporulation/ other,TRUE,bs
+K07636,P23545,phoR;alkaline phosphatase synthesis sensor protein PhoR,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K07658,P13792,phoP;alkaline phosphatase synthesis transcriptional regulatory protein PhoP,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O34811,ytwI;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O34991,ytvI;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,C0H3P8,ytrH;sporulation membrane protein YtrH,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O34460,ytrI;sporulation protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06881,O34600,nrnA;bifunctional oligoribonuclease/PAP phosphatase NrnA,Exoribonucleases,MISC,RNA synthesis and degradation,RNases,TRUE,bs
+K00059,O34308,ytkK;oxidoreductase,NA,MISC,Poorly characterized/ putative enzymes,NA,TRUE,bs
+NA,O34806,gerW;spore protein YtfJ,Additional germination proteins,MISC,Sporulation,Germination,TRUE,bs
+NA,O34917,ytfI;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06418,NA,sspA;small acid-soluble spore protein A,Small acid-soluble spore proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O34970,refZ;TetR family transcriptional regulator,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P40779,ytxG;hypothetical protein,NA,MISC,Coping with stress,General stress proteins (controlled by SigB),TRUE,bs
+NA,O32066,ytzH;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O34799,ytlR;lipid kinase YtlR,NA,MISC,Proteins of unknown function,NA,TRUE,bs
+NA,O32067,ytzE;DeoR family transcriptional regulator,Transcription factor/ other/ based on similarity,MISC,Regulation of gene expression,Transcription factors and their control,TRUE,bs
+K05020,P54417,opuD;glycine betaine transporter OpuD,Uptake of compatible solutes,MISC,Transporters,Transporters/ other,TRUE,bs
+NA,P94496,yteV;sporulation protein cse60,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O34371,yteT;oxidoreductase,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O34881,ytvB;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O32073,ytzC;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K16188,O34707,ytpB;tetraprenyl-beta-curcumene synthase,NA,MISC,Coping with stress,"Cell envelope stress proteins (controlled by SigM, V, W, X, Y)",TRUE,bs
+K01048,O34705,ytpA;phospholipase YtpA,NA,MISC,Coping with stress,"Cell envelope stress proteins (controlled by SigM, V, W, X, Y)",TRUE,bs
+K02051,C0SP84,ytlA;ABC transporter substrate-binding protein YtlA,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K02049,O34314,ytlC;ABC transporter ATP-binding protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K02050,O34649,ytlD;ABC transporter permease,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K03574,O35013,rppH;8-oxo-dGTP diphosphatase YtkD,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O34883,ytkC;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K00425,C0SP90,ythA;cytochrome bd menaquinol oxidase subunit I,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K00426,O34505,ythB;cytochrome bd menaquinol oxidase subunit II,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,C0H3Q2,ytzL;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P42408,yteA;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K00963,P42407,ytdA;UTP--glucose-1-phosphate uridylyltransferase,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K00012,O34862,ytcA;UDP-glucose 6-dehydrogenase YtcA,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O34886,ytcB;UDP-glucose epimerase YtcB,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O34413,ytcC;glycosyltransferase YtcC,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P46916,ytxO;hypothetical protein,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06337,P46914,cotS;spore coat protein S,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06338,P46915,cotSA;spore coat protein SA,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06331,O34656,cotI;spore coat protein I,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K00688,P39123,glgP;glycogen phosphorylase,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K00703,P39125,glgA;glycogen synthase,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K00975,P39124,glgD;glycogen biosynthesis protein GlgD,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K00975,P39122,glgC;glucose-1-phosphate adenylyltransferase,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K00700,P39118,"glgB;1,4-alpha-glucan branching enzyme GlgB",Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K07192,O32076,floT;hypothetical protein,NA,MISC,Sporulation,Sporulation/ other,TRUE,bs
+NA,O32078,bstB;hypothetical protein,NA,MISC,Proteins of unknown function,NA,TRUE,bs
+NA,P71014,bslA;hypothetical protein,Proteins controlling the activity of the kinases,MISC,Sporulation,phosphorelay,TRUE,bs
+K00456,O32085,yubC;cysteine dioxygenase,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K00686,P40746,tgl;protein-glutamine gamma-glutamyltransferase,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K01187,O05242,"yugT;oligo-1,6-glucosidase 3",Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K03699,O05241,yugS;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06973,O05248,yugP;membrane protease YugP,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,C0H3Q4,yuzI;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,Q5BU39,mstX;protein mistic,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K10716,Q795M8,yugO;potassium channel protein YugO,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K09779,O32087,yuzA;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O05235,yugF;hydrolase,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K14155,Q08432,patB;cystathionine beta-lyase,Biosynthesis/ acquisition of methionine/ S-adenosylmethionine,MISC,Amino acid/ nitrogen metabolism,Biosynthesis/ acquisition of amino acids,TRUE,bs
+K07697,Q08430,kinB;sporulation kinase B,The kinases,MISC,Sporulation,phosphorelay,TRUE,bs
+K06347,Q08429,kapB;kinase-associated lipoprotein B,Proteins controlling the activity of the kinases,MISC,Sporulation,phosphorelay,TRUE,bs
+K06348,O05231,kapD;3'-5' exonuclease KapD,NA,MISC,Sporulation,phosphorelay,TRUE,bs
+NA,O05257,yufS;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O32089,yuzC;hypothetical protein,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O32094,yueG;spore germination protein-like protein YueG,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O32096,yuzE;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O32097,yuzF;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K00259,Q08352,ald;alanine dehydrogenase,Utilization of alanine/ serine,MISC,Amino acid/ nitrogen metabolism,Utilization of amino acids,TRUE,bs
+K01255,O32106,yuiE;cytosol aminopeptidase,NA,MISC,Poorly characterized/ putative enzymes,NA,TRUE,bs
+NA,O32108,yuiC;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K03885,O05267,yumB;NADH dehydrogenase-like protein YumB,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K07734,P21341,paiB;protease synthase and sporulation protein PAI 2,Transcription factors/ other,MISC,Regulation of gene expression,Transcription factors and their control,TRUE,bs
+K22441,P21340,paiA;protease synthase and sporulation negative regulatory protein PAI 1,Metabolism of polyamines,MISC,Additional metabolic pathways,Miscellaneous metabolic pathways,TRUE,bs
+K03885,O32117,yutJ;NADH dehydrogenase-like protein YutJ,NA,MISC,Electron transport and ATP synthesis,Electron transport/ other/ based on similarity,TRUE,bs
+NA,O32123,yutH;endospore coat-associated protein YutH,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O32124,yutG;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O32128,yutC;lipoprotein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K21472,O32130,lytH;L-Ala--D-Glu endopeptidase,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O32131,fisB;sporulation protein YunB,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O32132,yunC;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K01466,O32137,pucH;allantoinase,NA,MISC,Nucleotide metabolism,Utilization of nucleotides,TRUE,bs
+K16838,O32141,pucL;urate oxidase with peroxide reductase N-terminal domain,NA,MISC,Nucleotide metabolism,Utilization of nucleotides,TRUE,bs
+K06424,Q7WY59,sspG;small acid-soluble spore protein G,Small acid-soluble spore proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O32160,yurS;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O32166,yurZ;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,C0H3R0,yuzL;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K00318,Q8RMG1,fadM;proline dehydrogenase 1,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,C0H3R1,yuzM;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O32180,yusN;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O32189,yusW;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06288,P07868,gerAA;spore germination protein A1,Germinant receptors,MISC,Sporulation,Germination,TRUE,bs
+K06289,P07869,gerAB;spore germination protein A2,Germinant receptors,MISC,Sporulation,Germination,TRUE,bs
+K06290,P07870,gerAC;spore germination protein A3,Germinant receptors,MISC,Sporulation,Germination,TRUE,bs
+K06427,Q7WY58,sspJ;small acid-soluble spore protein J,Small acid-soluble spore proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O32211,yvgO;stress response protein YvgO,NA,MISC,Coping with stress,General stress proteins (controlled by SigB),TRUE,bs
+NA,O32217,bdbC;disulfide bond formation protein C,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O32218,bdbD;disulfide bond formation protein D,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K01118,O32224,azoR2;FMN-dependent NADH-azoreductase 2,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O32225,yvaC;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K03664,O32230,smpB;SsrA-binding protein,Translation/ other,MISC,"Protein synthesis, modification and degradation",Translation,TRUE,bs
+NA,O32234,yvaM;AB hydrolase superfamily protein YvaM,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K22299,O32236,rghR;HTH-type transcriptional repressor RghR,NA,MISC,Sporulation,phosphorelay,TRUE,bs
+NA,O32245,yvbH;hypothetical protein,NA,MISC,Proteins of unknown function,NA,TRUE,bs
+K15633,P39773,"pgm;2,3-bisphosphoglycerate-independent phosphoglycerate mutase",Glycolysis,MISC,Carbon metabolism,Carbon core metabolism,TRUE,bs
+K01803,P27876,tpi;triosephosphate isomerase,Glycolysis,MISC,Carbon metabolism,Carbon core metabolism,TRUE,bs
+K00927,P40924,pgk;phosphoglycerate kinase,Substrate-level phosphorylation,MISC,Electron transport and ATP synthesis,ATP synthesis,TRUE,bs
+K02103,P96711,araR;transcriptional repressor,Utilization of arabinan/ arabinose/ arabitol,MISC,Carbon metabolism,Utilization of specific carbon sources,TRUE,bs
+NA,O07002,yveA;aspartate-proton symporter,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O06998,yvdQ;hypothetical protein,Spore coat protein/ based on similarity,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O06997,cotQ;FAD-linked oxidoreductase YvdP,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O06996,cotR;sporulation hydrolase CotR,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K15771,O06990,mdxF;maltodextrin transport system permease protein MdxF,Importers,MISC,Transporters,ABC transporters,TRUE,bs
+K13292,O34752,lgt;prolipoprotein diacylglyceryl transferase,Additional germination proteins,MISC,Sporulation,Germination,TRUE,bs
+NA,O34986,yvnB;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O34375,minJ;cell division topological determinant MinJ,The Min system,MISC,Cell envelope and cell division,Cell division,TRUE,bs
+K03797,O35002,ctpB;carboxy-terminal processing protease CtpB,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K09811,O34876,ftsX;cell division protein FtsX,NA,MISC,Sporulation,phosphorelay,TRUE,bs
+K09812,O34814,ftsE;cell division ATP-binding protein FtsE,NA,MISC,Sporulation,phosphorelay,TRUE,bs
+K16699,O32267,tuaH;teichuronic acid biosynthesis glycosyltransferase TuaH,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K16698,O32268,tuaG;teichuronic acid biosynthesis glycosyltransferase TuaG,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K16706,O32269,tuaF;teichuronic acid biosynthesis protein TuaF,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K00963,Q05852,gtaB;UTP--glucose-1-phosphate uridylyltransferase,Biosynthesis of teichoic acid,MISC,Cell envelope and cell division,Cell wall synthesis,TRUE,bs
+K23989,P39848,lytD;beta-N-acetylglucosaminidase,Autolysis,MISC,Cell envelope and cell division,Cell wall degradation/ turnover,TRUE,bs
+K06291,P39569,gerBA;spore germination protein B1,Germinant receptors,MISC,Sporulation,Germination,TRUE,bs
+K06292,P39570,gerBB;spore germination protein B2,Germinant receptors,MISC,Sporulation,Germination,TRUE,bs
+K06293,P39571,gerBC;spore germination protein B3,Germinant receptors,MISC,Sporulation,Germination,TRUE,bs
+K03893,O05224,ywrK;arsenical pump membrane protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O05223,ywrJ;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06325,P07789,cotB;spore coat protein B,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06330,Q45535,cotH;inner spore coat protein H,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P39801,cotG;spore coat protein G,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K07240,O05215,ywrA;transporter,NA,MISC,Sporulation,Sporulation/ other,TRUE,bs
+K05982,P96724,ywqL;endonuclease V,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P96723,ywqK;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P96722,ywqJ;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P96721,ywqI;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P96720,ywqH;hypothetical protein,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K00012,P96718,ugd;UDP-glucose 6-dehydrogenase YwqF,NA,MISC,Phosphoproteins,Phosphorylation on a Tyr residue,TRUE,bs
+K06362,P94583,rapD;response regulator aspartate phosphatase D,NA,MISC,Genetics,Genetic competence,TRUE,bs
+K03569,P39751,mbl;MreB-like protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06283,P15281,spoIIID;stage III sporulation protein D,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06435,O32276,usd;protein usd,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P94574,ywoD;MFS transporter,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P94573,ywoC;isochorismatase,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P71045,ywnJ;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06386,P71044,spoIIQ;stage II sporulation protein Q,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P71043,ywnH;phosphinothricin acetyltransferase YwnH,NA,MISC,Coping with stress,Resistance against toxins/ antibiotics/ based on similarity,TRUE,bs
+NA,P71042,ywnG;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P71041,ywnF;hypothetical protein,NA,MISC,Membrane proteins,NA,TRUE,bs
+K06131,P71040,clsA;cardiolipin synthase,Biosynthesis of phospholipids,MISC,Lipid metabolism,Biosynthesis of lipids,TRUE,bs
+K06360,P70962,rapB;response regulator aspartate phosphatase B,Phosphatases controlling the phosphorelay,MISC,Sporulation,phosphorelay,TRUE,bs
+K06381,P07372,spoIID;stage II sporulation protein D,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O32277,spoIIT;hypothetical protein,NA,MISC,Sporulation,Sporulation/ other,TRUE,bs
+NA,P70958,ywmA;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K07566,P39153,tsaC;tRNA threonylcarbamoyladenosine biosynthesis protein YwlC,NA,MISC,Genetics,Newly identified competence genes,TRUE,bs
+NA,P39152,ywlB;hypothetical protein,NA,MISC,Coping with stress,General stress proteins (controlled by SigB),TRUE,bs
+K06387,P39151,spoIIR;stage II sporulation protein R,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P45874,ywkF;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K11686,P45870,racA;chromosome-anchoring protein RacA,Other genes,MISC,Cell envelope and cell division,Cell division,TRUE,bs
+K02490,P06628,spo0F;sporulation initiation phosphotransferase F,The phosphotransferases,MISC,Sporulation,phosphorelay,TRUE,bs
+NA,P45867,acdA;acyl-CoA dehydrogenase,Utilization of fatty acids,MISC,Lipid metabolism,Utilization of lipids,TRUE,bs
+NA,P45866,fadF;hypothetical protein,Utilization of fatty acids,MISC,Lipid metabolism,Utilization of lipids,TRUE,bs
+K06131,P45865,ywjE;cardiolipin synthetase,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K13281,P45864,ywjD;UV DNA damage endonuclease,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06364,P71002,rapF;response regulator aspartate phosphatase F,NA,MISC,Genetics,Genetic competence,TRUE,bs
+K00797,P70998,speE;spermidine synthase,Metabolism of polyamines,MISC,Additional metabolic pathways,Miscellaneous metabolic pathways,TRUE,bs
+K21464,P70997,pbpG;penicillin-binding protein 2D,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06314,P39650,rsfA;prespore-specific transcriptional regulator RsfA,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P39632,sivA;hypothetical protein,Proteins controlling the activity of the kinases,MISC,Sporulation,phosphorelay,TRUE,bs
+K01790,Q7WY56,spsL;spore coat polysaccharide biosynthesis protein SpsL,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K00067,P39631,spsK;spore coat polysaccharide biosynthesis protein SpsK,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K01710,P39630,"spsJ;dTDP-glucose 4,6-dehydratase",Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K00973,P39629,spsI;dTDP-glucose pyrophosphorylase,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P39627,spsG;spore coat polysaccharide biosynthesis protein SpsG,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K07257,P39626,spsF;spore coat polysaccharide biosynthesis protein SpsF,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P39625,spsE;spore coat polysaccharide biosynthesis protein SpsE,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P39624,spsD;spore coat polysaccharide biosynthesis protein SpsD,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P39623,spsC;spore coat polysaccharide biosynthesis protein SpsC,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P39622,spsB;spore coat polysaccharide biosynthesis protein SpsB,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P39621,spsA;spore coat polysaccharide biosynthesis protein SpsA,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06305,P39620,gerQ;spore coat protein GerQ,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P39618,ywdJ;purine permease YwdJ,NA,MISC,Membrane proteins,NA,TRUE,bs
+K00128,P39616,ywdH;aldehyde dehydrogenase YwdH,NA,MISC,Poorly characterized/ putative enzymes,NA,TRUE,bs
+NA,P39603,ywcE;spore morphogenesis and germination protein YwcE,NA,MISC,Sporulation,Sporulation/ other,TRUE,bs
+NA,P39600,ywcB;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K14393,P39599,ywcA;symporter,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P39588,ywbE;hypothetical protein,NA,MISC,Proteins of unknown function,NA,TRUE,bs
+NA,P39585,ywbB;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K02761,P39584,ywbA;permease IIC component YwbA,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P25149,ywaF;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K03781,P94377,katX;catalase X,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K16012,P94367,cydD;ATP-binding/permease protein CydD,Regulatory ABC transporters,MISC,Transporters,ABC transporters,TRUE,bs
+K00019,P42317,yxjF;oxidoreductase,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K01029,P42316,scoB;succinyl-CoA:3-ketoacid coenzyme A transferase subunit B,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K01028,P42315,scoA;succinyl-CoA:3-ketoacid coenzyme A transferase subunit A,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P42314,hbuT;transporter,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K03300,P42308,citH;citrate transporter,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06902,P42306,yxiO;MFS transporter,NA,MISC,Membrane proteins,NA,TRUE,bs
+K05592,P42305,deaD;ATP-dependent RNA helicase DbpA,NA,MISC,RNA synthesis and degradation,DEAD-box RNA helicases,TRUE,bs
+NA,P42304,yxiM;esterase YxiM,NA,MISC,Poorly characterized/ putative enzymes,NA,TRUE,bs
+K00756,P39142,pdp;pyrimidine-nucleoside phosphorylase,NA,MISC,Nucleotide metabolism,Utilization of nucleotides,TRUE,bs
+NA,P54944,yxeE;hypothetical protein,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P54943,yxeD;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06608,P46337,iolR;HTH-type transcriptional regulator IolR,Utilization of inositol,MISC,Carbon metabolism,Utilization of specific carbon sources,TRUE,bs
+NA,Q45605,yycQ;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,Q45606,yycP;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,Q45607,yycO;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O32293,yycN;N-acetyltransferase YycN,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06365,O32294,rapG;response regulator aspartate phosphatase G,Protein phosphatases,MISC,"Protein synthesis, modification and degradation",Protein modification,TRUE,bs
+NA,P39668,htrC;serine protease YyxA,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P37479,yycE;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,O32296,yyzB;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+K06329,P23261,cotF;spore coat protein F,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P37488,yybP;lipoprotein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P37495,yybI;hypothetical protein,Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P37509,yyaO;hypothetical protein,NA,MISC,Proteins of unknown function,NA,TRUE,bs
+K06888,P37512,yyaL;hypothetical protein,Newly identified sporulation proteins (based on transcription profiling),MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P37517,ccpB;catabolite control protein B,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K01142,P37454,exoA;exodeoxyribonuclease,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P37519,yyaE;oxidoreductase,NA,MISC,Electron transport and ATP synthesis,Electron transport/ other/ based on similarity,TRUE,bs
+NA,P37520,yyaD;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,P37521,yyaC;hypothetical protein,Sporulation proteins/ other,MISC,Sporulation,Sporulation proteins,TRUE,bs
+K03497,P26497,parB;stage 0 sporulation protein J,NA,MISC,Sporulation,Sporulation/ other,TRUE,bs
+K03496,P37522,parA;sporulation initiation inhibitor protein Soj,NA,MISC,Sporulation,Sporulation/ other,TRUE,bs
+K03495,P25812,gidA;tRNA uridine 5-carboxymethylaminomethyl modification enzyme MnmG,tRNA modification and maturation,MISC,"Protein synthesis, modification and degradation",Translation,TRUE,bs
+K03650,P25811,thdF;tRNA modification GTPase MnmE,tRNA modification and maturation,MISC,"Protein synthesis, modification and degradation",Translation,TRUE,bs
+K06346,Q01620,jag;protein jag,NA,MISC,Sporulation,Sporulation/ other,TRUE,bs
+K03217,Q01625,yidC1;membrane protein insertase MisCA,NA,MISC,Sporulation,Sporulation/ other,TRUE,bs
+NA,A0A2K4Z9G8,"cmpA;cortex morphogenic protein A, adapter protein targeting [[protein|A25C1530DA7BB007A288E525404E9F775E219FE8]] for degradation by [[protein|ClpXP]] upon spore envelope defects",Spore coat proteins,MISC,Sporulation,Sporulation proteins,TRUE,bs
+NA,G4NV06,spoIISC;antitoxin,Type 2 TA systems,MISC,Coping with stress,"Toxins, antitoxins and immunity against toxins",TRUE,bs
+NA,Q18C91,putative spore protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K02343,Q18C99,DNA polymerase III subunits gamma and tau,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K09747,Q18CA3,DNA binding protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K00991,Q18CD1,2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K01770,Q18CD3,"2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase",sporulation,MISC,sporulation,sporulation,TRUE,cd
+K01448,Q18CJ4,"Germination-specific N-acetylmuramoyl-L-alanine amidase, Autolysin",sporulation,MISC,sporulation,sporulation,TRUE,cd
+K03431,Q18CL0,Phosphoglucosamine mutase,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K00820,Q18CK9,Glucosamine--fructose-6-phosphate aminotransferase [isomerizing],sporulation,MISC,sporulation,sporulation,TRUE,cd
+K06381,Q18CL6,Stage II sporulation protein D,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q18CL5,putative cell wall endopeptidase,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K06283,Q18CL4,Stage III sporulation protein D,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q18CL8,putative sporulation protein yyac,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q18CM2,putative membrane protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q18CV2,putative spore coat protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q18CV1,uncharacterised protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K02412,Q18CY8,ATP synthase subunit beta FliI,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K03716,Q18D17,"Spore photoproduct (thymine dimer) lyase,radical S-adenosylmethionine superfamily",sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q18D36,conserved hypothetical protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q18D48,"putative hydrolase, HAD superfamily, subfamily IB",sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q18D54,putative spore coat assembly asparagine-rich protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q18D52,putative membrane protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q18D69,putative exosporium glycoprotein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q18D91,conserved hypothetical protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q188M1,"putative drug/sodium antiporter, MATE family,Tn1549-like, CTn2-Orf29",sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q188W0,putative hemagglutinin/adhesin cwpV,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q188Z5,Spore cortex-lytic enzyme pre-pro-form,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q189A2,putative sugar isomerase / endonuclease,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K00876,Q189A1,putative uridine kinase,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q189A7,putative ATP-dependent protease,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q189B7,putative sporulation protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K00131,Q189C4,Glyceraldehyde-3-phosphate dehydrogenase (NADP(+)) (GADPH),sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q189D6,uncharacterised protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K06333,Q189E5,Spore coat peptide assembly protein CotF,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K06334,Q189E4,"Spore-coat protein, manganese catalase",sporulation,MISC,sporulation,sporulation,TRUE,cd
+K01420,Q189H6,"Transcriptional regulator, Crp family",sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q189M1,putative acetyltransferase,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K03798,Q189M8,"putative ATP-dependent peptidase, M41 family",sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q189N8,putative exported metalloendopeptidase,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K03657,Q189U3,"putative DNA helicase, UvrD/REP type",sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q189V1,putative diguanylate kinase signaling protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K07301,Q189V4,putative Ca2+/Na+ antiporter,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K05592,Q189V7,putative ATP-dependent RNA helicase,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K06378,Q189W5,Anti-sigma F factor antagonist,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K06379,Q189W4,Anti-sigma F factor (Stage II sporulation protein AB),sporulation,MISC,sporulation,sporulation,TRUE,cd
+K03091,Q189W8,RNA polymerase sigma-F factor,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K06405,Q189X2,Stage V sporulation protein AC,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K06406,Q189X1,Stage V sporulation protein AD,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K06407,Q189X0,Stage V sporulation protein AE,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q189X9,putative sporulation protein YunB,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q189X8,"Stage IV sporulation protein SpoIVB, S55 peptidase family",sporulation,MISC,sporulation,sporulation,TRUE,cd
+K01448,Q189Y1,putative N-acetylmuramoyl-L-alanine amidase,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K07090,Q189Y4,"putative membrane protein, DUF81 family",sporulation,MISC,sporulation,sporulation,TRUE,cd
+K07090,Q189Z1,"putative membrane protein, DUF81 family",sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q18A24,Rubrerythrin,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q18A88,conserved hypothetical protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q18A94,putative cation efflux protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q18AI2,putative UbiA prenyltransferase,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q18AM0,putative spore coat protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q18AM9,putative signaling protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q18AN0,putative cell wall anchored protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q18AP7,putative sporulation integral membrane protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q18AR3,conserved hypothetical protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q18AR2,uncharacterised protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q18AR1,conserved hypothetical protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q18AR6,conserved hypothetical protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q18AR7,uncharacterised protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q18AS3,conserved hypothetical protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q18AS2,exosporium cysteine rich protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q18AS1,putative polysaccharide biosynthesis/sporulation protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q18AT7,putative membrane protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q18AU1,"putative peptidase, M20D family",sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q18AY5,conserved hypothetical protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K02335,Q18AY7,DNA polymerase I (POLI),sporulation,MISC,sporulation,sporulation,TRUE,cd
+K00859,Q18AZ0,Dephospho-CoA kinase (Dephosphocoenzyme A kinase),sporulation,MISC,sporulation,sporulation,TRUE,cd
+K08309,Q18AY9,putative lytic transglycosylase-like protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q18AZ4,putative solute-binding lipoprotein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q18AZ3,putative heavy-metal transport/detoxification protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q18AZ2,uncharacterised protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q18B30,putative integrase/recombinase,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q18B29,putative membrane protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K00059,Q18B45,3-oxoacyl-[acyl-carrier protein] reductase (3-ketoacyl-acyl carrier protein reductase),sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q18B48,putative diguanylate kinase signaling protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q18B49,putative amino acid/polyamine transporter I,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K06390,Q18B54,Stage III sporulation protein AA,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K06391,Q18B53,Stage III sporulation protein AB,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K06392,Q18B52,Stage III sporulation protein AC,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K06393,Q18B60,Stage III sporulation protein AD,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K06394,Q18B59,Stage III sporulation protein AE,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K06395,Q18B58,Stage III sporulation protein AF,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K06396,Q18B57,Stage III sporulation protein AG,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K06397,Q18B63,Stage III sporulation protein AH,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K06399,Q18B75,"Stage IV sporulation protein B, peptidase S55 family",sporulation,MISC,sporulation,sporulation,TRUE,cd
+K07699,Q18B74,Stage 0 sporulation protein A,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K05515,Q18B92,putative peptidoglycan glycosyltransferase,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K03091,X1W3M1,Sigma K,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,F3Y5Y6,putative phage regulator,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q18B99,putative phage protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K03311,Q18BB9,Branched chain amino acid transport system carrier protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K07447,Q18BF1,putative Holliday junction resolvase,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K03537,Q18BF5,putative small acid-soluble spore protein SASP,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K07258,Q18BF4,D-alanyl-D-alanine carboxypeptidase (penicillin-binding protein),sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q18BG2,conserved hypothetical protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q18BG1,putative sporulation protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q18BG7,putative membrane protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q18BG6,conserved hypothetical protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q18BI3,putative polysaccharide deacetylase,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q18BI7,"putative peptidase, M16 family",sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q18BI6,putative sporulation protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K00928,Q18BI5,Aspartokinase 1 (Aspartokinase I) (1spartate kinase I),sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q18BJ0,Protein export-enhancing factor,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K00965,Q18BK5,putative galactose-1-phosphate uridylyltransferase,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q18BM0,putative exported protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q18BP4,"Transporter, Major Facilitator Superfamily (MFS)",sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q18BR3,putative membrane protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K16203,Q18BR2,putative amino acid amidase,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q18BS0,conserved hypothetical protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q18BR9,"putative peptidase, M20D family",sporulation,MISC,sporulation,sporulation,TRUE,cd
+K01297,Q18BR8,"putative muramoyltetrapeptide carboxypeptidase,S66 family",sporulation,MISC,sporulation,sporulation,TRUE,cd
+K01126,Q18BR5,Glycerophosphoryl diester phosphodiesterase,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q18BS4,putative synthetase,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K01921,Q18BS9,D-alanine--D-alanine ligase (D-alanylalanine synthetase) (D-Ala-D-Ala ligase),sporulation,MISC,sporulation,sporulation,TRUE,cd
+K09936,Q18BT7,putative membrane protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q18BU7,"Transcriptional regulator, hxlR family",sporulation,MISC,sporulation,sporulation,TRUE,cd
+K01567,Q18BV2,putative delta-lactam-biosynthetic de-N-acteylase,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q18BV5,spore coat protein: peroxiredoxin/chitinase,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q18BY4,uncharacterised protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q18C05,putative lipoprotein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q18C12,"Two-component sensor histidine kinase,sporulation-associated spo0A",sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q18C29,spore coat protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K04759,Q18C39,Ferrous iron transport protein B,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K04758,Q18C38,Ferrous iron transport protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K01118,Q18C63,putative FMN-dependent NADH-azoreductase,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q18C75,putative amino acid permease,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K07217,Q186C1,spore coat protein-manganese catalase,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K06888,Q186C3,conserved hypothetical protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q186C8,putative g5 domain protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q186D3,"Two-component sensor histidine kinase,sporulation-associated spo0A",sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q186D6,uncharacterised protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K00640,Q186E9,Serine acetyltransferase (SAT),sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q186G8,spore coat assembly protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q186H2,putative diguanylate kinase signaling protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K04564,Q186I6,spore coat protein-superoxide dismutase (Mn),sporulation,MISC,sporulation,sporulation,TRUE,cd
+K01304,Q186N3,Pyrrolidone-carboxylate peptidase,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q186N2,putative membrane protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q186N4,putative membrane protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q186R3,"putative C4-dicarboxylate anaerobic carrier,DcuC family",sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q186T2,conserved hypothetical protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q186T4,conserved hypothetical protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K21583,Q186U8,"Glycine/sarcosine/betaine reductase complex,protein B, alpha and beta subunits",sporulation,MISC,sporulation,sporulation,TRUE,cd
+K03312,Q186V2,Sodium/glutamate symporter,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q186Z7,putative membrane protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q187A0,putative membrane protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K09861,Q187D2,"conserved hypothetical protein, UPF0246 family",sporulation,MISC,sporulation,sporulation,TRUE,cd
+K01736,Q187E5,Chorismate synthase (5-enolpyruvylshikimate-3-phosphate phospholyase),sporulation,MISC,sporulation,sporulation,TRUE,cd
+K14170,Q187E6,"Bifunctional P-protein, chorismate mutase/prephenate dehydratase",sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,NA,pseudogene,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q187F6,"putative membrane protein Tn1549-like,CTn5-Orf1",sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q187F5,"putative conjugative transposon protein Tn1549-like, CTn5-Orf2",sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q187J3,uncharacterised protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q187K7,uncharacterised protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K01448,Q187L1,putative phage-related cell wall hydrolase (endolysin),sporulation,MISC,sporulation,sporulation,TRUE,cd
+K02050,Q187L5,"ABC-type transport system, permease",sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q187L8,"Site-specific recombinase, resolvase family",sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q187N9,putative membrane protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q187N8,putative membrane protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q187P0,putative exported protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K06416,Q187P4,Stage V sporulation protein S,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q187P9,putative membrane protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q187Q2,uncharacterised protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K03790,Q187R1,putative Acyl-CoA N-acyltransferase,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q187S3,putative permease,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q187S7,putative acyl-CoA thioesterase,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K13275,Q187W2,Intracellular serine protease,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q188A3,putative sporulation integral membrane protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q188B9,putative membrane protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q188C3,conserved hypothetical protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q188F3,"putative peptidase, M20 family",sporulation,MISC,sporulation,sporulation,TRUE,cd
+K11105,Q188H0,putative Na(+)/H(+) antiporter,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K06901,Q188H4,Xanthine/uracil/thiamine/ascorbate permease family protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q185Q3,uncharacterised protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q185R1,conserved hypothetical protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K00806,Q185S4,Undecaprenyl pyrophosphate synthetase,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q185T0,Serine-type D-Ala-D-Ala carboxypeptidase,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q185T4,putative membrane protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,F3Y5V2,conserved hypothetical protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q185V6,Acyl transferase/acyl hydrolase/lysophospholipase,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q185W9,putative alpha/beta hydrolase,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K01893,Q185B5,Asparaginyl-tRNA synthetase (Asparagine--tRNA ligase) (AsnRS),sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q185C1,uncharacterised protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q185C0,Subtilisin-like serine germination related protease,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q185B9,Subtilisin-like serine germination related protease,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q185D7,putative membrane protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q185D9,"putative oxidoreductase, FAD dependent",sporulation,MISC,sporulation,sporulation,TRUE,cd
+K02770,Q185E0,"PTS system, fructose-specific IIABC component",sporulation,MISC,sporulation,sporulation,TRUE,cd
+K00882,Q185E1,Fructose 1-phosphate kinase,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q185E3,putative sporulation integral membrane protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q185I9,putative exported protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q185I8,Two-component response regulator,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q185M0,putative membrane protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q185P7,conserved hypothetical protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q185P6,uncharacterised protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q185P5,putative membrane protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q181W3,"putative hydrolase, NUDIX family",sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q181Y0,conserved hypothetical protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q181Y3,putative spore coat protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K06333,Q181Y6,Spore coat peptide assembly protein CotJB 2,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K06334,Q181Y5,"Spore coat protein, manganese catalase",sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q181Z5,conserved hypothetical protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K00177,Q182B3,putative flavodoxin/ferredoxin oxidoreductase gamma subunit,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q182B2,putative flavodoxin/ferredoxin oxidoreductase beta subunit,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q182B5,putative flavodoxin/ferredoxin oxidoreductase alpha subunit,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q182B4,"putative 4Fe-4S ferredoxin, iron-sulfur binding domain protein, delta subunit",sporulation,MISC,sporulation,sporulation,TRUE,cd
+K00366,Q182B6,putative nitrite/sulphite reductase,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K03595,Q182C3,GTP-binding protein Era,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K01489,Q182C5,Cytidine deaminase (Cytidine aminohydrolase) (CDA),sporulation,MISC,sporulation,sporulation,TRUE,cd
+K00901,Q182C4,putative diacylglycerol kinase,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K07042,Q182C6,putative metal-dependent hydrolase,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K06217,Q182C7,PhoH-like protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K06438,Q182D1,Stage IV sporulation protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q182D0,putative sporulation protein yqfc,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K05770,Q182C8,"putative transmembrane signaling protein,TspO/MBR family",sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q182E4,"Transporter, Major Facilitator Superfamily (MFS)",sporulation,MISC,sporulation,sporulation,TRUE,cd
+K25026,Q182E6,"putative glucokinase, ROK family",sporulation,MISC,sporulation,sporulation,TRUE,cd
+K03294,Q182F2,putative amino acid/polyamine transporter,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q182F5,conserved hypothetical protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K06385,Q182F7,Stage II sporulation protein P,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K06012,Q182F6,Spore endopeptidase,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q182H8,"Two-component sensor histidine kinase,sporulation-associated spo0A",sporulation,MISC,sporulation,sporulation,TRUE,cd
+K11751,Q182M3,putative membrane-associated 5'-nucleotidase/phosphoesterase,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K22278,Q182T7,putative oligosaccharide deacetylase,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q182T9,putative transcriptional regulator,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K06398,Q182W3,Stage IV sporulation protein A,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q182W9,uncharacterised protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K05739,Q182W8,putative spore envelope protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K05739,Q182X1,putative membrane protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K07636,Q182X0,Two-component sensor histidine kinase,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K07658,Q182X2,Two-component response regulator,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K05810,Q182X4,conserved hypothetical protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K07738,Q182X3,"Transcriptional regulator, repressor NrdR family",sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q182X6,putative sporulation protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K03091,Q182X5,RNA polymerase sigma-G factor,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K03091,Q182X7,RNA polymerase sigma-E factor,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K06383,Q182X8,Sporulation sigma-E factor processing peptidase,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K03588,Q182Y5,Cell division/stage V sporulation protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K08384,Q182Z0,Stage V sporulation protein D (Sporulation-specific penicillin-binding protein),sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q182Z1,conserved hypothetical protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q182Z3,"putative peptidase, M16 family",sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q182Z5,"putative peptidase, M16 family",sporulation,MISC,sporulation,sporulation,TRUE,cd
+K01928,Q182Z8,UDP-N-acetylmuramyl-tripeptide synthetase,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K20118,Q183A0,"PTS system, glucose-specific IIBC component",sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q183B3,putative sporulation protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q183C1,"putative sporulation stage II, protein E",sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q183C0,putative membrane protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q183B9,conserved hypothetical protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q183C2,"Small, acid-soluble spore protein alpha",sporulation,MISC,sporulation,sporulation,TRUE,cd
+K03311,Q183D6,Branched-chain amino acid transport system II carrier protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q183F0,putative sporulation protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q183F5,putative transporter,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K01448,Q183J9,putative N-acetylmuramoyl-L-alanine amidase,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K03980,Q183L8,"Transmembrane virulence factor, MviN family protein",sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q183N4,Cell wall binding protein cwp8,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q183N7,putative membrane protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q183P2,conserved hypothetical protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q183P9,uncharacterised protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q183Q1,conserved hypothetical protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q183R9,putative calcium-transporting ATPase,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q183S5,Two-component sensor histidine kinase,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q183S9,putative amidohydrolase,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q183T4,Rubrerythrin,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q183U4,putative membrane protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K03699,Q183U2,putative membrane protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q183V1,"Transcriptional regulator, sigma-54-dependent",sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q183V0,putative hydrolase,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K03594,Q183U9,putative bacterioferritin,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q183V4,putative oxidoreductase,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K06411,Q184F7,Dipicolinate synthase subunit B,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K06410,Q184G1,Dipicolinate synthase subunit A,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q184J8,uncharacterised protein with SH3 domain,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q184M0,putative aminotransferase,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q184Y9,putative phage protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q181U2,putative xanthine dehydrogenase,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K01464,Q181U3,D-hydantoinase (Dihydropyrimidinase),sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q181U4,"Dihydroorotate dehydrogenase, catalytic subunit",sporulation,MISC,sporulation,sporulation,TRUE,cd
+K24206,Q181U5,putative purine permease,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q181U7,putative amidohydrolase,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K06015,Q181U6,putative D-aminoacylase,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q181U8,"putative peptidase, M20 family",sporulation,MISC,sporulation,sporulation,TRUE,cd
+K01751,Q181U9,Diaminopropionate ammonia-lyase,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q17ZW4,putative methyltransferase,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q17ZW6,Small acid-soluble spore protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q17ZX5,putative exosporium glycoprotein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q17ZX9,conserved hypothetical protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q17ZY1,Single-stranded DNA-binding protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q17ZZ1,Polysaccharide deacetylase,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q17ZZ3,"Small, acid-soluble spore protein beta",sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q17ZZ6,putative dehydrogenase,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q180A0,putative polysaccharide deacetylase,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q180A2,Iron hydrogenase,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K08602,Q180B4,"putative oligoendopeptidase F, M3B family",sporulation,MISC,sporulation,sporulation,TRUE,cd
+K07507,Q180B3,"putative magnesium transport ATPase, MgtC/SapB family",sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q180B5,conserved hypothetical protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q180E2,putative ATP/GTP-binding protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q180F6,"Transporter, Major Facilitator Superfamily (MFS)",sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q180J4,Exosporium glycoprotein BclA3,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q180J5,"putative glycosyl transferase, family 2",sporulation,MISC,sporulation,sporulation,TRUE,cd
+K06949,Q180L2,putative EngC-like GTPase,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K09762,Q180P5,putative sporulation transcription regulator whiA,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q180T9,putative glycoside hydrolase-type carbohydrate-binding protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K03797,Q180V3,putative carboxy-terminal protease,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K01934,Q180V5,5-formyltetrahydrofolate cyclo-ligase,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q180V4,uncharacterised protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K07171,Q180V9,Endoribonuclease toxin,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K07723,Q180W1,putative antitoxin EndoAI,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K01775,Q180W0,Alanine racemase 2,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q180W3,putative lipoprotein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q180W2,uncharacterised CBS domain protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K00997,Q180W4,Holo-[acyl-carrier-protein] synthase,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K02112,Q180W5,ATP synthase subunit beta (ATPase subunit beta) (ATP synthase F1 sector subunit beta),sporulation,MISC,sporulation,sporulation,TRUE,cd
+K07238,Q180Y1,putative zinc/iron permease,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K08602,Q180Y9,"putative oligoendopeptidase F, peptidase M3B family",sporulation,MISC,sporulation,sporulation,TRUE,cd
+K06382,Q180Y8,stage II sporulation protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q180Z2,putative spore protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K06409,Q180Z7,Stage V sporulation protein B,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K04769,Q180Z9,Stage V sporulation protein T,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K06412,Q181B5,Regulator required for spore cortex synthesis,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q181B8,putative cation efflux protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K01258,Q181C0,"putative peptidase T, M20B family",sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q181C2,uncharacterised protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K06374,Q181E0,Spore maturation protein B,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K06373,Q181E2,Spore maturation protein A,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q181E9,putative YaaT-like protein involved in sporulation or related to DNA replication,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K01585,Q181F1,putative arginine decarboxylase,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K09779,Q181F0,putative membrane protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q181F3,conserved hypothetical protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K01449,Q181G4,putative spore cortex-lytic hydrolase,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K06387,Q181G6,Pro-sigma(E) endopeptidase (stage II sporulation),sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q181G7,spore coat protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K06436,Q181G9,Sporulation-specific protease,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q181I4,uncharacterised protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K19689,Q181J7,Aminopeptidase,sporulation,MISC,sporulation,sporulation,TRUE,cd
+K01759,Q181L2,putative glyoxalase,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q181L4,uncharacterised protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q181M3,uncharacterised protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q181N7,conserved hypothetical protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q181N6,putative membrane protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q181N8,putative NADPH-dependent FMN reductase,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q181P1,conserved hypothetical protein,sporulation,MISC,sporulation,sporulation,TRUE,cd
+NA,Q181Q6,"putative peptidase, M1 family",sporulation,MISC,sporulation,sporulation,TRUE,cd
+K03497,Q181S3,"Stage 0 sporulation protein J, site-specific DNA-binding protein",sporulation,MISC,sporulation,sporulation,TRUE,cd
+K03496,Q181S6,"Transcriptional regulator, sporulation initiation inhibitor, chromosome partitioning protein",sporulation,MISC,sporulation,sporulation,TRUE,cd

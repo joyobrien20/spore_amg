@@ -1,0 +1,54 @@
+---
+title: "Merge sporulation gene lists (Bsub & Cdiff)"
+author: "Daniel Schwartz"
+date: "Dec/2021"
+output: rmarkdown::github_document
+editor_options: 
+  chunk_output_type: inline
+---
+
+```{r}
+library(here)
+library(tidyverse)
+library(cowplot)
+library(gplots)
+```
+
+# Lists from each strain
+
+```{r}
+d.bsub <- read_csv(here("spor_gene_list/data", "dram_spore_genes_RS.csv")) %>% 
+  mutate(strain = "bs")
+
+d.cdiff <- read_csv(here("spor_gene_list/data", "dram_spore_genes_Cdiff.csv")) %>% 
+  mutate(strain = "cd")
+
+d <- bind_rows(d.bsub, d.cdiff)
+
+```
+
+
+## KO comparison 
+
+```{r}
+ko.bs <- d.bsub %>% 
+  filter(! is.na (gene_id.ko)) %>% 
+  pull(gene_id.ko)
+
+ko.cd <- d.cdiff %>% 
+  filter(! is.na (gene_id.ko)) %>% 
+  pull(gene_id.ko)
+
+venn(list(Bsub = ko.bs %>% unique(),
+          Cdiff = ko.cd %>% unique()))
+
+```
+
+```{r}
+
+write_csv(d, here("spor_gene_list/data", "dram_spore_genes.csv"))
+
+unq.ko <- unique(d$gene_id.ko) %>% length()
+```
+
+Overall there are `r unq.ko` unique KO entries that occur in the sporulation gene list.
