@@ -1,3 +1,6 @@
+# data
+gtdb_spor/data/gtdb_downloads/*
+
 # History files
 .Rhistory
 .Rapp.history
