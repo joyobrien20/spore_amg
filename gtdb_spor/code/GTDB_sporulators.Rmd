@@ -329,5 +329,60 @@ meta_fams <-
     select(!contains("na"))
   
   # 196 families have predictions from only a single data set
+  
+  missing <- 
+    gtdb_fams %>% 
+    filter(is.na(browne_spor)) %>% 
+    filter(is.na(glp_spor))
 ```
+
+```{r disagree taxa}
+browne_fams %>% 
+  mutate(gtdb_f = paste0("f__", family)) %>% 
+  filter(gtdb_f %in% disagree$gtdb_f) %>% 
+    view()
+
+galp_fams %>% 
+  filter(gtdb_f %in% disagree$gtdb_f) %>% 
+  view()
+
+```
+
+By manual inspection of the numbers supporting the sporulation call in each of the taxa in the "disagreed" group I was able to make a call for all 10. In one case, that of the *Peptoniphilaceae* I was not sure from the numbers, and decided to call them non sporulators based on table 3 of [Johnson et al 2014](https://doi.org/10.1099/ijs.0.058941-0).  
+
+```{r add manual}
+disagree <- read_csv(here("gtdb_spor/data/disagreed_taxa_calls.csv"))
+
+gtdb_fams <- left_join(gtdb_fams, disagree)
+```
+
+## Finalize list
+
+```{r}
+
+tax_cols = c("gtdb_d", "gtdb_p", "gtdb_c", "gtdb_o", "gtdb_f")
+
+gtdb_spor <- 
+  bind_rows(
+  agree %>% select(all_of(tax_cols), f_spor = browne_spor),
+  disagree %>% select(all_of(tax_cols), f_spor = manual_spor),
+  complement %>%  filter(is.na(browne_spor)) %>% select(tax_cols, f_spor = glp_spor),
+  complement %>%  filter(is.na(glp_spor)) %>% select(tax_cols, f_spor = browne_spor),
+  missing  %>% select(all_of(tax_cols))
+) %>% 
+  arrange(gtdb_c, gtdb_o, gtdb_f)
+
+write_csv(gtdb_spor, here("GTDB_spor/data/gtdb_families_sporulation.csv"))
+
+gtdb_spor %>% 
+  mutate(gtdb_c = fct_infreq(gtdb_c) %>% fct_rev()) %>% 
+  ggplot(aes(gtdb_c)) +
+  geom_bar(aes(fill = f_spor))+
+  ylab("# Families")+
+  xlab("Class (within Firmicutes)")+
+  coord_flip()+
+  theme_classic()+
+  guides(fill = guide_legend(title = "sporulation\nlikley in\nFamily"))
+```
+
 

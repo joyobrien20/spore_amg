@@ -178,7 +178,7 @@ Firmicutes.
 ## Sporulator status prediticion from Browne et al. 
 
 Data from table S1 from paper that lists prediction of sporulation
-ability fro &gt;1000 Firmicutes genomes. Predictions are based on the
+ability fro \>1000 Firmicutes genomes. Predictions are based on the
 distribution of 66 sporulation genes within families, with special
 weight to spo0A (See Browne et al. methods).
 
@@ -186,29 +186,23 @@ weight to spo0A (See Browne et al. methods).
 d_browne <- read_csv(here("gtdb_spor/data/Browne_2021_tbl-S1.csv"))
 ```
 
-    ## Warning: Missing column names filled in: 'X13' [13], 'X14' [14], 'X15' [15],
-    ## 'X16' [16]
+    ## New names:
+    ## * `` -> ...13
+    ## * `` -> ...14
+    ## * `` -> ...15
+    ## * `` -> ...16
+
+    ## Rows: 1430 Columns: 16
+
+    ## -- Column specification --------------------------------------------------------
+    ## Delimiter: ","
+    ## chr (7): major taxonomic family/ species name for non-Firmicutes, Firmicutes...
+    ## dbl (5): tree order, sporulation signature score %, presence spo0A, spore-fo...
+    ## lgl (4): ...13, ...14, ...15, ...16
 
     ## 
-    ## -- Column specification --------------------------------------------------------
-    ## cols(
-    ##   `tree order` = col_double(),
-    ##   `major taxonomic family/ species name for non-Firmicutes` = col_character(),
-    ##   `Firmicutes taxonomic order/ non-Firmicutes phylum` = col_character(),
-    ##   Accession = col_character(),
-    ##   `Sanger accession` = col_character(),
-    ##   environment = col_character(),
-    ##   `sporulation signature score %` = col_double(),
-    ##   `presence spo0A` = col_double(),
-    ##   `spore-former characterisation` = col_double(),
-    ##   `genome size` = col_double(),
-    ##   `ethanol resistance` = col_character(),
-    ##   `Erysipelotrichaceae experiments` = col_character(),
-    ##   X13 = col_logical(),
-    ##   X14 = col_logical(),
-    ##   X15 = col_logical(),
-    ##   X16 = col_logical()
-    ## )
+    ## i Use `spec()` to retrieve the full column specification for this data.
+    ## i Specify the column types or set `show_col_types = FALSE` to quiet this message.
 
 ``` r
 #filter out non-firmicutes (have species name in column #2)
@@ -284,6 +278,43 @@ Using Browne et al. data we can assign sporulation prediction to 75 of
 
 ## predictions by Galperin
 
+As discussed above, Galperin 2013 has a list of sporulator fraction per
+family.
+
+``` r
+  # classification of sporulators by Galperin 2013
+  d_galperin <- read_csv(here("enrichment/data/Galperin_2013_MicrobiolSpectrum_table2.csv"))
+```
+
+    ## Rows: 41 Columns: 4
+
+    ## -- Column specification --------------------------------------------------------
+    ## Delimiter: ","
+    ## chr (4): class, order, Family, Fraction.spore.forming
+
+    ## 
+    ## i Use `spec()` to retrieve the full column specification for this data.
+    ## i Specify the column types or set `show_col_types = FALSE` to quiet this message.
+
+``` r
+d_galperin
+```
+
+    ## # A tibble: 41 x 4
+    ##    class   order      Family                 Fraction.spore.forming
+    ##    <chr>   <chr>      <chr>                  <chr>                 
+    ##  1 Bacilli Bacillales Alicyclobacillaceae    +++                   
+    ##  2 Bacilli Bacillales Bacillaceae            ++                    
+    ##  3 Bacilli Bacillales Listeriaceae           -                     
+    ##  4 Bacilli Bacillales Paenibacillaceae       +++                   
+    ##  5 Bacilli Bacillales Pasteuriaceae          +++                   
+    ##  6 Bacilli Bacillales Planococcaceae         +                     
+    ##  7 Bacilli Bacillales Sporolactobacillaceae  ++                    
+    ##  8 Bacilli Bacillales Staphylococcaceae      -                     
+    ##  9 Bacilli Bacillales Thermoactinomycetaceae +++                   
+    ## 10 Bacilli Bacillales Other                  +                     
+    ## # ... with 31 more rows
+
 Galperin lists a 4 level system to describe fraction of sporulators in a
 family. The table footnote says this:
 
@@ -295,3 +326,188 @@ family. The table footnote says this:
 > ++, a significant fraction of species are sporeformers;  
 > +, the family includes some sporeformers;  
 > -, no known sporeformers in the family.
+
+We will reduce this to a binary classification, where 2-3 plus signs
+indicate a sporulating family.
+
+``` r
+d_galperin <- d_galperin %>% 
+  mutate(spore.likely = 
+           case_when(Fraction.spore.forming == "+++" ~ TRUE,
+                                Fraction.spore.forming == "++" ~ TRUE,
+                                Fraction.spore.forming == "+" ~ FALSE,
+                                Fraction.spore.forming == "-"  ~ FALSE))
+```
+
+The next xhalenge is that Galperin uses the NCBI taxonomy. To tranfer
+ths information to GTDB taxonomy, I will assign spoulation likelihood
+based on NCBI taxonomy in the GTDB metadta.
+
+``` r
+#metadata at family level
+meta_fams <- 
+  d_meta_comp %>%
+  select(-accession,-gtdb_g, -gtdb_s, -ncbi_g, -ncbi_s) %>% 
+  distinct() %>% 
+  # combine order and family for joining
+  mutate(order_fam = paste(ncbi_o, ncbi_f, sep = "__"))
+
+#add Galperin sporulation classification
+# d_meta_comp <- 
+  meta_fams <- 
+    d_galperin %>%
+    select(order,Family, spore.likely) %>% 
+    # adjust to match NCBI family in GTDB metadata
+    mutate(order = paste0("o__", order),
+           Family = paste0("f__", Family)) %>% 
+    mutate(order_fam = paste(order, Family, sep = "__")) %>% 
+    left_join(meta_fams, ., by = "order_fam")
+  
+  # summarize GTDB families with Galperin data
+  gtdb_galp_fams <- 
+    meta_fams %>% 
+    select(gtdb_d,gtdb_p,gtdb_c,gtdb_o,gtdb_f, galperin_spor = spore.likely) %>% 
+    group_by(gtdb_d,gtdb_p,gtdb_c,gtdb_o,gtdb_f, galperin_spor) %>%
+    summarise(n=n(), .groups = "drop") %>% 
+    # filter(! is.na(galperin_spor)) %>% 
+    pivot_wider(names_from = galperin_spor, values_from = n, values_fill = 0)
+```
+
+``` r
+  #add Galperin sporulation classification
+  d_meta_galp <-  d_galperin %>%
+    select(Family, spore.likely) %>% 
+    # adjust to match NCBI family in GTDB metadata
+    mutate(Family = paste0("f__", Family)) %>%
+    left_join(d_meta_comp,., by = c("ncbi_f" = "Family"))
+
+#call sporulation status by majority of FTDB genomes with predictions
+  galp_fams <- d_meta_galp %>% 
+    select(gtdb_d,gtdb_p,gtdb_c,gtdb_o,gtdb_f, spore.likely) %>% 
+    group_by(gtdb_d,gtdb_p,gtdb_c,gtdb_o,gtdb_f, spore.likely) %>%
+    summarise(n = n(), .groups = "drop") %>% 
+    pivot_wider(names_from = "spore.likely", values_from = "n", values_fill = 0) %>% 
+      mutate(total = `TRUE` + `FALSE`) %>% # total wxcluding NAs
+      mutate(perc_spor = 100*`TRUE`/total) %>% 
+      mutate(glp_spor = perc_spor > 50) 
+
+  # add Galperin prediction to GTDB families 
+  gtdb_fams <- 
+    galp_fams %>% 
+    select(contains("gtdb"), glp_spor) %>% 
+    left_join(gtdb_fams, .)
+```
+
+    ## Joining, by = c("gtdb_d", "gtdb_p", "gtdb_c", "gtdb_o", "gtdb_f")
+
+``` r
+  # compare Browne and Galperin
+  agree <- 
+    gtdb_fams %>% 
+    filter(!is.na(browne_spor)) %>% 
+     filter(!is.na(glp_spor)) %>% 
+    filter(glp_spor == browne_spor)
+  # agree on 51 families
+  
+  disagree <- 
+    gtdb_fams %>% 
+    filter(!is.na(browne_spor)) %>% 
+     filter(!is.na(glp_spor)) %>% 
+    filter(glp_spor != browne_spor)
+
+  # disagree on 10 families
+  
+  complement <- 
+    gtdb_fams %>% 
+    filter(is.na(browne_spor) | is.na(glp_spor)) %>% 
+    mutate(b_na = is.na(browne_spor), 
+           g_na = is.na(glp_spor),
+           both_na = b_na & g_na) %>% 
+    filter(!both_na) %>% 
+    select(!contains("na"))
+  
+  # 196 families have predictions from only a single data set
+  
+  missing <- 
+    gtdb_fams %>% 
+    filter(is.na(browne_spor)) %>% 
+    filter(is.na(glp_spor))
+```
+
+``` r
+browne_fams %>% 
+  mutate(gtdb_f = paste0("f__", family)) %>% 
+  filter(gtdb_f %in% disagree$gtdb_f) %>% 
+    view()
+
+galp_fams %>% 
+  filter(gtdb_f %in% disagree$gtdb_f) %>% 
+  view()
+```
+
+By manual inspection of the numbers supporting the sporulation call in
+each of the taxa in the “disagreed” group I was able to make a call for
+all 10. In one case, that of the *Peptoniphilaceae* I was not sure from
+the numbers, and decided to call them non sporulators based on table 3
+of [Johnson et al 2014](https://doi.org/10.1099/ijs.0.058941-0).
+
+``` r
+disagree <- read_csv(here("gtdb_spor/data/disagreed_taxa_calls.csv"))
+```
+
+    ## New names:
+    ## * `` -> ...6
+
+    ## Rows: 10 Columns: 9
+
+    ## -- Column specification --------------------------------------------------------
+    ## Delimiter: ","
+    ## chr (5): gtdb_d, gtdb_p, gtdb_c, gtdb_o, gtdb_f
+    ## lgl (4): ...6, browne_spor, glp_spor, manual_spor
+
+    ## 
+    ## i Use `spec()` to retrieve the full column specification for this data.
+    ## i Specify the column types or set `show_col_types = FALSE` to quiet this message.
+
+``` r
+gtdb_fams <- left_join(gtdb_fams, disagree)
+```
+
+    ## Joining, by = c("gtdb_d", "gtdb_p", "gtdb_c", "gtdb_o", "gtdb_f", "browne_spor", "glp_spor")
+
+## Finalize list
+
+``` r
+tax_cols = c("gtdb_d", "gtdb_p", "gtdb_c", "gtdb_o", "gtdb_f")
+
+gtdb_spor <- 
+  bind_rows(
+  agree %>% select(tax_cols, f_spor = browne_spor),
+  disagree %>% select(tax_cols, f_spor = manual_spor),
+  complement %>%  filter(is.na(browne_spor)) %>% select(tax_cols, f_spor = glp_spor),
+  complement %>%  filter(is.na(glp_spor)) %>% select(tax_cols, f_spor = browne_spor),
+  missing  %>% select(tax_cols)
+) %>% 
+  arrange(gtdb_c, gtdb_o, gtdb_f)
+```
+
+    ## Note: Using an external vector in selections is ambiguous.
+    ## i Use `all_of(tax_cols)` instead of `tax_cols` to silence this message.
+    ## i See <https://tidyselect.r-lib.org/reference/faq-external-vector.html>.
+    ## This message is displayed once per session.
+
+``` r
+write_csv(gtdb_spor, here("GTDB_spor/data/gtdb_families_sporulation.csv"))
+
+gtdb_spor %>% 
+  mutate(gtdb_c = fct_infreq(gtdb_c) %>% fct_rev()) %>% 
+  ggplot(aes(gtdb_c)) +
+  geom_bar(aes(fill = f_spor))+
+  ylab("# Families")+
+  xlab("Class (within Firmicutes)")+
+  coord_flip()+
+  theme_classic()+
+  guides(fill = guide_legend(title = "sporulation\nlikley in\nFamily"))
+```
+
+![](GTDB_sporulators_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
