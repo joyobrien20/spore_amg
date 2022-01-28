@@ -1,0 +1,146 @@
+---
+title: "Enriched_gvd"
+author: "Daniel Schwartz"
+date: "Jan/2022"
+output: rmarkdown::github_document
+editor_options: 
+  chunk_output_type: inline
+---
+
+Looking at the list of genes from the GVD enrichment analysis
+
+```{r setup, include=FALSE}
+library(here)
+library(tidyverse)
+library(knitr)
+library(cowplot)
+library(ggrepel)
+# knitr::opts_chunk$set(echo = TRUE)
+```
+
+Load the data
+
+```{r}
+d.enriched <- read_csv(here("metaG","data","gvd_enrich.csv"))
+
+d.enriched %>% 
+  mutate(signif_sample = (adj.p<1e-3) & (K>8)) %>% 
+  mutate(enriched = if_else(signif_sample, "enriched", "not enriched")) %>% 
+  group_by(spor_gene, enriched) %>% 
+  summarise(n=n()) %>% 
+  pivot_wider(names_from = enriched, values_from = n)
+```
+# map back to genes
+
+Get gene lists
+
+```{r}
+bs.genes <- read_csv(here("spor_gene_list/data/dram_spore_genes_RS.csv")) %>% 
+  separate(gene_description, into = c("symbol", "description"), sep = ";") %>% 
+  rename(ko = gene_id.ko)
+
+cd.genes <- read_csv(here("spor_gene_list/data/cdif_spor_KOs.csv"))
+
+# enriched spor KOs
+spor.enriched.ko <- 
+  d.enriched %>% 
+  mutate(signif_sample = (adj.p<1e-3) & (K>8)) %>% 
+  # filter(spor_gene!="other") %>% 
+  filter(signif_sample) %>% pull(gene_id) %>% unique()
+
+genes_enriched <- 
+  bs.genes %>% 
+  filter(ko %in% spor.enriched.ko) %>% 
+  select(ko , symbol, description ) %>% 
+  mutate(sp = "bs")
+
+genes_enriched <-
+  cd.genes %>% 
+  filter(ko %in% spor.enriched.ko) %>% 
+  select(ko , symbol, description ) %>% 
+  mutate(sp = "cd") %>% 
+  bind_rows(genes_enriched, .)
+
+shared.enriched <- genes_enriched %>% 
+  group_by(ko,sp) %>% 
+  summarise(n=n()) %>% 
+  select(ko, sp) %>% 
+  mutate(presence = 1) %>% 
+  pivot_wider(names_from = sp, values_from = presence, values_fill = 0) %>% 
+  mutate(shared = (bs+cd)>1) %>% 
+  filter(shared) %>% 
+  pull(ko) %>% 
+  unique()
+
+genes_enriched %>% 
+  filter(ko %in% shared.enriched) 
+
+
+# add to amg data frame
+d <- genes_enriched %>% 
+  # select(-description) %>% 
+  mutate(description = str_c(symbol," [",description,"]")) %>% 
+  group_by(ko, sp) %>% 
+  summarise(genes = str_c(description, collapse = ";")) %>% 
+  pivot_wider(names_from = sp, values_from = genes ) %>% 
+  left_join(d.enriched %>% filter(gene_id %in% spor.enriched.ko), .,
+            by = c("gene_id" = "ko")) %>% 
+  filter(spor_gene == "sporulation_gene") 
+
+write_csv(d, here("metaG/data/gvd/spor_enriched.csv"))
+
+```
+
+
+# going back to scaffold data
+
+```{r}
+
+data_dir <- ("metaG/data/gvd")
+
+d.amg <- read_tsv(here(data_dir, "Gregory_amg_summary.tsv"))
+d.vmag <- read_tsv(here(data_dir, "Gregory_vMAG_stats.tsv"))
+d.host <- read_csv(here(data_dir, "Gregory_SporAMG_toHost.csv"))
+
+# focus on enricched genes
+d.amg <- 
+  d.amg %>%
+  filter(gene_id %in% genes_enriched$ko)
+
+# add host data
+d.amg_host <- 
+  d.host %>% 
+  select(scaffold = vMAG_sporAMG_ID, Host_taxonomy,
+         spore_likely = `Sporulating_Family?`) %>% 
+  left_join(d.amg, . , by = "scaffold") %>% 
+  separate(Host_taxonomy, into = c("d","p","f"), sep = ";", fill = "right")
+# %>% 
+#   # remove genes for which host is unknown
+#   filter(!str_detect(Host_taxonomy,"Host Not Assigned")) %>% 
+#   #remove genes for which there is uncertainty on host sporuation
+#   filter(!is.na(spore_likely)) 
+
+
+d.amg_host %>%
+  # filter(!is.na(p)) %>% 
+  group_by(gene_id,p) %>% 
+  summarise(n=n()) %>%
+  arrange(desc(n)) %>% 
+  # mutate(#gene_id = fct_inorder(gene_id),
+  #        p = fct_inorder(p)) %>% 
+  mutate(firmi = case_when(
+    str_detect(p, "Firmicutes") ~ "Firmicutes",
+    is.na(p) ~ "Unknown host",
+    TRUE ~"Other phyla")) %>%
+  ggplot(aes(gene_id, p))+
+  geom_tile(aes(fill = n))+
+    facet_grid(firmi ~ ., scales = "free")+
+  scale_fill_gradient(low = "pink", high = "red")+
+  theme_classic()+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))+
+  ylab("Phylum")+
+  ggsave2(here("metaG/plots/amg_phyla.png"), width = 6, height = 4)
+
+```
+
+
