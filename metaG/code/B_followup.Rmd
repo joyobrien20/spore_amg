@@ -102,12 +102,26 @@ d.amg <- read_tsv(here(data_dir, "Gregory_amg_summary.tsv"))
 d.vmag <- read_tsv(here(data_dir, "Gregory_vMAG_stats.tsv"))
 d.host <- read_csv(here(data_dir, "Gregory_SporAMG_toHost.csv"))
 
-# focus on enricched genes
+# focus on enriched genes
 d.amg <- 
   d.amg %>%
   filter(gene_id %in% genes_enriched$ko)
 
-# add host data
+#### add host data
+# assing non-firmicutes as non-sporulators
+
+
+#adding non-sporulator to all non-Firmicutes
+d.host <- 
+  d.host %>% 
+  mutate(`Sporulating_Family?` = if_else(
+  (!(str_detect(Host_taxonomy, "Host Not Assigned") | 
+     str_detect(Host_taxonomy, "dropped from Gregory"))) &
+    (!str_detect(Host_taxonomy,"p__Firmicutes")) &
+    (is.na(`Sporulating_Family?`)),
+  FALSE, `Sporulating_Family?`))
+
+
 d.amg_host <- 
   d.host %>% 
   select(scaffold = vMAG_sporAMG_ID, Host_taxonomy,
@@ -141,6 +155,27 @@ d.amg_host %>%
   ylab("Phylum")+
   ggsave2(here("metaG/plots/amg_phyla.png"), width = 6, height = 4)
 
+write_csv(d.amg_host, here("metag/data/gvd_enriched_fullData.csv"))
+
 ```
 
+coat genes
+```{r}
+coat.ko <- genes_enriched %>% 
+  filter(str_detect(description, "coat")) %>% 
+  pull(ko)
+
+d.amg %>% 
+  filter(gene_id %in% coat.ko) %>% 
+  # parse scaffold-gene
+  select(gene_id,scaffold, gene, amg_flags) %>% 
+  mutate(n.gene = str_remove(gene, ".*_") %>% parse_number()) %>% 
+  select(-gene) %>% 
+  group_by(scaffold) %>% 
+  summarise(genes = str_c(n.gene, collapse = ";"),
+            KOs = str_c(gene_id, collapse = ";"),
+            flags = str_c(amg_flags, collapse = ";"))# %>% 
+  # filter(str_detect(genes, ";"))
+  
+```
 
