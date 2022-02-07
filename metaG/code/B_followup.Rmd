@@ -100,7 +100,8 @@ data_dir <- ("metaG/data/gvd")
 
 d.amg <- read_tsv(here(data_dir, "Gregory_amg_summary.tsv"))
 d.vmag <- read_tsv(here(data_dir, "Gregory_vMAG_stats.tsv"))
-d.host <- read_csv(here(data_dir, "Gregory_SporAMG_toHost.csv"))
+load(file = here(data_dir, "gvd_spor.Rdata"))
+# d.host <- read_csv(here(data_dir, "Gregory_SporAMG_toHost.csv"))
 
 # focus on enriched genes
 d.amg <- 
@@ -112,30 +113,21 @@ d.amg <-
 
 
 #adding non-sporulator to all non-Firmicutes
-d.host <- 
-  d.host %>% 
-  mutate(`Sporulating_Family?` = if_else(
-  (!(str_detect(Host_taxonomy, "Host Not Assigned") | 
-     str_detect(Host_taxonomy, "dropped from Gregory"))) &
-    (!str_detect(Host_taxonomy,"p__Firmicutes")) &
-    (is.na(`Sporulating_Family?`)),
-  FALSE, `Sporulating_Family?`))
-
+ d.host <- gvd_spor %>% 
+    mutate(f_spor = case_when(
+            str_detect(GTDB_Host,"p__Firmicutes") ~ f_spor,
+            str_detect(GTDB_Host, "^Bacteria" ) ~ FALSE))
 
 d.amg_host <- 
-  d.host %>% 
-  select(scaffold = vMAG_sporAMG_ID, Host_taxonomy,
-         spore_likely = `Sporulating_Family?`) %>% 
+  gvd_spor %>% 
+  select(scaffold = Contig, Host_taxonomy = GTDB_Host,
+         spore_likely = f_spor) %>% 
   left_join(d.amg, . , by = "scaffold") %>% 
   separate(Host_taxonomy, into = c("d","p","f"), sep = ";", fill = "right")
-# %>% 
-#   # remove genes for which host is unknown
-#   filter(!str_detect(Host_taxonomy,"Host Not Assigned")) %>% 
-#   #remove genes for which there is uncertainty on host sporuation
-#   filter(!is.na(spore_likely)) 
 
 
-d.amg_host %>%
+
+amg_phyla <- d.amg_host %>%
   # filter(!is.na(p)) %>% 
   group_by(gene_id,p) %>% 
   summarise(n=n()) %>%
@@ -145,18 +137,30 @@ d.amg_host %>%
   mutate(firmi = case_when(
     str_detect(p, "Firmicutes") ~ "Firmicutes",
     is.na(p) ~ "Unknown host",
-    TRUE ~"Other phyla")) %>%
+    TRUE ~"Other phyla"))
+
+# order of KO
+ko_order <- amg_phyla %>% 
+  group_by(gene_id,firmi) %>% 
+  summarise(n=n()) %>% 
+  ungroup() %>% 
+  pivot_wider(names_from = firmi, values_from = n, values_fill = 0) %>% 
+  arrange(`Other phyla`) %>% 
+  pull(gene_id)
+
+p <- amg_phyla %>% 
+  mutate(gene_id = factor(gene_id, levels = ko_order)) %>% 
   ggplot(aes(gene_id, p))+
   geom_tile(aes(fill = n))+
     facet_grid(firmi ~ ., scales = "free")+
   scale_fill_gradient(low = "pink", high = "red")+
   theme_classic()+
   theme(axis.text.x = element_text(angle = 45, hjust = 1))+
-  ylab("Phylum")+
-  ggsave2(here("metaG/plots/amg_phyla.png"), width = 6, height = 4)
+  ylab("Phylum")
+  ggsave2(here("metaG/plots/amg_phyla.png"),p, width = 6, height = 4)
 
-write_csv(d.amg_host, here("metag/data/gvd_enriched_fullData.csv"))
-
+  write_csv(d.amg_host, here("metag/data/gvd_enriched_fullData.csv"))
+p
 ```
 
 coat genes
@@ -165,17 +169,24 @@ coat.ko <- genes_enriched %>%
   filter(str_detect(description, "coat")) %>% 
   pull(ko)
 
-d.amg %>% 
-  filter(gene_id %in% coat.ko) %>% 
+  # add viral taxonomy
+d.coat <- 
+  gvd_spor %>% 
+  select(scaffold=Contig, Viral_Taxonomy, Nucleic_Acid_Type, VirSorter_Category) %>% 
+  left_join(filter(d.amg, gene_id %in% coat.ko), .,by = "scaffold") %>% 
   # parse scaffold-gene
-  select(gene_id,scaffold, gene, amg_flags) %>% 
+  select(gene_id,scaffold, gene, amg_flags, VirSorter_Category) %>% 
   mutate(n.gene = str_remove(gene, ".*_") %>% parse_number()) %>% 
   select(-gene) %>% 
   group_by(scaffold) %>% 
   summarise(genes = str_c(n.gene, collapse = ";"),
             KOs = str_c(gene_id, collapse = ";"),
-            flags = str_c(amg_flags, collapse = ";"))# %>% 
-  # filter(str_detect(genes, ";"))
+            flags = str_c(amg_flags, collapse = ";"),
+            VirSorter_Category = head(VirSorter_Category))# %>% 
+  
+
+qplot(d.coat$VirSorter_Category)+
+  theme_classic()
   
 ```
 

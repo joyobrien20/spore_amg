@@ -38,7 +38,20 @@ data_dir <- ("metaG/data/gvd")
 
 d.amg <- read_tsv(here(data_dir, "Gregory_amg_summary.tsv"))
 d.vmag <- read_tsv(here(data_dir, "Gregory_vMAG_stats.tsv"))
-d.host <- read_csv(here(data_dir, "Gregory_SporAMG_toHost.csv"))
+# host taxonomy from A1...R
+load(file = here("metaG/data/gvd/gvd_spor.Rdata"))
+  # add non-sporulating to non-Firmicutes
+  gvd_spor <- gvd_spor %>% 
+    mutate(f_spor = case_when(
+            str_detect(GTDB_Host,"p__Firmicutes") ~ f_spor,
+            str_detect(GTDB_Host, "^Bacteria" ) ~ FALSE))
+            
+# file from CSU
+d.host <- read_csv(here(data_dir, "Gregory_SporAMG_toHost.csv"), col_types = cols(  vMAG_sporAMG_ID = col_character(),
+  Host_taxonomy = col_character(),
+  Host_taxonomy_1 = col_character(),
+  `Sporulating_Family?` = col_logical()
+))
 
 
 d.amg %>% 
@@ -59,29 +72,36 @@ d.amg %>%
 Add host status
 ```{r add host}
 # Check for matching column
-#any(!d.amg$scaffold %in% d.host$vMAG_sporAMG_ID) # FALSE
+d.amg %>% 
+  filter(!d.amg$scaffold %in% gvd_spor$Contig) %>%
+  nrow()# 487
+# CSU marked thes as "dropped from Gregory final dataset - no info"
+# I will do the same
 
-#there are many hosts outside the Firmicutes that are not assigned
-# a sporulator status (should all be non-sporulating)
-d.host %>% 
-  filter(!str_detect(Host_taxonomy, 
-                     regex("p__Firmicutes", ignore_case = T)))%>% 
-  filter(is.na(`Sporulating_Family?`)) %>% view()
 
-#adding non-sporulator to all non-Firmicutes
-d.host <- d.host %>% 
-  mutate(`Sporulating_Family?` = if_else(
-    str_detect(Host_taxonomy,regex("p__Firmicutes", ignore_case = T)),
-    `Sporulating_Family?`, FALSE
-  )) 
+# #there are many hosts outside the Firmicutes that are not assigned
+# # a sporulator status (should all be non-sporulating)
+# d.host %>% 
+#   filter(!str_detect(Host_taxonomy, 
+#                      regex("p__Firmicutes", ignore_case = T)))%>% 
+#   filter(is.na(`Sporulating_Family?`)) %>% view()
+# 
+# #adding non-sporulator to all non-Firmicutes
+# d.host <- d.host %>% 
+#   mutate(`Sporulating_Family?` = if_else(
+#     str_detect(Host_taxonomy,regex("p__Firmicutes", ignore_case = T)),
+#     `Sporulating_Family?`, FALSE
+#   )) 
 
 d.amg_host <- 
-  d.host %>% 
-  select(scaffold = vMAG_sporAMG_ID, Host_taxonomy,
-         spore_likely = `Sporulating_Family?`) %>% 
+  gvd_spor %>% 
+  select(scaffold = Contig, Host_taxonomy = GTDB_Host,
+         spore_likely = f_spor) %>% 
   left_join(d.amg, . , by = "scaffold") %>% 
   # remove genes for which host is unknown
   filter(!str_detect(Host_taxonomy,"Host Not Assigned")) %>% 
+  # Remove genes dropped from Gregory
+  filter(!is.na(Host_taxonomy)) %>% 
   #remove genes for which there is uncertainty on host sporuation
   filter(!is.na(spore_likely)) 
 
@@ -111,17 +131,26 @@ d.stat <-
   # sporulation gene
   mutate(spor_gene = if_else(gene_id %in% spor_genes$gene_id.ko,
          "sporulation_gene", "other"))
+
+# Summarise total number of sporulators and non sporulators
+sum_gvd_spor <- 
+  gvd_spor %>% 
+    group_by(f_spor) %>% 
+    summarise(n=n())
   
-duplicated(d.stat$gene_id) %>% which() %>% d.stat[.,] %>% view()
+# duplicated(d.stat$gene_id) %>% which() %>% d.stat[.,] %>% nrow() #o
 
 # q	: the number of white balls drawn without replacement from an urn which contains both black and white balls.
   # AMG in viruses infecting sporulators
 # m	:the number of white balls in the urn.
   # number of viruses infecting sporulators in the pool
-m.gvd <- sum(d.amg_host$spore_likely,na.rm = T)
+m.gvd <- sum_gvd_spor %>% 
+  filter(f_spor) %>% pull(n)
+# m.gvd <- 
 # n	:the number of black balls in the urn.
   # number of viruses infecting non-sporulators in the pool
-n.gvd <- sum(!d.amg_host$spore_likely,na.rm = T)
+n.gvd <- sum_gvd_spor %>% 
+  filter(!f_spor) %>% pull(n)
 # k: the number of balls drawn from the urn, hence must be in 0,1,., m+n.
   # Total AMG detected in viruses
 
@@ -155,7 +184,7 @@ p <- d.stat %>%
   geom_hline(yintercept = -log10(p.signif), linetype=2, color="grey", size = 1)+
   geom_vline(xintercept = 8, linetype=2, color="grey", size = 1)+
 
-  geom_text_repel(aes(label = lab), max.overlaps=50)+
+  geom_text_repel(aes(label = lab), max.overlaps=50,color = "grey", size = 3)+
   
   geom_jitter(aes(fill = print.lab),width = 0.005, height = 0.005,
               shape=21, size=3, stroke = 1, alpha = 0.5, show.legend = F)+
