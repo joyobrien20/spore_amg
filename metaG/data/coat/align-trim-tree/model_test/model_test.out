@@ -1,0 +1,177 @@
+--------------------------------------------------------------------------------
+ModelTest-NG vx.y.z
+
+Input data:
+  MSA:        /N/u/danschw/Carbonate/GitHub/spore_amg/metaG/data/coat/align-trim-tree/cotJB_MafftEinsi.trim
+  Tree:       Maximum parsimony
+    file:           -
+  #taxa:            476
+  #sites:           88
+  #patterns:        88
+  Max. thread mem:  102 MB
+
+Output:
+  Log:           /N/u/danschw/Carbonate/GitHub/spore_amg/metaG/data/coat/align-trim-tree/model_test/model_test.log
+  Starting tree: /N/u/danschw/Carbonate/GitHub/spore_amg/metaG/data/coat/align-trim-tree/model_test/model_test.tree
+  Results:       /N/u/danschw/Carbonate/GitHub/spore_amg/metaG/data/coat/align-trim-tree/model_test/model_test.out
+
+Selection options:
+  # protein matrices: 19
+  # protein models:   152
+  include model parameters:
+    Uniform:         true
+    p-inv (+I):      true
+    gamma (+G):      true
+    both (+I+G):     true
+    free rates (+R): false
+    fixed freqs:     true
+    estimated freqs: false
+    #categories:     4
+  gamma rates mode:   mean
+  asc bias:           none
+  epsilon (opt):      0.01
+  epsilon (par):      0.05
+  keep branches:      false
+
+Additional options:
+  verbosity:        very low
+  threads:          1/12
+  RNG seed:         12345
+  subtree repeats:  enabled
+--------------------------------------------------------------------------------
+
+BIC       model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  LG+G4+F           20    -62710.4809    129759.5012         0.0000    0.8799
+       2  LG+I+G4+F         21    -62710.2341    129763.4849         3.9837    0.1201
+       3  LG+G4              1    -62788.4540    129830.3779        70.8767    0.0000
+       4  LG+I+G4            2    -62788.3078    129834.5630        75.0618    0.0000
+       5  RTREV+G4+F        20    -62808.7717    129956.0827       196.5815    0.0000
+       6  RTREV+I+G4+F      21    -62808.3279    129959.6725       200.1713    0.0000
+       7  VT+G4+F           20    -62912.1593    130162.8580       403.3568    0.0000
+       8  VT+I+G4+F         21    -62912.2476    130167.5120       408.0107    0.0000
+       9  BLOSUM62+G4        1    -62999.2504    130251.9708       492.4696    0.0000
+      10  BLOSUM62+I+G4      2    -63000.4121    130258.7716       499.2703    0.0000
+--------------------------------------------------------------------------------
+Best model according to BIC
+---------------------------
+Model:              LG+G4+F
+lnL:                -62710.4809
+Frequencies:        0.0722 0.0420 0.0553 0.0699 0.0172 0.0516 0.0857 0.0367 0.0221 0.0320 0.1034 0.0577 0.0418 0.0347 0.0541 0.0409 0.0469 0.0422 0.0591 0.0346
+Inv. sites prop:    -
+Gamma shape:        1.2372
+Score:              129759.5012
+Weight:             0.8799
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              -
+Gamma:              0.8799
+Gamma-Inv:          0.1201
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              -
+Alpha:              1.2372
+Alpha-P.Inv:        1.1926
+P.Inv-Alpha:        0.0000
+Frequencies:        0.0722 0.0420 0.0553 0.0699 0.0172 0.0516 0.0857 0.0367 0.0221 0.0320 0.1034 0.0577 0.0418 0.0347 0.0541 0.0409 0.0469 0.0422 0.0591 0.0346 
+
+Commands:
+  > phyml  -i /N/u/danschw/Carbonate/GitHub/spore_amg/metaG/data/coat/align-trim-tree/cotJB_MafftEinsi.trim -d aa -m LG -f e -v 0 -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s /N/u/danschw/Carbonate/GitHub/spore_amg/metaG/data/coat/align-trim-tree/cotJB_MafftEinsi.trim -m PROTGAMMALGF -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa /N/u/danschw/Carbonate/GitHub/spore_amg/metaG/data/coat/align-trim-tree/cotJB_MafftEinsi.trim --model LG+G4+F
+  > paup -s /N/u/danschw/Carbonate/GitHub/spore_amg/metaG/data/coat/align-trim-tree/cotJB_MafftEinsi.trim
+  > iqtree -s /N/u/danschw/Carbonate/GitHub/spore_amg/metaG/data/coat/align-trim-tree/cotJB_MafftEinsi.trim -m LG+G4+F
+
+AIC       model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  LG+G4+F           20    -62710.4809    127358.9619         0.0000    0.6799
+       2  LG+I+G4+F         21    -62710.2341    127360.4682         1.5063    0.3201
+       3  LG+G4              1    -62788.4540    127476.9079       117.9461    0.0000
+       4  LG+I+G4            2    -62788.3078    127478.6157       119.6538    0.0000
+       5  RTREV+G4+F        20    -62808.7717    127555.5434       196.5815    0.0000
+       6  RTREV+I+G4+F      21    -62808.3279    127556.6558       197.6939    0.0000
+       7  VT+G4+F           20    -62912.1593    127762.3186       403.3568    0.0000
+       8  VT+I+G4+F         21    -62912.2476    127764.4952       405.5334    0.0000
+       9  BLOSUM62+G4        1    -62999.2504    127898.5008       539.5390    0.0000
+      10  BLOSUM62+I+G4      2    -63000.4121    127902.8242       543.8624    0.0000
+--------------------------------------------------------------------------------
+Best model according to AIC
+---------------------------
+Model:              LG+G4+F
+lnL:                -62710.4809
+Frequencies:        0.0722 0.0420 0.0553 0.0699 0.0172 0.0516 0.0857 0.0367 0.0221 0.0320 0.1034 0.0577 0.0418 0.0347 0.0541 0.0409 0.0469 0.0422 0.0591 0.0346
+Inv. sites prop:    -
+Gamma shape:        1.2372
+Score:              127358.9619
+Weight:             0.6799
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              -
+Gamma:              0.6799
+Gamma-Inv:          0.3201
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              -
+Alpha:              1.2372
+Alpha-P.Inv:        1.1926
+P.Inv-Alpha:        0.0000
+Frequencies:        0.0722 0.0420 0.0553 0.0699 0.0172 0.0516 0.0857 0.0367 0.0221 0.0320 0.1034 0.0577 0.0418 0.0347 0.0541 0.0409 0.0469 0.0422 0.0591 0.0346 
+
+Commands:
+  > phyml  -i /N/u/danschw/Carbonate/GitHub/spore_amg/metaG/data/coat/align-trim-tree/cotJB_MafftEinsi.trim -d aa -m LG -f e -v 0 -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s /N/u/danschw/Carbonate/GitHub/spore_amg/metaG/data/coat/align-trim-tree/cotJB_MafftEinsi.trim -m PROTGAMMALGF -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa /N/u/danschw/Carbonate/GitHub/spore_amg/metaG/data/coat/align-trim-tree/cotJB_MafftEinsi.trim --model LG+G4+F
+  > paup -s /N/u/danschw/Carbonate/GitHub/spore_amg/metaG/data/coat/align-trim-tree/cotJB_MafftEinsi.trim
+  > iqtree -s /N/u/danschw/Carbonate/GitHub/spore_amg/metaG/data/coat/align-trim-tree/cotJB_MafftEinsi.trim -m LG+G4+F
+
+AICc      model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  LG+G4              1    -62788.4540   1934376.9079         0.0000    1.0000
+       2  BLOSUM62+G4        1    -62999.2504   1934798.5008       421.5929    0.0000
+       3  VT+G4              1    -63004.6094   1934809.2189       432.3109    0.0000
+       4  WAG+G4             1    -63070.7676   1934941.5352       564.6272    0.0000
+       5  PMB+G4             1    -63177.5161   1935155.0321       778.1242    0.0000
+       6  WAG                0    -65254.8432   1935507.6865      1130.7785    0.0000
+       7  VT                 0    -65328.2837   1935654.5674      1277.6595    0.0000
+       8  BLOSUM62           0    -65343.5312   1935685.0624      1308.1544    0.0000
+       9  RTREV+G4           1    -63452.8811   1935705.7623      1328.8543    0.0000
+      10  CPREV              0    -65380.4254   1935758.8508      1381.9428    0.0000
+--------------------------------------------------------------------------------
+Best model according to AICc
+---------------------------
+Model:              LG+G4
+lnL:                -62788.4540
+Frequencies:        0.0791 0.0559 0.0420 0.0531 0.0129 0.0408 0.0716 0.0573 0.0224 0.0622 0.0991 0.0646 0.0230 0.0423 0.0440 0.0612 0.0533 0.0121 0.0342 0.0691
+Inv. sites prop:    -
+Gamma shape:        1.3524
+Score:              1934376.9079
+Weight:             1.0000
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              -
+Gamma:              1.0000
+Gamma-Inv:          -
+Frequencies:        -
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              -
+Alpha:              1.3524
+Alpha-P.Inv:        -
+P.Inv-Alpha:        -
+Frequencies:        -
+
+Commands:
+  > phyml  -i /N/u/danschw/Carbonate/GitHub/spore_amg/metaG/data/coat/align-trim-tree/cotJB_MafftEinsi.trim -d aa -m LG -f m -v 0 -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s /N/u/danschw/Carbonate/GitHub/spore_amg/metaG/data/coat/align-trim-tree/cotJB_MafftEinsi.trim -m PROTGAMMALG -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa /N/u/danschw/Carbonate/GitHub/spore_amg/metaG/data/coat/align-trim-tree/cotJB_MafftEinsi.trim --model LG+G4
+  > paup -s /N/u/danschw/Carbonate/GitHub/spore_amg/metaG/data/coat/align-trim-tree/cotJB_MafftEinsi.trim
+  > iqtree -s /N/u/danschw/Carbonate/GitHub/spore_amg/metaG/data/coat/align-trim-tree/cotJB_MafftEinsi.trim -m LG+G4
+Done

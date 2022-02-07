@@ -1,0 +1,56 @@
+
+RAxML-NG v. 0.9.0git released on 24.05.2019 by The Exelixis Lab.
+Developed by: Alexey M. Kozlov and Alexandros Stamatakis.
+Contributors: Diego Darriba, Tomas Flouri, Benoit Morel, Sarah Lutteropp, Ben Bettisworth.
+Latest version: https://github.com/amkozlov/raxml-ng
+Questions/problems/suggestions? Please visit: https://groups.google.com/forum/#!forum/raxml
+
+RAxML-NG was called at 02-Feb-2022 10:12:00 as follows:
+
+raxml-ng --bootstrap --msa /N/u/danschw/Carbonate/GitHub/spore_amg/metaG/data/coat/align-trim-tree/check_msa/parse-msa.raxml.rba --model LG+G4+F --prefix /N/u/danschw/Carbonate/GitHub/spore_amg/metaG/data/coat/align-trim-tree/tree/bootstraps/bs86 --seed 868686 --threads 2 --tree pars{5} --bs-trees 5
+
+Analysis options:
+  run mode: Bootstrapping
+  start tree(s): parsimony (5)
+  bootstrap replicates: 5
+  random seed: 868686
+  tip-inner: OFF
+  pattern compression: ON
+  per-rate scalers: OFF
+  site repeats: ON
+  branch lengths: proportional (ML estimate, algorithm: NR-FAST)
+  SIMD kernels: AVX2
+  parallelization: PTHREADS (2 threads), thread pinning: OFF
+
+WARNING: The model you specified on the command line (LG+G4+F) will be ignored 
+         since the binary MSA file already contains a model definition.
+         If you want to change the model, please re-run RAxML-NG 
+         with the original PHYLIP/FASTA alignment and --redo option.
+
+[00:00:00] Loading binary alignment from file: /N/u/danschw/Carbonate/GitHub/spore_amg/metaG/data/coat/align-trim-tree/check_msa/parse-msa.raxml.rba
+[00:00:00] Alignment comprises 468 taxa, 1 partitions and 88 patterns
+
+Partition 0: noname
+Model: LG+FC+G4m
+Alignment sites / patterns: 88 / 88
+Gaps: 5.67 %
+Invariant sites: 0.00 %
+
+
+[00:00:00] Data distribution: max. partitions/sites/weight per thread: 1 / 44 / 3520
+[00:00:00] Starting bootstrapping analysis with 5 replicates.
+
+[00:23:58] Bootstrap tree #1, logLikelihood: -55335.082062
+[01:41:41] Bootstrap tree #2, logLikelihood: -57914.225303
+[02:13:46] Bootstrap tree #3, logLikelihood: -58461.267476
+[02:45:51] Bootstrap tree #4, logLikelihood: -55810.479278
+[03:33:30] Bootstrap tree #5, logLikelihood: -54927.146541
+
+Bootstrap trees saved to: /geode2/home/u020/danschw/Carbonate/GitHub/spore_amg/metaG/data/coat/align-trim-tree/tree/bootstraps/bs86.raxml.bootstraps
+
+Execution log saved to: /geode2/home/u020/danschw/Carbonate/GitHub/spore_amg/metaG/data/coat/align-trim-tree/tree/bootstraps/bs86.raxml.log
+
+Analysis started: 02-Feb-2022 10:12:00 / finished: 02-Feb-2022 13:45:31
+
+Elapsed time: 12810.610 seconds
+
