@@ -172,7 +172,7 @@ plot_grid(p.gtdb, p.ncbi, labels = c("GTDB", "NCBI"), ncol = 1, label_x = 0.5, l
 
 ![](GTDB_sporulators_files/figure-gfm/firmi%20families-1.png)<!-- -->
 
-GTDB has much more taxa levels. Overall GTDB lists 0 families in the
+GTDB has much more taxa levels. Overall GTDB lists 401 families in the
 Firmicutes.
 
 ## Sporulator status prediticion from Browne et al. 
@@ -339,9 +339,9 @@ d_galperin <- d_galperin %>%
                                 Fraction.spore.forming == "-"  ~ FALSE))
 ```
 
-The next xhalenge is that Galperin uses the NCBI taxonomy. To tranfer
-ths information to GTDB taxonomy, I will assign spoulation likelihood
-based on NCBI taxonomy in the GTDB metadta.
+The next chalenge is that Galperin uses the NCBI taxonomy. To transfer
+the information to GTDB taxonomy, I will assign sporulation likelihood
+based on NCBI taxonomy in the GTDB metadata.
 
 ``` r
 #metadata at family level
@@ -381,7 +381,7 @@ meta_fams <-
     mutate(Family = paste0("f__", Family)) %>%
     left_join(d_meta_comp,., by = c("ncbi_f" = "Family"))
 
-#call sporulation status by majority of FTDB genomes with predictions
+#call sporulation status by majority of GTDB genomes with predictions
   galp_fams <- d_meta_galp %>% 
     select(gtdb_d,gtdb_p,gtdb_c,gtdb_o,gtdb_f, spore.likely) %>% 
     group_by(gtdb_d,gtdb_p,gtdb_c,gtdb_o,gtdb_f, spore.likely) %>%
@@ -482,11 +482,11 @@ tax_cols = c("gtdb_d", "gtdb_p", "gtdb_c", "gtdb_o", "gtdb_f")
 
 gtdb_spor <- 
   bind_rows(
-  agree %>% select(tax_cols, f_spor = browne_spor),
-  disagree %>% select(tax_cols, f_spor = manual_spor),
+  agree %>% select(all_of(tax_cols), f_spor = browne_spor),
+  disagree %>% select(all_of(tax_cols), f_spor = manual_spor),
   complement %>%  filter(is.na(browne_spor)) %>% select(tax_cols, f_spor = glp_spor),
   complement %>%  filter(is.na(glp_spor)) %>% select(tax_cols, f_spor = browne_spor),
-  missing  %>% select(tax_cols)
+  missing  %>% select(all_of(tax_cols))
 ) %>% 
   arrange(gtdb_c, gtdb_o, gtdb_f)
 ```
