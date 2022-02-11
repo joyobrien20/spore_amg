@@ -45,7 +45,7 @@ d.f_spor %>%
   pull(f_spor) %>% 
   table(useNA = "a")
 # FALSE  TRUE  <NA> 
-#   40    19     7 
+#   37    22     7 
 
 
 # There are 18 Firmicutes families missing from my list,
@@ -74,8 +74,8 @@ d.gvd <- d.f_spor %>%
   # f_spor     n
   # <lgl>  <int>
   
-  # 1 FALSE  10571
-  # 2 TRUE    3036
+  # 1 FALSE   9383
+  # 2 TRUE    4224
   # 3 NA       326
 
 #save gvd with sporulation prediction 
