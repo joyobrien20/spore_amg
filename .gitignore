@@ -1,5 +1,6 @@
 # data
 gtdb_spor/data/gtdb_downloads/*
+dram_metaG/data/dram_output/*
 
 # History files
 .Rhistory
