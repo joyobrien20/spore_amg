@@ -4,7 +4,7 @@ library(tidyverse)
 # downloaded gpd scaffold meta with predicted host taxonomy
 # download.file(
 #   url = "http://ftp.ebi.ac.uk/pub/databases/metagenomics/genome_sets/gut_phage_database/GPD_metadata.tsv",
-#   destfile = here("dram_metaG/data/dram_output/Camarillo-Guerrero/GPD_metadata.tsv")
+#   destfile = here("dram_metaG/data/dram_output/Camarillo-Guerrero")
 # )
 
 # from README
@@ -96,86 +96,141 @@ gpd_hosts %>%
   arrange(desc(n))
   pull(fam) %>% 
   anyDuplicated()
-
-# ===================================
-# old code (unmodified) below this
   
-d.gvd <- read_csv(here("metaG/data/gvd/gvd_all_hosts.csv"))
-d.f_spor <- read_csv(here("gtdb_spor/data/gtdb_families_sporulation.csv"))
-
-
-# make gvd-like taxonomy
-d.f_spor <- d.f_spor %>% 
-  mutate(GTDB_Host = str_c(str_remove(gtdb_d, "d__"), gtdb_p,gtdb_f, sep = ";"))
-
-#clean gvd
-d.gvd <- d.gvd %>% 
-  filter(Eukaryotic_or_Prokaryotic_Virus == "Bacteriophage") %>% 
-  filter(!str_detect(GTDB_Host, "Host Not Assigned" )) %>% 
-  filter(str_detect(GTDB_Host,"p__Firmicutes"))
-
-# compatability check
-d.gvd %>% 
-  filter(!str_detect(GTDB_Host, "Host Not Assigned" )) %>% 
-  pull(GTDB_Host)
-           
-table(d.gvd$GTDB_Host %in% d.f_spor$GTDB_Host, useNA = "a")
-# FALSE  TRUE  <NA> 
-#   301  6623     0 
-
-d.gvd %>% 
-  filter(!d.gvd$GTDB_Host %in% d.f_spor$GTDB_Host) %>% 
-  pull(GTDB_Host) %>% 
-  unique() %>% 
-  length() #18
-
-
- # the other way
-table(d.f_spor$GTDB_Host %in% d.gvd$GTDB_Host,useNA = "a")
-# FALSE  TRUE  <NA> 
-#   336    66     0
-
-d.f_spor %>% 
-  filter(d.f_spor$GTDB_Host %in% d.gvd$GTDB_Host) %>% 
-  pull(f_spor) %>% 
-  table(useNA = "a")
-# FALSE  TRUE  <NA> 
-#   37    22     7 
-
-
-# There are 18 Firmicutes families missing from my list,
-# accounting for 301 phages.
-# my list accounts for 66 Firmicutes families in GVD 
-# for which I have sporulation prediction for all but 7.
-
-#reload gvd and join
-d.gvd <- read_csv(here("metaG/data/gvd/gvd_all_hosts.csv"))
-
-d.gvd <- d.f_spor %>% 
-  select(GTDB_Host, f_spor) %>% 
-  left_join(d.gvd, ., by = "GTDB_Host" )
-
-
-
-#
-  d.gvd %>% 
-  filter(Eukaryotic_or_Prokaryotic_Virus == "Bacteriophage") %>% 
-  filter(!str_detect(GTDB_Host, "Host Not Assigned" )) %>% 
-    mutate(f_spor = if_else(
-      str_detect(GTDB_Host,regex("p__Firmicutes", ignore_case = T)),
-      f_spor, FALSE)) %>% 
-    group_by(f_spor) %>% 
-    summarise(n=n())
-  # f_spor     n
-  # <lgl>  <int>
   
-  # 1 FALSE   9383
-  # 2 TRUE    4224
-  # 3 NA       326
+  
 
-#save gvd with sporulation prediction 
-gvd_spor <- d.gvd; rm(d.gvd) 
-save(gvd_spor,file = here("metaG/data/gvd/gvd_spor.Rdata"))
+# gpd Vs GTDB sporulator list ---------------------------------------------
 
-# delete gvd download 
-unlink(here("metaG/data/gvd/gvd_all_hosts.csv"))
+f_spor <- read_csv(here("gtdb_spor/data/gtdb_families_sporulation.csv"))  
+
+# are Firmicutes family names unique?
+  dup_fam <- duplicated(f_spor$gtdb_f) %>%
+    which() %>% 
+    f_spor$gtdb_f[.]
+  # only one "f__Sporanaerobacteraceae"
+  
+  f_spor %>% 
+    filter(gtdb_f %in% dup_fam) %>% view()
+  #these are fully duplicated rows
+  # removing duplicate
+  f_spor <- distinct(f_spor)
+  
+  duplicated(f_spor$gtdb_f) %>% which() 
+  # no duplicated families left
+  
+  # make sporulator list and gpd comparable  
+  gpd_firmi_fam <- 
+    gpd_hosts %>%
+    filter(gtdb_p == "Firmicutes") %>% 
+    mutate(fam = str_c("f__",gtdb_f, sep = "")) %>% 
+    pull(fam) %>% 
+    unique()
+
+  # any gpd families missing from f_spor?
+  gpd_firmi_fam [!gpd_firmi_fam %in% f_spor$gtdb_f]
+  # "f__DTU089" "f__Helcococcaceae" "f__Bacillaceae_A" "f__NA"    
+  
+  #using GTDB to track these outdated taxon names:
+  tax_update <- tibble(gpd_f = rep(NA,4), gtdb_f=rep(NA,4))
+  
+  # https://gtdb.ecogenomic.org/taxon_history/?from=R80&to=R202&query=f__DTU089
+  tax_update[1,] <- list("f__DTU089", "f__Acutalibacteraceae")
+  
+  # https://gtdb.ecogenomic.org/taxon_history/?from=R80&to=R202&query=f__Helcococcaceae
+  tax_update[2,] <- list("f__Helcococcaceae", "f__Peptoniphilaceae")
+
+  # https://gtdb.ecogenomic.org/taxon_history/?from=R80&to=R202&query=f__Bacillaceae_A
+  tax_update[3,] <- list("f__Bacillaceae_A", "f__DSM-18226")
+  tax_update[4,] <- list("f__Bacillaceae_A", "f__DSM-1321")
+    #this family has been split
+  
+  # Are the updated families listed in f_spor?
+  f_spor %>% 
+    select(gtdb_f, f_spor) %>% 
+    left_join(tax_update, .)
+  # yes!!
+  
+  
+
+# Assign sporulation prediction to GPD hosts ------------------------------
+
+  gpd_hosts <-
+    f_spor %>% 
+    # join update to f_spor
+    select(gtdb_f, f_spor) %>% 
+    mutate(gpd_f = gtdb_f) %>% 
+    bind_rows(., tax_update) %>% 
+    # join f_spor to gpd_hosts
+    select (-gtdb_f) %>% 
+    mutate(gpd_f = str_remove(gpd_f, "f__")) %>% 
+    left_join(gpd_hosts, ., by = c("gtdb_f" = "gpd_f"))
+  
+  # assign non-sporulating to non-Firmicutes
+  gpd_hosts <- 
+    gpd_hosts %>% 
+    mutate(f_spor = if_else(gtdb_p =="Firmicutes", f_spor, FALSE))
+  
+  
+
+# Summarize sporulation for each scaffold ---------------------------------------------
+  gpd_hosts %>% 
+    group_by(GPD_id, f_spor) %>% 
+    summarise() %>% 
+    ungroup() %>% 
+    group_by(GPD_id) %>% 
+    summarise(n_spor=n()) %>% 
+    pull(n_spor) %>% table()
+  
+  #     1     2 
+  # 40891    41
+  # 41 scaffolds have conflicting host sporulation predictions
+
+  # which scaffolds?
+  conflict_id <- 
+    gpd_hosts %>% 
+    group_by(GPD_id, f_spor) %>% 
+    summarise() %>% 
+    ungroup() %>%
+    filter(duplicated(GPD_id)) %>% 
+    pull(GPD_id) %>% 
+    unique()
+  
+  gpd_hosts %>% 
+    filter(GPD_id %in% conflict_id) %>% 
+    mutate(GPD_id = fct_infreq(GPD_id)) %>% 
+    group_by(GPD_id, f_spor) %>% 
+    summarise(n=n()) %>% 
+    arrange(n) %>% 
+    ggplot(aes(GPD_id, n)) + 
+    geom_col(aes(fill = f_spor)) + 
+    coord_flip()
+  
+  # all have at least one predicted host that is likely a sporulator
+  # so they have a potential to infect a sporulating cell
+  # therefore calling them all phags of sporulators
+  
+  # finalize host sporulatin predictions for GPD ids
+  gpd_hosts <- 
+    gpd_hosts %>%
+    select(GPD_id, f_spor) %>% 
+    filter(!duplicated(GPD_id)) %>% 
+    mutate(f_spor = if_else(GPD_id %in% conflict_id, TRUE, f_spor))
+  
+  #plot
+  gpd_hosts %>%
+    group_by(f_spor) %>%
+    summarise(n=n()) %>%
+    ggplot(aes(f_spor,n)) +
+    geom_col(aes(fill = f_spor), color = "black")+
+    theme_classic()+
+    scale_fill_viridis_d(na.value = "grey50")+
+    scale_color_viridis_d(na.value = "grey50")
+  
+
+# Export GPD host sporulation predictions ---------------------------------
+
+
+  write_csv(gpd_hosts,
+            here("dram_metaG/data/enrichment/gpd_spor_predictions.csv"))  
+  
