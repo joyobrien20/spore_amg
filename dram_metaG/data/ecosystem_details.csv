@@ -1,0 +1,25 @@
+﻿set,ecosystem_type
+Anaerobic_Digestors,host-associated
+ARDEC_agriculture,terrestrial
+Camarillo-Guerrero,host-associated
+Columbia_River,surface aquatic 
+CT_feces,host-associated
+CT_soil,terrestrial
+East_River,surface aquatic 
+Fire_soils,terrestrial
+Frac_DJ_basin,subsurface aquatic
+Frack_STACK,subsurface aquatic
+Fractured_shale,subsurface aquatic
+Gregory_gvd,host-associated
+Human_Microbiome_Project,host-associated
+Huttenhower,host-associated
+Lake_Yojoa,surface aquatic 
+Methylamines,host-associated
+Moose_rumen,host-associated
+Ohio_groundwater,subsurface aquatic
+OWC_wetlands,surface aquatic 
+Prado_wetlands,surface aquatic 
+Prairie_potholes,surface aquatic 
+Salmonella_chow,host-associated
+Salmonella_HFD,host-associated
+Stordalen_mire,terrestrial
