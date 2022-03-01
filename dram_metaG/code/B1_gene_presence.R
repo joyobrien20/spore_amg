@@ -14,8 +14,8 @@ library(egg)
 data_dir <-"dram_metaG/data/dram_output"
 sets <- list.dirs(here(data_dir), full.names = F, recursive = F)
 
-# remove extra data
-sets <- sets[sets!="extra_data"]
+# remove gvd and gpd
+sets <- sets[ ! sets %in% c("Gregory_gvd","Camarillo-Guerrero")]
 
 
 # Sporulation genes -------------------------------------------------------
@@ -65,12 +65,51 @@ for (set in sets){
 d.sum_amg <- d.sum_amg %>% 
   mutate(across(where(is.numeric), ~replace_na(., 0)))
 
-# total amg sum per set
-  total_amg <- 
-    d.sum_amg %>% 
-    summarise(across(where(is.numeric), sum)) %>% 
-    pivot_longer(everything(),names_to = "set", values_to = "n_total")
+
+# genomes and genes per dataset ------------------------------------------------
+#In annotation file each row is an annotated gene, and scaffold is a genome 
+
+d.genomes <- tibble()
+
+for (cur_set in sets){
+
+  annot_file <- 
+    list.files(here(data_dir,cur_set), pattern = "annotation", full.names = T)
   
+  annot <- read_tsv(annot_file, col_select = "scaffold") %>% 
+    pull(1)
+  
+  d.genomes <- 
+    tibble(set = cur_set,
+           n_genomes = length(unique(annot)),
+           n_genes = length(annot)) %>% 
+    bind_rows(d.genomes,.)
+  
+  
+}
+# clean up
+rm(annot, annot_file)
+
+# arrange data for plot ---------------------------------------------------
+
+#summarize gene number per dataset
+d.plot <-
+  d.sum_amg %>% 
+  filter(!is.na(gene_id)) %>% 
+  filter(gene_id %in% enriched_ko) %>%
+  pivot_longer(cols = !gene_id, names_to = "set", values_to = "n") 
+  
+  #normalize by total genes
+d.plot <-
+  left_join(d.plot, d.genomes, by = "set") %>% 
+  mutate(perc_genes = 100 * n / n_genes)
+  
+left_join(., total_amg) %>% 
+  mutate(perc = 100*n/n_total) %>% 
+  # 0 to na
+  filter(perc>0) %>% 
+
+
   # total observations per gene
   obs_amg <- 
     d.sum_amg %>% 
@@ -82,18 +121,21 @@ d.sum_amg <- d.sum_amg %>%
     select(gene_id, obs)
 
   
-  set_order <- total_amg %>% 
-    arrange(n_total) %>% 
+  set_order <- 
+    d.genomes %>% 
+    arrange(n_genes) %>% 
     pull(set)
+  
 
-p <-   d.sum_amg %>% 
-  filter(!is.na(gene_id)) %>% 
-    filter(gene_id %in% spor_ko) %>%
-  pivot_longer(cols = !gene_id, names_to = "set", values_to = "n") %>% 
 
-  #normalize by totals
-  left_join(., total_amg) %>% 
-  mutate(perc = 100*n/n_total) %>% 
+# plot --------------------------------------------------------------------
+
+  
+
+p <-
+  d.plot %>% 
+  # 0 to na
+  filter(perc_genes>0) %>% 
     
   # order of Kos
   mutate(gene_id = fct_relevel(gene_id, obs_amg$gene_id)) %>%
@@ -104,11 +146,9 @@ p <-   d.sum_amg %>%
   
   #plot
   ggplot(aes(x = gene_id, y =set))+
-  geom_tile(aes(fill  = log10(perc)), color = "white")+
-  # scale_fill_gradient(low = "pink", high = "red", na.value = "grey")+
+  geom_tile(aes(fill  = perc_genes), color = "white")+
   #mark enriched
-  geom_point(aes(color = enriched), y=Inf, shape = 25, size=1, show.legend = F)+
-  scale_fill_viridis_b(na.value = "white")+
+  scale_fill_viridis_c(na.value = "white")+
   scale_color_manual(values = c("transparent", "red"))+
   theme_classic()+
   theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5),
@@ -116,6 +156,7 @@ p <-   d.sum_amg %>%
         axis.ticks = element_blank())
 
 p1 <- obs_amg %>% 
+  filter(gene_id %in% enriched_ko) %>% 
   mutate(gene_id = fct_inorder(gene_id)) %>%
   ggplot(aes(gene_id, obs))+
   geom_col()+
@@ -124,9 +165,9 @@ p1 <- obs_amg %>%
         axis.title.x = element_blank(),
         axis.ticks = element_blank())
 
-p2 <- total_amg %>% 
+p2 <- d.genomes %>% 
   mutate(set = fct_relevel(set, set_order)) %>%
-  ggplot(aes(set, n_total))+
+  ggplot(aes(set, n_genes))+
   geom_col()+
   coord_flip()+
   theme_classic()+
@@ -135,8 +176,8 @@ p2 <- total_amg %>%
         axis.title.y = element_blank())
 
 ggarrange(p1, ggplot()+ theme_void(),
-          p+theme(axis.text.x = element_blank())+ xlab("sporulation KOs"),
+          p,#+theme(axis.text.x = element_blank())+ xlab("sporulation KOs"),
           p2+ ylab("N amg"), 
           nrow = 2, widths = c(5,1), heights = c(1,5)) %>% 
-ggsave(here("dram_metaG/plots/","PA.png"), ., width = 8, height = 4)
+ggsave(here("dram_metaG/plots/","PA.png"), ., width = 8, height = 6)
 
