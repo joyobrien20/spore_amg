@@ -61,7 +61,8 @@ genes_enriched <-
   mutate(sp = "cd") %>% 
   bind_rows(genes_enriched, .)
 
-shared.enriched <- genes_enriched %>% 
+shared.enriched <- 
+  genes_enriched %>% 
   group_by(ko,sp) %>% 
   summarise(n=n()) %>% 
   select(ko, sp) %>% 
@@ -89,6 +90,39 @@ d <- genes_enriched %>%
 
 write_csv(d, here("metaG/data/gvd/spor_enriched.csv"))
 
+```
+# map to subtiwiki categories
+
+```{r}
+bs.enriched <- 
+  genes_enriched %>% 
+  filter(sp =="bs")
+
+#get SW gene categories
+sw <- read_csv(here("spor_gene_list/data", "geneCategories.csv"),name_repair = "universal") %>% 
+  rename()
+
+sw <- filter(sw, locus.tag %in% bs.enriched$symbol) 
+
+sw <-   bs.enriched %>% select(ko,symbol) %>% 
+    left_join(sw, ., by = c("locus.tag" = "symbol"))
+
+sw %>% 
+  select(ko, locus.tag, category3) %>% 
+  distinct() %>% 
+  group_by(locus.tag) %>% 
+  mutate(x=1, n = cumsum(x)) %>% 
+  select(-x) %>% 
+  filter(n==1) %>% 
+  mutate(category = case_when(
+    str_detect(category3, "RNase")~"RNase",
+    str_detect(category3, "Cell wall")~"Cell wall",
+    str_detect(category3, "Transcription")~"Transcription",
+    TRUE ~ category3
+    
+  )) %>% 
+  # pivot_wider(names_from = n, values_from = category3) %>%
+    view()  
 ```
 
 
