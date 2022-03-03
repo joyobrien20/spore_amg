@@ -17,6 +17,7 @@ data_dir <- "dram_metaG/data/dram_output"
 # 
 # ko_amg <- "K07699" #spo0A
 ko_amg <- c("K06333", "K06334") #cotJ
+cur_set <-  "Huttenhower"
 # Sporulation genes -------------------------------------------------------
 
 spor_genes <- read_csv(here("spor_gene_list/data/dram_spore_genes.csv")) %>% 
@@ -31,16 +32,16 @@ spor_ko <-
 
 # extract annot with amg --------------------------------------------------
 
-d.amg <- read_tsv(here(data_dir, "extra_data/gvd", "annotations.tsv"))
+d.amg <- read_tsv(here(data_dir, cur_set, "amg_summary.tsv"))
 
 d.amg <- d.amg %>% 
-  filter(ko_id %in% ko_amg)
+  filter(gene_id %in% ko_amg)
 
-# host taxonomy from A1_assign_gvd_spor.R
-load(file = here("metaG/data/gvd/gvd_spor.Rdata"))
-gvd_spor <- 
-  gvd_spor %>% filter(Contig %in% d.amg$scaffold) %>% 
-  filter(f_spor)
+# # host taxonomy from A1_assign_gvd_spor.R
+# load(file = here("metaG/data/gvd/gvd_spor.Rdata"))
+# gvd_spor <- 
+#   gvd_spor %>% filter(Contig %in% d.amg$scaffold) %>% 
+#   filter(f_spor)
 
 # get scaffold annotation -------------------------------------------------
 
@@ -50,11 +51,11 @@ gvd_spor <-
 
   # filtering function from chunked reading
   f <- function(.data, pos) {
-    filter(.data, scaffold %in% gvd_spor$Contig) 
+    filter(.data, scaffold %in% d.amg$scaffold) 
   }
   
   annot_file <- 
-    list.files(here(data_dir, "extra_data/gvd"), pattern = "annotation", full.names = T)
+    list.files(here(data_dir, cur_set), pattern = "annotation", full.names = T)
   
   # read annotations
   d.annot <- read_tsv_chunked(annot_file,
@@ -69,43 +70,114 @@ d.annot$idx <-
   group_by(scaffold) %>% 
   group_indices()
 
-d.annot$set <- "gvd"
+d.annot$set <- cur_set
+
+
+
+# add informative properties for AMG --------------------------------------
+
+# kegg_hit & pfam_hits
+  # Phages will typically have many genes with no annotation ("NA") 
+  # or hypothetical annotations. Bacteria typically have well annotated stretches.
+d.annot <- d.annot %>% 
+  mutate(has_annot = !(is.na(kegg_hit) & is.na(pfam_hits)))
+
+
+# Hallmark viral gene terms in annotation
+v_hallmark <- 
+  c( "virion", "capsid", "tail", "terminase", "Baseplate",
+     "phage", "virus", "Reverse transcriptase", "head")
+
+d.annot <- d.annot %>% 
+  mutate(viral_hallmark = 
+           str_detect(kegg_hit, str_c(v_hallmark, collapse = "|"))|
+           str_detect(pfam_hits, str_c(v_hallmark, collapse = "|"))) %>% 
+  mutate(viral_hallmark = if_else(is.na(viral_hallmark), FALSE, viral_hallmark)) %>% 
+  # false positive
+  mutate(viral_hallmark = 
+           if_else(
+             str_detect(kegg_hit, "Minor_tail_Z Laminin_I")|
+               str_detect(pfam_hits, "Minor_tail_Z Laminin_I"),
+             FALSE, viral_hallmark))
+
+# hypothetical genes are a special class
+d.annot <-
+  d.annot %>% 
+  mutate(one_NA = is.na(kegg_hit) | is.na(pfam_hits)) %>% 
+  mutate(hypothetical = 
+           case_when(
+             #both hypothetical
+             str_detect(kegg_hit, regex("hypothetical", ignore_case = T))&
+               str_detect(pfam_hits, regex("hypothetical", ignore_case = T)) ~ TRUE,
+             
+             # one hypothetical an other NA
+             str_detect(kegg_hit, regex("hypothetical", ignore_case = T))&
+               one_NA ~ TRUE,
+             str_detect(pfam_hits, regex("hypothetical", ignore_case = T))&
+               one_NA ~ TRUE,
+             TRUE ~ FALSE
+           )
+         )
+  
+  
+           
+###
+# combine
+d.annot <- d.annot %>% 
+  mutate(gene_type = case_when(
+    viral_hallmark ~ "viral",
+    hypothetical ~ "hypothetical",
+    has_annot ~ "other annotation",
+    TRUE ~ "unannotated"
+  ) %>% as_factor() %>% fct_relevel("other annotation"))
+
 
 # plot --------------------------------------------------------------------
 # https://cran.r-project.org/web/packages/gggenes/vignettes/introduction-to-gggenes.html
 
-# gggenes::example_genes
-# molecule  gene  start    end  strand orientation
-# Genome5  genA 405113 407035 forward          -1
+virsort_temparate <- 
+  d.annot %>% 
+  filter(str_detect(scaffold, "cat_4|cat_5")) %>% 
+  pull(idx) %>% unique()
+        
+virsort_lytic <- 
+  d.annot %>% 
+  filter(str_detect(scaffold, "cat_1|cat_2")) %>% 
+  pull(idx) %>% unique()
 
 
-# ggplot(example_genes, aes(xmin = start, xmax = end, y = molecule, fill = gene)) +
-#   geom_gene_arrow() +
-#   facet_wrap(~ molecule, scales = "free", ncol = 1) +
-#   scale_fill_brewer(palette = "Set3")
-n_genomes <- 30
+
+n_genomes <- virsort_lytic[seq(1,22)] %>% sort()
+n_genomes <- virsort_lytic[seq(33,48)] %>% sort()
+n_genomes <- virsort_temparate[seq(1,22)] %>% sort()
+n_genomes <- virsort_temparate[seq(22,32)] %>% sort()
+# n_genomes <- seq(22, 22+21)
 p <- d.annot %>% 
-  filter(idx<=n_genomes) %>% 
-  mutate(vir_hit = if_else(is.na(viral_hit), NA_character_, "viral hit")) %>% 
+  filter(idx %in% n_genomes) %>% 
   ggplot(aes(y = strandedness/3,
              xmin = start_position, 
              xmax = end_position,
-             fill = vir_hit,
+             fill = gene_type,
              forward = strandedness
   )) +
   geom_hline(yintercept = 0, color = "black", size=0.1)+
+  geom_rect(data = d.annot %>% 
+              filter(str_detect(kegg_hit, ko_amg) | (ko_id %in% ko_amg)) %>% 
+              filter(idx %in% n_genomes),
+            aes(xmin = start_position, xmax = end_position),
+            ymin = -Inf, ymax = Inf, fill = "pink") +
   geom_gene_arrow(color = "black") +
   # geom_gene_arrow(data = filter(d.annot, 
   #                               str_detect(kegg_hit, spor_ko) |(kegg_id %in% spor_ko)),
   #                 fill = "purple") +
   geom_gene_arrow(data = d.annot %>% 
                     filter(str_detect(kegg_hit, ko_amg) | (ko_id %in% ko_amg)) %>% 
-                    filter(idx<=n_genomes),
-                  aes(y=strandedness/2, fill = ko_id),
-                  size=0.5, color = "red") +
+                    filter(idx %in% n_genomes),
+                  aes(y=strandedness/3),
+                  size=0.5, fill = "red") +
   geom_gene_label(aes(label = gene_position),
                   align = "centre") +
-  facet_wrap(set ~ idx, scales = "free_x", strip.position = "left", ncol = 3,
+  facet_wrap(set ~ idx, scales = "free_x", strip.position = "left", ncol = 2,
              labeller = label_wrap_gen()) +
   theme_classic()+
   panel_border(color = "black", size=0.5)+
@@ -116,13 +188,18 @@ p <- d.annot %>%
         axis.title.y = element_blank(),
         axis.ticks.y = element_blank())+
   scale_x_continuous(expand = c(0, 0))+
+  scale_fill_viridis_d()+
   ylim(-1,1)+
   guides(fill = guide_legend(title = "gene\ncolor"))
 
-ggsave(here("dram_metaG/plots", "gvd_cotJ_multi_genomes.png"),
+ggsave(here("dram_metaG/plots", "cotJ_multi_genomes.png"),
        plot = p,
        width = 12, height = 8)
 
 # write_csv(scaf_2plot, here("dram_metaG/data/scaffolds_index.csv"))
 # write_csv(d.annot, here("dram_metaG/data/scaffolds_annotationa.csv"))
 
+d.annot %>% 
+  filter(idx == 56) %>% 
+  select(scaffold,gene_position, strandedness, ko_id, kegg_hit, pfam_hits,
+         hypothetical, viral_hallmark, has_annot) %>% view()
