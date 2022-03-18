@@ -80,6 +80,6 @@ d.gvd <- d.f_spor %>%
 
 #save gvd with sporulation prediction 
 gvd_spor <- d.gvd; rm(d.gvd) 
-write_csv(gvd_spor %>%  select(Contig, f_spor),
+write_csv(gvd_spor,
           here("dram_metaG/data/enrichment/gvd_spor_predictions.csv"))
 

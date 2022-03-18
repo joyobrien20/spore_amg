@@ -213,7 +213,7 @@ f_spor <- read_csv(here("gtdb_spor/data/gtdb_families_sporulation.csv"))
   # finalize host sporulatin predictions for GPD ids
   gpd_hosts <- 
     gpd_hosts %>%
-    select(GPD_id, f_spor) %>% 
+    # select(GPD_id, f_spor) %>% 
     filter(!duplicated(GPD_id)) %>% 
     mutate(f_spor = if_else(GPD_id %in% conflict_id, TRUE, f_spor))
   

@@ -13,7 +13,10 @@ data_dir <- ("dram_metaG/data/")
 amg.gvd <-  read_tsv(here(data_dir, "dram_output","Gregory_gvd", "amg_summary.tsv"))
 
 # host sporulation from A2_gvd_taxa_spor.R
-f_spor.gvd <- read_csv(here(data_dir, "enrichment", "gvd_spor_predictions.csv"))
+f_spor.gvd <- 
+  read_csv(here(data_dir, "enrichment", "gvd_spor_predictions.csv")) %>% 
+  select(Contig, f_spor)
+  
 
 # combine
 amg.gvd <- 
@@ -25,7 +28,9 @@ amg.gvd <-
 amg.gpd <-  read_tsv(here(data_dir, "dram_output","Camarillo-Guerrero", "amg_summary.tsv"))
 
 # host sporulation from A2_gvd_taxa_spor.R
-f_spor.gpd <- read_csv(here(data_dir, "enrichment", "gpd_spor_predictions.csv"))
+f_spor.gpd <- 
+  read_csv(here(data_dir, "enrichment", "gpd_spor_predictions.csv")) %>% 
+  select(GPD_id, f_spor)
 
 # combine
 amg.gpd <- 
