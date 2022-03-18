@@ -37,14 +37,20 @@ spor_ko <-
 
 # enriched genes ----------------------------------------------------------
 
-d.enriched <- read_csv(here("metaG/data/gvd_enrich.csv")) %>% 
-  filter(K > 8) %>% 
-  filter(adj.p < 0.001) %>% 
-  filter(spor_gene == "sporulation_gene")
+# d.enriched <- read_csv(here("metaG/data/gvd_enrich.csv")) %>% 
+d.enriched <- read_csv(here("dram_metaG/data/enrichment/spor_enriched.csv")) #%>% 
+  # filter(K > 8) %>% 
+  # filter(adj.p < 0.001) %>% 
+  # filter(spor_gene == "sporulation_gene")
 
 #enriched KOs by P-value
-enriched_ko <- d.enriched %>%
-  arrange(adj.p) %>% pull(gene_id)
+enriched_ko <- d.enriched$gene_id # %>%
+  # arrange(adj.p) %>% pull(gene_id)
+
+# manually assigned categories of enriched genes
+d.category <- 
+  read_csv(here("dram_metaG/data/enrichment/spor_enriched_categories.csv"))
+
 
 # count amgs --------------------------------------------------------------
 d.sum_amg <- tibble(gene_id = NA)
@@ -112,9 +118,10 @@ d.plot <-
   left_join(d.plot, d.genomes, by = "set") %>% 
   mutate(frac_genes = n / n_genes)
   
-  # add ecosystem type
+  # add ecosystem type and gene category
   d.plot <-
-    left_join(d.plot, d.eco, by = "set")
+    left_join(d.plot, d.eco, by = "set") %>% 
+    left_join(., d.category, by = "gene_id")
       
 
   # total observations per gene
@@ -125,7 +132,8 @@ d.plot <-
     rowwise() %>% 
     mutate(obs = sum(across(where(is.numeric)))) %>% 
     arrange(desc(obs)) %>% 
-    select(gene_id, obs)
+    select(gene_id, obs) %>% 
+    left_join(., d.category, by = "gene_id")
 
 
 
@@ -165,20 +173,24 @@ p <-
                        labels = scales::percent(c(0.001,0.002,0.003), accuracy = 0.1))+
   scale_color_manual(values = c("transparent", "red"))+
   # separate by ecosystem
-  facet_grid(ecosystem_type~., scales = "free_y", space = "free_y", switch = "y")+
+  facet_grid(ecosystem_type~category, scales = "free", space = "free", switch = "y")+
   theme_classic()+
   theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5),
         legend.position = "bottom",
-        axis.ticks = element_blank())
+        axis.ticks = element_blank())+
+    panel_border(color = "black")
 
 p1 <- obs_amg %>% 
   filter(gene_id %in% enriched_ko) %>% 
   mutate(gene_id = fct_inorder(gene_id)) %>%
   ggplot(aes(gene_id, obs))+
   geom_col()+
+  facet_grid(.~category, scales = "free_x", space = "free_x")+
   theme_classic()+
   theme(axis.text.x = element_blank(),
-        axis.title.x = element_blank())
+        axis.title.x = element_blank(),
+        strip.text = element_blank(),
+        strip.background = element_blank())
 
 p2 <- d.genomes %>% 
   left_join(., d.eco, by = "set") %>% 
@@ -199,5 +211,5 @@ ggarrange(p1, ggplot()+ theme_void(),
           p,#+theme(axis.text.x = element_blank())+ xlab("sporulation KOs"),
           p2+ ylab("N genes"), 
           nrow = 2, widths = c(5,1), heights = c(1,5)) %>% 
-ggsave(here("dram_metaG/plots/","PA.png"), ., width = 8, height = 6)
+ggsave(here("dram_metaG/plots/","PA.png"), ., width = 14, height = 8)
 
