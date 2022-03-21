@@ -144,7 +144,8 @@ d.plot <-
     arrange(n_genes) %>% 
     pull(set)
   
-
+# save data
+  write_csv(d.plot,here("dram_metaG/data", "enriched_presence.csv"))
 
 # plot --------------------------------------------------------------------
 

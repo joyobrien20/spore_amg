@@ -1,0 +1,31 @@
+﻿Ecosystem,Cat_1-2,Cat_4-5,Total Genes,Total Viral Scaffolds (95-85),,Completed?,Results_path_on_server
+Agribiome_ARDEC,89,16,105,56,,Y,/home/projects/Sporulation_AMG/agribiome_ARDEC/VirHostMatcher/parsed_ardec
+Anaerobic_Digestors_Sludge,723,1356,2079,169,,Y,/home/projects/Sporulation_AMG/anaerobic_digestors-sludge/VirHostMatcher/parsed_adsludge
+Columbia_River,5,112,117,43,,Y,/home/projects/Sporulation_AMG/columbia_River/VirHostMatcher/parsed_crriver
+CT_Feces,469,379,848,103,,Y,/home/projects/Sporulation_AMG/condensed_tannins_feces_enrich/VirHostMatcher/parsed_ctfecesmod
+CT_Soil,361,339,700,128,,Y,/home/projects/Sporulation_AMG/condensed_tannins_soil_enrich/VirHostMatcher/parsed_ctsoil
+East_River,109,123,232,27,,Y,/home/projects/Sporulation_AMG/east_river/VirHostMatcher/parsed_eastriver
+Fire_Soils,1231,785,2016,641,,Y,/home/projects/Sporulation_AMG/fire_impacted_soil/VirHostMatcher/parsed_fire
+HMP,1756,942,2698,727,,Y,/home/projects/Sporulation_AMG/hmp/VirHostMatcher/parsed_hmp
+Lake_Yojoa,183,135,318,102,,Y,/home/projects/Sporulation_AMG/lake_yojoa/VirHostMatcher/parsed_yojoa
+Moose_Rumen,526,137,663,190,,Y,/home/projects/Sporulation_AMG/moose_rumen/VirHostMatcher/parsed_moose
+Ohio_Groundwater,345,285,630,82,,Y,/home/projects/Sporulation_AMG/ohio_groundwater/VirHostMatcher/parsed_ohgw
+OWC_Wetlands,1741,885,2626,752,,Y,/home/projects/Sporulation_AMG/old_woman_creek_wetlands/VirHostMatcher_zenith/parsed_owc
+Prado_Wetlands,446,214,660,242,,Y,/home/projects/Sporulation_AMG/prado_wetlands/VirHostMatcher/parsed_prado
+Prairie_Potholes,786,390,1176,447,,Y,/home/projects/Sporulation_AMG/prairie_potholes/VirHostMatcher/parsed_prairie
+Stordalen_Mire,636,409,1045,565,,Y,/home/projects/Sporulation_AMG/stordalen_mire/VirHostMatcher/parsed_stordalen
+Salmonella_HFD,1951,1532,3483,325,,Y,/home/projects/Sporulation_AMG/salmonella_HFD/VirHostMatcher/parsed_salmhfd
+Salmonella_Chow,597,346,943,161,,Y,/home/projects/Sporulation_AMG/salmonella_chow_only/VirHostMatcher/parsed_salmchow
+Methylamines,"10,148",9440,19588,2389,,Y,/home/projects/Sporulation_AMG/methylamines_humans/VirHostMatcher/parsed_meth2
+Huttenhower/Loyd,6476,4908,11384,2643,,N,/home/projects/Sporulation_AMG/lloyd-price_data-huttenhower/VirHostMatcher/parsed_huttenhower
+,,,,,,,
+Gregory,NA,NA,333444,11698,,Y,/home/projects/Sporulation_AMG/Gregory_2020/output_nouniref_gregory/distillate_spor_no_vir
+Camarillo-Guerrero,NA,NA,117998,53438,,Y,/home/projects/Sporulation_AMG/Camarillo_Guerrero_2021/output_nouniref_camarillo-guerrero_pre_genbank_distill
+Fractured Shale,,,,,,,
+DJ Basin,2485,3052,5537,1849,,Y,/home/projects/Sporulation_AMG/fractured_shale/vMAG/1_dj_basin/VirHostMatcher/parsed_djbasin
+Stack,1003,351,1354,409,,Y,/home/projects/Sporulation_AMG/fractured_shale/vMAG/2_stack/VirHostMatcher/parsed_stack
+Carm,54,15,69,32,,Y,/home/projects/Sporulation_AMG/fractured_shale/vMAG/3_carm/VirHostMatcher/parsed_carm
+MIP,68,49,117,53,,Y,/home/projects/Sporulation_AMG/fractured_shale/vMAG/4_mip/VirHostMatcher/parsed_mip
+Shriver,205,97,302,123,,Y,/home/projects/Sporulation_AMG/fractured_shale/vMAG/5_shriver/VirHostMatcher/parsed_shriver
+Wagner,137,66,203,83,,Y,/home/projects/Sporulation_AMG/fractured_shale/vMAG/6_wagner/VirHostMatcher/parsed_wagner
+,,,,,,,
