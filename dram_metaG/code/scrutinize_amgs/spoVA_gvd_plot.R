@@ -11,15 +11,14 @@ data_dir <- "dram_metaG/data/dram_output"
 
 
 # sets from CSU (excluding GVD and GPD)
+sets_name <- "GVD"
 sets <- list.dirs(here(data_dir), full.names = F, recursive = F)
-sets <- sets[!sets %in% "Camarillo-Guerrero"]
-sets <- sets[!sets %in% "Gregory_gvd"]
+# sets <- sets[sets %in% "Camarillo-Guerrero"]
+sets <- sets[sets %in% "Gregory_gvd"]
 
 # AMG looking at currently
-ko_amg <- "K07699" #spo0A
-
-amg_name <- "spo0A"
-sets_name <- "CSUsets"
+amg_name <- "spoVA"
+ko_amg <- c("K06406", "K06407")
 
 
 
@@ -114,7 +113,7 @@ d.annot <- d.annot %>%
            str_detect(kegg_hit, str_c(v_hallmark, collapse = "|") %>%
                         regex(ignore_case = T))|
            str_detect(pfam_hits, str_c(v_hallmark, collapse = "|")%>%
-                        regex(ignore_case = T))) %>%
+                        regex(ignore_case = T))) %>% 
   mutate(viral_hallmark = if_else(is.na(viral_hallmark), FALSE, viral_hallmark)) %>% 
   # false positive
   mutate(viral_hallmark = 
@@ -219,11 +218,11 @@ for(pg in 1: min(n_pages, 20)){
     # middle line
     geom_hline(yintercept = 0, color = "black", size=0.1)+
 
-    # mark other sporulation genes with grey background
-    geom_rect(data = d.annot %>%
-                filter(str_detect(kegg_hit, spor_ko) | (kegg_id %in% spor_ko)),
-              aes(xmin = start_position, xmax = end_position),
-              ymin = -Inf, ymax = Inf, fill = "grey70") +
+    # # mark other sporulation genes with grey background
+    # geom_rect(data = d.annot %>%
+    #             filter(str_detect(kegg_hit, spor_ko) | (kegg_id %in% spor_ko)),
+    #           aes(xmin = start_position, xmax = end_position),
+    #           ymin = -Inf, ymax = Inf, fill = "grey70") +
 
     # mark enriched sporulation genes with cyan background
     geom_rect(data = d.annot %>%
