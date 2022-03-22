@@ -185,19 +185,19 @@ n_scaffolds <- d.annot %>%
   nrow()
 
 n_pages <-  ceiling(n_scaffolds/(row_page  * col_page) )
-# limit number of plots (max 200)
-n_pages <-  min(n_pages, 20)
+
+
 
 
 d.annot <-  d.annot%>%
   mutate(set_label = str_replace_all(set, "-|_", " "))
 
 
-
-for(pg in 1:n_pages){
+# limit number of plots (max 200)
+for(pg in 1: min(n_pages, 20)){
   
   
-  # corrections for last page
+  # corrections for last page if needed
   if(pg == n_pages){
     cur_row_page <- n_scaffolds - (row_page*(pg-1))
     page_h = page_h * ((cur_row_page+1)/row_page)
