@@ -57,7 +57,9 @@ d.sum_amg <- tibble(gene_id = NA)
 
 for (set in sets){
   #load amgs
-  d.amg <- read_tsv(here(data_dir, set, "amg_summary.tsv"))
+  d.amg <- read_tsv(here(data_dir, set, "amg_summary.tsv")) %>% 
+    filter(gene_id %in% enriched_ko) %>% 
+    filter(auxiliary_score <= 3)
   
   d.sum_amg <-
     d.amg %>% 
