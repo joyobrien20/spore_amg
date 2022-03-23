@@ -110,8 +110,10 @@ v_hallmark <-
 
 d.annot <- d.annot %>% 
   mutate(viral_hallmark = 
-           str_detect(kegg_hit, str_c(v_hallmark, collapse = "|"))|
-           str_detect(pfam_hits, str_c(v_hallmark, collapse = "|"))) %>% 
+           str_detect(kegg_hit, str_c(v_hallmark, collapse = "|") %>%
+                        regex(ignore_case = T))|
+           str_detect(pfam_hits, str_c(v_hallmark, collapse = "|")%>%
+                        regex(ignore_case = T))) %>%
   mutate(viral_hallmark = if_else(is.na(viral_hallmark), FALSE, viral_hallmark)) %>% 
   # false positive
   mutate(viral_hallmark = 
@@ -205,7 +207,6 @@ for(pg in 1: min(n_pages, 20)){
   
   p <- d.annot  %>% 
 
-
     ggplot(aes(y = strandedness/3,
                xmin = start_position,
                xmax = end_position,
@@ -233,9 +234,12 @@ for(pg in 1: min(n_pages, 20)){
                 filter(str_detect(kegg_hit, ko_amg) | (kegg_id %in% ko_amg)),
               aes(xmin = start_position, xmax = end_position),
               ymin = -Inf, ymax = Inf, fill = "pink") +
+    
+    # mark plot amg with label
+    geom_text(x = Inf, y = -0.9, label = amg_name, color = "red", hjust =1.1, size=2) +
 
 
-    # plot al genes
+    # plot all genes
     geom_gene_arrow(color = "black") +
 
     # mark amg with red arrow
@@ -273,7 +277,7 @@ for(pg in 1: min(n_pages, 20)){
     labs(caption = "background: sporulation gene (grey); enriched sporulation gene (cyan); focal sporulation gene (pink)")
 
   # save single page of plots
-  file_name <- paste0("multi_genomes_p0",pg,".png")
+  file_name <- paste0(amg_name,"_genomes_p0",pg,".png")
   ggsave(here("dram_metaG/plots", "scrutinize", amg_name, sets_name, file_name),
          plot = p,
          width = 8, height = page_h)
