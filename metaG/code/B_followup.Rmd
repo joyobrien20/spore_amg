@@ -1,0 +1,226 @@
+---
+title: "Enriched_gvd"
+author: "Daniel Schwartz"
+date: "Jan/2022"
+output: rmarkdown::github_document
+editor_options: 
+  chunk_output_type: inline
+---
+
+Looking at the list of genes from the GVD enrichment analysis
+
+```{r setup, include=FALSE}
+library(here)
+library(tidyverse)
+library(knitr)
+library(cowplot)
+library(ggrepel)
+# knitr::opts_chunk$set(echo = TRUE)
+```
+
+Load the data
+
+```{r}
+d.enriched <- read_csv(here("metaG","data","gvd_enrich.csv"))
+
+d.enriched %>% 
+  mutate(signif_sample = (adj.p<1e-3) & (K>8)) %>% 
+  mutate(enriched = if_else(signif_sample, "enriched", "not enriched")) %>% 
+  group_by(spor_gene, enriched) %>% 
+  summarise(n=n()) %>% 
+  pivot_wider(names_from = enriched, values_from = n)
+```
+# map back to genes
+
+Get gene lists
+
+```{r}
+bs.genes <- read_csv(here("spor_gene_list/data/dram_spore_genes_RS.csv")) %>% 
+  separate(gene_description, into = c("symbol", "description"), sep = ";") %>% 
+  rename(ko = gene_id.ko)
+
+cd.genes <- read_csv(here("spor_gene_list/data/cdif_spor_KOs.csv"))
+
+# enriched spor KOs
+spor.enriched.ko <- 
+  d.enriched %>% 
+  mutate(signif_sample = (adj.p<1e-3) & (K>8)) %>% 
+  # filter(spor_gene!="other") %>% 
+  filter(signif_sample) %>% pull(gene_id) %>% unique()
+
+genes_enriched <- 
+  bs.genes %>% 
+  filter(ko %in% spor.enriched.ko) %>% 
+  select(ko , symbol, description ) %>% 
+  mutate(sp = "bs")
+
+genes_enriched <-
+  cd.genes %>% 
+  filter(ko %in% spor.enriched.ko) %>% 
+  select(ko , symbol, description ) %>% 
+  mutate(sp = "cd") %>% 
+  bind_rows(genes_enriched, .)
+
+shared.enriched <- 
+  genes_enriched %>% 
+  group_by(ko,sp) %>% 
+  summarise(n=n()) %>% 
+  select(ko, sp) %>% 
+  mutate(presence = 1) %>% 
+  pivot_wider(names_from = sp, values_from = presence, values_fill = 0) %>% 
+  mutate(shared = (bs+cd)>1) %>% 
+  filter(shared) %>% 
+  pull(ko) %>% 
+  unique()
+
+genes_enriched %>% 
+  filter(ko %in% shared.enriched) 
+
+
+# add to amg data frame
+d <- genes_enriched %>% 
+  # select(-description) %>% 
+  mutate(description = str_c(symbol," [",description,"]")) %>% 
+  group_by(ko, sp) %>% 
+  summarise(genes = str_c(description, collapse = ";")) %>% 
+  pivot_wider(names_from = sp, values_from = genes ) %>% 
+  left_join(d.enriched %>% filter(gene_id %in% spor.enriched.ko), .,
+            by = c("gene_id" = "ko")) %>% 
+  filter(spor_gene == "sporulation_gene") 
+
+write_csv(d, here("metaG/data/gvd/spor_enriched.csv"))
+
+```
+# map to subtiwiki categories
+
+```{r}
+bs.enriched <- 
+  genes_enriched %>% 
+  filter(sp =="bs")
+
+#get SW gene categories
+sw <- read_csv(here("spor_gene_list/data", "geneCategories.csv"),name_repair = "universal") %>% 
+  rename()
+
+sw <- filter(sw, locus.tag %in% bs.enriched$symbol) 
+
+sw <-   bs.enriched %>% select(ko,symbol) %>% 
+    left_join(sw, ., by = c("locus.tag" = "symbol"))
+
+sw %>% 
+  select(ko, locus.tag, category3) %>% 
+  distinct() %>% 
+  group_by(locus.tag) %>% 
+  mutate(x=1, n = cumsum(x)) %>% 
+  select(-x) %>% 
+  filter(n==1) %>% 
+  mutate(category = case_when(
+    str_detect(category3, "RNase")~"RNase",
+    str_detect(category3, "Cell wall")~"Cell wall",
+    str_detect(category3, "Transcription")~"Transcription",
+    TRUE ~ category3
+    
+  )) %>% 
+  # pivot_wider(names_from = n, values_from = category3) %>%
+    view()  
+```
+
+
+# going back to scaffold data
+
+```{r}
+
+data_dir <- ("metaG/data/gvd")
+
+d.amg <- read_tsv(here(data_dir, "Gregory_amg_summary.tsv"))
+d.vmag <- read_tsv(here(data_dir, "Gregory_vMAG_stats.tsv"))
+load(file = here(data_dir, "gvd_spor.Rdata"))
+# d.host <- read_csv(here(data_dir, "Gregory_SporAMG_toHost.csv"))
+
+# focus on enriched genes
+d.amg <- 
+  d.amg %>%
+  filter(gene_id %in% genes_enriched$ko)
+
+#### add host data
+# assing non-firmicutes as non-sporulators
+
+
+#adding non-sporulator to all non-Firmicutes
+ d.host <- gvd_spor %>% 
+    mutate(f_spor = case_when(
+            str_detect(GTDB_Host,"p__Firmicutes") ~ f_spor,
+            str_detect(GTDB_Host, "^Bacteria" ) ~ FALSE))
+
+d.amg_host <- 
+  gvd_spor %>% 
+  select(scaffold = Contig, Host_taxonomy = GTDB_Host,
+         spore_likely = f_spor) %>% 
+  left_join(d.amg, . , by = "scaffold") %>% 
+  separate(Host_taxonomy, into = c("d","p","f"), sep = ";", fill = "right")
+
+
+
+amg_phyla <- d.amg_host %>%
+  # filter(!is.na(p)) %>% 
+  group_by(gene_id,p) %>% 
+  summarise(n=n()) %>%
+  arrange(desc(n)) %>% 
+  # mutate(#gene_id = fct_inorder(gene_id),
+  #        p = fct_inorder(p)) %>% 
+  mutate(firmi = case_when(
+    str_detect(p, "Firmicutes") ~ "Firmicutes",
+    is.na(p) ~ "Unknown host",
+    TRUE ~"Other phyla"))
+
+# order of KO
+ko_order <- amg_phyla %>% 
+  group_by(gene_id,firmi) %>% 
+  summarise(n=n()) %>% 
+  ungroup() %>% 
+  pivot_wider(names_from = firmi, values_from = n, values_fill = 0) %>% 
+  arrange(`Other phyla`) %>% 
+  pull(gene_id)
+
+p <- amg_phyla %>% 
+  mutate(gene_id = factor(gene_id, levels = ko_order)) %>% 
+  ggplot(aes(gene_id, p))+
+  geom_tile(aes(fill = n))+
+    facet_grid(firmi ~ ., scales = "free")+
+  scale_fill_gradient(low = "pink", high = "red")+
+  theme_classic()+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))+
+  ylab("Phylum")
+  ggsave2(here("metaG/plots/amg_phyla.png"),p, width = 6, height = 4)
+
+  write_csv(d.amg_host, here("metag/data/gvd_enriched_fullData.csv"))
+p
+```
+
+coat genes
+```{r}
+coat.ko <- genes_enriched %>% 
+  filter(str_detect(description, "coat")) %>% 
+  pull(ko)
+
+  # add viral taxonomy
+d.coat <- 
+  gvd_spor %>% 
+  select(scaffold=Contig, Viral_Taxonomy, Nucleic_Acid_Type, VirSorter_Category) %>% 
+  left_join(filter(d.amg, gene_id %in% coat.ko), .,by = "scaffold") %>% 
+  # parse scaffold-gene
+  select(gene_id,scaffold, gene, amg_flags, VirSorter_Category) %>% 
+  mutate(n.gene = str_remove(gene, ".*_") %>% parse_number()) %>% 
+  select(-gene) %>% 
+  group_by(scaffold) %>% 
+  summarise(genes = str_c(n.gene, collapse = ";"),
+            KOs = str_c(gene_id, collapse = ";"),
+            flags = str_c(amg_flags, collapse = ";"),
+            VirSorter_Category = head(VirSorter_Category))# %>% 
+  
+
+qplot(d.coat$VirSorter_Category)+
+  theme_classic()
+  
+```
+

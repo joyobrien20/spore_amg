@@ -1,5 +1,8 @@
 # data
 gtdb_spor/data/gtdb_downloads/*
+dram_metaG/data/dram_output/*
+dram_metaG/plots/scrutinize/*
+dram_metaG/data/scrutinize/*
 
 # History files
 .Rhistory

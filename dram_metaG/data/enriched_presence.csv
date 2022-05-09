@@ -1,0 +1,1145 @@
+gene_id,set,n,n_genomes,n_genes,frac_genes,ecosystem_type,category
+K00390,Anaerobic_Digestors,16,726,25541,6.264437570964331e-4,host-associated,metabolic_enzyme
+K00390,ARDEC_agriculture,0,257,10532,0,terrestrial,metabolic_enzyme
+K00390,Columbia_River,0,182,6029,0,surface aquatic,metabolic_enzyme
+K00390,CT_feces,12,397,15408,7.78816199376947e-4,host-associated,metabolic_enzyme
+K00390,CT_soil,6,292,10236,5.861664712778429e-4,terrestrial,metabolic_enzyme
+K00390,East_River,0,150,5444,0,surface aquatic,metabolic_enzyme
+K00390,Fire_soils,0,1777,79184,0,terrestrial,metabolic_enzyme
+K00390,Frac_DJ_basin,52,4583,119496,4.351610095735422e-4,subsurface aquatic,metabolic_enzyme
+K00390,Frack_STACK,4,1241,60475,6.614303431169905e-5,subsurface aquatic,metabolic_enzyme
+K00390,Fractured_shale,26,5411,192954,1.3474714180581902e-4,subsurface aquatic,metabolic_enzyme
+K00390,Human_Microbiome_Project,78,2846,100581,7.754943776657619e-4,host-associated,metabolic_enzyme
+K00390,Huttenhower,294,13436,554426,5.302781615580799e-4,host-associated,metabolic_enzyme
+K00390,Lake_Yojoa,0,271,7327,0,surface aquatic,metabolic_enzyme
+K00390,Methylamines,162,8303,329925,4.910206865196636e-4,host-associated,metabolic_enzyme
+K00390,Moose_rumen,20,870,39886,5.014290728576442e-4,host-associated,metabolic_enzyme
+K00390,Ohio_groundwater,0,251,10810,0,subsurface aquatic,metabolic_enzyme
+K00390,OWC_wetlands,22,358,13786,0.0015958218482518497,surface aquatic,metabolic_enzyme
+K00390,Prado_wetlands,2,1170,37517,5.33091665111816e-5,surface aquatic,metabolic_enzyme
+K00390,Prairie_potholes,4,1480,49964,8.005764150188136e-5,surface aquatic,metabolic_enzyme
+K00390,Salmonella_chow,16,677,24382,6.562218029694037e-4,host-associated,metabolic_enzyme
+K00390,Salmonella_HFD,82,3459,129483,6.332877675061591e-4,host-associated,metabolic_enzyme
+K00390,Stordalen_mire,6,1867,66646,9.002790865168202e-5,terrestrial,metabolic_enzyme
+K00640,Anaerobic_Digestors,20,726,25541,7.830546963705415e-4,host-associated,metabolic_enzyme
+K00640,ARDEC_agriculture,0,257,10532,0,terrestrial,metabolic_enzyme
+K00640,Columbia_River,0,182,6029,0,surface aquatic,metabolic_enzyme
+K00640,CT_feces,2,397,15408,1.2980269989615784e-4,host-associated,metabolic_enzyme
+K00640,CT_soil,4,292,10236,3.9077764751856197e-4,terrestrial,metabolic_enzyme
+K00640,East_River,0,150,5444,0,surface aquatic,metabolic_enzyme
+K00640,Fire_soils,0,1777,79184,0,terrestrial,metabolic_enzyme
+K00640,Frac_DJ_basin,0,4583,119496,0,subsurface aquatic,metabolic_enzyme
+K00640,Frack_STACK,0,1241,60475,0,subsurface aquatic,metabolic_enzyme
+K00640,Fractured_shale,0,5411,192954,0,subsurface aquatic,metabolic_enzyme
+K00640,Human_Microbiome_Project,2,2846,100581,1.9884471222199022e-5,host-associated,metabolic_enzyme
+K00640,Huttenhower,30,13436,554426,5.4110016485518356e-5,host-associated,metabolic_enzyme
+K00640,Lake_Yojoa,0,271,7327,0,surface aquatic,metabolic_enzyme
+K00640,Methylamines,14,8303,329925,4.243388648935364e-5,host-associated,metabolic_enzyme
+K00640,Moose_rumen,0,870,39886,0,host-associated,metabolic_enzyme
+K00640,Ohio_groundwater,0,251,10810,0,subsurface aquatic,metabolic_enzyme
+K00640,OWC_wetlands,0,358,13786,0,surface aquatic,metabolic_enzyme
+K00640,Prado_wetlands,2,1170,37517,5.33091665111816e-5,surface aquatic,metabolic_enzyme
+K00640,Prairie_potholes,2,1480,49964,4.002882075094068e-5,surface aquatic,metabolic_enzyme
+K00640,Salmonella_chow,0,677,24382,0,host-associated,metabolic_enzyme
+K00640,Salmonella_HFD,0,3459,129483,0,host-associated,metabolic_enzyme
+K00640,Stordalen_mire,0,1867,66646,0,terrestrial,metabolic_enzyme
+K01356,Anaerobic_Digestors,5,726,25541,1.9576367409263536e-4,host-associated,regulation
+K01356,ARDEC_agriculture,0,257,10532,0,terrestrial,regulation
+K01356,Columbia_River,0,182,6029,0,surface aquatic,regulation
+K01356,CT_feces,0,397,15408,0,host-associated,regulation
+K01356,CT_soil,0,292,10236,0,terrestrial,regulation
+K01356,East_River,0,150,5444,0,surface aquatic,regulation
+K01356,Fire_soils,0,1777,79184,0,terrestrial,regulation
+K01356,Frac_DJ_basin,11,4583,119496,9.205329048671085e-5,subsurface aquatic,regulation
+K01356,Frack_STACK,3,1241,60475,4.960727573377429e-5,subsurface aquatic,regulation
+K01356,Fractured_shale,15,5411,192954,7.773873565720327e-5,subsurface aquatic,regulation
+K01356,Human_Microbiome_Project,10,2846,100581,9.942235611099511e-5,host-associated,regulation
+K01356,Huttenhower,70,13436,554426,1.2625670513287615e-4,host-associated,regulation
+K01356,Lake_Yojoa,0,271,7327,0,surface aquatic,regulation
+K01356,Methylamines,22,8303,329925,6.668182162612715e-5,host-associated,regulation
+K01356,Moose_rumen,2,870,39886,5.014290728576443e-5,host-associated,regulation
+K01356,Ohio_groundwater,0,251,10810,0,subsurface aquatic,regulation
+K01356,OWC_wetlands,11,358,13786,7.979109241259249e-4,surface aquatic,regulation
+K01356,Prado_wetlands,2,1170,37517,5.33091665111816e-5,surface aquatic,regulation
+K01356,Prairie_potholes,0,1480,49964,0,surface aquatic,regulation
+K01356,Salmonella_chow,0,677,24382,0,host-associated,regulation
+K01356,Salmonella_HFD,5,3459,129483,3.86151077747658e-5,host-associated,regulation
+K01356,Stordalen_mire,4,1867,66646,6.0018605767788016e-5,terrestrial,regulation
+K01449,Anaerobic_Digestors,3,726,25541,1.1745820445558122e-4,host-associated,cell_wall
+K01449,ARDEC_agriculture,1,257,10532,9.494872768704899e-5,terrestrial,cell_wall
+K01449,Columbia_River,0,182,6029,0,surface aquatic,cell_wall
+K01449,CT_feces,6,397,15408,3.894080996884735e-4,host-associated,cell_wall
+K01449,CT_soil,0,292,10236,0,terrestrial,cell_wall
+K01449,East_River,0,150,5444,0,surface aquatic,cell_wall
+K01449,Fire_soils,0,1777,79184,0,terrestrial,cell_wall
+K01449,Frac_DJ_basin,10,4583,119496,8.36848095333735e-5,subsurface aquatic,cell_wall
+K01449,Frack_STACK,6,1241,60475,9.921455146754858e-5,subsurface aquatic,cell_wall
+K01449,Fractured_shale,8,5411,192954,4.146065901717508e-5,subsurface aquatic,cell_wall
+K01449,Human_Microbiome_Project,62,2846,100581,6.164186078881697e-4,host-associated,cell_wall
+K01449,Huttenhower,376,13436,554426,6.781788732851634e-4,host-associated,cell_wall
+K01449,Lake_Yojoa,0,271,7327,0,surface aquatic,cell_wall
+K01449,Methylamines,150,8303,329925,4.546487838145033e-4,host-associated,cell_wall
+K01449,Moose_rumen,30,870,39886,7.521436092864665e-4,host-associated,cell_wall
+K01449,Ohio_groundwater,0,251,10810,0,subsurface aquatic,cell_wall
+K01449,OWC_wetlands,5,358,13786,3.6268678369360223e-4,surface aquatic,cell_wall
+K01449,Prado_wetlands,0,1170,37517,0,surface aquatic,cell_wall
+K01449,Prairie_potholes,0,1480,49964,0,surface aquatic,cell_wall
+K01449,Salmonella_chow,22,677,24382,9.0230497908293e-4,host-associated,cell_wall
+K01449,Salmonella_HFD,125,3459,129483,9.65377694369145e-4,host-associated,cell_wall
+K01449,Stordalen_mire,3,1867,66646,4.501395432584101e-5,terrestrial,cell_wall
+K03086,Anaerobic_Digestors,2,726,25541,7.830546963705414e-5,host-associated,regulation
+K03086,ARDEC_agriculture,0,257,10532,0,terrestrial,regulation
+K03086,Columbia_River,0,182,6029,0,surface aquatic,regulation
+K03086,CT_feces,1,397,15408,6.490134994807892e-5,host-associated,regulation
+K03086,CT_soil,4,292,10236,3.9077764751856197e-4,terrestrial,regulation
+K03086,East_River,4,150,5444,7.347538574577516e-4,surface aquatic,regulation
+K03086,Fire_soils,0,1777,79184,0,terrestrial,regulation
+K03086,Frac_DJ_basin,17,4583,119496,1.4226417620673496e-4,subsurface aquatic,regulation
+K03086,Frack_STACK,10,1241,60475,1.6535758577924763e-4,subsurface aquatic,regulation
+K03086,Fractured_shale,36,5411,192954,1.8657296557728786e-4,subsurface aquatic,regulation
+K03086,Human_Microbiome_Project,8,2846,100581,7.953788488879609e-5,host-associated,regulation
+K03086,Huttenhower,62,13436,554426,1.118273674034046e-4,host-associated,regulation
+K03086,Lake_Yojoa,1,271,7327,1.364815067558346e-4,surface aquatic,regulation
+K03086,Methylamines,56,8303,329925,1.6973554595741457e-4,host-associated,regulation
+K03086,Moose_rumen,4,870,39886,1.0028581457152886e-4,host-associated,regulation
+K03086,Ohio_groundwater,2,251,10810,1.8501387604070305e-4,subsurface aquatic,regulation
+K03086,OWC_wetlands,19,358,13786,0.0013782097780356884,surface aquatic,regulation
+K03086,Prado_wetlands,11,1170,37517,2.932004158114988e-4,surface aquatic,regulation
+K03086,Prairie_potholes,5,1480,49964,1.000720518773517e-4,surface aquatic,regulation
+K03086,Salmonella_chow,2,677,24382,8.202772537117546e-5,host-associated,regulation
+K03086,Salmonella_HFD,16,3459,129483,1.2356834487925057e-4,host-associated,regulation
+K03086,Stordalen_mire,4,1867,66646,6.0018605767788016e-5,terrestrial,regulation
+K03091,Anaerobic_Digestors,2,726,25541,7.830546963705414e-5,host-associated,regulation
+K03091,ARDEC_agriculture,2,257,10532,1.8989745537409798e-4,terrestrial,regulation
+K03091,Columbia_River,0,182,6029,0,surface aquatic,regulation
+K03091,CT_feces,11,397,15408,7.139148494288681e-4,host-associated,regulation
+K03091,CT_soil,3,292,10236,2.9308323563892143e-4,terrestrial,regulation
+K03091,East_River,0,150,5444,0,surface aquatic,regulation
+K03091,Fire_soils,0,1777,79184,0,terrestrial,regulation
+K03091,Frac_DJ_basin,43,4583,119496,3.5984468099350606e-4,subsurface aquatic,regulation
+K03091,Frack_STACK,0,1241,60475,0,subsurface aquatic,regulation
+K03091,Fractured_shale,18,5411,192954,9.328648278864393e-5,subsurface aquatic,regulation
+K03091,Human_Microbiome_Project,9,2846,100581,8.94801204998956e-5,host-associated,regulation
+K03091,Huttenhower,78,13436,554426,1.4068604286234773e-4,host-associated,regulation
+K03091,Lake_Yojoa,0,271,7327,0,surface aquatic,regulation
+K03091,Methylamines,61,8303,329925,1.8489050541789802e-4,host-associated,regulation
+K03091,Moose_rumen,3,870,39886,7.521436092864665e-5,host-associated,regulation
+K03091,Ohio_groundwater,1,251,10810,9.250693802035152e-5,subsurface aquatic,regulation
+K03091,OWC_wetlands,8,358,13786,5.802988539097636e-4,surface aquatic,regulation
+K03091,Prado_wetlands,0,1170,37517,0,surface aquatic,regulation
+K03091,Prairie_potholes,5,1480,49964,1.000720518773517e-4,surface aquatic,regulation
+K03091,Salmonella_chow,5,677,24382,2.0506931342793863e-4,host-associated,regulation
+K03091,Salmonella_HFD,24,3459,129483,1.8535251731887584e-4,host-associated,regulation
+K03091,Stordalen_mire,0,1867,66646,0,terrestrial,regulation
+K03310,Anaerobic_Digestors,1,726,25541,3.915273481852707e-5,host-associated,transporter
+K03310,ARDEC_agriculture,0,257,10532,0,terrestrial,transporter
+K03310,Columbia_River,0,182,6029,0,surface aquatic,transporter
+K03310,CT_feces,1,397,15408,6.490134994807892e-5,host-associated,transporter
+K03310,CT_soil,0,292,10236,0,terrestrial,transporter
+K03310,East_River,0,150,5444,0,surface aquatic,transporter
+K03310,Fire_soils,0,1777,79184,0,terrestrial,transporter
+K03310,Frac_DJ_basin,0,4583,119496,0,subsurface aquatic,transporter
+K03310,Frack_STACK,0,1241,60475,0,subsurface aquatic,transporter
+K03310,Fractured_shale,2,5411,192954,1.036516475429377e-5,subsurface aquatic,transporter
+K03310,Human_Microbiome_Project,1,2846,100581,9.942235611099511e-6,host-associated,transporter
+K03310,Huttenhower,13,13436,554426,2.3447673810391287e-5,host-associated,transporter
+K03310,Lake_Yojoa,0,271,7327,0,surface aquatic,transporter
+K03310,Methylamines,10,8303,329925,3.0309918920966887e-5,host-associated,transporter
+K03310,Moose_rumen,0,870,39886,0,host-associated,transporter
+K03310,Ohio_groundwater,0,251,10810,0,subsurface aquatic,transporter
+K03310,OWC_wetlands,0,358,13786,0,surface aquatic,transporter
+K03310,Prado_wetlands,0,1170,37517,0,surface aquatic,transporter
+K03310,Prairie_potholes,0,1480,49964,0,surface aquatic,transporter
+K03310,Salmonella_chow,3,677,24382,1.2304158805676317e-4,host-associated,transporter
+K03310,Salmonella_HFD,3,3459,129483,2.316906466485948e-5,host-associated,transporter
+K03310,Stordalen_mire,0,1867,66646,0,terrestrial,transporter
+K03466,Anaerobic_Digestors,1,726,25541,3.915273481852707e-5,host-associated,cell_division
+K03466,ARDEC_agriculture,2,257,10532,1.8989745537409798e-4,terrestrial,cell_division
+K03466,Columbia_River,0,182,6029,0,surface aquatic,cell_division
+K03466,CT_feces,1,397,15408,6.490134994807892e-5,host-associated,cell_division
+K03466,CT_soil,4,292,10236,3.9077764751856197e-4,terrestrial,cell_division
+K03466,East_River,2,150,5444,3.673769287288758e-4,surface aquatic,cell_division
+K03466,Fire_soils,0,1777,79184,0,terrestrial,cell_division
+K03466,Frac_DJ_basin,1,4583,119496,8.36848095333735e-6,subsurface aquatic,cell_division
+K03466,Frack_STACK,0,1241,60475,0,subsurface aquatic,cell_division
+K03466,Fractured_shale,2,5411,192954,1.036516475429377e-5,subsurface aquatic,cell_division
+K03466,Human_Microbiome_Project,9,2846,100581,8.94801204998956e-5,host-associated,cell_division
+K03466,Huttenhower,50,13436,554426,9.018336080919726e-5,host-associated,cell_division
+K03466,Lake_Yojoa,0,271,7327,0,surface aquatic,cell_division
+K03466,Methylamines,53,8303,329925,1.606425702811245e-4,host-associated,cell_division
+K03466,Moose_rumen,12,870,39886,3.008574437145866e-4,host-associated,cell_division
+K03466,Ohio_groundwater,1,251,10810,9.250693802035152e-5,subsurface aquatic,cell_division
+K03466,OWC_wetlands,9,358,13786,6.52836210648484e-4,surface aquatic,cell_division
+K03466,Prado_wetlands,5,1170,37517,1.33272916277954e-4,surface aquatic,cell_division
+K03466,Prairie_potholes,7,1480,49964,1.4010087262829237e-4,surface aquatic,cell_division
+K03466,Salmonella_chow,0,677,24382,0,host-associated,cell_division
+K03466,Salmonella_HFD,15,3459,129483,1.158453233242974e-4,host-associated,cell_division
+K03466,Stordalen_mire,6,1867,66646,9.002790865168202e-5,terrestrial,cell_division
+K03469,Anaerobic_Digestors,8,726,25541,3.1322187854821657e-4,host-associated,information
+K03469,ARDEC_agriculture,0,257,10532,0,terrestrial,information
+K03469,Columbia_River,0,182,6029,0,surface aquatic,information
+K03469,CT_feces,6,397,15408,3.894080996884735e-4,host-associated,information
+K03469,CT_soil,0,292,10236,0,terrestrial,information
+K03469,East_River,0,150,5444,0,surface aquatic,information
+K03469,Fire_soils,0,1777,79184,0,terrestrial,information
+K03469,Frac_DJ_basin,28,4583,119496,2.343174666934458e-4,subsurface aquatic,information
+K03469,Frack_STACK,4,1241,60475,6.614303431169905e-5,subsurface aquatic,information
+K03469,Fractured_shale,21,5411,192954,1.0883422992008458e-4,subsurface aquatic,information
+K03469,Human_Microbiome_Project,32,2846,100581,3.1815153955518436e-4,host-associated,information
+K03469,Huttenhower,204,13436,554426,3.6794811210152483e-4,host-associated,information
+K03469,Lake_Yojoa,0,271,7327,0,surface aquatic,information
+K03469,Methylamines,109,8303,329925,3.3037811623853907e-4,host-associated,information
+K03469,Moose_rumen,26,870,39886,6.518577947149376e-4,host-associated,information
+K03469,Ohio_groundwater,0,251,10810,0,subsurface aquatic,information
+K03469,OWC_wetlands,11,358,13786,7.979109241259249e-4,surface aquatic,information
+K03469,Prado_wetlands,4,1170,37517,1.066183330223632e-4,surface aquatic,information
+K03469,Prairie_potholes,5,1480,49964,1.000720518773517e-4,surface aquatic,information
+K03469,Salmonella_chow,7,677,24382,2.870970387991141e-4,host-associated,information
+K03469,Salmonella_HFD,41,3459,129483,3.1664388375307953e-4,host-associated,information
+K03469,Stordalen_mire,6,1867,66646,9.002790865168202e-5,terrestrial,information
+K03496,Anaerobic_Digestors,5,726,25541,1.9576367409263536e-4,host-associated,cell_division
+K03496,ARDEC_agriculture,3,257,10532,2.84846183061147e-4,terrestrial,cell_division
+K03496,Columbia_River,0,182,6029,0,surface aquatic,cell_division
+K03496,CT_feces,23,397,15408,0.0014927310488058153,host-associated,cell_division
+K03496,CT_soil,2,292,10236,1.9538882375928098e-4,terrestrial,cell_division
+K03496,East_River,0,150,5444,0,surface aquatic,cell_division
+K03496,Fire_soils,0,1777,79184,0,terrestrial,cell_division
+K03496,Frac_DJ_basin,37,4583,119496,3.0963379527348196e-4,subsurface aquatic,cell_division
+K03496,Frack_STACK,12,1241,60475,1.9842910293509715e-4,subsurface aquatic,cell_division
+K03496,Fractured_shale,28,5411,192954,1.4511230656011277e-4,subsurface aquatic,cell_division
+K03496,Human_Microbiome_Project,70,2846,100581,6.959564927769658e-4,host-associated,cell_division
+K03496,Huttenhower,426,13436,554426,7.683622340943606e-4,host-associated,cell_division
+K03496,Lake_Yojoa,1,271,7327,1.364815067558346e-4,surface aquatic,cell_division
+K03496,Methylamines,272,8303,329925,8.244297946502993e-4,host-associated,cell_division
+K03496,Moose_rumen,9,870,39886,2.2564308278593992e-4,host-associated,cell_division
+K03496,Ohio_groundwater,3,251,10810,2.775208140610546e-4,subsurface aquatic,cell_division
+K03496,OWC_wetlands,8,358,13786,5.802988539097636e-4,surface aquatic,cell_division
+K03496,Prado_wetlands,2,1170,37517,5.33091665111816e-5,surface aquatic,cell_division
+K03496,Prairie_potholes,3,1480,49964,6.0043231126411014e-5,surface aquatic,cell_division
+K03496,Salmonella_chow,30,677,24382,0.001230415880567632,host-associated,cell_division
+K03496,Salmonella_HFD,157,3459,129483,0.0012125143841276462,host-associated,cell_division
+K03496,Stordalen_mire,9,1867,66646,1.3504186297752304e-4,terrestrial,cell_division
+K03497,Anaerobic_Digestors,13,726,25541,5.089855526408519e-4,host-associated,cell_division
+K03497,ARDEC_agriculture,2,257,10532,1.8989745537409798e-4,terrestrial,cell_division
+K03497,Columbia_River,0,182,6029,0,surface aquatic,cell_division
+K03497,CT_feces,27,397,15408,0.0017523364485981308,host-associated,cell_division
+K03497,CT_soil,6,292,10236,5.861664712778429e-4,terrestrial,cell_division
+K03497,East_River,0,150,5444,0,surface aquatic,cell_division
+K03497,Fire_soils,0,1777,79184,0,terrestrial,cell_division
+K03497,Frac_DJ_basin,58,4583,119496,4.853718952935663e-4,subsurface aquatic,cell_division
+K03497,Frack_STACK,17,1241,60475,2.8110789582472094e-4,subsurface aquatic,cell_division
+K03497,Fractured_shale,55,5411,192954,2.8504203074307866e-4,subsurface aquatic,cell_division
+K03497,Human_Microbiome_Project,142,2846,100581,0.0014117974567761306,host-associated,cell_division
+K03497,Huttenhower,705,13436,554426,0.0012715853874096814,host-associated,cell_division
+K03497,Lake_Yojoa,1,271,7327,1.364815067558346e-4,surface aquatic,cell_division
+K03497,Methylamines,418,8303,329925,0.001266954610896416,host-associated,cell_division
+K03497,Moose_rumen,18,870,39886,4.5128616557187984e-4,host-associated,cell_division
+K03497,Ohio_groundwater,9,251,10810,8.325624421831637e-4,subsurface aquatic,cell_division
+K03497,OWC_wetlands,37,358,13786,0.002683882199332656,surface aquatic,cell_division
+K03497,Prado_wetlands,15,1170,37517,3.9981874883386197e-4,surface aquatic,cell_division
+K03497,Prairie_potholes,18,1480,49964,3.602593867584661e-4,surface aquatic,cell_division
+K03497,Salmonella_chow,36,677,24382,0.0014764990566811583,host-associated,cell_division
+K03497,Salmonella_HFD,189,3459,129483,0.0014596510738861472,host-associated,cell_division
+K03497,Stordalen_mire,27,1867,66646,4.051255889325691e-4,terrestrial,cell_division
+K04769,Anaerobic_Digestors,3,726,25541,1.1745820445558122e-4,host-associated,regulation
+K04769,ARDEC_agriculture,0,257,10532,0,terrestrial,regulation
+K04769,Columbia_River,0,182,6029,0,surface aquatic,regulation
+K04769,CT_feces,0,397,15408,0,host-associated,regulation
+K04769,CT_soil,0,292,10236,0,terrestrial,regulation
+K04769,East_River,0,150,5444,0,surface aquatic,regulation
+K04769,Fire_soils,0,1777,79184,0,terrestrial,regulation
+K04769,Frac_DJ_basin,1,4583,119496,8.36848095333735e-6,subsurface aquatic,regulation
+K04769,Frack_STACK,0,1241,60475,0,subsurface aquatic,regulation
+K04769,Fractured_shale,1,5411,192954,5.182582377146885e-6,subsurface aquatic,regulation
+K04769,Human_Microbiome_Project,3,2846,100581,2.9826706833298535e-5,host-associated,regulation
+K04769,Huttenhower,13,13436,554426,2.3447673810391287e-5,host-associated,regulation
+K04769,Lake_Yojoa,0,271,7327,0,surface aquatic,regulation
+K04769,Methylamines,11,8303,329925,3.334091081306358e-5,host-associated,regulation
+K04769,Moose_rumen,0,870,39886,0,host-associated,regulation
+K04769,Ohio_groundwater,0,251,10810,0,subsurface aquatic,regulation
+K04769,OWC_wetlands,0,358,13786,0,surface aquatic,regulation
+K04769,Prado_wetlands,0,1170,37517,0,surface aquatic,regulation
+K04769,Prairie_potholes,0,1480,49964,0,surface aquatic,regulation
+K04769,Salmonella_chow,1,677,24382,4.101386268558773e-5,host-associated,regulation
+K04769,Salmonella_HFD,16,3459,129483,1.2356834487925057e-4,host-associated,regulation
+K04769,Stordalen_mire,0,1867,66646,0,terrestrial,regulation
+K06283,Anaerobic_Digestors,1,726,25541,3.915273481852707e-5,host-associated,regulation
+K06283,ARDEC_agriculture,0,257,10532,0,terrestrial,regulation
+K06283,Columbia_River,0,182,6029,0,surface aquatic,regulation
+K06283,CT_feces,0,397,15408,0,host-associated,regulation
+K06283,CT_soil,0,292,10236,0,terrestrial,regulation
+K06283,East_River,0,150,5444,0,surface aquatic,regulation
+K06283,Fire_soils,0,1777,79184,0,terrestrial,regulation
+K06283,Frac_DJ_basin,5,4583,119496,4.184240476668675e-5,subsurface aquatic,regulation
+K06283,Frack_STACK,0,1241,60475,0,subsurface aquatic,regulation
+K06283,Fractured_shale,1,5411,192954,5.182582377146885e-6,subsurface aquatic,regulation
+K06283,Human_Microbiome_Project,4,2846,100581,3.9768942444398044e-5,host-associated,regulation
+K06283,Huttenhower,25,13436,554426,4.509168040459863e-5,host-associated,regulation
+K06283,Lake_Yojoa,0,271,7327,0,surface aquatic,regulation
+K06283,Methylamines,14,8303,329925,4.243388648935364e-5,host-associated,regulation
+K06283,Moose_rumen,0,870,39886,0,host-associated,regulation
+K06283,Ohio_groundwater,0,251,10810,0,subsurface aquatic,regulation
+K06283,OWC_wetlands,1,358,13786,7.253735673872045e-5,surface aquatic,regulation
+K06283,Prado_wetlands,0,1170,37517,0,surface aquatic,regulation
+K06283,Prairie_potholes,1,1480,49964,2.001441037547034e-5,surface aquatic,regulation
+K06283,Salmonella_chow,0,677,24382,0,host-associated,regulation
+K06283,Salmonella_HFD,3,3459,129483,2.316906466485948e-5,host-associated,regulation
+K06283,Stordalen_mire,0,1867,66646,0,terrestrial,regulation
+K06284,Anaerobic_Digestors,10,726,25541,3.9152734818527073e-4,host-associated,regulation
+K06284,ARDEC_agriculture,1,257,10532,9.494872768704899e-5,terrestrial,regulation
+K06284,Columbia_River,0,182,6029,0,surface aquatic,regulation
+K06284,CT_feces,1,397,15408,6.490134994807892e-5,host-associated,regulation
+K06284,CT_soil,4,292,10236,3.9077764751856197e-4,terrestrial,regulation
+K06284,East_River,0,150,5444,0,surface aquatic,regulation
+K06284,Fire_soils,0,1777,79184,0,terrestrial,regulation
+K06284,Frac_DJ_basin,12,4583,119496,1.004217714400482e-4,subsurface aquatic,regulation
+K06284,Frack_STACK,0,1241,60475,0,subsurface aquatic,regulation
+K06284,Fractured_shale,12,5411,192954,6.219098852576262e-5,subsurface aquatic,regulation
+K06284,Human_Microbiome_Project,23,2846,100581,2.2867141905528877e-4,host-associated,regulation
+K06284,Huttenhower,149,13436,554426,2.6874641521140784e-4,host-associated,regulation
+K06284,Lake_Yojoa,0,271,7327,0,surface aquatic,regulation
+K06284,Methylamines,56,8303,329925,1.6973554595741457e-4,host-associated,regulation
+K06284,Moose_rumen,2,870,39886,5.014290728576443e-5,host-associated,regulation
+K06284,Ohio_groundwater,0,251,10810,0,subsurface aquatic,regulation
+K06284,OWC_wetlands,0,358,13786,0,surface aquatic,regulation
+K06284,Prado_wetlands,0,1170,37517,0,surface aquatic,regulation
+K06284,Prairie_potholes,2,1480,49964,4.002882075094068e-5,surface aquatic,regulation
+K06284,Salmonella_chow,10,677,24382,4.1013862685587726e-4,host-associated,regulation
+K06284,Salmonella_HFD,49,3459,129483,3.7842805619270483e-4,host-associated,regulation
+K06284,Stordalen_mire,0,1867,66646,0,terrestrial,regulation
+K06381,Anaerobic_Digestors,6,726,25541,2.3491640891116244e-4,host-associated,cell_wall
+K06381,ARDEC_agriculture,0,257,10532,0,terrestrial,cell_wall
+K06381,Columbia_River,0,182,6029,0,surface aquatic,cell_wall
+K06381,CT_feces,1,397,15408,6.490134994807892e-5,host-associated,cell_wall
+K06381,CT_soil,0,292,10236,0,terrestrial,cell_wall
+K06381,East_River,0,150,5444,0,surface aquatic,cell_wall
+K06381,Fire_soils,0,1777,79184,0,terrestrial,cell_wall
+K06381,Frac_DJ_basin,0,4583,119496,0,subsurface aquatic,cell_wall
+K06381,Frack_STACK,0,1241,60475,0,subsurface aquatic,cell_wall
+K06381,Fractured_shale,0,5411,192954,0,subsurface aquatic,cell_wall
+K06381,Human_Microbiome_Project,1,2846,100581,9.942235611099511e-6,host-associated,cell_wall
+K06381,Huttenhower,5,13436,554426,9.018336080919725e-6,host-associated,cell_wall
+K06381,Lake_Yojoa,0,271,7327,0,surface aquatic,cell_wall
+K06381,Methylamines,9,8303,329925,2.7278927028870198e-5,host-associated,cell_wall
+K06381,Moose_rumen,0,870,39886,0,host-associated,cell_wall
+K06381,Ohio_groundwater,0,251,10810,0,subsurface aquatic,cell_wall
+K06381,OWC_wetlands,0,358,13786,0,surface aquatic,cell_wall
+K06381,Prado_wetlands,0,1170,37517,0,surface aquatic,cell_wall
+K06381,Prairie_potholes,0,1480,49964,0,surface aquatic,cell_wall
+K06381,Salmonella_chow,1,677,24382,4.101386268558773e-5,host-associated,cell_wall
+K06381,Salmonella_HFD,3,3459,129483,2.316906466485948e-5,host-associated,cell_wall
+K06381,Stordalen_mire,0,1867,66646,0,terrestrial,cell_wall
+K06412,Anaerobic_Digestors,1,726,25541,3.915273481852707e-5,host-associated,regulation
+K06412,ARDEC_agriculture,0,257,10532,0,terrestrial,regulation
+K06412,Columbia_River,0,182,6029,0,surface aquatic,regulation
+K06412,CT_feces,0,397,15408,0,host-associated,regulation
+K06412,CT_soil,0,292,10236,0,terrestrial,regulation
+K06412,East_River,0,150,5444,0,surface aquatic,regulation
+K06412,Fire_soils,0,1777,79184,0,terrestrial,regulation
+K06412,Frac_DJ_basin,3,4583,119496,2.510544286001205e-5,subsurface aquatic,regulation
+K06412,Frack_STACK,0,1241,60475,0,subsurface aquatic,regulation
+K06412,Fractured_shale,0,5411,192954,0,subsurface aquatic,regulation
+K06412,Human_Microbiome_Project,2,2846,100581,1.9884471222199022e-5,host-associated,regulation
+K06412,Huttenhower,9,13436,554426,1.6233004945655507e-5,host-associated,regulation
+K06412,Lake_Yojoa,1,271,7327,1.364815067558346e-4,surface aquatic,regulation
+K06412,Methylamines,4,8303,329925,1.2123967568386754e-5,host-associated,regulation
+K06412,Moose_rumen,2,870,39886,5.014290728576443e-5,host-associated,regulation
+K06412,Ohio_groundwater,0,251,10810,0,subsurface aquatic,regulation
+K06412,OWC_wetlands,1,358,13786,7.253735673872045e-5,surface aquatic,regulation
+K06412,Prado_wetlands,0,1170,37517,0,surface aquatic,regulation
+K06412,Prairie_potholes,1,1480,49964,2.001441037547034e-5,surface aquatic,regulation
+K06412,Salmonella_chow,0,677,24382,0,host-associated,regulation
+K06412,Salmonella_HFD,5,3459,129483,3.86151077747658e-5,host-associated,regulation
+K06412,Stordalen_mire,2,1867,66646,3.0009302883894008e-5,terrestrial,regulation
+K07171,Anaerobic_Digestors,4,726,25541,1.5661093927410829e-4,host-associated,other
+K07171,ARDEC_agriculture,1,257,10532,9.494872768704899e-5,terrestrial,other
+K07171,Columbia_River,0,182,6029,0,surface aquatic,other
+K07171,CT_feces,6,397,15408,3.894080996884735e-4,host-associated,other
+K07171,CT_soil,0,292,10236,0,terrestrial,other
+K07171,East_River,0,150,5444,0,surface aquatic,other
+K07171,Fire_soils,0,1777,79184,0,terrestrial,other
+K07171,Frac_DJ_basin,14,4583,119496,1.171587333467229e-4,subsurface aquatic,other
+K07171,Frack_STACK,5,1241,60475,8.267879288962381e-5,subsurface aquatic,other
+K07171,Fractured_shale,6,5411,192954,3.109549426288131e-5,subsurface aquatic,other
+K07171,Human_Microbiome_Project,55,2846,100581,5.468229586104732e-4,host-associated,other
+K07171,Huttenhower,342,13436,554426,6.168541879349093e-4,host-associated,other
+K07171,Lake_Yojoa,0,271,7327,0,surface aquatic,other
+K07171,Methylamines,204,8303,329925,6.183223459877245e-4,host-associated,other
+K07171,Moose_rumen,2,870,39886,5.014290728576443e-5,host-associated,other
+K07171,Ohio_groundwater,0,251,10810,0,subsurface aquatic,other
+K07171,OWC_wetlands,1,358,13786,7.253735673872045e-5,surface aquatic,other
+K07171,Prado_wetlands,0,1170,37517,0,surface aquatic,other
+K07171,Prairie_potholes,0,1480,49964,0,surface aquatic,other
+K07171,Salmonella_chow,13,677,24382,5.331802149126405e-4,host-associated,other
+K07171,Salmonella_HFD,83,3459,129483,6.410107890611123e-4,host-associated,other
+K07171,Stordalen_mire,0,1867,66646,0,terrestrial,other
+K07738,Anaerobic_Digestors,2,726,25541,7.830546963705414e-5,host-associated,regulation
+K07738,ARDEC_agriculture,0,257,10532,0,terrestrial,regulation
+K07738,Columbia_River,0,182,6029,0,surface aquatic,regulation
+K07738,CT_feces,0,397,15408,0,host-associated,regulation
+K07738,CT_soil,0,292,10236,0,terrestrial,regulation
+K07738,East_River,0,150,5444,0,surface aquatic,regulation
+K07738,Fire_soils,0,1777,79184,0,terrestrial,regulation
+K07738,Frac_DJ_basin,6,4583,119496,5.02108857200241e-5,subsurface aquatic,regulation
+K07738,Frack_STACK,0,1241,60475,0,subsurface aquatic,regulation
+K07738,Fractured_shale,0,5411,192954,0,subsurface aquatic,regulation
+K07738,Human_Microbiome_Project,1,2846,100581,9.942235611099511e-6,host-associated,regulation
+K07738,Huttenhower,4,13436,554426,7.2146688647357805e-6,host-associated,regulation
+K07738,Lake_Yojoa,0,271,7327,0,surface aquatic,regulation
+K07738,Methylamines,4,8303,329925,1.2123967568386754e-5,host-associated,regulation
+K07738,Moose_rumen,0,870,39886,0,host-associated,regulation
+K07738,Ohio_groundwater,0,251,10810,0,subsurface aquatic,regulation
+K07738,OWC_wetlands,1,358,13786,7.253735673872045e-5,surface aquatic,regulation
+K07738,Prado_wetlands,1,1170,37517,2.66545832555908e-5,surface aquatic,regulation
+K07738,Prairie_potholes,0,1480,49964,0,surface aquatic,regulation
+K07738,Salmonella_chow,0,677,24382,0,host-associated,regulation
+K07738,Salmonella_HFD,1,3459,129483,7.72302155495316e-6,host-associated,regulation
+K07738,Stordalen_mire,0,1867,66646,0,terrestrial,regulation
+K07175,Anaerobic_Digestors,0,726,25541,0,host-associated,other
+K07175,ARDEC_agriculture,3,257,10532,2.84846183061147e-4,terrestrial,other
+K07175,Columbia_River,0,182,6029,0,surface aquatic,other
+K07175,CT_feces,3,397,15408,1.9470404984423675e-4,host-associated,other
+K07175,CT_soil,0,292,10236,0,terrestrial,other
+K07175,East_River,0,150,5444,0,surface aquatic,other
+K07175,Fire_soils,0,1777,79184,0,terrestrial,other
+K07175,Frac_DJ_basin,33,4583,119496,2.7615987146013257e-4,subsurface aquatic,other
+K07175,Frack_STACK,10,1241,60475,1.6535758577924763e-4,subsurface aquatic,other
+K07175,Fractured_shale,29,5411,192954,1.5029488893725967e-4,subsurface aquatic,other
+K07175,Human_Microbiome_Project,1,2846,100581,9.942235611099511e-6,host-associated,other
+K07175,Huttenhower,34,13436,554426,6.132468535025414e-5,host-associated,other
+K07175,Lake_Yojoa,1,271,7327,1.364815067558346e-4,surface aquatic,other
+K07175,Methylamines,29,8303,329925,8.789876487080397e-5,host-associated,other
+K07175,Moose_rumen,2,870,39886,5.014290728576443e-5,host-associated,other
+K07175,Ohio_groundwater,1,251,10810,9.250693802035152e-5,subsurface aquatic,other
+K07175,OWC_wetlands,2,358,13786,1.450747134774409e-4,surface aquatic,other
+K07175,Prado_wetlands,1,1170,37517,2.66545832555908e-5,surface aquatic,other
+K07175,Prairie_potholes,1,1480,49964,2.001441037547034e-5,surface aquatic,other
+K07175,Salmonella_chow,5,677,24382,2.0506931342793863e-4,host-associated,other
+K07175,Salmonella_HFD,31,3459,129483,2.3941366820354795e-4,host-associated,other
+K07175,Stordalen_mire,1,1867,66646,1.5004651441947004e-5,terrestrial,other
+K00703,Anaerobic_Digestors,0,726,25541,0,host-associated,metabolic_enzyme
+K00703,ARDEC_agriculture,0,257,10532,0,terrestrial,metabolic_enzyme
+K00703,Columbia_River,0,182,6029,0,surface aquatic,metabolic_enzyme
+K00703,CT_feces,1,397,15408,6.490134994807892e-5,host-associated,metabolic_enzyme
+K00703,CT_soil,0,292,10236,0,terrestrial,metabolic_enzyme
+K00703,East_River,0,150,5444,0,surface aquatic,metabolic_enzyme
+K00703,Fire_soils,0,1777,79184,0,terrestrial,metabolic_enzyme
+K00703,Frac_DJ_basin,3,4583,119496,2.510544286001205e-5,subsurface aquatic,metabolic_enzyme
+K00703,Frack_STACK,0,1241,60475,0,subsurface aquatic,metabolic_enzyme
+K00703,Fractured_shale,0,5411,192954,0,subsurface aquatic,metabolic_enzyme
+K00703,Human_Microbiome_Project,0,2846,100581,0,host-associated,metabolic_enzyme
+K00703,Huttenhower,7,13436,554426,1.2625670513287617e-5,host-associated,metabolic_enzyme
+K00703,Lake_Yojoa,0,271,7327,0,surface aquatic,metabolic_enzyme
+K00703,Methylamines,7,8303,329925,2.121694324467682e-5,host-associated,metabolic_enzyme
+K00703,Moose_rumen,0,870,39886,0,host-associated,metabolic_enzyme
+K00703,Ohio_groundwater,0,251,10810,0,subsurface aquatic,metabolic_enzyme
+K00703,OWC_wetlands,0,358,13786,0,surface aquatic,metabolic_enzyme
+K00703,Prado_wetlands,0,1170,37517,0,surface aquatic,metabolic_enzyme
+K00703,Prairie_potholes,0,1480,49964,0,surface aquatic,metabolic_enzyme
+K00703,Salmonella_chow,0,677,24382,0,host-associated,metabolic_enzyme
+K00703,Salmonella_HFD,8,3459,129483,6.178417243962529e-5,host-associated,metabolic_enzyme
+K00703,Stordalen_mire,0,1867,66646,0,terrestrial,metabolic_enzyme
+K00975,Anaerobic_Digestors,0,726,25541,0,host-associated,metabolic_enzyme
+K00975,ARDEC_agriculture,0,257,10532,0,terrestrial,metabolic_enzyme
+K00975,Columbia_River,0,182,6029,0,surface aquatic,metabolic_enzyme
+K00975,CT_feces,2,397,15408,1.2980269989615784e-4,host-associated,metabolic_enzyme
+K00975,CT_soil,0,292,10236,0,terrestrial,metabolic_enzyme
+K00975,East_River,0,150,5444,0,surface aquatic,metabolic_enzyme
+K00975,Fire_soils,0,1777,79184,0,terrestrial,metabolic_enzyme
+K00975,Frac_DJ_basin,2,4583,119496,1.67369619066747e-5,subsurface aquatic,metabolic_enzyme
+K00975,Frack_STACK,0,1241,60475,0,subsurface aquatic,metabolic_enzyme
+K00975,Fractured_shale,0,5411,192954,0,subsurface aquatic,metabolic_enzyme
+K00975,Human_Microbiome_Project,0,2846,100581,0,host-associated,metabolic_enzyme
+K00975,Huttenhower,6,13436,554426,1.0822003297103671e-5,host-associated,metabolic_enzyme
+K00975,Lake_Yojoa,0,271,7327,0,surface aquatic,metabolic_enzyme
+K00975,Methylamines,4,8303,329925,1.2123967568386754e-5,host-associated,metabolic_enzyme
+K00975,Moose_rumen,0,870,39886,0,host-associated,metabolic_enzyme
+K00975,Ohio_groundwater,0,251,10810,0,subsurface aquatic,metabolic_enzyme
+K00975,OWC_wetlands,0,358,13786,0,surface aquatic,metabolic_enzyme
+K00975,Prado_wetlands,0,1170,37517,0,surface aquatic,metabolic_enzyme
+K00975,Prairie_potholes,0,1480,49964,0,surface aquatic,metabolic_enzyme
+K00975,Salmonella_chow,0,677,24382,0,host-associated,metabolic_enzyme
+K00975,Salmonella_HFD,26,3459,129483,2.0079856042878216e-4,host-associated,metabolic_enzyme
+K00975,Stordalen_mire,0,1867,66646,0,terrestrial,metabolic_enzyme
+K01714,Anaerobic_Digestors,0,726,25541,0,host-associated,metabolic_enzyme
+K01714,ARDEC_agriculture,0,257,10532,0,terrestrial,metabolic_enzyme
+K01714,Columbia_River,0,182,6029,0,surface aquatic,metabolic_enzyme
+K01714,CT_feces,10,397,15408,6.490134994807892e-4,host-associated,metabolic_enzyme
+K01714,CT_soil,5,292,10236,4.884720593982024e-4,terrestrial,metabolic_enzyme
+K01714,East_River,0,150,5444,0,surface aquatic,metabolic_enzyme
+K01714,Fire_soils,0,1777,79184,0,terrestrial,metabolic_enzyme
+K01714,Frac_DJ_basin,0,4583,119496,0,subsurface aquatic,metabolic_enzyme
+K01714,Frack_STACK,0,1241,60475,0,subsurface aquatic,metabolic_enzyme
+K01714,Fractured_shale,5,5411,192954,2.5912911885734425e-5,subsurface aquatic,metabolic_enzyme
+K01714,Human_Microbiome_Project,5,2846,100581,4.971117805549756e-5,host-associated,metabolic_enzyme
+K01714,Huttenhower,45,13436,554426,8.116502472827753e-5,host-associated,metabolic_enzyme
+K01714,Lake_Yojoa,0,271,7327,0,surface aquatic,metabolic_enzyme
+K01714,Methylamines,10,8303,329925,3.0309918920966887e-5,host-associated,metabolic_enzyme
+K01714,Moose_rumen,0,870,39886,0,host-associated,metabolic_enzyme
+K01714,Ohio_groundwater,0,251,10810,0,subsurface aquatic,metabolic_enzyme
+K01714,OWC_wetlands,0,358,13786,0,surface aquatic,metabolic_enzyme
+K01714,Prado_wetlands,0,1170,37517,0,surface aquatic,metabolic_enzyme
+K01714,Prairie_potholes,0,1480,49964,0,surface aquatic,metabolic_enzyme
+K01714,Salmonella_chow,5,677,24382,2.0506931342793863e-4,host-associated,metabolic_enzyme
+K01714,Salmonella_HFD,5,3459,129483,3.86151077747658e-5,host-associated,metabolic_enzyme
+K01714,Stordalen_mire,0,1867,66646,0,terrestrial,metabolic_enzyme
+K03324,Anaerobic_Digestors,0,726,25541,0,host-associated,transporter
+K03324,ARDEC_agriculture,0,257,10532,0,terrestrial,transporter
+K03324,Columbia_River,0,182,6029,0,surface aquatic,transporter
+K03324,CT_feces,1,397,15408,6.490134994807892e-5,host-associated,transporter
+K03324,CT_soil,0,292,10236,0,terrestrial,transporter
+K03324,East_River,0,150,5444,0,surface aquatic,transporter
+K03324,Fire_soils,0,1777,79184,0,terrestrial,transporter
+K03324,Frac_DJ_basin,1,4583,119496,8.36848095333735e-6,subsurface aquatic,transporter
+K03324,Frack_STACK,0,1241,60475,0,subsurface aquatic,transporter
+K03324,Fractured_shale,0,5411,192954,0,subsurface aquatic,transporter
+K03324,Human_Microbiome_Project,0,2846,100581,0,host-associated,transporter
+K03324,Huttenhower,13,13436,554426,2.3447673810391287e-5,host-associated,transporter
+K03324,Lake_Yojoa,0,271,7327,0,surface aquatic,transporter
+K03324,Methylamines,9,8303,329925,2.7278927028870198e-5,host-associated,transporter
+K03324,Moose_rumen,0,870,39886,0,host-associated,transporter
+K03324,Ohio_groundwater,0,251,10810,0,subsurface aquatic,transporter
+K03324,OWC_wetlands,0,358,13786,0,surface aquatic,transporter
+K03324,Prado_wetlands,0,1170,37517,0,surface aquatic,transporter
+K03324,Prairie_potholes,0,1480,49964,0,surface aquatic,transporter
+K03324,Salmonella_chow,3,677,24382,1.2304158805676317e-4,host-associated,transporter
+K03324,Salmonella_HFD,10,3459,129483,7.72302155495316e-5,host-associated,transporter
+K03324,Stordalen_mire,0,1867,66646,0,terrestrial,transporter
+K03588,Anaerobic_Digestors,0,726,25541,0,host-associated,cell_wall
+K03588,ARDEC_agriculture,0,257,10532,0,terrestrial,cell_wall
+K03588,Columbia_River,0,182,6029,0,surface aquatic,cell_wall
+K03588,CT_feces,2,397,15408,1.2980269989615784e-4,host-associated,cell_wall
+K03588,CT_soil,0,292,10236,0,terrestrial,cell_wall
+K03588,East_River,0,150,5444,0,surface aquatic,cell_wall
+K03588,Fire_soils,0,1777,79184,0,terrestrial,cell_wall
+K03588,Frac_DJ_basin,0,4583,119496,0,subsurface aquatic,cell_wall
+K03588,Frack_STACK,0,1241,60475,0,subsurface aquatic,cell_wall
+K03588,Fractured_shale,0,5411,192954,0,subsurface aquatic,cell_wall
+K03588,Human_Microbiome_Project,0,2846,100581,0,host-associated,cell_wall
+K03588,Huttenhower,7,13436,554426,1.2625670513287617e-5,host-associated,cell_wall
+K03588,Lake_Yojoa,0,271,7327,0,surface aquatic,cell_wall
+K03588,Methylamines,10,8303,329925,3.0309918920966887e-5,host-associated,cell_wall
+K03588,Moose_rumen,0,870,39886,0,host-associated,cell_wall
+K03588,Ohio_groundwater,0,251,10810,0,subsurface aquatic,cell_wall
+K03588,OWC_wetlands,0,358,13786,0,surface aquatic,cell_wall
+K03588,Prado_wetlands,1,1170,37517,2.66545832555908e-5,surface aquatic,cell_wall
+K03588,Prairie_potholes,0,1480,49964,0,surface aquatic,cell_wall
+K03588,Salmonella_chow,0,677,24382,0,host-associated,cell_wall
+K03588,Salmonella_HFD,0,3459,129483,0,host-associated,cell_wall
+K03588,Stordalen_mire,0,1867,66646,0,terrestrial,cell_wall
+K06334,Anaerobic_Digestors,0,726,25541,0,host-associated,spore_structure
+K06334,ARDEC_agriculture,0,257,10532,0,terrestrial,spore_structure
+K06334,Columbia_River,0,182,6029,0,surface aquatic,spore_structure
+K06334,CT_feces,2,397,15408,1.2980269989615784e-4,host-associated,spore_structure
+K06334,CT_soil,0,292,10236,0,terrestrial,spore_structure
+K06334,East_River,0,150,5444,0,surface aquatic,spore_structure
+K06334,Fire_soils,0,1777,79184,0,terrestrial,spore_structure
+K06334,Frac_DJ_basin,0,4583,119496,0,subsurface aquatic,spore_structure
+K06334,Frack_STACK,0,1241,60475,0,subsurface aquatic,spore_structure
+K06334,Fractured_shale,0,5411,192954,0,subsurface aquatic,spore_structure
+K06334,Human_Microbiome_Project,3,2846,100581,2.9826706833298535e-5,host-associated,spore_structure
+K06334,Huttenhower,27,13436,554426,4.869901483696652e-5,host-associated,spore_structure
+K06334,Lake_Yojoa,0,271,7327,0,surface aquatic,spore_structure
+K06334,Methylamines,36,8303,329925,1.0911570811548079e-4,host-associated,spore_structure
+K06334,Moose_rumen,0,870,39886,0,host-associated,spore_structure
+K06334,Ohio_groundwater,0,251,10810,0,subsurface aquatic,spore_structure
+K06334,OWC_wetlands,0,358,13786,0,surface aquatic,spore_structure
+K06334,Prado_wetlands,0,1170,37517,0,surface aquatic,spore_structure
+K06334,Prairie_potholes,0,1480,49964,0,surface aquatic,spore_structure
+K06334,Salmonella_chow,5,677,24382,2.0506931342793863e-4,host-associated,spore_structure
+K06334,Salmonella_HFD,20,3459,129483,1.544604310990632e-4,host-associated,spore_structure
+K06334,Stordalen_mire,0,1867,66646,0,terrestrial,spore_structure
+K06383,Anaerobic_Digestors,0,726,25541,0,host-associated,regulation
+K06383,ARDEC_agriculture,0,257,10532,0,terrestrial,regulation
+K06383,Columbia_River,0,182,6029,0,surface aquatic,regulation
+K06383,CT_feces,1,397,15408,6.490134994807892e-5,host-associated,regulation
+K06383,CT_soil,0,292,10236,0,terrestrial,regulation
+K06383,East_River,0,150,5444,0,surface aquatic,regulation
+K06383,Fire_soils,0,1777,79184,0,terrestrial,regulation
+K06383,Frac_DJ_basin,6,4583,119496,5.02108857200241e-5,subsurface aquatic,regulation
+K06383,Frack_STACK,0,1241,60475,0,subsurface aquatic,regulation
+K06383,Fractured_shale,0,5411,192954,0,subsurface aquatic,regulation
+K06383,Human_Microbiome_Project,0,2846,100581,0,host-associated,regulation
+K06383,Huttenhower,7,13436,554426,1.2625670513287617e-5,host-associated,regulation
+K06383,Lake_Yojoa,0,271,7327,0,surface aquatic,regulation
+K06383,Methylamines,14,8303,329925,4.243388648935364e-5,host-associated,regulation
+K06383,Moose_rumen,0,870,39886,0,host-associated,regulation
+K06383,Ohio_groundwater,0,251,10810,0,subsurface aquatic,regulation
+K06383,OWC_wetlands,0,358,13786,0,surface aquatic,regulation
+K06383,Prado_wetlands,0,1170,37517,0,surface aquatic,regulation
+K06383,Prairie_potholes,0,1480,49964,0,surface aquatic,regulation
+K06383,Salmonella_chow,0,677,24382,0,host-associated,regulation
+K06383,Salmonella_HFD,0,3459,129483,0,host-associated,regulation
+K06383,Stordalen_mire,0,1867,66646,0,terrestrial,regulation
+K06409,Anaerobic_Digestors,0,726,25541,0,host-associated,cell_wall
+K06409,ARDEC_agriculture,0,257,10532,0,terrestrial,cell_wall
+K06409,Columbia_River,0,182,6029,0,surface aquatic,cell_wall
+K06409,CT_feces,1,397,15408,6.490134994807892e-5,host-associated,cell_wall
+K06409,CT_soil,0,292,10236,0,terrestrial,cell_wall
+K06409,East_River,0,150,5444,0,surface aquatic,cell_wall
+K06409,Fire_soils,0,1777,79184,0,terrestrial,cell_wall
+K06409,Frac_DJ_basin,0,4583,119496,0,subsurface aquatic,cell_wall
+K06409,Frack_STACK,0,1241,60475,0,subsurface aquatic,cell_wall
+K06409,Fractured_shale,0,5411,192954,0,subsurface aquatic,cell_wall
+K06409,Human_Microbiome_Project,0,2846,100581,0,host-associated,cell_wall
+K06409,Huttenhower,4,13436,554426,7.2146688647357805e-6,host-associated,cell_wall
+K06409,Lake_Yojoa,0,271,7327,0,surface aquatic,cell_wall
+K06409,Methylamines,10,8303,329925,3.0309918920966887e-5,host-associated,cell_wall
+K06409,Moose_rumen,0,870,39886,0,host-associated,cell_wall
+K06409,Ohio_groundwater,0,251,10810,0,subsurface aquatic,cell_wall
+K06409,OWC_wetlands,0,358,13786,0,surface aquatic,cell_wall
+K06409,Prado_wetlands,0,1170,37517,0,surface aquatic,cell_wall
+K06409,Prairie_potholes,0,1480,49964,0,surface aquatic,cell_wall
+K06409,Salmonella_chow,0,677,24382,0,host-associated,cell_wall
+K06409,Salmonella_HFD,0,3459,129483,0,host-associated,cell_wall
+K06409,Stordalen_mire,0,1867,66646,0,terrestrial,cell_wall
+K06901,Anaerobic_Digestors,0,726,25541,0,host-associated,transporter
+K06901,ARDEC_agriculture,0,257,10532,0,terrestrial,transporter
+K06901,Columbia_River,0,182,6029,0,surface aquatic,transporter
+K06901,CT_feces,1,397,15408,6.490134994807892e-5,host-associated,transporter
+K06901,CT_soil,0,292,10236,0,terrestrial,transporter
+K06901,East_River,0,150,5444,0,surface aquatic,transporter
+K06901,Fire_soils,0,1777,79184,0,terrestrial,transporter
+K06901,Frac_DJ_basin,3,4583,119496,2.510544286001205e-5,subsurface aquatic,transporter
+K06901,Frack_STACK,0,1241,60475,0,subsurface aquatic,transporter
+K06901,Fractured_shale,0,5411,192954,0,subsurface aquatic,transporter
+K06901,Human_Microbiome_Project,0,2846,100581,0,host-associated,transporter
+K06901,Huttenhower,10,13436,554426,1.803667216183945e-5,host-associated,transporter
+K06901,Lake_Yojoa,0,271,7327,0,surface aquatic,transporter
+K06901,Methylamines,14,8303,329925,4.243388648935364e-5,host-associated,transporter
+K06901,Moose_rumen,0,870,39886,0,host-associated,transporter
+K06901,Ohio_groundwater,0,251,10810,0,subsurface aquatic,transporter
+K06901,OWC_wetlands,0,358,13786,0,surface aquatic,transporter
+K06901,Prado_wetlands,0,1170,37517,0,surface aquatic,transporter
+K06901,Prairie_potholes,0,1480,49964,0,surface aquatic,transporter
+K06901,Salmonella_chow,0,677,24382,0,host-associated,transporter
+K06901,Salmonella_HFD,2,3459,129483,1.544604310990632e-5,host-associated,transporter
+K06901,Stordalen_mire,0,1867,66646,0,terrestrial,transporter
+K07699,Anaerobic_Digestors,0,726,25541,0,host-associated,regulation
+K07699,ARDEC_agriculture,0,257,10532,0,terrestrial,regulation
+K07699,Columbia_River,0,182,6029,0,surface aquatic,regulation
+K07699,CT_feces,1,397,15408,6.490134994807892e-5,host-associated,regulation
+K07699,CT_soil,1,292,10236,9.769441187964049e-5,terrestrial,regulation
+K07699,East_River,0,150,5444,0,surface aquatic,regulation
+K07699,Fire_soils,0,1777,79184,0,terrestrial,regulation
+K07699,Frac_DJ_basin,0,4583,119496,0,subsurface aquatic,regulation
+K07699,Frack_STACK,0,1241,60475,0,subsurface aquatic,regulation
+K07699,Fractured_shale,0,5411,192954,0,subsurface aquatic,regulation
+K07699,Human_Microbiome_Project,6,2846,100581,5.965341366659707e-5,host-associated,regulation
+K07699,Huttenhower,64,13436,554426,1.1543470183577249e-4,host-associated,regulation
+K07699,Lake_Yojoa,0,271,7327,0,surface aquatic,regulation
+K07699,Methylamines,23,8303,329925,6.971281351822384e-5,host-associated,regulation
+K07699,Moose_rumen,0,870,39886,0,host-associated,regulation
+K07699,Ohio_groundwater,0,251,10810,0,subsurface aquatic,regulation
+K07699,OWC_wetlands,1,358,13786,7.253735673872045e-5,surface aquatic,regulation
+K07699,Prado_wetlands,0,1170,37517,0,surface aquatic,regulation
+K07699,Prairie_potholes,0,1480,49964,0,surface aquatic,regulation
+K07699,Salmonella_chow,6,677,24382,2.4608317611352635e-4,host-associated,regulation
+K07699,Salmonella_HFD,23,3459,129483,1.7762949576392267e-4,host-associated,regulation
+K07699,Stordalen_mire,1,1867,66646,1.5004651441947004e-5,terrestrial,regulation
+K08384,Anaerobic_Digestors,0,726,25541,0,host-associated,cell_wall
+K08384,ARDEC_agriculture,0,257,10532,0,terrestrial,cell_wall
+K08384,Columbia_River,0,182,6029,0,surface aquatic,cell_wall
+K08384,CT_feces,2,397,15408,1.2980269989615784e-4,host-associated,cell_wall
+K08384,CT_soil,0,292,10236,0,terrestrial,cell_wall
+K08384,East_River,0,150,5444,0,surface aquatic,cell_wall
+K08384,Fire_soils,0,1777,79184,0,terrestrial,cell_wall
+K08384,Frac_DJ_basin,0,4583,119496,0,subsurface aquatic,cell_wall
+K08384,Frack_STACK,0,1241,60475,0,subsurface aquatic,cell_wall
+K08384,Fractured_shale,0,5411,192954,0,subsurface aquatic,cell_wall
+K08384,Human_Microbiome_Project,0,2846,100581,0,host-associated,cell_wall
+K08384,Huttenhower,7,13436,554426,1.2625670513287617e-5,host-associated,cell_wall
+K08384,Lake_Yojoa,0,271,7327,0,surface aquatic,cell_wall
+K08384,Methylamines,10,8303,329925,3.0309918920966887e-5,host-associated,cell_wall
+K08384,Moose_rumen,0,870,39886,0,host-associated,cell_wall
+K08384,Ohio_groundwater,0,251,10810,0,subsurface aquatic,cell_wall
+K08384,OWC_wetlands,0,358,13786,0,surface aquatic,cell_wall
+K08384,Prado_wetlands,0,1170,37517,0,surface aquatic,cell_wall
+K08384,Prairie_potholes,0,1480,49964,0,surface aquatic,cell_wall
+K08384,Salmonella_chow,0,677,24382,0,host-associated,cell_wall
+K08384,Salmonella_HFD,0,3459,129483,0,host-associated,cell_wall
+K08384,Stordalen_mire,0,1867,66646,0,terrestrial,cell_wall
+K00133,Anaerobic_Digestors,0,726,25541,0,host-associated,metabolic_enzyme
+K00133,ARDEC_agriculture,0,257,10532,0,terrestrial,metabolic_enzyme
+K00133,Columbia_River,0,182,6029,0,surface aquatic,metabolic_enzyme
+K00133,CT_feces,0,397,15408,0,host-associated,metabolic_enzyme
+K00133,CT_soil,7,292,10236,6.838608831574833e-4,terrestrial,metabolic_enzyme
+K00133,East_River,0,150,5444,0,surface aquatic,metabolic_enzyme
+K00133,Fire_soils,0,1777,79184,0,terrestrial,metabolic_enzyme
+K00133,Frac_DJ_basin,0,4583,119496,0,subsurface aquatic,metabolic_enzyme
+K00133,Frack_STACK,0,1241,60475,0,subsurface aquatic,metabolic_enzyme
+K00133,Fractured_shale,0,5411,192954,0,subsurface aquatic,metabolic_enzyme
+K00133,Human_Microbiome_Project,0,2846,100581,0,host-associated,metabolic_enzyme
+K00133,Huttenhower,14,13436,554426,2.5251341026575234e-5,host-associated,metabolic_enzyme
+K00133,Lake_Yojoa,0,271,7327,0,surface aquatic,metabolic_enzyme
+K00133,Methylamines,28,8303,329925,8.486777297870729e-5,host-associated,metabolic_enzyme
+K00133,Moose_rumen,0,870,39886,0,host-associated,metabolic_enzyme
+K00133,Ohio_groundwater,0,251,10810,0,subsurface aquatic,metabolic_enzyme
+K00133,OWC_wetlands,0,358,13786,0,surface aquatic,metabolic_enzyme
+K00133,Prado_wetlands,0,1170,37517,0,surface aquatic,metabolic_enzyme
+K00133,Prairie_potholes,0,1480,49964,0,surface aquatic,metabolic_enzyme
+K00133,Salmonella_chow,7,677,24382,2.870970387991141e-4,host-associated,metabolic_enzyme
+K00133,Salmonella_HFD,14,3459,129483,1.0812230176934423e-4,host-associated,metabolic_enzyme
+K00133,Stordalen_mire,0,1867,66646,0,terrestrial,metabolic_enzyme
+K01770,Anaerobic_Digestors,0,726,25541,0,host-associated,metabolic_enzyme
+K01770,ARDEC_agriculture,0,257,10532,0,terrestrial,metabolic_enzyme
+K01770,Columbia_River,0,182,6029,0,surface aquatic,metabolic_enzyme
+K01770,CT_feces,0,397,15408,0,host-associated,metabolic_enzyme
+K01770,CT_soil,3,292,10236,2.9308323563892143e-4,terrestrial,metabolic_enzyme
+K01770,East_River,0,150,5444,0,surface aquatic,metabolic_enzyme
+K01770,Fire_soils,0,1777,79184,0,terrestrial,metabolic_enzyme
+K01770,Frac_DJ_basin,0,4583,119496,0,subsurface aquatic,metabolic_enzyme
+K01770,Frack_STACK,0,1241,60475,0,subsurface aquatic,metabolic_enzyme
+K01770,Fractured_shale,0,5411,192954,0,subsurface aquatic,metabolic_enzyme
+K01770,Human_Microbiome_Project,1,2846,100581,9.942235611099511e-6,host-associated,metabolic_enzyme
+K01770,Huttenhower,7,13436,554426,1.2625670513287617e-5,host-associated,metabolic_enzyme
+K01770,Lake_Yojoa,0,271,7327,0,surface aquatic,metabolic_enzyme
+K01770,Methylamines,6,8303,329925,1.8185951352580132e-5,host-associated,metabolic_enzyme
+K01770,Moose_rumen,0,870,39886,0,host-associated,metabolic_enzyme
+K01770,Ohio_groundwater,0,251,10810,0,subsurface aquatic,metabolic_enzyme
+K01770,OWC_wetlands,0,358,13786,0,surface aquatic,metabolic_enzyme
+K01770,Prado_wetlands,0,1170,37517,0,surface aquatic,metabolic_enzyme
+K01770,Prairie_potholes,0,1480,49964,0,surface aquatic,metabolic_enzyme
+K01770,Salmonella_chow,0,677,24382,0,host-associated,metabolic_enzyme
+K01770,Salmonella_HFD,2,3459,129483,1.544604310990632e-5,host-associated,metabolic_enzyme
+K01770,Stordalen_mire,0,1867,66646,0,terrestrial,metabolic_enzyme
+K06406,Anaerobic_Digestors,0,726,25541,0,host-associated,germination
+K06406,ARDEC_agriculture,0,257,10532,0,terrestrial,germination
+K06406,Columbia_River,0,182,6029,0,surface aquatic,germination
+K06406,CT_feces,0,397,15408,0,host-associated,germination
+K06406,CT_soil,1,292,10236,9.769441187964049e-5,terrestrial,germination
+K06406,East_River,0,150,5444,0,surface aquatic,germination
+K06406,Fire_soils,0,1777,79184,0,terrestrial,germination
+K06406,Frac_DJ_basin,0,4583,119496,0,subsurface aquatic,germination
+K06406,Frack_STACK,0,1241,60475,0,subsurface aquatic,germination
+K06406,Fractured_shale,0,5411,192954,0,subsurface aquatic,germination
+K06406,Human_Microbiome_Project,0,2846,100581,0,host-associated,germination
+K06406,Huttenhower,2,13436,554426,3.6073344323678903e-6,host-associated,germination
+K06406,Lake_Yojoa,0,271,7327,0,surface aquatic,germination
+K06406,Methylamines,3,8303,329925,9.092975676290066e-6,host-associated,germination
+K06406,Moose_rumen,0,870,39886,0,host-associated,germination
+K06406,Ohio_groundwater,0,251,10810,0,subsurface aquatic,germination
+K06406,OWC_wetlands,0,358,13786,0,surface aquatic,germination
+K06406,Prado_wetlands,0,1170,37517,0,surface aquatic,germination
+K06406,Prairie_potholes,0,1480,49964,0,surface aquatic,germination
+K06406,Salmonella_chow,0,677,24382,0,host-associated,germination
+K06406,Salmonella_HFD,0,3459,129483,0,host-associated,germination
+K06406,Stordalen_mire,0,1867,66646,0,terrestrial,germination
+K06407,Anaerobic_Digestors,0,726,25541,0,host-associated,germination
+K06407,ARDEC_agriculture,0,257,10532,0,terrestrial,germination
+K06407,Columbia_River,0,182,6029,0,surface aquatic,germination
+K06407,CT_feces,0,397,15408,0,host-associated,germination
+K06407,CT_soil,1,292,10236,9.769441187964049e-5,terrestrial,germination
+K06407,East_River,0,150,5444,0,surface aquatic,germination
+K06407,Fire_soils,0,1777,79184,0,terrestrial,germination
+K06407,Frac_DJ_basin,0,4583,119496,0,subsurface aquatic,germination
+K06407,Frack_STACK,0,1241,60475,0,subsurface aquatic,germination
+K06407,Fractured_shale,0,5411,192954,0,subsurface aquatic,germination
+K06407,Human_Microbiome_Project,0,2846,100581,0,host-associated,germination
+K06407,Huttenhower,3,13436,554426,5.411001648551836e-6,host-associated,germination
+K06407,Lake_Yojoa,0,271,7327,0,surface aquatic,germination
+K06407,Methylamines,4,8303,329925,1.2123967568386754e-5,host-associated,germination
+K06407,Moose_rumen,0,870,39886,0,host-associated,germination
+K06407,Ohio_groundwater,0,251,10810,0,subsurface aquatic,germination
+K06407,OWC_wetlands,0,358,13786,0,surface aquatic,germination
+K06407,Prado_wetlands,0,1170,37517,0,surface aquatic,germination
+K06407,Prairie_potholes,0,1480,49964,0,surface aquatic,germination
+K06407,Salmonella_chow,0,677,24382,0,host-associated,germination
+K06407,Salmonella_HFD,0,3459,129483,0,host-associated,germination
+K06407,Stordalen_mire,0,1867,66646,0,terrestrial,germination
+K00974,Anaerobic_Digestors,0,726,25541,0,host-associated,information
+K00974,ARDEC_agriculture,0,257,10532,0,terrestrial,information
+K00974,Columbia_River,0,182,6029,0,surface aquatic,information
+K00974,CT_feces,0,397,15408,0,host-associated,information
+K00974,CT_soil,0,292,10236,0,terrestrial,information
+K00974,East_River,0,150,5444,0,surface aquatic,information
+K00974,Fire_soils,0,1777,79184,0,terrestrial,information
+K00974,Frac_DJ_basin,1,4583,119496,8.36848095333735e-6,subsurface aquatic,information
+K00974,Frack_STACK,1,1241,60475,1.6535758577924763e-5,subsurface aquatic,information
+K00974,Fractured_shale,3,5411,192954,1.5547747131440654e-5,subsurface aquatic,information
+K00974,Human_Microbiome_Project,0,2846,100581,0,host-associated,information
+K00974,Huttenhower,1,13436,554426,1.8036672161839451e-6,host-associated,information
+K00974,Lake_Yojoa,0,271,7327,0,surface aquatic,information
+K00974,Methylamines,0,8303,329925,0,host-associated,information
+K00974,Moose_rumen,0,870,39886,0,host-associated,information
+K00974,Ohio_groundwater,0,251,10810,0,subsurface aquatic,information
+K00974,OWC_wetlands,1,358,13786,7.253735673872045e-5,surface aquatic,information
+K00974,Prado_wetlands,0,1170,37517,0,surface aquatic,information
+K00974,Prairie_potholes,0,1480,49964,0,surface aquatic,information
+K00974,Salmonella_chow,0,677,24382,0,host-associated,information
+K00974,Salmonella_HFD,0,3459,129483,0,host-associated,information
+K00974,Stordalen_mire,0,1867,66646,0,terrestrial,information
+K02049,Anaerobic_Digestors,0,726,25541,0,host-associated,transporter
+K02049,ARDEC_agriculture,0,257,10532,0,terrestrial,transporter
+K02049,Columbia_River,0,182,6029,0,surface aquatic,transporter
+K02049,CT_feces,0,397,15408,0,host-associated,transporter
+K02049,CT_soil,0,292,10236,0,terrestrial,transporter
+K02049,East_River,0,150,5444,0,surface aquatic,transporter
+K02049,Fire_soils,0,1777,79184,0,terrestrial,transporter
+K02049,Frac_DJ_basin,2,4583,119496,1.67369619066747e-5,subsurface aquatic,transporter
+K02049,Frack_STACK,0,1241,60475,0,subsurface aquatic,transporter
+K02049,Fractured_shale,0,5411,192954,0,subsurface aquatic,transporter
+K02049,Human_Microbiome_Project,0,2846,100581,0,host-associated,transporter
+K02049,Huttenhower,16,13436,554426,2.8858675458943122e-5,host-associated,transporter
+K02049,Lake_Yojoa,0,271,7327,0,surface aquatic,transporter
+K02049,Methylamines,22,8303,329925,6.668182162612715e-5,host-associated,transporter
+K02049,Moose_rumen,0,870,39886,0,host-associated,transporter
+K02049,Ohio_groundwater,0,251,10810,0,subsurface aquatic,transporter
+K02049,OWC_wetlands,0,358,13786,0,surface aquatic,transporter
+K02049,Prado_wetlands,0,1170,37517,0,surface aquatic,transporter
+K02049,Prairie_potholes,2,1480,49964,4.002882075094068e-5,surface aquatic,transporter
+K02049,Salmonella_chow,0,677,24382,0,host-associated,transporter
+K02049,Salmonella_HFD,8,3459,129483,6.178417243962529e-5,host-associated,transporter
+K02049,Stordalen_mire,0,1867,66646,0,terrestrial,transporter
+K02050,Anaerobic_Digestors,0,726,25541,0,host-associated,transporter
+K02050,ARDEC_agriculture,0,257,10532,0,terrestrial,transporter
+K02050,Columbia_River,0,182,6029,0,surface aquatic,transporter
+K02050,CT_feces,0,397,15408,0,host-associated,transporter
+K02050,CT_soil,0,292,10236,0,terrestrial,transporter
+K02050,East_River,0,150,5444,0,surface aquatic,transporter
+K02050,Fire_soils,0,1777,79184,0,terrestrial,transporter
+K02050,Frac_DJ_basin,6,4583,119496,5.02108857200241e-5,subsurface aquatic,transporter
+K02050,Frack_STACK,0,1241,60475,0,subsurface aquatic,transporter
+K02050,Fractured_shale,2,5411,192954,1.036516475429377e-5,subsurface aquatic,transporter
+K02050,Human_Microbiome_Project,2,2846,100581,1.9884471222199022e-5,host-associated,transporter
+K02050,Huttenhower,6,13436,554426,1.0822003297103671e-5,host-associated,transporter
+K02050,Lake_Yojoa,0,271,7327,0,surface aquatic,transporter
+K02050,Methylamines,10,8303,329925,3.0309918920966887e-5,host-associated,transporter
+K02050,Moose_rumen,0,870,39886,0,host-associated,transporter
+K02050,Ohio_groundwater,0,251,10810,0,subsurface aquatic,transporter
+K02050,OWC_wetlands,0,358,13786,0,surface aquatic,transporter
+K02050,Prado_wetlands,2,1170,37517,5.33091665111816e-5,surface aquatic,transporter
+K02050,Prairie_potholes,2,1480,49964,4.002882075094068e-5,surface aquatic,transporter
+K02050,Salmonella_chow,0,677,24382,0,host-associated,transporter
+K02050,Salmonella_HFD,0,3459,129483,0,host-associated,transporter
+K02050,Stordalen_mire,2,1867,66646,3.0009302883894008e-5,terrestrial,transporter
+K02051,Anaerobic_Digestors,0,726,25541,0,host-associated,transporter
+K02051,ARDEC_agriculture,0,257,10532,0,terrestrial,transporter
+K02051,Columbia_River,0,182,6029,0,surface aquatic,transporter
+K02051,CT_feces,0,397,15408,0,host-associated,transporter
+K02051,CT_soil,0,292,10236,0,terrestrial,transporter
+K02051,East_River,0,150,5444,0,surface aquatic,transporter
+K02051,Fire_soils,0,1777,79184,0,terrestrial,transporter
+K02051,Frac_DJ_basin,2,4583,119496,1.67369619066747e-5,subsurface aquatic,transporter
+K02051,Frack_STACK,0,1241,60475,0,subsurface aquatic,transporter
+K02051,Fractured_shale,0,5411,192954,0,subsurface aquatic,transporter
+K02051,Human_Microbiome_Project,2,2846,100581,1.9884471222199022e-5,host-associated,transporter
+K02051,Huttenhower,24,13436,554426,4.3288013188414685e-5,host-associated,transporter
+K02051,Lake_Yojoa,0,271,7327,0,surface aquatic,transporter
+K02051,Methylamines,28,8303,329925,8.486777297870729e-5,host-associated,transporter
+K02051,Moose_rumen,0,870,39886,0,host-associated,transporter
+K02051,Ohio_groundwater,0,251,10810,0,subsurface aquatic,transporter
+K02051,OWC_wetlands,0,358,13786,0,surface aquatic,transporter
+K02051,Prado_wetlands,0,1170,37517,0,surface aquatic,transporter
+K02051,Prairie_potholes,2,1480,49964,4.002882075094068e-5,surface aquatic,transporter
+K02051,Salmonella_chow,14,677,24382,5.741940775982282e-4,host-associated,transporter
+K02051,Salmonella_HFD,68,3459,129483,5.251654657368149e-4,host-associated,transporter
+K02051,Stordalen_mire,0,1867,66646,0,terrestrial,transporter
+K02343,Anaerobic_Digestors,0,726,25541,0,host-associated,information
+K02343,ARDEC_agriculture,0,257,10532,0,terrestrial,information
+K02343,Columbia_River,0,182,6029,0,surface aquatic,information
+K02343,CT_feces,0,397,15408,0,host-associated,information
+K02343,CT_soil,0,292,10236,0,terrestrial,information
+K02343,East_River,0,150,5444,0,surface aquatic,information
+K02343,Fire_soils,0,1777,79184,0,terrestrial,information
+K02343,Frac_DJ_basin,2,4583,119496,1.67369619066747e-5,subsurface aquatic,information
+K02343,Frack_STACK,4,1241,60475,6.614303431169905e-5,subsurface aquatic,information
+K02343,Fractured_shale,2,5411,192954,1.036516475429377e-5,subsurface aquatic,information
+K02343,Human_Microbiome_Project,0,2846,100581,0,host-associated,information
+K02343,Huttenhower,2,13436,554426,3.6073344323678903e-6,host-associated,information
+K02343,Lake_Yojoa,0,271,7327,0,surface aquatic,information
+K02343,Methylamines,0,8303,329925,0,host-associated,information
+K02343,Moose_rumen,0,870,39886,0,host-associated,information
+K02343,Ohio_groundwater,0,251,10810,0,subsurface aquatic,information
+K02343,OWC_wetlands,0,358,13786,0,surface aquatic,information
+K02343,Prado_wetlands,2,1170,37517,5.33091665111816e-5,surface aquatic,information
+K02343,Prairie_potholes,0,1480,49964,0,surface aquatic,information
+K02343,Salmonella_chow,0,677,24382,0,host-associated,information
+K02343,Salmonella_HFD,0,3459,129483,0,host-associated,information
+K02343,Stordalen_mire,0,1867,66646,0,terrestrial,information
+K03664,Anaerobic_Digestors,0,726,25541,0,host-associated,information
+K03664,ARDEC_agriculture,0,257,10532,0,terrestrial,information
+K03664,Columbia_River,0,182,6029,0,surface aquatic,information
+K03664,CT_feces,0,397,15408,0,host-associated,information
+K03664,CT_soil,0,292,10236,0,terrestrial,information
+K03664,East_River,0,150,5444,0,surface aquatic,information
+K03664,Fire_soils,0,1777,79184,0,terrestrial,information
+K03664,Frac_DJ_basin,5,4583,119496,4.184240476668675e-5,subsurface aquatic,information
+K03664,Frack_STACK,1,1241,60475,1.6535758577924763e-5,subsurface aquatic,information
+K03664,Fractured_shale,1,5411,192954,5.182582377146885e-6,subsurface aquatic,information
+K03664,Human_Microbiome_Project,6,2846,100581,5.965341366659707e-5,host-associated,information
+K03664,Huttenhower,54,13436,554426,9.739802967393303e-5,host-associated,information
+K03664,Lake_Yojoa,0,271,7327,0,surface aquatic,information
+K03664,Methylamines,21,8303,329925,6.365082973403047e-5,host-associated,information
+K03664,Moose_rumen,0,870,39886,0,host-associated,information
+K03664,Ohio_groundwater,0,251,10810,0,subsurface aquatic,information
+K03664,OWC_wetlands,0,358,13786,0,surface aquatic,information
+K03664,Prado_wetlands,0,1170,37517,0,surface aquatic,information
+K03664,Prairie_potholes,0,1480,49964,0,surface aquatic,information
+K03664,Salmonella_chow,4,677,24382,1.6405545074235091e-4,host-associated,information
+K03664,Salmonella_HFD,16,3459,129483,1.2356834487925057e-4,host-associated,information
+K03664,Stordalen_mire,0,1867,66646,0,terrestrial,information
+K03698,Anaerobic_Digestors,0,726,25541,0,host-associated,information
+K03698,ARDEC_agriculture,0,257,10532,0,terrestrial,information
+K03698,Columbia_River,0,182,6029,0,surface aquatic,information
+K03698,CT_feces,0,397,15408,0,host-associated,information
+K03698,CT_soil,0,292,10236,0,terrestrial,information
+K03698,East_River,0,150,5444,0,surface aquatic,information
+K03698,Fire_soils,0,1777,79184,0,terrestrial,information
+K03698,Frac_DJ_basin,13,4583,119496,1.0879025239338555e-4,subsurface aquatic,information
+K03698,Frack_STACK,0,1241,60475,0,subsurface aquatic,information
+K03698,Fractured_shale,4,5411,192954,2.073032950858754e-5,subsurface aquatic,information
+K03698,Human_Microbiome_Project,0,2846,100581,0,host-associated,information
+K03698,Huttenhower,47,13436,554426,8.477235916064542e-5,host-associated,information
+K03698,Lake_Yojoa,1,271,7327,1.364815067558346e-4,surface aquatic,information
+K03698,Methylamines,18,8303,329925,5.4557854057740395e-5,host-associated,information
+K03698,Moose_rumen,0,870,39886,0,host-associated,information
+K03698,Ohio_groundwater,0,251,10810,0,subsurface aquatic,information
+K03698,OWC_wetlands,0,358,13786,0,surface aquatic,information
+K03698,Prado_wetlands,0,1170,37517,0,surface aquatic,information
+K03698,Prairie_potholes,0,1480,49964,0,surface aquatic,information
+K03698,Salmonella_chow,0,677,24382,0,host-associated,information
+K03698,Salmonella_HFD,0,3459,129483,0,host-associated,information
+K03698,Stordalen_mire,3,1867,66646,4.501395432584101e-5,terrestrial,information
+K06333,Anaerobic_Digestors,0,726,25541,0,host-associated,spore_structure
+K06333,ARDEC_agriculture,0,257,10532,0,terrestrial,spore_structure
+K06333,Columbia_River,0,182,6029,0,surface aquatic,spore_structure
+K06333,CT_feces,0,397,15408,0,host-associated,spore_structure
+K06333,CT_soil,0,292,10236,0,terrestrial,spore_structure
+K06333,East_River,0,150,5444,0,surface aquatic,spore_structure
+K06333,Fire_soils,0,1777,79184,0,terrestrial,spore_structure
+K06333,Frac_DJ_basin,2,4583,119496,1.67369619066747e-5,subsurface aquatic,spore_structure
+K06333,Frack_STACK,0,1241,60475,0,subsurface aquatic,spore_structure
+K06333,Fractured_shale,0,5411,192954,0,subsurface aquatic,spore_structure
+K06333,Human_Microbiome_Project,1,2846,100581,9.942235611099511e-6,host-associated,spore_structure
+K06333,Huttenhower,11,13436,554426,1.98403393780234e-5,host-associated,spore_structure
+K06333,Lake_Yojoa,0,271,7327,0,surface aquatic,spore_structure
+K06333,Methylamines,17,8303,329925,5.152686216564371e-5,host-associated,spore_structure
+K06333,Moose_rumen,0,870,39886,0,host-associated,spore_structure
+K06333,Ohio_groundwater,0,251,10810,0,subsurface aquatic,spore_structure
+K06333,OWC_wetlands,0,358,13786,0,surface aquatic,spore_structure
+K06333,Prado_wetlands,0,1170,37517,0,surface aquatic,spore_structure
+K06333,Prairie_potholes,0,1480,49964,0,surface aquatic,spore_structure
+K06333,Salmonella_chow,1,677,24382,4.101386268558773e-5,host-associated,spore_structure
+K06333,Salmonella_HFD,4,3459,129483,3.089208621981264e-5,host-associated,spore_structure
+K06333,Stordalen_mire,0,1867,66646,0,terrestrial,spore_structure
+K11751,Anaerobic_Digestors,0,726,25541,0,host-associated,metabolic_enzyme
+K11751,ARDEC_agriculture,0,257,10532,0,terrestrial,metabolic_enzyme
+K11751,Columbia_River,0,182,6029,0,surface aquatic,metabolic_enzyme
+K11751,CT_feces,0,397,15408,0,host-associated,metabolic_enzyme
+K11751,CT_soil,0,292,10236,0,terrestrial,metabolic_enzyme
+K11751,East_River,0,150,5444,0,surface aquatic,metabolic_enzyme
+K11751,Fire_soils,0,1777,79184,0,terrestrial,metabolic_enzyme
+K11751,Frac_DJ_basin,1,4583,119496,8.36848095333735e-6,subsurface aquatic,metabolic_enzyme
+K11751,Frack_STACK,0,1241,60475,0,subsurface aquatic,metabolic_enzyme
+K11751,Fractured_shale,0,5411,192954,0,subsurface aquatic,metabolic_enzyme
+K11751,Human_Microbiome_Project,0,2846,100581,0,host-associated,metabolic_enzyme
+K11751,Huttenhower,4,13436,554426,7.2146688647357805e-6,host-associated,metabolic_enzyme
+K11751,Lake_Yojoa,0,271,7327,0,surface aquatic,metabolic_enzyme
+K11751,Methylamines,4,8303,329925,1.2123967568386754e-5,host-associated,metabolic_enzyme
+K11751,Moose_rumen,1,870,39886,2.5071453642882215e-5,host-associated,metabolic_enzyme
+K11751,Ohio_groundwater,0,251,10810,0,subsurface aquatic,metabolic_enzyme
+K11751,OWC_wetlands,0,358,13786,0,surface aquatic,metabolic_enzyme
+K11751,Prado_wetlands,0,1170,37517,0,surface aquatic,metabolic_enzyme
+K11751,Prairie_potholes,0,1480,49964,0,surface aquatic,metabolic_enzyme
+K11751,Salmonella_chow,0,677,24382,0,host-associated,metabolic_enzyme
+K11751,Salmonella_HFD,1,3459,129483,7.72302155495316e-6,host-associated,metabolic_enzyme
+K11751,Stordalen_mire,0,1867,66646,0,terrestrial,metabolic_enzyme
+K18889,Anaerobic_Digestors,0,726,25541,0,host-associated,transporter
+K18889,ARDEC_agriculture,0,257,10532,0,terrestrial,transporter
+K18889,Columbia_River,0,182,6029,0,surface aquatic,transporter
+K18889,CT_feces,0,397,15408,0,host-associated,transporter
+K18889,CT_soil,0,292,10236,0,terrestrial,transporter
+K18889,East_River,0,150,5444,0,surface aquatic,transporter
+K18889,Fire_soils,0,1777,79184,0,terrestrial,transporter
+K18889,Frac_DJ_basin,2,4583,119496,1.67369619066747e-5,subsurface aquatic,transporter
+K18889,Frack_STACK,0,1241,60475,0,subsurface aquatic,transporter
+K18889,Fractured_shale,0,5411,192954,0,subsurface aquatic,transporter
+K18889,Human_Microbiome_Project,0,2846,100581,0,host-associated,transporter
+K18889,Huttenhower,1,13436,554426,1.8036672161839451e-6,host-associated,transporter
+K18889,Lake_Yojoa,0,271,7327,0,surface aquatic,transporter
+K18889,Methylamines,2,8303,329925,6.061983784193377e-6,host-associated,transporter
+K18889,Moose_rumen,0,870,39886,0,host-associated,transporter
+K18889,Ohio_groundwater,0,251,10810,0,subsurface aquatic,transporter
+K18889,OWC_wetlands,0,358,13786,0,surface aquatic,transporter
+K18889,Prado_wetlands,0,1170,37517,0,surface aquatic,transporter
+K18889,Prairie_potholes,0,1480,49964,0,surface aquatic,transporter
+K18889,Salmonella_chow,0,677,24382,0,host-associated,transporter
+K18889,Salmonella_HFD,0,3459,129483,0,host-associated,transporter
+K18889,Stordalen_mire,0,1867,66646,0,terrestrial,transporter
+K00134,Anaerobic_Digestors,0,726,25541,0,host-associated,metabolic_enzyme
+K00134,ARDEC_agriculture,0,257,10532,0,terrestrial,metabolic_enzyme
+K00134,Columbia_River,0,182,6029,0,surface aquatic,metabolic_enzyme
+K00134,CT_feces,0,397,15408,0,host-associated,metabolic_enzyme
+K00134,CT_soil,0,292,10236,0,terrestrial,metabolic_enzyme
+K00134,East_River,0,150,5444,0,surface aquatic,metabolic_enzyme
+K00134,Fire_soils,0,1777,79184,0,terrestrial,metabolic_enzyme
+K00134,Frac_DJ_basin,0,4583,119496,0,subsurface aquatic,metabolic_enzyme
+K00134,Frack_STACK,8,1241,60475,1.322860686233981e-4,subsurface aquatic,metabolic_enzyme
+K00134,Fractured_shale,8,5411,192954,4.146065901717508e-5,subsurface aquatic,metabolic_enzyme
+K00134,Human_Microbiome_Project,8,2846,100581,7.953788488879609e-5,host-associated,metabolic_enzyme
+K00134,Huttenhower,32,13436,554426,5.7717350917886244e-5,host-associated,metabolic_enzyme
+K00134,Lake_Yojoa,0,271,7327,0,surface aquatic,metabolic_enzyme
+K00134,Methylamines,104,8303,329925,3.152231567780556e-4,host-associated,metabolic_enzyme
+K00134,Moose_rumen,0,870,39886,0,host-associated,metabolic_enzyme
+K00134,Ohio_groundwater,0,251,10810,0,subsurface aquatic,metabolic_enzyme
+K00134,OWC_wetlands,0,358,13786,0,surface aquatic,metabolic_enzyme
+K00134,Prado_wetlands,0,1170,37517,0,surface aquatic,metabolic_enzyme
+K00134,Prairie_potholes,0,1480,49964,0,surface aquatic,metabolic_enzyme
+K00134,Salmonella_chow,0,677,24382,0,host-associated,metabolic_enzyme
+K00134,Salmonella_HFD,56,3459,129483,4.3248920707737693e-4,host-associated,metabolic_enzyme
+K00134,Stordalen_mire,0,1867,66646,0,terrestrial,metabolic_enzyme
+K06131,Anaerobic_Digestors,0,726,25541,0,host-associated,metabolic_enzyme
+K06131,ARDEC_agriculture,0,257,10532,0,terrestrial,metabolic_enzyme
+K06131,Columbia_River,0,182,6029,0,surface aquatic,metabolic_enzyme
+K06131,CT_feces,0,397,15408,0,host-associated,metabolic_enzyme
+K06131,CT_soil,0,292,10236,0,terrestrial,metabolic_enzyme
+K06131,East_River,0,150,5444,0,surface aquatic,metabolic_enzyme
+K06131,Fire_soils,0,1777,79184,0,terrestrial,metabolic_enzyme
+K06131,Frac_DJ_basin,0,4583,119496,0,subsurface aquatic,metabolic_enzyme
+K06131,Frack_STACK,0,1241,60475,0,subsurface aquatic,metabolic_enzyme
+K06131,Fractured_shale,0,5411,192954,0,subsurface aquatic,metabolic_enzyme
+K06131,Human_Microbiome_Project,1,2846,100581,9.942235611099511e-6,host-associated,metabolic_enzyme
+K06131,Huttenhower,8,13436,554426,1.4429337729471561e-5,host-associated,metabolic_enzyme
+K06131,Lake_Yojoa,0,271,7327,0,surface aquatic,metabolic_enzyme
+K06131,Methylamines,5,8303,329925,1.5154959460483444e-5,host-associated,metabolic_enzyme
+K06131,Moose_rumen,0,870,39886,0,host-associated,metabolic_enzyme
+K06131,Ohio_groundwater,0,251,10810,0,subsurface aquatic,metabolic_enzyme
+K06131,OWC_wetlands,0,358,13786,0,surface aquatic,metabolic_enzyme
+K06131,Prado_wetlands,0,1170,37517,0,surface aquatic,metabolic_enzyme
+K06131,Prairie_potholes,0,1480,49964,0,surface aquatic,metabolic_enzyme
+K06131,Salmonella_chow,3,677,24382,1.2304158805676317e-4,host-associated,metabolic_enzyme
+K06131,Salmonella_HFD,18,3459,129483,1.3901438798915688e-4,host-associated,metabolic_enzyme
+K06131,Stordalen_mire,0,1867,66646,0,terrestrial,metabolic_enzyme
+K09747,Anaerobic_Digestors,0,726,25541,0,host-associated,information
+K09747,ARDEC_agriculture,0,257,10532,0,terrestrial,information
+K09747,Columbia_River,0,182,6029,0,surface aquatic,information
+K09747,CT_feces,0,397,15408,0,host-associated,information
+K09747,CT_soil,0,292,10236,0,terrestrial,information
+K09747,East_River,0,150,5444,0,surface aquatic,information
+K09747,Fire_soils,0,1777,79184,0,terrestrial,information
+K09747,Frac_DJ_basin,0,4583,119496,0,subsurface aquatic,information
+K09747,Frack_STACK,0,1241,60475,0,subsurface aquatic,information
+K09747,Fractured_shale,0,5411,192954,0,subsurface aquatic,information
+K09747,Human_Microbiome_Project,1,2846,100581,9.942235611099511e-6,host-associated,information
+K09747,Huttenhower,13,13436,554426,2.3447673810391287e-5,host-associated,information
+K09747,Lake_Yojoa,0,271,7327,0,surface aquatic,information
+K09747,Methylamines,10,8303,329925,3.0309918920966887e-5,host-associated,information
+K09747,Moose_rumen,0,870,39886,0,host-associated,information
+K09747,Ohio_groundwater,0,251,10810,0,subsurface aquatic,information
+K09747,OWC_wetlands,0,358,13786,0,surface aquatic,information
+K09747,Prado_wetlands,0,1170,37517,0,surface aquatic,information
+K09747,Prairie_potholes,0,1480,49964,0,surface aquatic,information
+K09747,Salmonella_chow,0,677,24382,0,host-associated,information
+K09747,Salmonella_HFD,1,3459,129483,7.72302155495316e-6,host-associated,information
+K09747,Stordalen_mire,0,1867,66646,0,terrestrial,information
+K15633,Anaerobic_Digestors,0,726,25541,0,host-associated,metabolic_enzyme
+K15633,ARDEC_agriculture,0,257,10532,0,terrestrial,metabolic_enzyme
+K15633,Columbia_River,0,182,6029,0,surface aquatic,metabolic_enzyme
+K15633,CT_feces,0,397,15408,0,host-associated,metabolic_enzyme
+K15633,CT_soil,0,292,10236,0,terrestrial,metabolic_enzyme
+K15633,East_River,0,150,5444,0,surface aquatic,metabolic_enzyme
+K15633,Fire_soils,0,1777,79184,0,terrestrial,metabolic_enzyme
+K15633,Frac_DJ_basin,0,4583,119496,0,subsurface aquatic,metabolic_enzyme
+K15633,Frack_STACK,0,1241,60475,0,subsurface aquatic,metabolic_enzyme
+K15633,Fractured_shale,0,5411,192954,0,subsurface aquatic,metabolic_enzyme
+K15633,Human_Microbiome_Project,8,2846,100581,7.953788488879609e-5,host-associated,metabolic_enzyme
+K15633,Huttenhower,16,13436,554426,2.8858675458943122e-5,host-associated,metabolic_enzyme
+K15633,Lake_Yojoa,0,271,7327,0,surface aquatic,metabolic_enzyme
+K15633,Methylamines,8,8303,329925,2.4247935136773508e-5,host-associated,metabolic_enzyme
+K15633,Moose_rumen,0,870,39886,0,host-associated,metabolic_enzyme
+K15633,Ohio_groundwater,0,251,10810,0,subsurface aquatic,metabolic_enzyme
+K15633,OWC_wetlands,0,358,13786,0,surface aquatic,metabolic_enzyme
+K15633,Prado_wetlands,0,1170,37517,0,surface aquatic,metabolic_enzyme
+K15633,Prairie_potholes,0,1480,49964,0,surface aquatic,metabolic_enzyme
+K15633,Salmonella_chow,0,677,24382,0,host-associated,metabolic_enzyme
+K15633,Salmonella_HFD,0,3459,129483,0,host-associated,metabolic_enzyme
+K15633,Stordalen_mire,0,1867,66646,0,terrestrial,metabolic_enzyme
+K20118,Anaerobic_Digestors,0,726,25541,0,host-associated,transporter
+K20118,ARDEC_agriculture,0,257,10532,0,terrestrial,transporter
+K20118,Columbia_River,0,182,6029,0,surface aquatic,transporter
+K20118,CT_feces,0,397,15408,0,host-associated,transporter
+K20118,CT_soil,0,292,10236,0,terrestrial,transporter
+K20118,East_River,0,150,5444,0,surface aquatic,transporter
+K20118,Fire_soils,0,1777,79184,0,terrestrial,transporter
+K20118,Frac_DJ_basin,0,4583,119496,0,subsurface aquatic,transporter
+K20118,Frack_STACK,0,1241,60475,0,subsurface aquatic,transporter
+K20118,Fractured_shale,0,5411,192954,0,subsurface aquatic,transporter
+K20118,Human_Microbiome_Project,2,2846,100581,1.9884471222199022e-5,host-associated,transporter
+K20118,Huttenhower,4,13436,554426,7.2146688647357805e-6,host-associated,transporter
+K20118,Lake_Yojoa,0,271,7327,0,surface aquatic,transporter
+K20118,Methylamines,0,8303,329925,0,host-associated,transporter
+K20118,Moose_rumen,0,870,39886,0,host-associated,transporter
+K20118,Ohio_groundwater,0,251,10810,0,subsurface aquatic,transporter
+K20118,OWC_wetlands,0,358,13786,0,surface aquatic,transporter
+K20118,Prado_wetlands,0,1170,37517,0,surface aquatic,transporter
+K20118,Prairie_potholes,0,1480,49964,0,surface aquatic,transporter
+K20118,Salmonella_chow,0,677,24382,0,host-associated,transporter
+K20118,Salmonella_HFD,0,3459,129483,0,host-associated,transporter
+K20118,Stordalen_mire,0,1867,66646,0,terrestrial,transporter
+K01142,Anaerobic_Digestors,0,726,25541,0,host-associated,information
+K01142,ARDEC_agriculture,0,257,10532,0,terrestrial,information
+K01142,Columbia_River,0,182,6029,0,surface aquatic,information
+K01142,CT_feces,0,397,15408,0,host-associated,information
+K01142,CT_soil,0,292,10236,0,terrestrial,information
+K01142,East_River,0,150,5444,0,surface aquatic,information
+K01142,Fire_soils,0,1777,79184,0,terrestrial,information
+K01142,Frac_DJ_basin,0,4583,119496,0,subsurface aquatic,information
+K01142,Frack_STACK,0,1241,60475,0,subsurface aquatic,information
+K01142,Fractured_shale,0,5411,192954,0,subsurface aquatic,information
+K01142,Human_Microbiome_Project,0,2846,100581,0,host-associated,information
+K01142,Huttenhower,5,13436,554426,9.018336080919725e-6,host-associated,information
+K01142,Lake_Yojoa,0,271,7327,0,surface aquatic,information
+K01142,Methylamines,0,8303,329925,0,host-associated,information
+K01142,Moose_rumen,0,870,39886,0,host-associated,information
+K01142,Ohio_groundwater,0,251,10810,0,subsurface aquatic,information
+K01142,OWC_wetlands,0,358,13786,0,surface aquatic,information
+K01142,Prado_wetlands,0,1170,37517,0,surface aquatic,information
+K01142,Prairie_potholes,0,1480,49964,0,surface aquatic,information
+K01142,Salmonella_chow,0,677,24382,0,host-associated,information
+K01142,Salmonella_HFD,1,3459,129483,7.72302155495316e-6,host-associated,information
+K01142,Stordalen_mire,0,1867,66646,0,terrestrial,information
+K06396,Anaerobic_Digestors,0,726,25541,0,host-associated,transporter
+K06396,ARDEC_agriculture,0,257,10532,0,terrestrial,transporter
+K06396,Columbia_River,0,182,6029,0,surface aquatic,transporter
+K06396,CT_feces,0,397,15408,0,host-associated,transporter
+K06396,CT_soil,0,292,10236,0,terrestrial,transporter
+K06396,East_River,0,150,5444,0,surface aquatic,transporter
+K06396,Fire_soils,0,1777,79184,0,terrestrial,transporter
+K06396,Frac_DJ_basin,0,4583,119496,0,subsurface aquatic,transporter
+K06396,Frack_STACK,0,1241,60475,0,subsurface aquatic,transporter
+K06396,Fractured_shale,0,5411,192954,0,subsurface aquatic,transporter
+K06396,Human_Microbiome_Project,0,2846,100581,0,host-associated,transporter
+K06396,Huttenhower,4,13436,554426,7.2146688647357805e-6,host-associated,transporter
+K06396,Lake_Yojoa,0,271,7327,0,surface aquatic,transporter
+K06396,Methylamines,6,8303,329925,1.8185951352580132e-5,host-associated,transporter
+K06396,Moose_rumen,0,870,39886,0,host-associated,transporter
+K06396,Ohio_groundwater,0,251,10810,0,subsurface aquatic,transporter
+K06396,OWC_wetlands,0,358,13786,0,surface aquatic,transporter
+K06396,Prado_wetlands,0,1170,37517,0,surface aquatic,transporter
+K06396,Prairie_potholes,0,1480,49964,0,surface aquatic,transporter
+K06396,Salmonella_chow,0,677,24382,0,host-associated,transporter
+K06396,Salmonella_HFD,0,3459,129483,0,host-associated,transporter
+K06396,Stordalen_mire,0,1867,66646,0,terrestrial,transporter
+K10979,Anaerobic_Digestors,0,726,25541,0,host-associated,information
+K10979,ARDEC_agriculture,0,257,10532,0,terrestrial,information
+K10979,Columbia_River,0,182,6029,0,surface aquatic,information
+K10979,CT_feces,0,397,15408,0,host-associated,information
+K10979,CT_soil,0,292,10236,0,terrestrial,information
+K10979,East_River,0,150,5444,0,surface aquatic,information
+K10979,Fire_soils,0,1777,79184,0,terrestrial,information
+K10979,Frac_DJ_basin,0,4583,119496,0,subsurface aquatic,information
+K10979,Frack_STACK,0,1241,60475,0,subsurface aquatic,information
+K10979,Fractured_shale,0,5411,192954,0,subsurface aquatic,information
+K10979,Human_Microbiome_Project,0,2846,100581,0,host-associated,information
+K10979,Huttenhower,1,13436,554426,1.8036672161839451e-6,host-associated,information
+K10979,Lake_Yojoa,0,271,7327,0,surface aquatic,information
+K10979,Methylamines,0,8303,329925,0,host-associated,information
+K10979,Moose_rumen,0,870,39886,0,host-associated,information
+K10979,Ohio_groundwater,0,251,10810,0,subsurface aquatic,information
+K10979,OWC_wetlands,3,358,13786,2.176120702161613e-4,surface aquatic,information
+K10979,Prado_wetlands,0,1170,37517,0,surface aquatic,information
+K10979,Prairie_potholes,0,1480,49964,0,surface aquatic,information
+K10979,Salmonella_chow,0,677,24382,0,host-associated,information
+K10979,Salmonella_HFD,0,3459,129483,0,host-associated,information
+K10979,Stordalen_mire,0,1867,66646,0,terrestrial,information

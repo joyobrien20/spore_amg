@@ -136,7 +136,7 @@ p.ncbi <- ncbi_fams %>%
 plot_grid(p.gtdb, p.ncbi, labels = c("GTDB", "NCBI"), ncol = 1, label_x = 0.5, label_y = 0.9)
 ```
 
-GTDB has much more taxa levels. Overall GTDB lists `r sum(gtdb_fams$n_families)` families in the Firmicutes.
+GTDB has much more taxa levels. Overall GTDB lists `r nrow(gtdb_fams)` families in the Firmicutes.
 
 ## Sporulator status prediticion from Browne et al. 
 
@@ -244,7 +244,7 @@ d_galperin <- d_galperin %>%
 
 ```
 
-The next xhalenge is that Galperin uses the NCBI taxonomy. To tranfer ths information to GTDB taxonomy, I will assign spoulation likelihood based on NCBI taxonomy in the GTDB metadta.
+The next chalenge is that Galperin uses the NCBI taxonomy. To transfer the information to GTDB taxonomy, I will assign sporulation likelihood based on NCBI taxonomy in the GTDB metadata.
  
 ```{r galperin ncbi, eval=FALSE}
 
@@ -287,7 +287,7 @@ meta_fams <-
     mutate(Family = paste0("f__", Family)) %>%
     left_join(d_meta_comp,., by = c("ncbi_f" = "Family"))
 
-#call sporulation status by majority of FTDB genomes with predictions
+#call sporulation status by majority of GTDB genomes with predictions
   galp_fams <- d_meta_galp %>% 
     select(gtdb_d,gtdb_p,gtdb_c,gtdb_o,gtdb_f, spore.likely) %>% 
     group_by(gtdb_d,gtdb_p,gtdb_c,gtdb_o,gtdb_f, spore.likely) %>%
