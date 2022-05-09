@@ -1,4 +1,7 @@
-# plot scaffold genes
+# plotting function to aid in scrutinizing viral scaffolds with potential AMGs
+
+
+# Load packages needed ----------------------------------------------------
 library(here)
 library(tidyverse)
 library(gggenes)
@@ -6,96 +9,104 @@ library(cowplot)
 library(ggforce)
 
 
-# input variables --------------------------------------------------------
-data_dir <- "dram_metaG/data/dram_output"
+# Function ------------------------------------------------------------
 
-
-# sets from CSU (excluding GVD and GPD)
-sets <- list.dirs(here(data_dir), full.names = F, recursive = F)
-sets <- sets[!sets %in% "Camarillo-Guerrero"]
-sets <- sets[!sets %in% "Gregory_gvd"]
-
-# AMG looking at currently
-ko_amg <- "K07699" #spo0A
-
-amg_name <- "spo0A"
-sets_name <- "CSUsets"
-
-
-
-
-# Sporulation genes -------------------------------------------------------
-
-spor_genes <- read_csv(here("spor_gene_list/data/dram_spore_genes.csv")) %>% 
-  # genes with KO
-  filter(!is.na(gene_id.ko)) %>% 
-  separate(gene_description, into = c("symbol", "description"), sep = ";") %>% 
-  rename(ko = gene_id.ko)
-
-spor_ko <- 
-  unique(spor_genes$ko)
-
-# Enriched sporulation genes -------------------------------------------------------
-
-d.enriched <- read_csv(here("dram_metaG/data/enrichment/spor_enriched.csv")) #%>% 
-
-#enriched KOs 
-enriched_ko <- d.enriched$gene_id 
-
-
-
-
-# get scaffold annotations  --------------------------------------------------
-  # all annotations for scaffolds conaining amg of intrest
-d.annot <- tibble()
-for (cur_set in sets){
-  # get scaffold names from amg summary
-  d.amg <- read_tsv(here(data_dir, cur_set, "amg_summary.tsv")) %>% 
-    filter(gene_id %in% ko_amg)
+plot_amg_scaffolds <- function(
+  data_dir, # main directory of DRAM results
+  sets, # dataset(s) to be analyzed (folder name in data_dir)
+  sets_name=sets[1], # name of folder in which the plots will be stored
+  amg_name, # gene name to be maekd on scaffolds
+  ko_amg # the KO identifier of the focal gene
+){
+  #> list of sporulation genes -------------------------------------------------------
+  # Marking all sporulation genes on plot
+  spor_genes <- read_csv(here("spor_gene_list/data/dram_spore_genes.csv")) %>% 
+    # genes with KO
+    filter(!is.na(gene_id.ko)) %>% 
+    separate(gene_description, into = c("symbol", "description"), sep = ";") %>% 
+    rename(ko = gene_id.ko)
   
-  # get full annotation for scaffolds
+  spor_ko <- 
+    unique(spor_genes$ko)
   
-    # filtering function from chunked reading
+  # > Enriched sporulation genes -------------------------------------------------
+  # list of all enriched genes - these too will be noted on plot
+  
+  d.enriched <- read_csv(here("dram_metaG/data/enrichment/spor_enriched.csv")) 
+  
+  #enriched KOs 
+  enriched_ko <- d.enriched$gene_id 
+  
+  # > get scaffold annotations  --------------------------------------------------
+  # Iterate over all datasets and pull out the full annotation data 
+  # for scaffold containing the AMG(s)  of interest
+  
+  #initalize tibble to collect data
+  d.annot <- tibble()
+  
+  for (cur_set in sets){
+    # get scaffold names from amg summary
+    d.amg <- read_tsv(paste(data_dir, cur_set, "amg_summary.tsv", sep = "/")) %>% 
+      filter(gene_id %in% ko_amg)
+    
+    # get full annotation for scaffolds
+    
+    # >> filtering function from chunked reading ----------------------------------
     f <- function(.data, pos) {
       filter(.data, scaffold %in% d.amg$scaffold) 
     }
-  # name of file with scaffold annotations
-  annot_file <- 
-    list.files(here(data_dir, cur_set), pattern = "annotation", full.names = T)
-  
-  # read annotations
-  annot <- read_tsv_chunked(annot_file,
-                            DataFrameCallback$new(f), 
-                            chunk_size = 10000) 
-  #skip emty data
-  if (nrow(annot) < 1) {next}
-  
-  # add index and set
-  annot$idx <- 
-    annot %>% 
-    group_by(scaffold) %>% 
-    group_indices()
-  
-  annot$set <- cur_set
-  
-  annot <- annot %>% relocate(set, idx)
-  
-  # there is some inconsistency on column headers
-  if (!"kegg_id" %in% colnames(annot)){
-    if("ko_id" %in% colnames(annot)){
-      annot <- 
-        annot %>% 
-        rename(kegg_id = ko_id)
+    # name of file with scaffold annotations
+    annot_file <- 
+      list.files(paste(data_dir, cur_set, sep = "/"), pattern = "annotation", full.names = T)
+    
+    # read annotations
+    annot <- read_tsv_chunked(annot_file,
+                              DataFrameCallback$new(f), 
+                              chunk_size = 10000) 
+    #skip emty data
+    if (nrow(annot) < 1) {next}
+    
+    # add index and set
+    annot$idx <- 
+      annot %>% 
+      group_by(scaffold) %>% 
+      group_indices()
+    
+    annot$set <- cur_set
+    
+    annot <- annot %>% relocate(set, idx)
+    
+    # there is some inconsistency on column headers
+    if (!"kegg_id" %in% colnames(annot)){
+      if("ko_id" %in% colnames(annot)){
+        annot <- 
+          annot %>% 
+          rename(kegg_id = ko_id)
+      }
     }
+    
+    d.annot <- bind_rows(d.annot, annot)
+    
   }
   
-  d.annot <- bind_rows(d.annot, annot)
-  
-}
-
 rm(annot)
 
-# add informative properties for AMG --------------------------------------
+
+# stop if no data
+if(is.null(dim(d.annot))){
+  # make folder for plots
+  if (!dir.exists(here("dram_metaG/plots", "scrutinize", amg_name, sets_name))){
+    dir.create(
+      here("dram_metaG/plots", "scrutinize", amg_name, sets_name),
+      recursive = T
+    )
+    file.create(here("dram_metaG/plots", "scrutinize", amg_name,
+                     sets_name,"no_data_in_this_folder.txt"))
+  }
+return("no data found")
+}
+
+  # > add informative properties for AMG --------------------------------------
 
 # kegg_hit & pfam_hits
   # Phages will typically have many genes with no annotation ("NA") 
@@ -163,7 +174,7 @@ d.annot <-
   d.annot %>% 
   mutate(v.cat = str_extract(scaffold, "cat_.$")) 
 
-# plot --------------------------------------------------------------------
+  #>  plot --------------------------------------------------------------------
 # https://cran.r-project.org/web/packages/gggenes/vignettes/introduction-to-gggenes.html
 
 # make folder for plots
@@ -174,7 +185,7 @@ if (!dir.exists(here("dram_metaG/plots", "scrutinize", amg_name, sets_name))){
   )
 }
 
-# paramters fro pagination
+# paramters for pagination
 
 row_page <- 10
 cur_row_page <- row_page
@@ -208,7 +219,6 @@ for(pg in 1: min(n_pages, 20)){
   
   p <- d.annot  %>% 
 
-
     ggplot(aes(y = strandedness/3,
                xmin = start_position,
                xmax = end_position,
@@ -221,7 +231,7 @@ for(pg in 1: min(n_pages, 20)){
 
     # mark other sporulation genes with grey background
     geom_rect(data = d.annot %>%
-                filter(str_detect(kegg_hit, spor_ko) | (kegg_id %in% spor_ko)),
+                filter((kegg_hit %in% spor_ko) | (kegg_id %in% spor_ko)),
               aes(xmin = start_position, xmax = end_position),
               ymin = -Inf, ymax = Inf, fill = "grey70") +
 
@@ -236,12 +246,12 @@ for(pg in 1: min(n_pages, 20)){
                 filter(str_detect(kegg_hit, ko_amg) | (kegg_id %in% ko_amg)),
               aes(xmin = start_position, xmax = end_position),
               ymin = -Inf, ymax = Inf, fill = "pink") +
+    
+    # mark plot amg with label
+    geom_text(x = Inf, y = -0.9, label = amg_name, color = "red", hjust =1.1, size=2) +
 
 
-    		# mark plot amg with label
-		geom_text(x = Inf, y = -0.9, label = amg_name, color = "red", hjust =1.1, size=2) +
-
-		# plot all genes
+    # plot all genes
     geom_gene_arrow(color = "black") +
 
     # mark amg with red arrow
@@ -286,7 +296,7 @@ for(pg in 1: min(n_pages, 20)){
 }
 
 
-# save annotatons plotted -----------------------------------------------------
+# > save annotations plotted -----------------------------------------------------
 if (!dir.exists(here("dram_metaG/data", "scrutinize", amg_name))){
   dir.create(
     here("dram_metaG/data", "scrutinize"),
@@ -298,3 +308,6 @@ write_csv(d.annot,
           here("dram_metaG/data", "scrutinize", 
                paste0(amg_name, "_", sets_name,"_annot.csv")))
 
+return(paste("done", amg_name, sets_name))
+}
+# End of function ------------------------------------------
