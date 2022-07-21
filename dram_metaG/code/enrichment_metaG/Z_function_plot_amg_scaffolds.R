@@ -15,7 +15,7 @@ plot_amg_scaffolds <- function(
   data_dir, # main directory of DRAM results
   sets, # dataset(s) to be analyzed (folder name in data_dir)
   sets_name=sets[1], # name of folder in which the plots will be stored
-  amg_name, # gene name to be maekd on scaffolds
+  amg_name, # gene name to be marked on scaffolds
   ko_amg # the KO identifier of the focal gene
 ){
   #> list of sporulation genes -------------------------------------------------------
@@ -127,13 +127,17 @@ d.annot <- d.annot %>%
            str_detect(pfam_hits, str_c(v_hallmark, collapse = "|")%>%
                         regex(ignore_case = T))) %>%
   mutate(viral_hallmark = if_else(is.na(viral_hallmark), FALSE, viral_hallmark)) %>% 
-  # false positive
+  # false positives (lamin and laminin tail domains and hammerhead)
+    # combine annotations to overcome NA in one of the columns
+  mutate(tst=paste(kegg_hit,pfam_hits, sep = ";")) %>% 
   mutate(viral_hallmark = 
            if_else(
-             str_detect(kegg_hit, "Minor_tail_Z Laminin_I")|
-               str_detect(pfam_hits, "Minor_tail_Z Laminin_I"),
-             FALSE, viral_hallmark))
-
+             str_detect(tst, regex("laminin", ignore_case = T))|
+               str_detect(tst, regex("(^|_| )lamin(_| |$)", ignore_case = T))|
+               str_detect(tst, regex("hammerhead", ignore_case = T)),
+             FALSE, viral_hallmark)) %>% 
+  select(-tst)
+  
 # hypothetical genes are a special class
 d.annot <-
   d.annot %>% 
@@ -141,13 +145,13 @@ d.annot <-
   mutate(hypothetical = 
            case_when(
              #both hypothetical
-             str_detect(kegg_hit, regex("hypothetical", ignore_case = T))&
-               str_detect(pfam_hits, regex("hypothetical", ignore_case = T)) ~ TRUE,
+             str_detect(kegg_hit, regex("hypothetical|unknown", ignore_case = T))&
+               str_detect(pfam_hits, regex("hypothetical|unknown", ignore_case = T)) ~ TRUE,
              
              # one hypothetical an other NA
-             str_detect(kegg_hit, regex("hypothetical", ignore_case = T))&
+             str_detect(kegg_hit, regex("hypothetical|unknown", ignore_case = T))&
                one_NA ~ TRUE,
-             str_detect(pfam_hits, regex("hypothetical", ignore_case = T))&
+             str_detect(pfam_hits, regex("hypothetical|unknown", ignore_case = T))&
                one_NA ~ TRUE,
              TRUE ~ FALSE
            )
