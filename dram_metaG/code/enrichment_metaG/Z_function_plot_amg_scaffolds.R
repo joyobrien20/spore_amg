@@ -6,7 +6,7 @@ library(here)
 library(tidyverse)
 library(gggenes)
 library(cowplot)
-library(ggforce)
+library(qpdf)
 
 
 # Function ------------------------------------------------------------
@@ -41,7 +41,7 @@ plot_amg_scaffolds <- function(
   # Iterate over all datasets and pull out the full annotation data 
   # for scaffold containing the AMG(s)  of interest
   
-  #initalize tibble to collect data
+  #initialize tibble to collect data
   d.annot <- tibble()
   
   for (cur_set in sets){
@@ -63,7 +63,7 @@ plot_amg_scaffolds <- function(
     annot <- read_tsv_chunked(annot_file,
                               DataFrameCallback$new(f), 
                               chunk_size = 10000) 
-    #skip emty data
+    #skip empty data
     if (nrow(annot) < 1) {next}
     
     # add index and set
@@ -93,17 +93,18 @@ rm(annot)
 
 
 # stop if no data
-if(is.null(dim(d.annot))){
+if(is.null(dim(d.annot)) | nrow(d.annot)<1){
   # make folder for plots
-  if (!dir.exists(here("dram_metaG/plots", "scrutinize", amg_name, sets_name))){
+  if (!dir.exists(here("dram_metaG/plots", "scrutinize", amg_name))){
     dir.create(
-      here("dram_metaG/plots", "scrutinize", amg_name, sets_name),
+      here("dram_metaG/plots", "scrutinize", amg_name),
       recursive = T
     )
-    file.create(here("dram_metaG/plots", "scrutinize", amg_name,
-                     sets_name,"no_data_in_this_folder.txt"))
   }
-return("no data found")
+  file.create(here("dram_metaG/plots", "scrutinize", amg_name,
+                   paste0(amg_name,"_",sets_name,"_no_data.info")))
+  
+  return("no data found")
 }
 
   # > add informative properties for AMG --------------------------------------
@@ -189,7 +190,7 @@ if (!dir.exists(here("dram_metaG/plots", "scrutinize", amg_name, sets_name))){
   )
 }
 
-# paramters for pagination
+# parameters for pagination
 
 row_page <- 10
 cur_row_page <- row_page
@@ -201,7 +202,7 @@ n_scaffolds <- d.annot %>%
   distinct() %>% 
   nrow()
 
-n_pages <-  ceiling(n_scaffolds/(row_page  * col_page) )
+n.pages <-  ceiling(n_scaffolds/(row_page  * col_page) )
 
 
 
@@ -209,19 +210,27 @@ n_pages <-  ceiling(n_scaffolds/(row_page  * col_page) )
 d.annot <-  d.annot%>%
   mutate(set_label = str_replace_all(set, "-|_", " "))
 
+# list of scaffolds to split across pages
+scafs <-  d.annot %>% 
+  select(set, idx, scaffold) %>% 
+  distinct() %>% 
+  arrange(set, idx)
 
 # limit number of plots (max 200)
-for(pg in 1: min(n_pages, 20)){
+for(pg in 1: min(n.pages, 20)){
   
   
   # corrections for last page if needed
-  if(pg == n_pages){
+  if(pg == n.pages){
     cur_row_page <- n_scaffolds - (row_page*(pg-1))
     page_h = page_h * ((cur_row_page+1)/row_page)
   }
   
+  n.scafs <- seq(from = pg*row_page-row_page+1, length.out = cur_row_page)
   
-  p <- d.annot  %>% 
+  d.cur <- d.annot  %>% 
+    filter(scaffold %in% scafs$scaffold[n.scafs]) 
+  p <- d.cur %>% 
 
     ggplot(aes(y = strandedness/3,
                xmin = start_position,
@@ -234,19 +243,19 @@ for(pg in 1: min(n_pages, 20)){
     geom_hline(yintercept = 0, color = "black", size=0.1)+
 
     # mark other sporulation genes with grey background
-    geom_rect(data = d.annot %>%
+    geom_rect(data = d.cur %>%
                 filter((kegg_hit %in% spor_ko) | (kegg_id %in% spor_ko)),
               aes(xmin = start_position, xmax = end_position),
               ymin = -Inf, ymax = Inf, fill = "grey70") +
 
     # mark enriched sporulation genes with cyan background
-    geom_rect(data = d.annot %>%
-              filter(str_detect(kegg_hit, enriched_ko) | (kegg_id %in% enriched_ko)),
+    geom_rect(data = d.cur %>%
+              filter((kegg_id %in% enriched_ko)),
               aes(xmin = start_position, xmax = end_position),
               ymin = -Inf, ymax = Inf, fill = "cyan3") +
 
     # mark amg with pink background
-    geom_rect(data = d.annot %>%
+    geom_rect(data = d.cur %>%
                 filter(str_detect(kegg_hit, ko_amg) | (kegg_id %in% ko_amg)),
               aes(xmin = start_position, xmax = end_position),
               ymin = -Inf, ymax = Inf, fill = "pink") +
@@ -259,7 +268,7 @@ for(pg in 1: min(n_pages, 20)){
     geom_gene_arrow(color = "black") +
 
     # mark amg with red arrow
-    geom_gene_arrow(data = d.annot %>%
+    geom_gene_arrow(data = d.cur %>%
                       filter(str_detect(kegg_hit, ko_amg) | (kegg_id %in% ko_amg)),# %>%
                     # filter(idx %in% n_genomes),
                     aes(y=strandedness/3),
@@ -269,11 +278,11 @@ for(pg in 1: min(n_pages, 20)){
     geom_gene_label(aes(label = gene_position),
                     align = "centre") +
 
-    #wrap across pages
-    facet_wrap_paginate(
+    # wrap across scaffolds
+    facet_wrap(
       set_label ~ idx + v.cat,
       scales = "free_x", strip.position = "left",
-      ncol = col_page, nrow = cur_row_page, page = pg,
+      ncol = col_page, nrow = cur_row_page,
       labeller =  labeller(set_label = label_wrap_gen(width = 10))
     )+
 
@@ -293,11 +302,20 @@ for(pg in 1: min(n_pages, 20)){
     labs(caption = "background: sporulation gene (grey); enriched sporulation gene (cyan); focal sporulation gene (pink)")
 
   # save single page of plots
-  file_name <- paste0(amg_name,"_genomes_p0",pg,".png")
+  file_name <- paste0(amg_name,"_genomes_p0",pg,".pdf")
   ggsave(here("dram_metaG/plots", "scrutinize", amg_name, sets_name, file_name),
          plot = p,
          width = 8, height = page_h)
 }
+
+# combine pages
+pgs <- list.files(here("dram_metaG/plots", "scrutinize", amg_name, sets_name),
+                  pattern = "pdf", full.names = T)
+pdf_combine(pgs,
+            output = here("dram_metaG/plots", "scrutinize", amg_name,
+                          paste0(amg_name,"_",sets_name,".pdf")))
+# delete single page files
+unlink(here("dram_metaG/plots", "scrutinize", amg_name, sets_name), recursive = T)
 
 
 # > save annotations plotted -----------------------------------------------------

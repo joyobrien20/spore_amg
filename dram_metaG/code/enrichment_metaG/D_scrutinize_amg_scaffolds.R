@@ -51,11 +51,5 @@ foreach (i = 1:nrow(d.enriched), .packages = "tidyverse") %:%
                      amg_name = gene_name,
                      ko_amg = d.enriched$gene_id[i])
 
-  # print("=====================================")
-  # print(i)
-  # print(set_groups[j])
-  # print(#sets_2_plot,
-  # gene_name,d.enriched$gene_id[i])
-  # print("=====================================")
-}
 
+}
