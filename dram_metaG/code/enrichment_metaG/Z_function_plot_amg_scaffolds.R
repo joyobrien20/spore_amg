@@ -20,7 +20,7 @@ plot_amg_scaffolds <- function(
 ){
   #> list of sporulation genes -------------------------------------------------------
   # Marking all sporulation genes on plot
-  spor_genes <- read_csv(here("spor_gene_list/data/dram_spore_genes.csv")) %>% 
+  spor_genes <- read_csv(here("spor_gene_list/data/dram_spore_genes.csv"), progress = FALSE) %>% 
     # genes with KO
     filter(!is.na(gene_id.ko)) %>% 
     separate(gene_description, into = c("symbol", "description"), sep = ";") %>% 
@@ -32,7 +32,7 @@ plot_amg_scaffolds <- function(
   # > Enriched sporulation genes -------------------------------------------------
   # list of all enriched genes - these too will be noted on plot
   
-  d.enriched <- read_csv(here("dram_metaG/data/enrichment/spor_enriched.csv")) 
+  d.enriched <- read_csv(here("dram_metaG/data/enrichment/spor_enriched.csv"),progress = FALSE) 
   
   #enriched KOs 
   enriched_ko <- d.enriched$gene_id 
@@ -46,7 +46,7 @@ plot_amg_scaffolds <- function(
   
   for (cur_set in sets){
     # get scaffold names from amg summary
-    d.amg <- read_tsv(paste(data_dir, cur_set, "amg_summary.tsv", sep = "/")) %>% 
+    d.amg <- read_tsv(paste(data_dir, cur_set, "amg_summary.tsv", sep = "/"),progress = FALSE) %>% 
       filter(gene_id %in% ko_amg)
     
     # get full annotation for scaffolds
@@ -62,7 +62,8 @@ plot_amg_scaffolds <- function(
     # read annotations
     annot <- read_tsv_chunked(annot_file,
                               DataFrameCallback$new(f), 
-                              chunk_size = 10000) 
+                              chunk_size = 10000,
+                              progress = FALSE) 
     #skip empty data
     if (nrow(annot) < 1) {next}
     
@@ -311,6 +312,9 @@ for(pg in 1: min(n.pages, 20)){
 # combine pages
 pgs <- list.files(here("dram_metaG/plots", "scrutinize", amg_name, sets_name),
                   pattern = "pdf", full.names = T)
+  #sort numericalty by page numbers
+  pgs <-pgs[str_order(pgs,numeric = T)]
+  
 pdf_combine(pgs,
             output = here("dram_metaG/plots", "scrutinize", amg_name,
                           paste0(amg_name,"_",sets_name,".pdf")))
