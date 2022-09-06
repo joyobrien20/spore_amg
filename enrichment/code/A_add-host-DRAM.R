@@ -2,7 +2,7 @@ library(here)
 library(tidyverse)
 
 # import data from DRAM-v
-d.vir <- read_tsv(here("data/Viruses/amg_summary.tsv"))
+d.vir <- read_tsv(here("enrichment/data/Viruses/amg_summary.tsv"))
 
 # d.vir.sum <- d.vir %>% 
 #   # filter(str_detect(header, regex("sporulation", ignore_case = T))) %>% 
@@ -27,7 +27,7 @@ d.vir <- read_tsv(here("data/Viruses/amg_summary.tsv"))
 # #-----------------------------#
 
 #import virus-host data
-vh.db <- read_tsv(here("data","virushostdb.tsv") ) 
+vh.db <- read_tsv(here("enrichment","data","virushostdb.tsv") ) 
 
 # It will be easier to match data by taxid
 # extracting from vh.db a mapping-table between refseq and taxid
@@ -140,4 +140,4 @@ vh.db <- vh.db %>%
 
 d.vir <- left_join(d.vir, vh.db, by = "virus.tax.id")
 
-write_csv(d.vir, here("data/Viruses/amg_summary_wHost.tsv"))
+write_csv(d.vir, here("enrichment","data/Viruses/amg_summary_wHost.tsv"))

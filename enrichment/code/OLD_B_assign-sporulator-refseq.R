@@ -2,69 +2,8 @@ library(here)
 library(tidyverse)
 
 # import data on hosts in refseq
-# from "A_add-host-DRAM.R"
-d.vir <- read_csv(here("enrichment","data/Viruses/amg_summary_wHost.tsv"))
+d.vir <- read_tsv(here("enrichment","data/Viruses/vMAG_stats.tsv"))
 
-
-# Curated list of sporulation in families of Firmicutes
-fam_spor <- read_csv(here("gtdb_spor/data/gtdb_families_sporulation.csv")) %>% 
-  distinct() %>% 
-  mutate(gtdb_dpf = str_c(gtdb_d,gtdb_p, gtdb_f, sep = ";"))
-# This list was prepared for GTDB taxonomy,
-# but the hosts for refeq viruses are in NCBI taxonomy
-# I will find the GTDB taxonomy for each of the host taxIDs
-
-
-# get gtdb by NCBI taxID --------------------------------------------------
-
-
-f_meta <- list.files(here("gtdb_spor/data/gtdb_downloads"), pattern = "bac120.*tsv")
-# read in only Firmicutes
-
-taxIDs <- d.vir$host.tax.id %>%  unique()
-# function to filter firmicutes by chunks
-f <- function(x, pos) {
-  x %>% filter(ncbi_taxid %in% taxIDs)
-  }
-
-d_meta <-
-  read_tsv_chunked(here("gtdb_spor/data/gtdb_downloads", f_meta),
-                   DataFrameCallback$new(f))
-
-#  keep only relevant columns and discard duplicates
-d_meta2 <-
-  d_meta %>% 
-  select(gtdb_taxonomy, ncbi_taxid) %>% 
-  separate(gtdb_taxonomy, sep = ";", into = paste0("gtdb_",c("d","p","c","o","f","g","s"))) %>% 
-  select(ncbi_taxid, paste0("gtdb_",c("d","p","c","o","f"))) %>% 
-  distinct()
-
-# d_meta2 %>% 
-#   group_by(ncbi_taxid) %>% 
-#   mutate(idx = row_number()) %>% 
-#   arrange(desc(idx))
-
-#add gtdb taxonomy to refseq
-tmp <- left_join(d.vir, d_meta2, by = c("host.tax.id" = "ncbi_taxid"))
-
-
-# add sporulation
-tmp2 <- 
-  fam_spor %>%
-  select(gtdb_f, f_spor) %>% 
-  left_join(tmp, ., by = "gtdb_f") %>% 
-  #assign non-firmicutes as nonsporulators
-  mutate(f_spor = if_else(str_detect(gtdb_p,"Firmicute"), f_spor, FALSE))
-
-tmp2 %>% 
-  group_by(gene, f_spor) %>% 
-  summarise(n=n()) %>% 
-  pivot_wider(names_from = f_spor, values_from = n) %>% 
-  filter(!is.na(`TRUE`) | !is.na(`FALSE`)) %>% 
-  mutate(wtf = !is.na(`TRUE`) && !is.na(`FALSE`)) %>% 
-  arrange(wtf) %>% 
-  group_by(wtf) %>% 
-  summarise(n=n())
 
 #### match to hosts ####
 
