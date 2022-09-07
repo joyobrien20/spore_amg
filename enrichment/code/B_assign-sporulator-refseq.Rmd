@@ -1,0 +1,299 @@
+---
+title: "Assign host sporulation"
+author: "Daniel Schwartz"
+output: rmarkdown::github_document
+editor_options: 
+  chunk_output_type: inline
+---
+
+```{r setup, include=FALSE}
+library(here)
+library(tidyverse)
+library(knitr)
+library(cowplot)
+```
+
+# The Goal
+
+After matching hosts to the viral-Refseq viruses we now assign each viral hosts as a sporulator or non-sporulator.
+
+
+# import data 
+ 
+* data on hosts of refseq viruses from "A_add-host-DRAM"
+
+* Curated list of sporulation in families of Firmicutes. 
+
+
+
+```{r}
+#  data on hosts of refseq viruses
+d.vir <- read_csv(here("enrichment","data/Viruses/refseq_phages_wHost.csv"))
+
+# Curated list of sporulation in families of Firmicutes
+fam_spor <- read_csv(here("gtdb_spor/data/gtdb_families_sporulation.csv")) %>% 
+  distinct() %>% 
+  mutate(gtdb_dpf = str_c(gtdb_d,gtdb_p, gtdb_f, sep = ";"))
+```
+
+This sporulation list was prepared for GTDB taxonomy, but the hosts for resfeq viruses are in NCBI taxonomy.  I will find the GTDB taxonomy for each of the host taxIDs.
+
+# get gtdb data for NCBI taxIDs
+
+Previously I downloaded the metadata of gtdb. I next pull from there all data that has NCBI taxIDs matching assigned hosts of refseq phages
+
+```{r}
+
+# get gtdb by NCBI taxID
+
+f_meta <- list.files(here("gtdb_spor/data/gtdb_downloads"), pattern = "bac120.*tsv")
+
+
+
+# filter by ncbi taxa (taxid) present in viral host data
+taxIDs <- d.vir$host.tax.id %>%  unique()
+taxIDs <- taxIDs[!is.na(taxIDs)]
+# remove a general bacterial term (used for unclassified bacteria)
+taxIDs <- taxIDs[taxIDs!=1869227]
+# filter function
+# function to filter firmicutes by chunks
+f <- function(x, pos) {
+  x %>% filter(ncbi_taxid %in% taxIDs)
+  }
+
+d_meta <-
+  read_tsv_chunked(here("gtdb_spor/data/gtdb_downloads", f_meta),
+                   DataFrameCallback$new(f))
+
+d_meta <-
+  d_meta %>% 
+  select(gtdb_taxonomy, ncbi_taxid) %>% 
+  separate(gtdb_taxonomy, sep = ";", into = paste0("gtdb_",c("d","p","c","o","f","g","s"))) %>% 
+  select(ncbi_taxid, paste0("gtdb_",c("d","p","c","o","f")))
+
+d_meta %>% 
+  select(ncbi_taxid, gtdb_f) %>% 
+  distinct() %>% 
+  group_by(ncbi_taxid) %>% 
+  summarise(n_fam=n()) %>% 
+  arrange(desc(n_fam))
+
+```
+
+some NCBI taxiIDs map on to multiple GTDB families. I will inspect.
+
+```{r}
+# Get tax IDs by number of assigned GTDB families
+taxid_fam_count <- d_meta %>% 
+  select(ncbi_taxid, gtdb_f) %>% 
+  distinct() %>% 
+  right_join(., tibble(ncbi_taxid = taxIDs))
+
+taxid_absent <- 
+  taxid_fam_count %>% 
+  filter(is.na(gtdb_f)) %>% 
+  pull(ncbi_taxid)
+
+taxid_unique_fam <- 
+  taxid_fam_count %>% 
+  filter(!is.na(gtdb_f)) %>% 
+  group_by(ncbi_taxid) %>% 
+  summarise(n=n()) %>% 
+  filter(n==1) %>% 
+  pull(ncbi_taxid)
+  
+taxid_multi_fam <- 
+  taxid_fam_count %>% 
+  filter(!is.na(gtdb_f)) %>% 
+  group_by(ncbi_taxid) %>% 
+  summarise(n=n()) %>% 
+  filter(n > 1) %>% 
+  pull(ncbi_taxid)
+
+```
+
+## TaxIDs mapping to unique familiy
+
+```{r}
+d_meta_clean <- 
+  d_meta %>% 
+  filter(ncbi_taxid %in% taxid_unique_fam) %>% 
+  distinct()
+
+# check for duplication
+anyDuplicated(d_meta_clean$ncbi_taxid)
+```
+
+
+## TaxIDs mapping to multiple families
+
+From insection it seems that in many cases the majority are consistent in family asignment. See plot:
+
+```{r}
+
+d_meta %>% 
+  filter(ncbi_taxid %in% taxid_multi_fam) %>% 
+  group_by_all() %>% 
+  summarise(n=n()) %>% 
+  arrange(n) %>% 
+  group_by(ncbi_taxid) %>% 
+  mutate(fam_x = LETTERS[row_number()]) %>% 
+  mutate(ncbi_taxid = ncbi_taxid %>% as_factor()) %>% 
+  ggplot(aes(ncbi_taxid, n)) +
+  geom_col(aes(fill = fam_x), show.legend = T)+
+  facet_wrap(~ncbi_taxid, scales = "free")+
+  theme_classic()+
+  scale_fill_viridis_d(direction = -1)+
+  theme(  strip.background = element_blank(),
+          strip.text.x = element_blank())
+```
+
+The only real exxeption is taxid=1409, which is *unclassified Bacillus*. In the next plot I test if the different family assigments differ in sporulation assignment.
+
+```{r}
+d_meta %>% 
+  filter(ncbi_taxid %in% taxid_multi_fam) %>% 
+  group_by_all() %>% 
+  summarise(n=n()) %>% 
+  arrange(n) %>% 
+  left_join(., select(fam_spor, gtdb_f, f_spor)) %>% 
+  mutate(ncbi_taxid = ncbi_taxid %>% as_factor()) %>% 
+  ggplot(aes(ncbi_taxid, n)) +
+  geom_col(aes(fill = f_spor, color = gtdb_f), show.legend = T, color = "red")+
+  facet_wrap(~ncbi_taxid, scales = "free")+
+  theme_classic()+
+  scale_fill_viridis_d(direction = )+
+  theme(  strip.background = element_blank(),
+          strip.text.x = element_blank())
+```
+
+The majority is consistent in asigning sporulation status. In taxIDs 1502 and 1509 each have over 100 rows (=genomes) assigned as sporulators, and a single row assigned as a non-sporulator. I will follow the majority.
+
+```{r}
+d_meta_clean <- 
+  d_meta %>% 
+  filter(ncbi_taxid %in% taxid_multi_fam) %>% 
+  group_by_all() %>% 
+  summarise(n=n()) %>% 
+  group_by(ncbi_taxid) %>% 
+  slice_max(n) %>% 
+  select (-n) %>% 
+  bind_rows(d_meta_clean,.)
+
+# check for duplication
+anyDuplicated(d_meta_clean$ncbi_taxid)
+```
+At this point we can assign sporulation status using the gtdb family.
+
+```{r}
+d_meta_clean <-
+  fam_spor %>% 
+  select(gtdb_p,gtdb_c,gtdb_o, gtdb_f, f_spor) %>% 
+  left_join(d_meta_clean,.) %>% 
+  # assign non Firmicutes as non sporulators
+  mutate(f_spor = if_else(str_detect(gtdb_p, "Firmicutes"), f_spor, FALSE))
+```
+
+
+## TaxIDs absent in GTDB data
+
+Inspect the taxonomy we have for the hosts of these viruses. 
+```{r}
+d.vir %>% 
+  filter(host.tax.id %in% taxid_absent) %>% 
+  group_by(phylum) %>% 
+  summarise(n=n())
+  
+```
+
+Any non-Firmicutes we can assign as non-sporulators.
+
+```{r}
+to_add <- d.vir %>% 
+  filter(host.tax.id %in% taxid_absent) %>% 
+  filter(phylum != "Firmicutes") %>% 
+  filter(!is.na(phylum)) %>% 
+  pull(host.tax.id)
+
+d_meta_clean <- 
+  tibble(ncbi_taxid = to_add,
+         f_spor = FALSE) %>% 
+  bind_rows(d_meta_clean, . )
+```
+
+
+We are left with 42 refseq viruses that infect Firmicutes hosts and which we have not yet assigned sporulation status. Lets have a look.
+
+```{r}
+left_ID <- d.vir %>% 
+  filter(host.tax.id %in% taxid_absent) %>% 
+  filter(phylum == "Firmicutes") %>% 
+  filter(!is.na(phylum)) %>% 
+  pull(host.tax.id)
+
+d.left <- d.vir %>% 
+  filter(host.tax.id %in% left_ID) %>% 
+  select(virus.name, host.tax.id ,host.name, family, genus.etc)
+
+d.left
+
+unique(d.left$family)
+```
+The remaining phages infect hosts of eight firmicutes families. Let's check if these families are classified in our gtdb list
+
+```{r}
+fam_spor %>% 
+  filter(str_detect(gtdb_f,
+                    regex(paste(unique(d.left$family), collapse = "|")))) %>%
+  select(gtdb_f, f_spor)
+```
+
+
+
+```{r}
+d.left <-
+  tibble(family= unique(d.left$family)) %>% 
+  mutate(gtdb_f = str_c("f__", family )) %>% 
+  left_join(., fam_spor %>% select(gtdb_f, f_spor),  by = "gtdb_f") %>% 
+  left_join(d.left,.,  by = "family")
+
+d.left
+```
+
+Matching to curated GTDB family list we can classify sporulation status for all phages left, but one: *Weissella* phage WCP30 infecting a host of the family *Leuconostocaceae*. This family has been separate from, and (incorporated back)[https://www.microbiologyresearch.org/content/journal/ijsem/10.1099/ijsem.0.004107] into the *Lactobacillaceae.* Like the *Lactobacillaceae*, they do not form spores.
+
+```{r}
+d.left <- d.left %>% 
+  mutate(f_spor = if_else(family == "Leuconostocaceae", FALSE, f_spor))
+```
+
+Incorporate classification into master list
+
+```{r}
+d_meta_clean <- 
+  d.left %>% 
+  select(ncbi_taxid = host.tax.id, gtdb_f, f_spor) %>% 
+  bind_rows(d_meta_clean,.)
+```
+
+```{r}
+
+table(d.vir$host.tax.id %in% d_meta_clean$ncbi_taxid )
+
+d.vir %>% 
+  filter(! host.tax.id %in% d_meta_clean$ncbi_taxid) %>% view
+```
+
+We have classified sporulation for the hosts of all phages that have hosts assinged. Thirty nine phages that do not have hosts are left.
+
+```{r}
+d.vir_spor <- d_meta_clean %>% 
+  select(host.tax.id = ncbi_taxid , spor_host = f_spor) %>% 
+  distinct() %>% 
+  left_join(d.vir, ., by = "host.tax.id") 
+
+write_csv(d.vir_spor, here("enrichment/data/Viruses/refseq_phages_wHost_spor.csv"))
+  
+table(d.vir_spor$spor_host)
+```
+These are the numbers of phages by sporulating host.
