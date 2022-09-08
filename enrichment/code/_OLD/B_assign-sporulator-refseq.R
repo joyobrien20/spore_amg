@@ -1,8 +1,157 @@
 library(here)
 library(tidyverse)
 
-# import data on hosts in refseq
-d.vir <- read_tsv(here("data/Viruses/vMAG_stats.tsv"))
+# import data on hosts of refseq vieuses
+# from "A_add-host-DRAM.R"
+d.vir <- read_csv(here("enrichment","data/Viruses/refseq_phages_wHost.csv"))
+
+# Curated list of sporulation in families of Firmicutes
+fam_spor <- read_csv(here("gtdb_spor/data/gtdb_families_sporulation.csv")) %>% 
+  distinct() %>% 
+  mutate(gtdb_dpf = str_c(gtdb_d,gtdb_p, gtdb_f, sep = ";"))
+# This list was prepared for GTDB taxonomy,
+# but the hosts for refeq viruses are in NCBI taxonomy
+# I will find the GTDB taxonomy for each of the host taxIDs
+
+
+# get gtdb by NCBI taxID --------------------------------------------------
+
+f_meta <- list.files(here("gtdb_spor/data/gtdb_downloads"), pattern = "bac120.*tsv")
+
+# filter function
+ # filter by ncbi taxa (taxid) present in viral host data
+taxIDs <- d.vir$host.tax.id %>%  unique()
+taxIDs <- taxIDs[!is.na(taxIDs)]
+# function to filter firmicutes by chunks
+f <- function(x, pos) {
+  x %>% filter(ncbi_taxid %in% taxIDs)
+  }
+
+d_meta <-
+  read_tsv_chunked(here("gtdb_spor/data/gtdb_downloads", f_meta),
+                   DataFrameCallback$new(f))
+
+
+
+#  keep only relevant columns and discard duplicates
+d_meta2 <-
+  d_meta %>% 
+  select(gtdb_taxonomy, ncbi_taxid) %>% 
+  separate(gtdb_taxonomy, sep = ";", into = paste0("gtdb_",c("d","p","c","o","f","g","s"))) %>% 
+  select(ncbi_taxid, paste0("gtdb_",c("d","p","c","o","f")))
+  # distinct()
+
+# I have found that some taxiIDs map on to multiple families
+
+#  First get the uniquely mapped
+
+taxid_fam_count <- d_meta %>% 
+  select(ncbi_taxid, gtdb_f) %>% 
+  distinct() %>% 
+  right_join(., tibble(ncbi_taxid = taxIDs))
+
+taxid_absent <- 
+  taxid_fam_count %>% 
+  filter(is.na(gtdb_f)) %>% 
+  pull(ncbi_taxid)
+
+taxid_unique_fam <- 
+  taxid_fam_count %>% 
+  filter(!is.na(gtdb_f)) %>% 
+  group_by(ncbi_taxid) %>% 
+  summarise(n=n()) %>% 
+  filter(n==1) %>% 
+  pull(ncbi_taxid)
+  
+taxid_multi_fam <- 
+  taxid_fam_count %>% 
+  filter(!is.na(gtdb_f)) %>% 
+  group_by(ncbi_taxid) %>% 
+  summarise(n=n()) %>% 
+  filter(n > 1) %>% 
+  pull(ncbi_taxid)
+
+
+d_meta %>% 
+  filter(ncbi_taxid %in% taxid_multi_fam) %>% 
+  group_by_all() %>% 
+  summarise(n=n()) %>% 
+  arrange(n) %>% 
+  group_by(ncbi_taxid) %>% 
+  mutate(idx = LETTERS[row_number()]) %>% 
+  mutate(ncbi_taxid = ncbi_taxid %>% as_factor()) %>% 
+  ggplot(aes(ncbi_taxid, n)) +
+  geom_col(aes(fill = idx), show.legend = F)+
+  facet_wrap(~ncbi_taxid, scales = "free")+
+  theme_classic()+
+  scale_fill_viridis_d(direction = -1)+
+  theme(  strip.background = element_blank(),
+          strip.text.x = element_blank())
+
+
+d_meta2 %>% 
+  filter(ncbi_taxid %in% taxid_multi_fam) %>% 
+  group_by_all() %>% 
+  summarise(n=n()) %>% 
+  arrange(n) %>% 
+  left_join(., select(fam_spor, gtdb_f, f_spor)) %>% 
+  mutate(ncbi_taxid = ncbi_taxid %>% as_factor()) %>% 
+  ggplot(aes(ncbi_taxid, n)) +
+  geom_col(aes(fill = f_spor, color = gtdb_f), show.legend = F, color = "red")+
+  facet_wrap(~ncbi_taxid, scales = "free")+
+  theme_classic()+
+  scale_fill_viridis_d(direction = )+
+  theme(  strip.background = element_blank(),
+          strip.text.x = element_blank())
+
+
+# Deal with absent gtdb ---------------------------------------------------
+d.vir %>% 
+  filter(host.tax.id %in% taxid_absent) %>% view
+
+
+
+#add gtdb taxonomy to refseq
+tmp <- left_join(d.vir, d_meta, by = c("host.tax.id" = "ncbi_taxid"))
+
+
+# add sporulation
+tmp2 <- 
+  fam_spor %>%
+  select(gtdb_f, f_spor) %>% 
+  left_join(tmp, ., by = "gtdb_f") %>% 
+  #assign non-firmicutes as nonsporulators
+  # mutate(f_spor = if_else(str_detect(gtdb_p,"Firmicute"), f_spor, FALSE)) %>% 
+  mutate(f_spor = if_else(str_detect(phylum,"Firmicute"), f_spor, FALSE))
+
+tmp2 %>% 
+  group_by(gene, f_spor) %>% 
+  summarise(n=n()) %>% 
+  pivot_wider(names_from = f_spor, values_from = n) %>% 
+  filter(!is.na(`TRUE`) | !is.na(`FALSE`)) %>% 
+  mutate(wtf = !is.na(`TRUE`) && !is.na(`FALSE`)) %>% 
+  arrange(wtf) %>% 
+  # group_by(wtf) %>%
+  # summarise(n=n())
+  filter(wtf) %>% view
+  filter(!wtf) %>%
+  select(gene, `FALSE`,  `TRUE`) %>% 
+  pivot_longer(cols = 2:3) %>% 
+  filter(!is.na(value)) %>% 
+  group_by(name) %>% 
+  summarise(n=n())
+
+
+tmp2 %>% 
+  group_by(gene,phylum,class,family.etc, f_spor) %>% 
+  summarise(n=n()) %>% 
+  pivot_wider(names_from = f_spor, values_from = n) %>% 
+  filter(!is.na(`TRUE`) | !is.na(`FALSE`)) %>% 
+  mutate(wtf = !is.na(`TRUE`) && !is.na(`FALSE`)) %>% 
+  arrange(wtf) %>% 
+  # group_by(wtf) %>%
+  # summarise(n=n())
+  filter(wtf) %>% view()
 
 
 #### match to hosts ####
@@ -21,7 +170,7 @@ d.vir <- read_tsv(here("data/Viruses/vMAG_stats.tsv"))
 # #-----------------------------#
 
 #import virus-host data
-vh.db <- read_tsv(here("data","virushostdb.tsv") ) 
+vh.db <- read_tsv(here("enrichment","data","virushostdb.tsv") ) 
 
 # It will be easier to match data by taxid
 # extracting from vh.db a mapping-table between refseq and taxid
@@ -52,7 +201,7 @@ d.vir <- d.vir %>%
 d.vir <-left_join(d.vir, map_taxid_refseq, by = "refseq.id") 
 
 #### dealing with multiple rows(-hosts) per virus ####
-# keep only vh.db data relavent to amg data
+# keep only vh.db data relevant to amg data
 vh.db <- semi_join(vh.db, d.vir, by = c("virus.tax.id"))
 # how much duplication is there?
 vh.db%>%
@@ -150,10 +299,8 @@ vh.db <- vh.db %>%
 d.vir <- left_join(d.vir, vh.db, by = "virus.tax.id")
 
 
-
-
-# classification of sporulators by Galperin 2013
-spore.fam <- read_csv(here("data/Galperin_2013_MicrobiolSpectrum_table2.csv"))
+# classification of sporulators by Galperin 2013 ------------
+spore.fam <- read_csv(here("enrichment","data/Galperin_2013_MicrobiolSpectrum_table2.csv"))
 # add likelihood of sporulation
 # Galperin table fraction footnote:
 # "The distribution of sporeformers among the 
@@ -188,4 +335,4 @@ d.vir <- spore.fam %>%
 #   summarise(n = n()) %>%
 #   arrange(desc(n))
 
-write_csv(d.vir, here("data/Viruses/vMAG_host_sporul.csv"))
+write_csv(d.vir, here("enrichment","data/Viruses/vMAG_host_sporul.csv"))

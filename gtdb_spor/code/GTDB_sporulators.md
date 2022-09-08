@@ -58,12 +58,14 @@ setwd(here())
 system(paste("wsl mkdir -p", "gtdb_spor/data/gtdb_downloads"))
 setwd(here("gtdb_spor/data/gtdb_downloads"))
 
-# file source
-url_latest <- "https://data.gtdb.ecogenomic.org/releases/latest/"
+# # file source
+# url_latest <- "https://data.gtdb.ecogenomic.org/releases/latest/"
+# 
+# # version
+# system(paste0("wsl wget ", url_latest,"VERSION"))
 
-# version
-system(paste0("wsl wget ", url_latest,"VERSION"))
-
+# for reproducibility we download the version that was latest when this was written
+url_latest <- "https://data.gtdb.ecogenomic.org/releases/release202/"
 
 # download and extract
 system(paste0("wsl wget ", url_latest,"bac120_metadata.tar.gz"))
@@ -193,13 +195,11 @@ d_browne <- read_csv(here("gtdb_spor/data/Browne_2021_tbl-S1.csv"))
     ## * `` -> ...16
 
     ## Rows: 1430 Columns: 16
-
     ## -- Column specification --------------------------------------------------------
     ## Delimiter: ","
     ## chr (7): major taxonomic family/ species name for non-Firmicutes, Firmicutes...
     ## dbl (5): tree order, sporulation signature score %, presence spo0A, spore-fo...
     ## lgl (4): ...13, ...14, ...15, ...16
-
     ## 
     ## i Use `spec()` to retrieve the full column specification for this data.
     ## i Specify the column types or set `show_col_types = FALSE` to quiet this message.
@@ -244,7 +244,8 @@ browne_fams <- browne_fams %>%
     mutate(fam_spor = perc_spor > 50)
 ```
 
-    ## `summarise()` has grouped output by 'order', 'family'. You can override using the `.groups` argument.
+    ## `summarise()` has grouped output by 'order', 'family'. You can override using
+    ## the `.groups` argument.
 
 ``` r
 browne_fams %>% 
@@ -283,15 +284,13 @@ family.
 
 ``` r
   # classification of sporulators by Galperin 2013
-  d_galperin <- read_csv(here("enrichment/data/Galperin_2013_MicrobiolSpectrum_table2.csv"))
+  d_galperin <- read_csv(here("gtdb_spor/data/Galperin_2013_MicrobiolSpectrum_table2.csv"))
 ```
 
     ## Rows: 41 Columns: 4
-
     ## -- Column specification --------------------------------------------------------
     ## Delimiter: ","
     ## chr (4): class, order, Family, Fraction.spore.forming
-
     ## 
     ## i Use `spec()` to retrieve the full column specification for this data.
     ## i Specify the column types or set `show_col_types = FALSE` to quiet this message.
@@ -459,12 +458,10 @@ disagree <- read_csv(here("gtdb_spor/data/disagreed_taxa_calls.csv"))
     ## * `` -> ...6
 
     ## Rows: 10 Columns: 9
-
     ## -- Column specification --------------------------------------------------------
     ## Delimiter: ","
     ## chr (5): gtdb_d, gtdb_p, gtdb_c, gtdb_o, gtdb_f
     ## lgl (4): ...6, browne_spor, glp_spor, manual_spor
-
     ## 
     ## i Use `spec()` to retrieve the full column specification for this data.
     ## i Specify the column types or set `show_col_types = FALSE` to quiet this message.
@@ -473,7 +470,8 @@ disagree <- read_csv(here("gtdb_spor/data/disagreed_taxa_calls.csv"))
 gtdb_fams <- left_join(gtdb_fams, disagree)
 ```
 
-    ## Joining, by = c("gtdb_d", "gtdb_p", "gtdb_c", "gtdb_o", "gtdb_f", "browne_spor", "glp_spor")
+    ## Joining, by = c("gtdb_d", "gtdb_p", "gtdb_c", "gtdb_o", "gtdb_f",
+    ## "browne_spor", "glp_spor")
 
 ## Finalize list
 

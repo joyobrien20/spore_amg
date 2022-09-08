@@ -1,15 +1,9 @@
 library(here)
 library(tidyverse)
 
-# import data from DRAM-v
-d.vir <- read_tsv(here("data/Viruses/amg_summary.tsv"))
+# import data on hosts in refseq
+d.vir <- read_tsv(here("enrichment","data/Viruses/vMAG_stats.tsv"))
 
-# d.vir.sum <- d.vir %>% 
-#   # filter(str_detect(header, regex("sporulation", ignore_case = T))) %>% 
-#   filter(!is.na(gene_id)) %>% 
-#   group_by(gene_id, gene_description, header) %>% 
-#   summarise(n = n()) %>% 
-#   arrange(desc(n))
 
 #### match to hosts ####
 
@@ -27,7 +21,7 @@ d.vir <- read_tsv(here("data/Viruses/amg_summary.tsv"))
 # #-----------------------------#
 
 #import virus-host data
-vh.db <- read_tsv(here("data","virushostdb.tsv") ) 
+vh.db <- read_tsv(here("enrichment","data","virushostdb.tsv") ) 
 
 # It will be easier to match data by taxid
 # extracting from vh.db a mapping-table between refseq and taxid
@@ -47,19 +41,18 @@ map_taxid_refseq <- vh.db %>%
 
 d.vir <- d.vir %>% 
   # parse viral ID to match
-  mutate(refseq.id = str_remove(scaffold, "\\..*$")) %>% 
+  mutate(refseq.id = str_remove(refseq.id, "\\..*$")) %>% 
   mutate(refseq.id = trimws(refseq.id))
 
 # # Are we missing any viruses in vh.db
-# sum(!d.vir$refseq.id %in% map_taxid_refseq$refseq.id) # Only 1! 
+# sum(!d.vir$refseq.id %in% map_taxid_refseq$refseq.id) # Only 3! 
 # d.vir$refseq.id[which(!d.vir$refseq.id %in% map_taxid_refseq$refseq.id)] #"NC_029050"
-
+# "NC_029050" "NC_029072" "NC_042059"
 #add taxon ID to viral amg data
-d.vir <-left_join(d.vir, map_taxid_refseq, by = "refseq.id") %>% 
-  select(-refseq.id)
+d.vir <-left_join(d.vir, map_taxid_refseq, by = "refseq.id") 
 
 #### dealing with multiple rows(-hosts) per virus ####
-# keep only vh.db data relavent to amg data
+# keep only vh.db data relevant to amg data
 vh.db <- semi_join(vh.db, d.vir, by = c("virus.tax.id"))
 # how much duplication is there?
 vh.db%>%
@@ -68,7 +61,7 @@ vh.db%>%
   group_by(N) %>% 
   summarise(nN=n()) %>% 
   arrange(desc(N))
-# 97 phages with 2 hosts and 7 phages with 3-6 hosts
+# 233 phages with 2 hosts and 20 phages with 3-6 hosts
 
 # how much variation is there in multiple host taxonomy ?
 # Typically phages will infect very closely related hosts ( sibling strains or species)
@@ -76,19 +69,27 @@ vh.db%>%
 # First we will break up the host lineage data so we can check if  hosts are of simmilar taxonomy
 
 # the host lineage is not uniform having 3-28 levels
-# str_count(vh.db$host.lineage,";")%>%range(na.rm = TRUE) #3 28 => 4-29 levels
+# str_count(vh.db$host.lineage,";")%>%range(na.rm = TRUE) #0 28 => 1-29 levels
 # str_count(vh.db$host.lineage,";")%>%hist()
 # The 29 level is a single case of a crASS-like phage (IAS virus) that has humans listed as host
 # should be excluded
 vh.db <-  vh.db %>% filter(!str_detect(host.lineage, " Homininae; Homo"))
-# # this led me to find also:
-# # a phage listed as infecting a euk. green algae (Tetraselmis viridis virus S20)
-# vh.db %>% filter(str_detect(host.lineage, "Eukaryota"))
-# # and 2 archeal viruses (Archaeal BJ1 virus, Natrialba phage PhiCh1)
-# vh.db %>% filter(str_detect(host.lineage, "Archaea"))
+# # this led me to find also other viruses that are not phages
+# i.e. host is not bacteria 
+vh.db <-  vh.db %>% filter(str_detect(host.lineage, "Bacteria"))
 
 # going back to host lineage:
-str_count(vh.db$host.lineage,";")%>%range(na.rm = TRUE) #3 9 => 4-10 levels
+str_count(vh.db$host.lineage,";")%>%range(na.rm = TRUE) #0 9 => 1-10 levels
+# 3 have only bacteria listed as host:
+# Halocynthia phage JM-2012
+# Hamiltonella virus APSE1
+# uncultured crAssphage
+# removing these as well
+vh.db <-  vh.db %>% filter(!str_detect(host.lineage, "Bacteria$"))
+
+# going back to host lineage levels:
+str_count(vh.db$host.lineage,";")%>%range(na.rm = TRUE) #1 9 => 2-10 levels
+
 # the first looks like this: 
 # Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales; Alcaligenaceae; Achromobacter
 # Which corresponds to 
@@ -107,9 +108,9 @@ vh.db <- vh.db%>%
            into = c("domain", "phylum", "class", "order", "family.etc"), 
            extra = "merge", remove = F)
 
-# Are there any viruses with hosts of different orders?
+# Are there any viruses with hosts of different classes?
 vh.db%>%
-  group_by(virus.tax.id, virus.name, order)%>%
+  group_by(virus.tax.id, virus.name, class)%>%
   summarise(n=n())%>%
   arrange(desc(n)) %>% 
   group_by(virus.tax.id, virus.name)%>%
@@ -117,9 +118,17 @@ vh.db%>%
   filter(n>1) %>% 
   arrange(desc(n))
 
-# There is only one such virus,  Mycobacterium phage Wildcat,and that seems to be missong data 
+# There is only one such virus,  Thermus phage phi OH2
+# PMID 23950135: this is a prophage of a Gebacillus strain
+# vhdb comment: This virus is now called "Bacteriophage Phi OH2". No longer any mention of "Thermus" host mentioned in the sequence record AB823818. 
+# dropping that host record
 
-# all hosts for each phage are the same down to order
+vh.db <- vh.db%>%
+  filter(! ((virus.name == "Thermus phage phi OH2") & 
+           str_detect(host.lineage, "Thermus")))
+
+
+# all hosts for each phage are the same down to class
 # some phages have refseq in evidence for one of their hosts
 # I think this is the isolation host 
 
@@ -140,4 +149,41 @@ vh.db <- vh.db %>%
 
 d.vir <- left_join(d.vir, vh.db, by = "virus.tax.id")
 
-write_csv(d.vir, here("data/Viruses/amg_summary_wHost.tsv"))
+
+# classification of sporulators by Galperin 2013 ------------
+spore.fam <- read_csv(here("enrichment","data/Galperin_2013_MicrobiolSpectrum_table2.csv"))
+# add likelihood of sporulation
+# Galperin table fraction footnote:
+# "The distribution of sporeformers among the 
+# experimentally characterized members of the respective
+# family is indicated as follows: 
+#   +++, all (or nearly all) characterized members of the family produce spores;
+#   ++, a significant fraction of species are sporeformers; 
+#   +, the family includes some sporeformers; 
+#   -, no known sporeformers in the family."
+spore.fam <- spore.fam %>% 
+  mutate(spore.likley = case_when(Fraction.spore.forming == "+++" ~ TRUE,
+                                  Fraction.spore.forming == "++" ~ TRUE,
+                                  Fraction.spore.forming == "+" ~ FALSE,
+                                  Fraction.spore.forming == "-"  ~ FALSE)) 
+
+#resolve at family level
+d.vir <-
+  d.vir %>%
+  separate(family.etc, into = c("family", "genus", "etc"), sep = ";",extra = "merge", remove = F) 
+
+#add Galperin sporulation 
+d.vir <- spore.fam %>% 
+  select(Family, spore.likley) %>% 
+  left_join(d.vir, ., by = c("family" = "Family")) %>% 
+  mutate(spore.likley = if_else(is.na(spore.likley), FALSE, spore.likley))
+
+
+# d.vir.sum <- d.vir %>%
+#   mutate(firmicute = str_detect(phylum, "Firmicutes")) %>% 
+#   filter(!is.na(firmicute)) %>% 
+#   group_by(firmicute,spore.likley) %>%
+#   summarise(n = n()) %>%
+#   arrange(desc(n))
+
+write_csv(d.vir, here("enrichment","data/Viruses/vMAG_host_sporul.csv"))

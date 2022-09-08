@@ -47,12 +47,14 @@ setwd(here())
 system(paste("wsl mkdir -p", "gtdb_spor/data/gtdb_downloads"))
 setwd(here("gtdb_spor/data/gtdb_downloads"))
 
-# file source
-url_latest <- "https://data.gtdb.ecogenomic.org/releases/latest/"
+# # file source
+# url_latest <- "https://data.gtdb.ecogenomic.org/releases/latest/"
+# 
+# # version
+# system(paste0("wsl wget ", url_latest,"VERSION"))
 
-# version
-system(paste0("wsl wget ", url_latest,"VERSION"))
-
+# for reproducibility we download the version that was latest when this was written
+url_latest <- "https://data.gtdb.ecogenomic.org/releases/release202/"
 
 # download and extract
 system(paste0("wsl wget ", url_latest,"bac120_metadata.tar.gz"))
@@ -216,7 +218,7 @@ As discussed above, Galperin 2013 has a list of sporulator fraction per family.
 
 ```{r load galperin}
   # classification of sporulators by Galperin 2013
-  d_galperin <- read_csv(here("enrichment/data/Galperin_2013_MicrobiolSpectrum_table2.csv"))
+  d_galperin <- read_csv(here("gtdb_spor/data/Galperin_2013_MicrobiolSpectrum_table2.csv"))
 
 d_galperin
 ```
