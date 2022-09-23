@@ -62,13 +62,19 @@ d.gvd <- d.f_spor %>%
 
 
 
-#
-  d.gvd %>% 
+# Clean up
+d.gvd <-  d.gvd %>% 
+    # Keep only phages
   filter(Eukaryotic_or_Prokaryotic_Virus == "Bacteriophage") %>% 
+    # keep only scaffolds with host prediction
   filter(!str_detect(GTDB_Host, "Host Not Assigned" )) %>% 
+    # if predicted host is non-Firmicutes assign as non-sporulator
     mutate(f_spor = if_else(
       str_detect(GTDB_Host,regex("p__Firmicutes", ignore_case = T)),
-      f_spor, FALSE)) %>% 
+      f_spor, FALSE)) 
+
+# How many sorulator hosts
+d.gvd %>% 
     group_by(f_spor) %>% 
     summarise(n=n())
   # f_spor     n

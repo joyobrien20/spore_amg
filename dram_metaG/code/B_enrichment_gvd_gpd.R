@@ -27,7 +27,7 @@ amg.gvd <-
 # AMGs detected by dram
 amg.gpd <-  read_tsv(here(data_dir, "dram_output","Camarillo-Guerrero", "amg_summary.tsv"))
 
-# host sporulation from A2_gvd_taxa_spor.R
+# host sporulation from A1_gpd_taxa_spor.R
 f_spor.gpd <- 
   read_csv(here(data_dir, "enrichment", "gpd_spor_predictions.csv")) %>% 
   select(GPD_id, f_spor)
