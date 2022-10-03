@@ -55,7 +55,7 @@ spor_genes <- read_csv(here("spor_gene_list", "data", "dram_spore_genes.csv"))
 amg_spor <- 
   amg_spor %>% 
   mutate(spor_gene = if_else(gene_id %in% spor_genes$gene_id.ko,
-                           "sporulation_gene", "other"))
+                           "Sporulation gene", "Other genes"))
 
 # Summarise total number of sporulators and non sporulators ---------------
 
@@ -131,22 +131,33 @@ write_csv(d_enrich %>% arrange(desc(spor_gene), desc(significant)),
 
 p <-
   d_enrich %>% 
-  ggplot(aes(k,-log10(p.adj+1e-24)))+
+  filter(k>0) %>%
+  ggplot(aes(k,-log10(p.adj+1e-120)))+
   geom_hline(yintercept = -log10(p.signif), linetype=2, color="grey", size = 1)+
   geom_vline(xintercept = k_treshold, linetype=2, color="grey", size = 1)+
   
   # geom_text_repel(daaes(label = lab), max.overlaps=50,color = "grey", size = 3)+
   
   geom_jitter(aes(fill = significant),width = 0.005, height = 0.005,
-              shape=21, size=3, stroke = 1, alpha = 0.5, show.legend = F)+
+              shape=21, size=2, stroke = 1, alpha = 0.5, show.legend = F)+
+  scale_fill_viridis_d(direction = -1, alpha = 0.5)+
   theme_classic()+
-  facet_wrap(~ spor_gene %>% fct_rev(), ncol = 1) +
+  facet_wrap(~ spor_gene %>% fct_rev(), ncol = 2) +
   panel_border(color = "black")+
   scale_x_continuous(trans = "log2", breaks = (2^(0:11)))+
   xlab("Sample size\nNo. homologs detected (log2)")+
   ylab("Enrichment (-log10 adj. P-value)")+
-  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1))
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1),
+        strip.background = element_blank(),
+        strip.text = element_text(face = "bold"))
 
 ggsave(p, filename = here("dram_metaG/plots", "enrich_gvd_gpd.png"), 
-       width = 4, height = 6)  
+       width = 6, height = 3)  
 
+
+# sum ---------------------------------------------------------------------
+
+d_enrich %>% 
+  filter(k>0) %>%
+  group_by(spor_gene, significant) %>% 
+  summarise(n=n())

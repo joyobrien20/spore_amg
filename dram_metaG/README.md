@@ -10,7 +10,7 @@ Using list of sporulation genes, we have used DRAM to search for homologs in MAG
 
 ** DRAM output files
 
-** What is done
+** What was done
  *** Assign sporulator status to host of GPD and GVD
  *** Test enrichment of sporulation genes in GVD and GPD
  *** Finalize list of enriched sporulation genes.
