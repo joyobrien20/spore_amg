@@ -37,7 +37,7 @@ cd.genes <- read_csv(here("spor_gene_list/data/cdif_spor_KOs.csv"))
 # enriched spor KOs
 spor.enriched.ko <- 
   d.enriched %>% 
-  filter(spor_gene == "sporulation_gene") %>%
+  filter(spor_gene == "Sporulation gene") %>%
   filter(significant) %>% pull(gene_id) %>% unique()
 
 genes_enriched <- 
@@ -78,6 +78,6 @@ d <- genes_enriched %>%
   pivot_wider(names_from = sp, values_from = genes ) %>% 
   left_join(d.enriched %>% filter(gene_id %in% spor.enriched.ko), .,
             by = c("gene_id" = "ko")) %>% 
-  filter(spor_gene == "sporulation_gene") 
+  filter(spor_gene == "Sporulation gene") 
 
 write_csv(d, here(data_dir, "enrichment","spor_enriched.csv"))
