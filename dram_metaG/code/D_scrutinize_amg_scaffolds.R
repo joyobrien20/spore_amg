@@ -11,7 +11,7 @@ library(foreach)
 d.enriched <- read_csv(here("dram_metaG/data/", "enrichment","spor_enriched.csv"))
 
 #load plotting function
-source(here("dram_metaG/code/enrichment_metaG/Z_function_plot_amg_scaffolds.R"))
+source(here("dram_metaG/code/Z_function_plot_amg_scaffolds.R"))
 
 # directory with the DRAM raw output
 data_dir <- here("dram_metaG/data/dram_output")
@@ -31,7 +31,7 @@ choose_sets <-  function(sg, v.set){
 # extract scaffold annotation data and make plots
 set_groups = c("CSUsets", "GVD", "GPD")
 # loop over gene table
-foreach (i = 1:nrow(d.enriched), .packages = "tidyverse") %:%
+foreach (i = 1:nrow(d.enriched), .packages = c("tidyverse","here")) %:%
   foreach(j = seq(set_groups)) %dopar% {
   # folders of data to plot
   sets_2_plot <- choose_sets(set_groups[j], sets)
@@ -43,7 +43,7 @@ foreach (i = 1:nrow(d.enriched), .packages = "tidyverse") %:%
         str_remove(d.enriched$bs[i], " \\[.*") %>% paste0("Bs_", .),
       !is.na(d.enriched$cd[i]) ~
         str_remove(d.enriched$cd[i], " \\[.*")%>% paste0("Cd_", .),
-      TRUE ~ paste0("NA_", i))
+      TRUE ~ d.enriched$gene_id[i])
   
   plot_amg_scaffolds(data_dir = data_dir,
                      sets = sets_2_plot,
