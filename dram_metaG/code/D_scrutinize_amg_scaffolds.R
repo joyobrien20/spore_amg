@@ -43,7 +43,7 @@ foreach (i = 1:nrow(d.enriched), .packages = c("tidyverse","here")) %:%
         str_remove(d.enriched$bs[i], " \\[.*") %>% paste0("Bs_", .),
       !is.na(d.enriched$cd[i]) ~
         str_remove(d.enriched$cd[i], " \\[.*")%>% paste0("Cd_", .),
-      TRUE ~ d.enriched$gene_id[i])
+      TRUE ~ paste0("NA_",d.enriched$gene_id[i]))
   
   plot_amg_scaffolds(data_dir = data_dir,
                      sets = sets_2_plot,
