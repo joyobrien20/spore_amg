@@ -1,0 +1,688 @@
+organism,keggID,taxID,lineage,seqID
+mpc,T01508,TAX:491952,Bacteria; Proteobacteria; Gammaproteobacteria; Oceanospirillales; Oceanospirillaceae; Marinomonas,GB:CP002771
+bsu,T00010,TAX:224308,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus,RS:NC_000964 (GB:AL009126)
+bsr,T01837,TAX:1052588,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus,GB:CP002906
+bsl,T02384,TAX:1192196,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus,GB:CP003695
+bsh,T02503,TAX:1147161,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus,GB:CP003329
+bsy,T02520,TAX:1302650,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus,GB:CP004405
+bsut,T03442,TAX:1221328,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus,GB:CP008698
+bsul,T03443,TAX:1232554,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus,GB:CP007800
+bsus,T03469,TAX:1404258,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus,GB:CP007409
+bso,T02607,TAX:645657,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus,GB:AP011541
+bsn,T01417,TAX:936156,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus,GB:CP002468
+bsq,T02292,TAX:1220533,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus,GB:CP003783
+bsx,T02459,TAX:1233100,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus,GB:CP004019
+bsp,T02937,TAX:1415167,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus,GB:CP006881
+bss,T01302,TAX:655816,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus,GB:CP002183
+bst,T01635,TAX:1052585,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus,GB:CP002905
+bli,T00197,TAX:279010,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus,GB:CP000002
+bld,T00200,TAX:279010,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus,GB:AE017333
+blh,T02694,TAX:766760,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus,GB:CP005965
+bay,T00582,TAX:326423,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus amyloliquefaciens group,GB:CP000560
+baq,T01692,TAX:1114958,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus amyloliquefaciens group,GB:HE617159
+bya,T02050,TAX:1155777,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus amyloliquefaciens group,GB:HE774679
+bamp,T02382,TAX:1225788,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus amyloliquefaciens group,GB:CP003838
+bqy,T02108,TAX:1155777,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus amyloliquefaciens group,GB:CP003332
+baml,T02480,TAX:1150475,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus amyloliquefaciens group,GB:HF563562
+bama,T02795,TAX:1338518,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus amyloliquefaciens group,GB:HG328253
+bamn,T02796,TAX:1150476,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus amyloliquefaciens group,GB:HG328254
+bamb,T02859,TAX:1385727,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus amyloliquefaciens group,GB:HG514499
+bamt,T03161,TAX:1449088,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus amyloliquefaciens group,GB:CP007244
+bamy,T03384,TAX:1423138,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus amyloliquefaciens group,GB:CP006890
+bmp,T03423,TAX:492670,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus amyloliquefaciens group,GB:CP009679
+bao,T01321,TAX:692420,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus amyloliquefaciens group,GB:FN597644
+baz,T01824,TAX:999891,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus amyloliquefaciens group,GB:CP002627
+bql,T01835,TAX:1001582,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus amyloliquefaciens group,GB:CP002634
+bxh,T01836,TAX:1034836,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus amyloliquefaciens group,GB:CP002927
+bami,T02462,TAX:1091041,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus amyloliquefaciens group,GB:CP004065
+bamc,T02893,TAX:1412898,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus amyloliquefaciens group,GB:CP006845
+bamf,T02965,TAX:1415165,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus amyloliquefaciens group,GB:CP006952
+bsia,T06647,TAX:659243,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus amyloliquefaciens group,GB:CP025001
+bae,T01339,TAX:720555,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus,GB:CP002207
+bvm,T04948,TAX:72361,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus,GB:CP020893
+bson,T06571,TAX:119858,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus,GB:CP021920
+bht,T06619,TAX:260554,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus,GB:CP029364
+bmoj,T07122,TAX:72360,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus,GB:CP051464
+bteq,T07089,TAX:227866,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus,GB:CP048852
+biq,T07179,TAX:483913,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus,GB:CP013984
+ban,T00129,TAX:198094,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus cereus group,GB:AE016879
+bar,T00178,TAX:261594,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus cereus group,GB:AE017334
+bat,T00184,TAX:260799,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus cereus group,GB:AE017225
+bah,T00886,TAX:568206,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus cereus group,GB:CP001215
+bai,T00892,TAX:592021,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus cereus group,GB:CP001598
+bax,T02028,TAX:768494,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus cereus group,GB:CP002091
+bant,T02998,TAX:743835,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus cereus group,GB:CP001970
+banr,T02999,TAX:673518,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus cereus group,GB:CP001974
+bans,T03162,TAX:1392837,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus cereus group,GB:CP006742
+banh,T03394,TAX:1392,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus cereus group,GB:CP008846
+banv,T03475,TAX:261591,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus cereus group,GB:CP007666
+bce,T00127,TAX:226900,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus cereus group,GB:AE016877
+bca,T00162,TAX:222523,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus cereus group,GB:AE017194
+bcz,T00198,TAX:288681,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus cereus group,GB:CP000001
+bcr,T00799,TAX:405534,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus cereus group,GB:CP001177
+bcb,T00805,TAX:405532,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus cereus group,GB:CP001176
+bcu,T00814,TAX:405535,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus cereus group,GB:CP001283
+bcg,T00815,TAX:405531,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus cereus group,GB:CP001186
+bcq,T00852,TAX:361100,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus cereus group,GB:CP000227
+bcx,T00869,TAX:572264,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus cereus group,GB:CP001407
+bal,T01279,TAX:637380,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus cereus group,GB:CP001746
+bnc,T01686,TAX:334406,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus cereus group,GB:AP007209
+bcf,T01703,TAX:347495,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus cereus group,GB:CP003187
+bcer,T02291,TAX:1217984,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus cereus group,GB:CP003747
+bcef,T03417,TAX:1396,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus cereus group,GB:CP008712
+bcy,T00560,TAX:315749,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus cereus group,GB:CP000764
+btk,T00179,TAX:281309,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus cereus group,GB:AE017355
+btl,T00429,TAX:412694,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus cereus group,GB:CP000485
+btb,T01239,TAX:714359,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus cereus group,GB:CP001903
+btt,T02460,TAX:1279365,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus cereus group,GB:CP004069
+bthr,T03435,TAX:570416,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus cereus group,GB:CP004858
+bthi,T03473,TAX:1261129,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus cereus group,GB:CP004870
+btc,T01838,TAX:541229,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus cereus group,GB:CP001907
+btf,T01839,TAX:930170,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus cereus group,GB:CP002508
+btm,T02263,TAX:1195464,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus cereus group,GB:CP003687
+btg,T02277,TAX:527021,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus cereus group,GB:CP003889
+bti,T02293,TAX:1218175,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus cereus group,GB:CP003752
+btn,T02411,TAX:1217737,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus cereus group,GB:CP003763
+btht,T02474,TAX:1286404,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus cereus group,GB:CP004123
+bthu,T02930,TAX:529122,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus cereus group,GB:CP005935
+btw,T03675,TAX:1428,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus cereus group,GB:CP009335
+bthy,T04752,TAX:1428,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus cereus group,GB:CP013055
+bwe,T00642,TAX:315730,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus cereus group,GB:CP000903
+bww,T03453,TAX:1405,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus cereus group,GB:CP009746
+bmyo,T03798,TAX:1405,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus cereus group,GB:CP009692
+bty,T02901,TAX:1415784,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus cereus group,GB:CP006863
+bmyc,T03239,TAX:64104,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus cereus group,GB:CP007626
+bby,T03597,TAX:1330043,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus cereus group,GB:CP007512
+bwd,T05831,TAX:2494319,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus cereus group,GB:CP024684
+btro,T06661,TAX:2026188,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus cereus group,GB:CP041071
+bmob,T06928,TAX:2026190,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus cereus group,GB:CP031443
+bnt,T07605,TAX:2026193,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus cereus group,GB:CP047366
+bpac,T07947,TAX:2026187,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus cereus group,GB:CP086328
+bpu,T00599,TAX:315750,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus,GB:CP000813
+bpum,T03175,TAX:1408,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus,GB:CP007436
+bpus,T04776,TAX:1408,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus,GB:CP011007
+bif,T02860,TAX:1367477,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus,GB:CP006643
+bmet,T03209,TAX:796606,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus,GB:CP007739
+bsm,T03984,TAX:1479,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus,GB:CP012024
+bgy,T04537,TAX:1664069,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus,GB:LT603683
+bwh,T04822,TAX:1547283,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus,GB:CP016020
+bxi,T04852,TAX:1178537,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus,GB:CP017786
+balt,T05199,TAX:293387,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus,GB:CP022319
+bsaf,T05386,TAX:561879,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus,GB:CP018197
+bit,T05513,TAX:1963032,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus,GB:CP011051
+bfd,T06767,TAX:1783501,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus,GB:LR134328
+bda,T06982,TAX:1742359,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus,GB:CP042593
+bshi,T07881,TAX:1983719,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus,GB:CP084703
+bbad,T07942,TAX:1455,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus,GB:CP082363
+bcab,T08101,TAX:2487276,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus,GB:CP096889
+bry,T08218,TAX:2715209,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus,GB:CP096590
+bjs,T02027,TAX:1127744,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus,GB:CP003492
+baci,T02643,TAX:666686,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus,GB:CP005586
+gst,T03242,TAX:1565991,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus,GB:CP008855
+bacw,T03530,TAX:756828,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus,GB:CP010075
+bacp,T03544,TAX:1446792,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus,GB:CP010406
+bacb,T03582,TAX:1570330,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus,GB:CP009938
+baco,T03635,TAX:98228,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus,GB:AP013294
+bacy,T03701,TAX:1574141,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus,GB:CP010014
+bacl,T03833,TAX:1806506,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus,GB:LN680001
+balm,T03908,TAX:1628753,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus,GB:CP011101
+bacs,T05207,TAX:1774743,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus,GB:CP013950
+bacq,T05922,TAX:352858,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus,GB:CP030028
+baca,T08283,TAX:486398,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus,GB:CP039727
+baqu,T08352,TAX:2672567,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus,GB:CP082780
+bco,T01389,TAX:649639,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Evansella,GB:CP002394
+bhk,T04904,TAX:79883,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Sutcliffiella,GB:CP020880
+bcoh,T06787,TAX:33932,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Sutcliffiella,GB:CP018866
+bcir,T06357,TAX:1397,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Niallia,GB:CP026031
+bmq,T01208,TAX:545693,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Priestia,GB:CP001983
+bmd,T01219,TAX:592022,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Priestia,GB:CP001982
+bmh,T01890,TAX:1006007,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Priestia,GB:CP003017
+bmeg,T03825,TAX:1348623,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Priestia,GB:CP009920
+beo,T03983,TAX:1402861,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Priestia,GB:CP011974
+bfx,T04803,TAX:86664,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Priestia,GB:CP016790
+pks,T08027,TAX:284581,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Priestia,GB:CP061868
+bck,T01527,TAX:941639,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Weizmannia,GB:CP002472
+bag,T01628,TAX:345219,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Weizmannia,GB:CP003056
+bcoa,T03712,TAX:1121088,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Weizmannia,GB:CP009709
+bha,T00039,TAX:272558,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Halalkalibacterium (ex Joshi et al. 2022),GB:BA000004
+bcl,T00228,TAX:66692,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Alkalihalobacillus,GB:AP006627
+ble,T03204,TAX:1246626,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Alkalihalobacillus,GB:CP003923
+bkw,T04947,TAX:199441,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Alkalihalobacillus,GB:CP020814
+bgi,T04820,TAX:79881,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Alkalihalobacillus,GB:CP017070
+bpf,T01165,TAX:398511,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Alkalihalophilus,GB:CP001878
+bon,T04330,TAX:1196031,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Cytobacillus,GB:CP015506
+bko,T05194,TAX:859143,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Cytobacillus,GB:CP022983
+cgot,T07465,TAX:859144,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Cytobacillus,GB:CP071709
+csua,T08143,TAX:2779776,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Cytobacillus,GB:CP063163
+cfir,T08260,TAX:1399,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Cytobacillus,GB:CP098323
+csoa,T08360,TAX:1637975,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Cytobacillus,GB:CP085712
+oih,T00093,TAX:221109,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Oceanobacillus,GB:BA000028
+ocn,T05570,TAX:2052660,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Oceanobacillus,GB:CP024848
+gka,T00217,TAX:235909,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Geobacillus; Geobacillus thermoleovorans group,GB:BA000043
+gte,T01676,TAX:1111068,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Geobacillus; Geobacillus thermoleovorans group,GB:CP003125
+gtk,T04710,TAX:33941,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Geobacillus; Geobacillus thermoleovorans group,GB:CP014335
+gtm,T05178,TAX:33938,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Geobacillus; Geobacillus thermoleovorans group,GB:CP018058
+gli,T05193,TAX:169283,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Geobacillus; Geobacillus thermoleovorans group,GB:CP017692
+bcal,T08314,TAX:1394,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Geobacillus; Geobacillus thermoleovorans group,GB:CP025074
+gtn,T00496,TAX:420246,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Geobacillus,GB:CP000557
+gwc,T00915,TAX:471223,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Geobacillus,GB:CP001638
+gyc,T01101,TAX:544556,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Geobacillus,GB:CP001794
+gya,T01399,TAX:550542,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Geobacillus,GB:CP002442
+gct,T01245,TAX:691437,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Geobacillus,GB:CP002050
+gmc,T01348,TAX:581103,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Geobacillus,GB:CP002293
+ggh,T02455,TAX:1233873,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Geobacillus,GB:CP004008
+gjf,T02798,TAX:1921421,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Geobacillus,GB:CP006254
+gea,T03966,TAX:1629723,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Geobacillus,GB:CP011832
+gel,T04018,TAX:1519377,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Geobacillus,GB:CP008903
+gse,T04043,TAX:272567,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Geobacillus,GB:CP008934
+gsr,T04323,TAX:129338,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Geobacillus,GB:CP014342
+gej,T04412,TAX:1813182,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Geobacillus,GB:CP014749
+gza,T07057,TAX:213419,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Geobacillus,GB:CP061470
+gth,T01531,TAX:634956,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Parageobacillus,GB:CP002835
+ptl,T04476,TAX:1426,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Parageobacillus,GB:CP012712
+ptb,T06505,TAX:1223503,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Parageobacillus,GB:CP049703
+pcal,T07489,TAX:81408,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Parageobacillus,GB:CP040553
+parg,T08468,TAX:2916802,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Parageobacillus,GB:AP025627
+afl,T00790,TAX:491915,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Anoxybacillus,GB:CP000922
+agn,T04000,TAX:198467,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Anoxybacillus,GB:CP012152
+anm,T04370,TAX:1490052,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Anoxybacillus,GB:CP015435
+aamy,T04397,TAX:294699,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Anoxybacillus,GB:CP015438
+anl,T04426,TAX:1490057,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Anoxybacillus,GB:CP015436
+and,T06397,TAX:1636720,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Anoxybacillus,GB:CP047158
+acai,T06899,TAX:247480,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Anoxybacillus,GB:CP064060
+ased,T07711,TAX:2613334,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Anoxybacillus,GB:CP064048
+axl,T02266,TAX:698758,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Amphibacillus,GB:AP012050
+lsp,T00656,TAX:444177,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Lysinibacillus,GB:CP000817
+lgy,T03062,TAX:1145276,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Lysinibacillus,GB:CP006837
+lfu,T03655,TAX:28031,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Lysinibacillus,GB:CP010820
+lyb,T05347,TAX:2081964,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Lysinibacillus,GB:CP027224
+lyz,T05455,TAX:2169540,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Lysinibacillus,GB:CP029002
+lyg,T06028,TAX:2070463,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Lysinibacillus,GB:CP028083
+lpak,T06280,TAX:759811,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Lysinibacillus,GB:CP045835
+lagr,T07480,TAX:2590012,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Lysinibacillus,GB:CP067341
+lmac,T08056,TAX:33935,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Lysinibacillus,GB:CP065643
+lyc,T08381,TAX:2892541,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Lysinibacillus,GB:CP085880
+lcap,T08448,TAX:2115968,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Lysinibacillus,GB:CP061203
+hhd,T02031,TAX:866895,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Halobacillus,GB:HE717023
+hmn,T04799,TAX:402384,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Halobacillus,GB:CP020772
+hli,T05828,TAX:45668,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Halobacillus,GB:CP026118
+tap,T03216,TAX:386490,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Terribacillus,GB:CP008876
+taid,T07391,TAX:586416,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Terribacillus,GB:CP077639
+vir,T03219,TAX:403957,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Virgibacillus,GB:CP007161
+vhl,T04548,TAX:1482,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Virgibacillus,GB:CP017962
+vig,T04596,TAX:1911587,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Virgibacillus,GB:CP017762
+vil,T04951,TAX:2017483,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Virgibacillus,GB:CP022315
+vne,T04976,TAX:163877,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Virgibacillus,GB:CP022437
+vpn,T05261,TAX:302167,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Virgibacillus,GB:CP018622
+vim,T06398,TAX:2700081,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Virgibacillus,GB:CP048021
+vpt,T07430,TAX:1473,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Virgibacillus,GB:CP073011
+fpn,T04282,TAX:1221500,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Fictibacillus,GB:CP015378
+far,T04452,TAX:255247,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Fictibacillus,GB:CP016761
+apak,T04993,TAX:33936,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Aeribacillus,GB:CP017703
+bsj,T04304,TAX:1478,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Peribacillus,GB:CP011008
+bmur,T05340,TAX:264697,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Peribacillus,GB:CP017080
+pbut,T06699,TAX:421767,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Peribacillus,GB:CP030926
+pasa,T06700,TAX:228899,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Peribacillus,GB:CP026095
+ppsr,T07206,TAX:1407,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Peribacillus,GB:CP068053
+pfri,T08180,TAX:450367,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Peribacillus,GB:CP091882
+aqt,T06091,TAX:2594883,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Radiobacillus,GB:CP041666
+bthv,T06263,TAX:35841,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Caldibacillus,GB:CP023704
+psyh,T06219,TAX:2303505,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Psychrobacillus,GB:CP031739
+psyo,T06231,TAX:2283160,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Psychrobacillus,GB:CP031223
+prd,T06218,TAX:2651284,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Pradoshia,GB:CP044545
+grc,T06279,TAX:2663022,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Gracilibacillus,GB:CP045915
+rue,T05571,TAX:2099786,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Salicibibacter,GB:CP031092
+sale,T06083,TAX:2502791,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Salicibibacter,GB:CP035485
+scib,T07369,TAX:2743001,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Salicibibacter,GB:CP054706
+scia,T07370,TAX:2743000,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Salicibibacter,GB:CP054705
+pof,T06374,TAX:2692425,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Pontibacillus,GB:CP047393
+nmk,T06691,TAX:1193713,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Neobacillus,GB:CP022572
+ntm,T06692,TAX:1215031,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Neobacillus,GB:CP026365
+ndt,T08277,TAX:220684,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Neobacillus,GB:CP091110
+meku,T06752,TAX:2745198,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Metabacillus,GB:CP055263
+msem,T07731,TAX:2567941,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Metabacillus,GB:CP046266
+mdg,T07997,TAX:2874282,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Metabacillus,GB:CP082944
+mlit,T08411,TAX:152268,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Metabacillus,GB:CP088268
+aia,T06884,TAX:1532552,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Anaerobacillus,GB:CP063356
+blen,T06924,TAX:1467,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Lederbergia,GB:LS483476
+sedd,T07146,TAX:2729421,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Sediminibacillus,GB:CP046956
+bvq,T07200,TAX:218284,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Rossellomorea,GB:CP047394
+rmf,T07410,TAX:189381,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Rossellomorea,GB:CP047095
+bvj,T07201,TAX:1476025,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Heyndrickxia,GB:CP065425
+bou,T07202,TAX:38875,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Heyndrickxia,GB:CP065424
+cthu,T07471,TAX:986075,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Caldalkalibacillus,GB:CP082237
+bse,T01243,TAX:439292,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Salisediminibacterium,GB:CP001791
+mcui,T07913,TAX:2593652,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Mangrovibacillus,GB:CP049742
+gaj,T08082,TAX:371036,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Gottfriedia,GB:CP096034
+psua,T08127,TAX:2592382,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Paenalkalicoccus,GB:CP041372
+slms,T08296,TAX:2924031,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae,GB:CP093299
+hyi,T07426,TAX:2866627,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillales Family X. Incertae Sedis; Hydrogenibacillus,GB:CP080953
+stea,T05792,TAX:269673,Bacteria; Firmicutes; Bacilli; Bacillales; Sporolactobacillaceae; Sporolactobacillus,GB:CP025689
+sscu,T05176,TAX:1296,Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcaceae; Mammaliicoccus,GB:CP022046
+sste,T06999,TAX:643214,Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcaceae; Mammaliicoccus,GB:LT906462
+mlen,T07021,TAX:42858,Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcaceae; Mammaliicoccus,GB:CP059679
+mvt,T07207,TAX:71237,Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcaceae; Mammaliicoccus,GB:CP068061
+mcl,T00848,TAX:458233,Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcaceae; Macrococcus,GB:AP009484
+mcak,T04838,TAX:1855823,Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcaceae; Macrococcus,GB:CP021059
+macr,T05070,TAX:1898474,Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcaceae; Macrococcus,GB:CP017156
+mboe,T07164,TAX:1903056,Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcaceae; Macrococcus,GB:CP054482
+mary,T07974,TAX:2875764,Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcaceae; Macrococcus,GB:CP083608
+mbru,T08179,TAX:198483,Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcaceae; Macrococcus,GB:CP092179
+esi,T00687,TAX:262543,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillales Family XII. Incertae Sedis; Exiguobacterium,GB:CP001022
+eat,T00897,TAX:360911,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillales Family XII. Incertae Sedis; Exiguobacterium,GB:CP001615
+ean,T02258,TAX:1087448,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillales Family XII. Incertae Sedis; Exiguobacterium,GB:CP003063
+exm,T02903,TAX:1399115,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillales Family XII. Incertae Sedis; Exiguobacterium,GB:CP006866
+exu,T04561,TAX:1849031,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillales Family XII. Incertae Sedis; Exiguobacterium,GB:CP015731
+eap,T07307,TAX:1428684,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillales Family XII. Incertae Sedis; Exiguobacterium,GB:CP073101
+eace,T07509,TAX:41170,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillales Family XII. Incertae Sedis; Exiguobacterium,GB:CP075897
+eaur,T08404,TAX:33987,Bacteria; Firmicutes; Bacilli; Bacillales; Bacillales Family XII. Incertae Sedis; Exiguobacterium,GB:CP101462
+bbe,T00879,TAX:358681,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Brevibacillus,GB:AP008955
+blr,T03762,TAX:1042163,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Brevibacillus,GB:CP007806
+bfm,T04939,TAX:54913,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Brevibacillus,GB:CP018145
+bagr,T05855,TAX:51101,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Brevibacillus,GB:CP026363
+brw,T06452,TAX:2683193,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Brevibacillus,GB:CP048799
+bchs,T07271,TAX:54911,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Brevibacillus,GB:CP069127
+bcop,T07811,TAX:2796470,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Brevibacillus,GB:CP066308
+pjd,T00977,TAX:324057,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus,GB:CP001656
+gym,T01100,TAX:481743,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus,GB:CP001793
+ppy,T01319,TAX:349520,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus,GB:CP000154
+ppm,T01335,TAX:886882,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus,GB:CP002213
+ppo,T01968,TAX:1052684,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus,GB:HE577054
+ppol,T02956,TAX:1429244,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus,GB:CP006941
+ppq,T03178,TAX:1413214,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus,GB:CP006872
+ppoy,T03812,TAX:1406,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus,GB:CP010268
+pms,T01550,TAX:1036673,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus,GB:CP002869
+pmq,T01757,TAX:1116391,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus,GB:CP003235
+pmw,T02041,TAX:997761,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus,GB:CP003422
+pta,T01668,TAX:985665,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus,GB:CP003107
+plv,T02963,TAX:697284,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus,GB:CP003355
+psab,T03064,TAX:1268072,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus,GB:CP004078
+pdu,T03297,TAX:44251,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus,GB:CP009288
+pbd,T03324,TAX:160799,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus,GB:CP009285
+pgm,T03325,TAX:189425,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus,GB:CP009287
+pod,T03326,TAX:189426,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus,GB:CP009428
+paen,T03332,TAX:1536769,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus,GB:CP009280
+paef,T03333,TAX:1536770,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus,GB:CP009281
+paeq,T03334,TAX:1536771,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus,GB:CP009282
+pste,T03335,TAX:169760,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus,GB:CP009286
+paea,T03356,TAX:1536772,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus,GB:CP009283
+paee,T03357,TAX:1536773,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus,GB:CP009284
+paeh,T03358,TAX:1536774,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus,GB:CP009241
+paej,T03359,TAX:1536775,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus,GB:CP009279
+pbj,T03802,TAX:1126833,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus,GB:CP011058
+pih,T03836,TAX:1566358,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus,GB:CP010976
+pri,T03849,TAX:1073571,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus; Paenibacillus sonchi group,GB:LN831776
+pson,T07264,TAX:373687,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus; Paenibacillus sonchi group,GB:CP068595
+ppeo,T04053,TAX:59893,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus,GB:CP011512
+pnp,T04167,TAX:162209,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus,GB:CP013652
+pow,T04219,TAX:1695218,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus,GB:CP013653
+pbv,T04407,TAX:1616788,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus,GB:CP013023
+pxl,T04676,TAX:528191,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus,GB:CP018620
+pyg,T04810,TAX:1462996,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus,GB:CP014167
+pswu,T04884,TAX:1178515,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus,GB:CP011388
+pdh,T04971,TAX:414771,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus,GB:CP021780
+pib,T05154,TAX:1870820,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus,GB:CP016809
+pcx,T05196,TAX:1763538,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus,GB:CP017770
+pkb,T05249,TAX:172713,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus,GB:CP020028
+paih,T05348,TAX:867076,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus,GB:CP013203
+pvo,T05385,TAX:715225,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus,NA
+plw,T05701,TAX:1401,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus,GB:CP032412
+plen,T05914,TAX:1338368,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus,GB:CP034248
+ppsc,T06328,TAX:1778678,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus,GB:CP034235
+plut,T06479,TAX:2707005,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus,GB:CP034346
+palb,T06567,TAX:2495582,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus,GB:CP034437
+pchi,T06610,TAX:79263,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus,GB:CP026520
+pbk,T06671,TAX:1712516,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus,GB:AP019308
+pprt,T06829,TAX:2509456,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus,GB:CP035492
+pbac,T06922,TAX:198119,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus,GB:CP054614
+prz,T06983,TAX:2704463,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus,GB:CP048286
+plyc,T07013,TAX:2704462,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus,GB:CP048209
+psop,T07500,TAX:1333845,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus,GB:CP076607
+ptri,T07560,TAX:1873425,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus,GB:CP073365
+palo,T07807,TAX:2565926,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus,GB:CP040396
+pcel,T07813,TAX:375489,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus,GB:CP054612
+palr,T07921,TAX:2726185,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus,GB:CP051428
+tco,T02394,TAX:717605,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Thermobacillus,GB:CP003255
+anx,T04247,TAX:1450761,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Aneurinibacillus group; Aneurinibacillus,GB:CP014140
+asoc,T05174,TAX:1500254,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Aneurinibacillus group; Aneurinibacillus,GB:AP017312
+athe,T07487,TAX:143495,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Aneurinibacillus group; Aneurinibacillus,GB:CP080764
+coh,T05696,TAX:2674991,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Cohnella,GB:CP033433
+cohn,T05979,TAX:2507935,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Cohnella,GB:AP019400
+cchl,T07708,TAX:2598458,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Cohnella,GB:CP041969
+cheb,T08421,TAX:2728023,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Cohnella,GB:CP051680
+saca,T06082,TAX:2583377,Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Saccharibacillus,GB:CP041217
+aac,T00985,TAX:521098,Bacteria; Firmicutes; Bacilli; Bacillales; Alicyclobacillaceae; Alicyclobacillus,GB:CP001727
+aad,T01821,TAX:1048834,Bacteria; Firmicutes; Bacilli; Bacillales; Alicyclobacillaceae; Alicyclobacillus,GB:CP002902
+afx,T07322,TAX:471514,Bacteria; Firmicutes; Bacilli; Bacillales; Alicyclobacillaceae; Alicyclobacillus,GB:CP071182
+aaco,T08106,TAX:1450,Bacteria; Firmicutes; Bacilli; Bacillales; Alicyclobacillaceae; Alicyclobacillus,GB:CP080467
+acur,T08166,TAX:2790012,Bacteria; Firmicutes; Bacilli; Bacillales; Alicyclobacillaceae; Alicyclobacillus,GB:CP071184
+bts,T01220,TAX:562970,Bacteria; Firmicutes; Bacilli; Bacillales; Alicyclobacillaceae; Kyrpidia,GB:CP002017
+kyr,T05215,TAX:2055160,Bacteria; Firmicutes; Bacilli; Bacillales; Alicyclobacillaceae; Kyrpidia,GB:CP024955
+tum,T04874,TAX:1903704,Bacteria; Firmicutes; Bacilli; Bacillales; Alicyclobacillaceae; Tumebacillus,GB:CP021434
+tab,T04994,TAX:1214604,Bacteria; Firmicutes; Bacilli; Bacillales; Alicyclobacillaceae; Tumebacillus,GB:CP022657
+eff,T06872,TAX:2743772,Bacteria; Firmicutes; Bacilli; Bacillales; Alicyclobacillaceae; Effusibacillus,GB:AP023366
+siv,T02162,TAX:1002809,Bacteria; Firmicutes; Bacilli; Bacillales; Planococcaceae; Solibacillus,GB:AP012157
+sob,T05144,TAX:2048654,Bacteria; Firmicutes; Bacilli; Bacillales; Planococcaceae; Solibacillus,GB:CP024123
+pln,T03510,TAX:1526927,Bacteria; Firmicutes; Bacilli; Bacillales; Planococcaceae; Planococcus,GB:CP009129
+pku,T04200,TAX:1374,Bacteria; Firmicutes; Bacilli; Bacillales; Planococcaceae; Planococcus,GB:CP013661
+prt,T04201,TAX:200991,Bacteria; Firmicutes; Bacilli; Bacillales; Planococcaceae; Planococcus,GB:CP013659
+pll,T04421,TAX:1302659,Bacteria; Firmicutes; Bacilli; Bacillales; Planococcaceae; Planococcus,GB:CP016540
+pana,T04428,TAX:1185653,Bacteria; Firmicutes; Bacilli; Bacillales; Planococcaceae; Planococcus,GB:CP016534
+pdg,T04451,TAX:414778,Bacteria; Firmicutes; Bacilli; Bacillales; Planococcaceae; Planococcus,GB:CP016543
+phc,T04473,TAX:1215089,Bacteria; Firmicutes; Bacilli; Bacillales; Planococcaceae; Planococcus,GB:CP016537
+pmar,T04763,TAX:2213202,Bacteria; Firmicutes; Bacilli; Bacillales; Planococcaceae; Planococcus,GB:CP019640
+ppla,T04812,TAX:1038856,Bacteria; Firmicutes; Bacilli; Bacillales; Planococcaceae; Planococcus,GB:CP016539
+pfae,T04955,TAX:1598147,Bacteria; Firmicutes; Bacilli; Bacillales; Planococcaceae; Planococcus,GB:CP019401
+pmat,T06704,TAX:192421,Bacteria; Firmicutes; Bacilli; Bacillales; Planococcaceae; Planococcus,GB:CP016538
+pdec,T07033,TAX:1176255,Bacteria; Firmicutes; Bacilli; Bacillales; Planococcaceae; Planococcus,GB:CP059540
+pgq,T06125,TAX:459472,Bacteria; Firmicutes; Bacilli; Bacillales; Planococcaceae; Planococcus,GB:CP041323
+jeo,T03570,TAX:1508404,Bacteria; Firmicutes; Bacilli; Bacillales; Planococcaceae; Jeotgalibacillus,GB:CP009416
+kur,T04250,TAX:1750719,Bacteria; Firmicutes; Bacilli; Bacillales; Planococcaceae; Kurthia,GB:CP013217
+kzo,T05934,TAX:1650,Bacteria; Firmicutes; Bacilli; Bacillales; Planococcaceae; Kurthia,GB:LR134474
+spsy,T04327,TAX:1476,Bacteria; Firmicutes; Bacilli; Bacillales; Planococcaceae; Sporosarcina,GB:CP014616
+spop,T04826,TAX:1930546,Bacteria; Firmicutes; Bacilli; Bacillales; Planococcaceae; Sporosarcina,GB:CP015349
+sure,T04877,TAX:1571,Bacteria; Firmicutes; Bacilli; Bacillales; Planococcaceae; Sporosarcina,GB:CP015348
+spos,T05572,TAX:2283194,Bacteria; Firmicutes; Bacilli; Bacillales; Planococcaceae; Sporosarcina,GB:CP031230
+spae,T06007,TAX:1474,Bacteria; Firmicutes; Bacilli; Bacillales; Planococcaceae; Sporosarcina,GB:CP038012
+spoo,T08181,TAX:2818390,Bacteria; Firmicutes; Bacilli; Bacillales; Planococcaceae; Sporosarcina,GB:CP071798
+rst,T04369,TAX:241244,Bacteria; Firmicutes; Bacilli; Bacillales; Planococcaceae; Rummeliibacillus,GB:CP014806
+paek,T05647,TAX:2320858,Bacteria; Firmicutes; Bacilli; Bacillales; Planococcaceae; Paenisporosarcina,GB:CP032418
+panc,T05927,TAX:417367,Bacteria; Firmicutes; Bacilli; Bacillales; Planococcaceae; Paenisporosarcina,GB:CP038015
+play,T06390,TAX:2213011,Bacteria; Firmicutes; Bacilli; Bacillales; Planococcaceae; Planomicrobium,GB:CP047673
+vij,T06874,TAX:2779527,Bacteria; Firmicutes; Bacilli; Bacillales; Planococcaceae; Viridibacillus,GB:CP063302
+ntr,T04694,TAX:1471761,Bacteria; Firmicutes; Bacilli; Bacillales; Thermoactinomycetaceae; Novibacillus,GB:CP019699
+lfb,T05304,TAX:37482,Bacteria; Firmicutes; Bacilli; Bacillales; Thermoactinomycetaceae; Laceyella,GB:CP025943
+tvu,T05864,TAX:2026,Bacteria; Firmicutes; Bacilli; Bacillales; Thermoactinomycetaceae; Thermoactinomyces,GB:CP036487
+kpul,T06617,TAX:1380685,Bacteria; Firmicutes; Bacilli; Bacillales; Thermoactinomycetaceae; Kroppenstedtia,GB:CP048104
+keb,T06618,TAX:714067,Bacteria; Firmicutes; Bacilli; Bacillales; Thermoactinomycetaceae; Kroppenstedtia,GB:CP048103
+pabs,T07192,TAX:1125966,Bacteria; Firmicutes; Bacilli; Bacillales; Thermoactinomycetaceae; Polycladomyces,GB:AP024601
+cac,T00056,TAX:272562,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,RS:NC_003030 (GB:AE001437)
+cae,T01548,TAX:991791,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,GB:CP002660
+cay,T01864,TAX:863638,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,GB:CP002118
+cpe,T00074,TAX:195102,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,GB:BA000016
+cpf,T00378,TAX:195103,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,GB:CP000246
+cpr,T00379,TAX:289380,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,GB:CP000312
+ctc,T00112,TAX:212717,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,GB:AE015927
+ctet,T02905,TAX:1231072,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,GB:HG530135
+cno,T00431,TAX:386415,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,GB:CP000382
+cbo,T00533,TAX:413999,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,GB:AM412317
+cba,T00574,TAX:441770,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,GB:CP000726
+cbh,T00575,TAX:441771,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,RS:NC_009698 (GB:CP000727)
+cby,T00883,TAX:536232,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,GB:CP001581
+cbl,T00670,TAX:498214,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,GB:CP000962
+cbk,T00696,TAX:935198,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,GB:CP001056
+cbb,T00671,TAX:498213,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,GB:CP000939
+cbi,T00895,TAX:515621,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,GB:CP001083
+cbn,T01475,TAX:929506,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,GB:CP002410
+cbt,T00767,TAX:508767,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,GB:CP001078
+cbf,T00563,TAX:441772,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,GB:CP000728
+cbm,T01865,TAX:758678,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,GB:CP002011
+cbj,T02076,TAX:941968,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,GB:FR773526
+cbe,T00547,TAX:290402,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,GB:CP000721
+cbz,T03415,TAX:864803,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,GB:CP006777
+cbei,T04773,TAX:1520,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,GB:CP010086
+ckl,T00564,TAX:431943,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,GB:CP000673
+ckr,T00832,TAX:583346,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,GB:AP009049
+clj,T01276,TAX:748727,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,GB:CP001666
+ccb,T01294,TAX:573061,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,GB:CP002160
+clb,T01708,TAX:755731,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,GB:CP003259
+csr,T02467,TAX:931276,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,GB:CP004121
+cpas,T02645,TAX:86416,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,GB:CP003261
+cpat,T03753,TAX:1262449,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,GB:CP009268
+cpae,T03811,TAX:1262449,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,GB:CP009267
+csb,T02876,TAX:1345695,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,GB:CP006721
+cah,T02883,TAX:1341692,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,GB:CP006763
+clt,T03165,TAX:1216932,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,GB:HG917868
+cbv,T03506,TAX:1415775,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,GB:CP006905
+csq,T03803,TAX:1548,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,GB:CP009933
+cld,T03905,TAX:1509,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,GB:CP009225
+cace,T03971,TAX:84022,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,GB:CP009687
+cck,T03979,TAX:536227,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,GB:CP011803
+cbut,T04197,TAX:1492,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,GB:CP013252
+cbut,T04197,TAX:1492,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,GB:CP013489
+ctyk,T04331,TAX:1519,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,GB:CP014170
+ceu,T04811,TAX:1552,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,GB:CP015756
+ctae,T04957,TAX:394958,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,GB:CP017253
+cfm,T05005,TAX:1497,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,GB:CP017603
+cchv,T05083,TAX:46867,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,GB:CP018630
+carg,T05123,TAX:29341,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,GB:CP014176
+cdrk,T05484,TAX:332101,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,GB:CP020953
+cia,T05663,TAX:182773,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,GB:CP016786
+csep,T06069,TAX:1504,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,GB:CP023671
+cdy,T06237,TAX:223919,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,GB:CP043998
+ccoh,T06756,TAX:1494,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,GB:LT906477
+cfer,T06956,TAX:2068654,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,GB:CP032416
+cgas,T07299,TAX:94869,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,GB:CP071376
+clos,T07742,TAX:2212991,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,GB:CP029758
+ccaa,T07934,TAX:1529,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,GB:CP076620
+cmah,T08006,TAX:2320868,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,GB:CP025746
+crw,T08192,TAX:84029,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,GB:CP096983
+cfb,T08216,TAX:1121310,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,GB:CP096980
+caun,T08241,TAX:1551,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,GB:CP096988
+cnn,T08280,TAX:137838,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,GB:OU997945
+cgel,T08447,TAX:704125,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Clostridium,GB:AP024849
+amt,T00551,TAX:293826,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Alkaliphilus,GB:CP000724
+aoe,T00607,TAX:350688,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Alkaliphilus,GB:CP000853
+asf,T01591,TAX:1029718,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Candidatus Arthromitus,GB:AP012202
+asm,T01857,TAX:1041809,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Candidatus Arthromitus,GB:AP012209
+aso,T03243,TAX:1508644,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Candidatus Arthromitus,GB:CP008713
+asb,T01624,TAX:1041504,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Candidatus Arthromitus,GB:AP012210
+gfe,T04493,TAX:1424294,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Geosporobacter,GB:CP017269
+hhw,T05971,TAX:1498,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Hathewaya,GB:LR590481
+cale,T05994,TAX:2576307,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Caloramator,GB:CP040093
+cprf,T07525,TAX:1286698,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Crassaminicella,GB:CP082326
+cras,T08466,TAX:2855394,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Crassaminicella,GB:CP078093
+sarj,T06935,TAX:2726954,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Sarcina,GB:CP051754
+pbif,T07479,TAX:1490,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Paraclostridium,GB:CP079737
+hhj,T08453,TAX:154046,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiaceae; Hungatella,GB:CP102274
+cth,T00474,TAX:203119,Bacteria; Firmicutes; Clostridia; Eubacteriales; Oscillospiraceae; Acetivibrio,GB:CP000568
+ctx,T01933,TAX:637887,Bacteria; Firmicutes; Clostridia; Eubacteriales; Oscillospiraceae; Acetivibrio,GB:CP002416
+ccl,T01661,TAX:720554,Bacteria; Firmicutes; Clostridia; Eubacteriales; Oscillospiraceae; Acetivibrio,GB:CP003065
+hsc,T05223,TAX:1677857,Bacteria; Firmicutes; Clostridia; Eubacteriales; Oscillospiraceae; Acetivibrio,GB:CP025197
+ruk,T04437,TAX:1834198,Bacteria; Firmicutes; Clostridia; Eubacteriales; Oscillospiraceae,GB:CP015400
+rbp,T04880,TAX:1572656,Bacteria; Firmicutes; Clostridia; Eubacteriales; Oscillospiraceae,GB:CP020705
+cce,T00835,TAX:394503,Bacteria; Firmicutes; Clostridia; Eubacteriales; Oscillospiraceae; Ruminiclostridium,GB:CP001348
+rher,T07161,TAX:2488810,Bacteria; Firmicutes; Clostridia; Eubacteriales; Oscillospiraceae; Ruminiclostridium,GB:CP061336
+css,T02440,TAX:1121335,Bacteria; Firmicutes; Clostridia; Eubacteriales; Oscillospiraceae; Thermoclostridium,GB:CP004044
+csd,T02527,TAX:1121335,Bacteria; Firmicutes; Clostridia; Eubacteriales; Oscillospiraceae; Thermoclostridium,GB:CP003992
+cthd,T05300,TAX:84032,Bacteria; Firmicutes; Clostridia; Eubacteriales; Oscillospiraceae; Pseudoclostridium,GB:CP021850
+esr,T02589,TAX:717961,Bacteria; Firmicutes; Clostridia; Eubacteriales; Oscillospiraceae; Oscillospiraceae incertae sedis,GB:FP929059
+esu,T02590,TAX:657319,Bacteria; Firmicutes; Clostridia; Eubacteriales; Oscillospiraceae; Oscillospiraceae incertae sedis,GB:FP929044
+ccel,T03806,TAX:29343,Bacteria; Firmicutes; Clostridia; Eubacteriales; Oscillospiraceae; Oscillospiraceae incertae sedis,GB:LM995447
+fpla,T04429,TAX:292800,Bacteria; Firmicutes; Clostridia; Eubacteriales; Oscillospiraceae; Flavonifractor,GB:CP015406
+eha,T01384,TAX:663278,Bacteria; Firmicutes; Clostridia; Eubacteriales; Oscillospiraceae; Ethanoligenens,GB:CP002400
+ral,T01387,TAX:697329,Bacteria; Firmicutes; Clostridia; Eubacteriales; Oscillospiraceae; Ruminococcus,GB:CP002403
+rch,T02600,TAX:213810,Bacteria; Firmicutes; Clostridia; Eubacteriales; Oscillospiraceae; Ruminococcus,GB:FP929052
+rum,T02601,TAX:657323,Bacteria; Firmicutes; Clostridia; Eubacteriales; Oscillospiraceae; Ruminococcus,GB:FP929053
+rus,T03158,TAX:1160721,Bacteria; Firmicutes; Clostridia; Eubacteriales; Oscillospiraceae; Ruminococcus,GB:HF545616
+rus,T03158,TAX:1160721,Bacteria; Firmicutes; Clostridia; Eubacteriales; Oscillospiraceae; Ruminococcus,GB:HF545617
+ruj,T05998,TAX:2564099,Bacteria; Firmicutes; Clostridia; Eubacteriales; Oscillospiraceae; Ruminococcus,GB:CP039381
+fpr,T02591,TAX:718252,Bacteria; Firmicutes; Clostridia; Eubacteriales; Oscillospiraceae; Faecalibacterium,GB:FP929045
+fpa,T02592,TAX:657322,Bacteria; Firmicutes; Clostridia; Eubacteriales; Oscillospiraceae; Faecalibacterium,GB:FP929046
+fpra,T06780,TAX:853,Bacteria; Firmicutes; Clostridia; Eubacteriales; Oscillospiraceae; Faecalibacterium,GB:CP022479
+fdu,T08154,TAX:411483,Bacteria; Firmicutes; Clostridia; Eubacteriales; Oscillospiraceae; Faecalibacterium,GB:CP048437
+capr,T05807,TAX:2507162,Bacteria; Firmicutes; Clostridia; Eubacteriales; Oscillospiraceae; Caproiciproducens,GB:CP035283
+ova,T01636,TAX:693746,Bacteria; Firmicutes; Clostridia; Eubacteriales; Oscillospiraceae; Oscillibacter,GB:AP012044
+obj,T06030,TAX:2093857,Bacteria; Firmicutes; Clostridia; Eubacteriales; Oscillospiraceae; Dysosmobacter,GB:CP034413
+caml,T07171,TAX:2766537,Bacteria; Firmicutes; Clostridia; Eubacteriales; Oscillospiraceae; Caproicibacterium,GB:CP060696
+clf,T07898,TAX:2666138,Bacteria; Firmicutes; Clostridia; Eubacteriales; Oscillospiraceae; Caproicibacterium,GB:CP046051
+sman,T07247,TAX:2780922,Bacteria; Firmicutes; Clostridia; Eubacteriales; Oscillospiraceae; Solibaculum,GB:AP023321
+pfaa,T07635,TAX:2714358,Bacteria; Firmicutes; Clostridia; Eubacteriales; Oscillospiraceae; Pusillibacter,GB:AP023420
+vfa,T07633,TAX:2714353,Bacteria; Firmicutes; Clostridia; Eubacteriales; Oscillospiraceae; Vescimonas,GB:AP023415
+vcop,T07634,TAX:2714355,Bacteria; Firmicutes; Clostridia; Eubacteriales; Oscillospiraceae; Vescimonas,GB:AP023418
+cfem,T07651,TAX:2576756,Bacteria; Firmicutes; Clostridia; Eubacteriales; Oscillospiraceae; Caproicibacter,GB:CP060286
+acol,T08068,TAX:169435,Bacteria; Firmicutes; Clostridia; Eubacteriales; Oscillospiraceae; Anaerotruncus,GB:CP094682
+svj,T08454,TAX:214851,Bacteria; Firmicutes; Clostridia; Eubacteriales; Oscillospiraceae; Subdoligranulum,GB:CP102293
+cle,T01448,TAX:642492,Bacteria; Firmicutes; Clostridia; Eubacteriales; Lachnospiraceae; Cellulosilyticum,GB:CP002582
+cew,T06333,TAX:2497860,Bacteria; Firmicutes; Clostridia; Eubacteriales; Lachnospiraceae; Cellulosilyticum,GB:CP034675
+rho,T01621,TAX:585394,Bacteria; Firmicutes; Clostridia; Eubacteriales; Lachnospiraceae; Roseburia,GB:CP003040
+rix,T02597,TAX:718255,Bacteria; Firmicutes; Clostridia; Eubacteriales; Lachnospiraceae; Roseburia,GB:FP929050
+rim,T02598,TAX:657315,Bacteria; Firmicutes; Clostridia; Eubacteriales; Lachnospiraceae; Roseburia,GB:FP929049
+coo,T02583,TAX:751585,Bacteria; Firmicutes; Clostridia; Eubacteriales; Lachnospiraceae; Coprococcus,GB:FP929039
+cct,T02584,TAX:717962,Bacteria; Firmicutes; Clostridia; Eubacteriales; Lachnospiraceae; Coprococcus,GB:FP929038
+ccom,T07118,TAX:410072,Bacteria; Firmicutes; Clostridia; Eubacteriales; Lachnospiraceae; Coprococcus,GB:CP070062
+cev,T07943,TAX:411474,Bacteria; Firmicutes; Clostridia; Eubacteriales; Lachnospiraceae; Coprococcus,GB:CP085930
+rob,T02605,TAX:657314,Bacteria; Firmicutes; Clostridia; Eubacteriales; Lachnospiraceae; Blautia,GB:FP929054
+byl,T04458,TAX:1796616,Bacteria; Firmicutes; Clostridia; Eubacteriales; Lachnospiraceae; Blautia,GB:CP015405
+bhan,T05095,TAX:537007,Bacteria; Firmicutes; Clostridia; Eubacteriales; Lachnospiraceae; Blautia,GB:CP022413
+blau,T05518,TAX:1912897,Bacteria; Firmicutes; Clostridia; Eubacteriales; Lachnospiraceae; Blautia,GB:CP030280
+bpro,T05894,TAX:33035,Bacteria; Firmicutes; Clostridia; Eubacteriales; Lachnospiraceae; Blautia,GB:CP035945
+blab,T06243,TAX:2479767,Bacteria; Firmicutes; Clostridia; Eubacteriales; Lachnospiraceae; Blautia,GB:CP040518
+bliq,T07726,TAX:2779518,Bacteria; Firmicutes; Clostridia; Eubacteriales; Lachnospiraceae; Blautia,GB:CP063304
+cpy,T00619,TAX:357809,Bacteria; Firmicutes; Clostridia; Eubacteriales; Lachnospiraceae,GB:CP000885
+lacy,T04430,TAX:1834196,Bacteria; Firmicutes; Clostridia; Eubacteriales; Lachnospiraceae,GB:CP015399
+csci,T06591,TAX:411468,Bacteria; Firmicutes; Clostridia; Eubacteriales; Lachnospiraceae,GB:CP036170
+csh,T01288,TAX:610130,Bacteria; Firmicutes; Clostridia; Eubacteriales; Lachnospiraceae; Lacrimispora,GB:CP002109
+cso,T02614,TAX:717608,Bacteria; Firmicutes; Clostridia; Eubacteriales; Lachnospiraceae; Lacrimispora,GB:FP929037
+bprl,T02612,TAX:649756,Bacteria; Firmicutes; Clostridia; Eubacteriales; Lachnospiraceae; Anaerostipes,GB:FP929061
+arf,T05962,TAX:1229621,Bacteria; Firmicutes; Clostridia; Eubacteriales; Lachnospiraceae; Anaerostipes,GB:CP040058
+acac,T06754,TAX:105841,Bacteria; Firmicutes; Clostridia; Eubacteriales; Lachnospiraceae; Anaerostipes,GB:CP036345
+hsd,T04072,TAX:1679721,Bacteria; Firmicutes; Clostridia; Eubacteriales; Lachnospiraceae; Herbinix,GB:LN879430
+cpro,T04574,TAX:991789,Bacteria; Firmicutes; Clostridia; Eubacteriales; Lachnospiraceae; Anaerotignum,GB:CP014223
+ehl,T05310,TAX:39488,Bacteria; Firmicutes; Clostridia; Eubacteriales; Lachnospiraceae; Anaerobutyricum,GB:LT907978
+anr,T06399,TAX:2696063,Bacteria; Firmicutes; Clostridia; Eubacteriales; Lachnospiraceae; Anaerocolumna,GB:CP048000
+acel,T06764,TAX:433286,Bacteria; Firmicutes; Clostridia; Eubacteriales; Lachnospiraceae; Anaerocolumna,GB:AP023367
+acht,T07655,TAX:1727145,Bacteria; Firmicutes; Clostridia; Eubacteriales; Lachnospiraceae; Anaerocolumna,GB:AP023368
+eel,T00908,TAX:515620,Bacteria; Firmicutes; Clostridia; Eubacteriales; Lachnospiraceae; Lachnospira,GB:CP001104
+rto,T02606,TAX:657313,Bacteria; Firmicutes; Clostridia; Eubacteriales; Lachnospiraceae; Mediterraneibacter,GB:FP929055
+rgn,T06719,TAX:411470,Bacteria; Firmicutes; Clostridia; Eubacteriales; Lachnospiraceae; Mediterraneibacter,GB:CP027002
+cbol,T05466,TAX:208479,Bacteria; Firmicutes; Clostridia; Eubacteriales; Lachnospiraceae; Enterocloster,GB:CP022464
+dlo,T08069,TAX:88431,Bacteria; Firmicutes; Clostridia; Eubacteriales; Lachnospiraceae; Dorea,GB:CP094679
+sint,T08070,TAX:1653434,Bacteria; Firmicutes; Clostridia; Eubacteriales; Lachnospiraceae; Sellimonas,GB:CP094681
+wcp,T08109,TAX:2763670,Bacteria; Firmicutes; Clostridia; Eubacteriales; Lachnospiraceae; Wujia,GB:CP060632
+ssun,T08120,TAX:2763672,Bacteria; Firmicutes; Clostridia; Eubacteriales; Lachnospiraceae; Simiaoa,GB:CP060633
+qdo,T08121,TAX:2763669,Bacteria; Firmicutes; Clostridia; Eubacteriales; Lachnospiraceae; Qiania,GB:CP060634
+whj,T08122,TAX:2763667,Bacteria; Firmicutes; Clostridia; Eubacteriales; Lachnospiraceae; Wansuia,GB:CP060635
+mfor,T08439,TAX:478749,Bacteria; Firmicutes; Clostridia; Eubacteriales; Lachnospiraceae; Marvinbryantia,GB:CP102268
+ere,T00909,TAX:515619,Bacteria; Firmicutes; Clostridia; Eubacteriales; Lachnospiraceae; Lachnospiraceae incertae sedis,GB:CP001107
+ert,T02587,TAX:657318,Bacteria; Firmicutes; Clostridia; Eubacteriales; Lachnospiraceae; Lachnospiraceae incertae sedis,GB:FP929042
+era,T02588,TAX:657317,Bacteria; Firmicutes; Clostridia; Eubacteriales; Lachnospiraceae; Lachnospiraceae incertae sedis,GB:FP929043
+cdf,T00487,TAX:272563,Bacteria; Firmicutes; Clostridia; Eubacteriales; Peptostreptococcaceae; Clostridioides,GB:AM180355
+pdc,T03885,TAX:272563,Bacteria; Firmicutes; Clostridia; Eubacteriales; Peptostreptococcaceae; Clostridioides,GB:CP010905
+cdc,T00997,TAX:645462,Bacteria; Firmicutes; Clostridia; Eubacteriales; Peptostreptococcaceae; Clostridioides,GB:FN538970
+cdl,T00998,TAX:645463,Bacteria; Firmicutes; Clostridia; Eubacteriales; Peptostreptococcaceae; Clostridioides,GB:FN545816
+pdf,T03785,TAX:1496,Bacteria; Firmicutes; Clostridia; Eubacteriales; Peptostreptococcaceae; Clostridioides,GB:LN614756
+eac,T03061,TAX:1286171,Bacteria; Firmicutes; Clostridia; Eubacteriales; Peptostreptococcaceae; Peptoclostridium,GB:CP007452
+psor,T05252,TAX:1505,Bacteria; Firmicutes; Clostridia; Eubacteriales; Peptostreptococcaceae; Paeniclostridium,GB:CP014150
+roc,T06535,TAX:2724150,Bacteria; Firmicutes; Clostridia; Eubacteriales; Peptostreptococcaceae; Romboutsia,GB:CP051144
+phx,T06633,TAX:89152,Bacteria; Firmicutes; Clostridia; Eubacteriales; Peptostreptococcaceae; Peptacetobacter,GB:CP036523
+tem,T07658,TAX:2813371,Bacteria; Firmicutes; Clostridia; Eubacteriales; Peptostreptococcaceae; Terrisporobacter,GB:CP081135
+tgc,T08249,TAX:36841,Bacteria; Firmicutes; Clostridia; Eubacteriales; Peptostreptococcaceae; Terrisporobacter,GB:CP095077
+teb,T08095,TAX:2925782,Bacteria; Firmicutes; Clostridia; Eubacteriales; Peptostreptococcaceae; Tepidibacter,GB:OW235315
+ibr,T08452,TAX:261299,Bacteria; Firmicutes; Clostridia; Eubacteriales; Peptostreptococcaceae; Intestinibacter,GB:CP102273
+sth,T00196,TAX:292459,Bacteria; Firmicutes; Clostridia; Eubacteriales; Symbiobacteriaceae; Symbiobacterium,GB:AP006840
+swo,T00396,TAX:335541,Bacteria; Firmicutes; Clostridia; Eubacteriales; Syntrophomonadaceae; Syntrophomonas,GB:CP000448
+slp,T01253,TAX:643648,Bacteria; Firmicutes; Clostridia; Eubacteriales; Syntrophomonadaceae; Syntrophothermus,GB:CP002048
+salq,T06326,TAX:2293317,Bacteria; Firmicutes; Clostridia; Eubacteriales; Syntrophomonadaceae; Candidatus Syntrophocurvum,GB:CP046457
+calk,T07972,TAX:338645,Bacteria; Firmicutes; Clostridia; Eubacteriales; Syntrophomonadaceae; Candidatus Contubernalis,GB:CP054699
+dsy,T00333,TAX:138119,Bacteria; Firmicutes; Clostridia; Eubacteriales; Desulfitobacteriaceae; Desulfitobacterium,GB:AP008230
+dhd,T00822,TAX:272564,Bacteria; Firmicutes; Clostridia; Eubacteriales; Desulfitobacteriaceae; Desulfitobacterium,GB:CP001336
+ddh,T02146,TAX:756499,Bacteria; Firmicutes; Clostridia; Eubacteriales; Desulfitobacteriaceae; Desulfitobacterium,GB:CP003348
+ddl,T02390,TAX:871963,Bacteria; Firmicutes; Clostridia; Eubacteriales; Desulfitobacteriaceae; Desulfitobacterium,GB:CP003344
+dmt,T03599,TAX:871968,Bacteria; Firmicutes; Clostridia; Eubacteriales; Desulfitobacteriaceae; Desulfitobacterium,GB:CP007032
+sgy,T01429,TAX:645991,Bacteria; Firmicutes; Clostridia; Eubacteriales; Desulfitobacteriaceae; Syntrophobotulus,GB:CP002547
+dor,T01675,TAX:768706,Bacteria; Firmicutes; Clostridia; Eubacteriales; Desulfitobacteriaceae; Desulfosporosinus,GB:CP003108
+dai,T02148,TAX:646529,Bacteria; Firmicutes; Clostridia; Eubacteriales; Desulfitobacteriaceae; Desulfosporosinus,GB:CP003639
+dmi,T02207,TAX:768704,Bacteria; Firmicutes; Clostridia; Eubacteriales; Desulfitobacteriaceae; Desulfosporosinus,GB:CP003629
+ded,T02278,TAX:1147129,Bacteria; Firmicutes; Clostridia; Eubacteriales; Desulfitobacteriaceae; Dehalobacter,GB:CP003869
+dec,T02279,TAX:1131462,Bacteria; Firmicutes; Clostridia; Eubacteriales; Desulfitobacteriaceae; Dehalobacter,GB:CP003870
+drs,T02996,TAX:871738,Bacteria; Firmicutes; Clostridia; Eubacteriales; Desulfitobacteriaceae; Dehalobacter,GB:CP007033
+dca,T01498,TAX:868595,Bacteria; Firmicutes; Clostridia; Eubacteriales; Desulfotomaculaceae; Desulfotomaculum,GB:CP002736
+pth,T00519,TAX:370438,Bacteria; Firmicutes; Clostridia; Eubacteriales; Desulfotomaculaceae; Pelotomaculum,GB:AP009389
+drm,T00494,TAX:349161,Bacteria; Firmicutes; Clostridia; Eubacteriales; Peptococcaceae; Desulforamulus,GB:CP000612
+dru,T01518,TAX:696281,Bacteria; Firmicutes; Clostridia; Eubacteriales; Peptococcaceae; Desulforamulus,GB:CP002780
+dfg,T04823,TAX:1833852,Bacteria; Firmicutes; Clostridia; Eubacteriales; Peptococcaceae; Desulforamulus,GB:CP019698
+dae,T00986,TAX:485916,Bacteria; Firmicutes; Clostridia; Eubacteriales; Peptococcaceae; Desulfofarcimen,GB:CP001720
+dku,T01499,TAX:760568,Bacteria; Firmicutes; Clostridia; Eubacteriales; Peptococcaceae; Desulfofundulus,GB:CP002770
+dau,T00655,TAX:477974,Bacteria; Firmicutes; Clostridia; Eubacteriales; Peptococcaceae; Candidatus Desulforudis,GB:CP000860
+tfr,T06762,TAX:1712410,Bacteria; Firmicutes; Clostridia; Eubacteriales; Peptococcaceae; Thermanaerosceptrum,GB:CP045798
+fwa,T07208,TAX:1761012,Bacteria; Firmicutes; Clostridia; Eubacteriales; Peptococcaceae; Candidatus Formimonas,GB:CP017634
+aacx,T07960,TAX:1561005,Bacteria; Firmicutes; Clostridia; Eubacteriales; Peptococcaceae; Acididesulfobacillus,GB:LR746496
+tjr,T01226,TAX:635013,Bacteria; Firmicutes; Clostridia; Eubacteriales; Thermincolaceae; Thermincola,GB:CP002028
+dgi,T02657,TAX:767817,Bacteria; Firmicutes; Clostridia; Eubacteriales; Desulfallaceae; Desulfoscipio,GB:CP003273
+hmo,T00653,TAX:498761,Bacteria; Firmicutes; Clostridia; Eubacteriales; Heliobacteriaceae; Heliomicrobium,GB:CP000930
+hcv,T06277,TAX:356322,Bacteria; Firmicutes; Clostridia; Eubacteriales; Heliobacteriaceae; Heliorestis,GB:CP045875
+cmiu,T05665,TAX:626937,Bacteria; Firmicutes; Clostridia; Eubacteriales; Christensenellaceae; Christensenella,GB:CP029256
+vgu,T07172,TAX:1185412,Bacteria; Firmicutes; Clostridia; Eubacteriales; Vallitaleaceae; Vallitalea,GB:CP058561
+vpy,T07178,TAX:1348613,Bacteria; Firmicutes; Clostridia; Eubacteriales; Vallitaleaceae; Vallitalea,GB:CP058649
+acae,T07204,TAX:2731377,Bacteria; Firmicutes; Clostridia; Eubacteriales; Proteinivoraceae; Alkalicella,GB:CP058559
+tmr,T01388,TAX:644966,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiales Family XVII. Incertae Sedis; Thermaerobacter,GB:CP002344
+thef,T05930,TAX:2546351,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiales Family XVII. Incertae Sedis; Thermaerobacter,GB:CP037895
+thep,T06418,TAX:2293838,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiales Family XVII. Incertae Sedis; Thermaerobacter,GB:CP048407
+say,T01576,TAX:1051632,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiales Family XVII. Incertae Sedis; Sulfobacillus,GB:CP002901
+sap,T01746,TAX:679936,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiales Family XVII. Incertae Sedis; Sulfobacillus,GB:CP003179
+sthr,T06144,TAX:338644,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiales Family XVII. Incertae Sedis; Sulfobacillus,GB:CP019454
+cthm,T05389,TAX:178899,Bacteria; Firmicutes; Clostridia; Eubacteriales; Clostridiales Family XVI. Incertae Sedis; Carboxydocella,GB:CP028491
+ibu,T04182,TAX:1297617,Bacteria; Firmicutes; Clostridia; Eubacteriales; Intestinimonas,GB:CP011307
+lasa,T07961,TAX:2108523,Bacteria; Firmicutes; Clostridia; Eubacteriales; Lawsonibacter,GB:CP091870
+amij,T05806,TAX:2507160,Bacteria; Firmicutes; Clostridia; Eubacteriales; Eubacteriales Family XIII. Incertae Sedis; Aminipila,GB:CP035281
+amic,T06414,TAX:2697030,Bacteria; Firmicutes; Clostridia; Eubacteriales; Eubacteriales Family XIII. Incertae Sedis; Aminipila,GB:CP047591
+abut,T06474,TAX:433296,Bacteria; Firmicutes; Clostridia; Eubacteriales; Eubacteriales Family XIII. Incertae Sedis; Aminipila,GB:CP048649
+etm,T08071,TAX:1776384,Bacteria; Firmicutes; Clostridia; Eubacteriales; Eubacteriales Family XIII. Incertae Sedis; Emergencia,GB:AP025567
+bprs,T02611,TAX:245014,Bacteria; Firmicutes; Clostridia; Eubacteriales,GB:FP929062
+tte,T00081,TAX:273068,Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacteraceae; Caldanaerobacter,GB:AE008691
+tex,T00648,TAX:399726,Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacteraceae; Thermoanaerobacter,GB:CP000923
+thx,T01317,TAX:573062,Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacteraceae; Thermoanaerobacter,GB:CP002210
+tpd,T00649,TAX:340099,Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacteraceae; Thermoanaerobacter,GB:CP000924
+tit,T01178,TAX:580331,Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacteraceae; Thermoanaerobacter,GB:CP001936
+tmt,T01250,TAX:583358,Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacteraceae; Thermoanaerobacter,GB:CP002032
+tbo,T01409,TAX:509193,Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacteraceae; Thermoanaerobacter,GB:CP002466
+twi,T01607,TAX:697303,Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacteraceae; Thermoanaerobacter,GB:CP002991
+tki,T03397,TAX:2325,Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacteraceae; Thermoanaerobacter,GB:CP009170
+chy,T00287,TAX:246194,Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacteraceae; Carboxydothermus,GB:CP000141
+mta,T00308,TAX:264732,Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacteraceae; Moorella group; Moorella,GB:CP000232
+mtho,T06431,TAX:1525,Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacteraceae; Moorella group; Moorella,GB:CP012369
+mthz,T06429,TAX:1525,Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacteraceae; Moorella group; Moorella,GB:CP012370
+adg,T00994,TAX:429009,Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacteraceae; Moorella group; Ammonifex,GB:CP001785
+tpz,T02276,TAX:1089553,Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacteraceae; Thermacetogenium,GB:CP003732
+gek,T07432,TAX:2796927,Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacteraceae; Gelria,GB:AP024619
+csc,T00506,TAX:351627,Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacterales Family III. Incertae Sedis; Caldicellulosiruptor,GB:CP000679
+ate,T00857,TAX:521460,Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacterales Family III. Incertae Sedis; Caldicellulosiruptor,GB:CP001393
+cob,T01293,TAX:608506,Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacterales Family III. Incertae Sedis; Caldicellulosiruptor,GB:CP002164
+chd,T01346,TAX:632292,Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacterales Family III. Incertae Sedis; Caldicellulosiruptor,GB:CP002219
+cow,T01347,TAX:632518,Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacterales Family III. Incertae Sedis; Caldicellulosiruptor,GB:CP002216 (GB:CP002216)
+cki,T01356,TAX:632335,Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacterales Family III. Incertae Sedis; Caldicellulosiruptor,GB:CP002326
+clc,T01600,TAX:632516,Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacterales Family III. Incertae Sedis; Caldicellulosiruptor,GB:CP003001
+ckn,T01357,TAX:632348,Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacterales Family III. Incertae Sedis; Caldicellulosiruptor,GB:CP002330
+ccha,T05905,TAX:1222016,Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacterales Family III. Incertae Sedis; Caldicellulosiruptor,GB:CP034791
+cdia,T08057,TAX:2806205,Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacterales Family III. Incertae Sedis; Caldicellulosiruptor,GB:AP024480
+ttm,T01299,TAX:580327,Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacterales Family III. Incertae Sedis; Thermoanaerobacterium,GB:CP002171
+tto,T02407,TAX:698948,Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacterales Family III. Incertae Sedis; Thermoanaerobacterium,GB:CP003066
+txy,T01505,TAX:858215,Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacterales Family III. Incertae Sedis; Thermoanaerobacterium,GB:CP002739
+tsh,T02137,TAX:1094508,Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacterales Family III. Incertae Sedis; Thermoanaerobacterium,GB:CP003184
+mas,T01494,TAX:697281,Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacterales Family IV. Incertae Sedis; Mahella,GB:CP002360
+tep,T01495,TAX:1209989,Bacteria; Firmicutes; Clostridia; Thermosediminibacterales; Tepidanaerobacteraceae; Tepidanaerobacter,GB:CP002728
+tae,T02434,TAX:1209989,Bacteria; Firmicutes; Clostridia; Thermosediminibacterales; Tepidanaerobacteraceae; Tepidanaerobacter,GB:HF563609
+toc,T01289,TAX:555079,Bacteria; Firmicutes; Clostridia; Thermosediminibacterales; Thermosediminibacteraceae; Thermosediminibacter,GB:CP002131
+nth,T00761,TAX:457570,Bacteria; Firmicutes; Clostridia; Natranaerobiales; Natranaerobiaceae; Natranaerobius,GB:CP001034
+ncd,T07970,TAX:2742683,Bacteria; Firmicutes; Clostridia; Natranaerobiales; Natranaerofabaceae; Natranaerofaba,GB:CP054394
+hor,T00838,TAX:373903,Bacteria; Firmicutes; Clostridia; Halanaerobiales; Halanaerobiaceae; Halothermothrix,GB:CP001098
+has,T01349,TAX:656519,Bacteria; Firmicutes; Clostridia; Halanaerobiales; Halanaerobiaceae; Halanaerobium,GB:CP002304
+hpk,T01941,TAX:572479,Bacteria; Firmicutes; Clostridia; Halanaerobiales; Halanaerobiaceae; Halanaerobium,GB:CP002175
+hals,T05769,TAX:2382161,Bacteria; Firmicutes; Clostridia; Halanaerobiales; Halanaerobiaceae; Halocella,GB:CP032760
+ifn,T07718,TAX:2682810,Bacteria; Firmicutes; Clostridia; Halanaerobiales; Halanaerobiaceae; Iocasia,GB:CP046640
+aar,T01290,TAX:574087,Bacteria; Firmicutes; Clostridia; Halanaerobiales; Halobacteroidaceae; Acetohalobium,GB:CP002105
+hhl,T02401,TAX:748449,Bacteria; Firmicutes; Clostridia; Halanaerobiales; Halobacteroidaceae; Halobacteroides,GB:CP003359
+aft,T05768,TAX:1323375,Bacteria; Firmicutes; Clostridia; Halanaerobiales; Anoxybacter,GB:CP016379
+kme,T07090,TAX:2751313,Bacteria; Firmicutes; Clostridia; Koleobacterales; Koleobacteraceae; Koleobacter,GB:CP059066
+cad,T02255,TAX:1128398,Bacteria; Firmicutes; Tissierellia; Tissierellales; Gottschalkiaceae; Gottschalkia,GB:CP003326
+spoa,T05805,TAX:2507161,Bacteria; Firmicutes; Tissierellia; Tissierellales; Tissierellaceae; Tissierella,GB:CP035282
+kpar,T07032,TAX:1278232,Bacteria; Firmicutes; Tissierellia; Tissierellales; Tissierellaceae; Keratinibaculum,GB:CP068564
+cazo,T06467,TAX:116090,Bacteria; Firmicutes; Tissierellia; Tissierellales; Thermohalobacteraceae; Caloranaerobacter,GB:CP048617
+sedz,T07110,TAX:2816908,Bacteria; Firmicutes; Tissierellia; Sedimentibacter,GB:CP071445
+puf,T03211,TAX:484770,Bacteria; Firmicutes; Negativicutes; Selenomonadales; Sporomusaceae; Pelosinus,GB:CP008852
+pft,T03813,TAX:1192197,Bacteria; Firmicutes; Negativicutes; Selenomonadales; Sporomusaceae; Pelosinus,GB:CP010978
+mana,T05819,TAX:1930071,Bacteria; Firmicutes; Negativicutes; Selenomonadales; Sporomusaceae; Methylomusa,GB:AP018449
+sted,T06115,TAX:2377,Bacteria; Firmicutes; Negativicutes; Selenomonadales; Sporomusaceae; Sporomusa,GB:CP036259
+aarg,T06426,TAX:2583452,Bacteria; Firmicutes; Erysipelotrichia; Erysipelotrichales; Erysipelotrichaceae; Amedibacterium,GB:AP019695
+absi,T06427,TAX:2583452,Bacteria; Firmicutes; Erysipelotrichia; Erysipelotrichales; Erysipelotrichaceae; Amedibacterium,GB:AP019711
+ciu,T06525,TAX:1522,Bacteria; Firmicutes; Erysipelotrichia; Erysipelotrichales; Erysipelotrichaceae; Erysipelatoclostridium,GB:CP048837
+erm,T06753,TAX:445974,Bacteria; Firmicutes; Erysipelotrichia; Erysipelotrichales; Erysipelotrichaceae; Erysipelatoclostridium,GB:CP036346
+fit,T06868,TAX:1982626,Bacteria; Firmicutes; Erysipelotrichia; Erysipelotrichales; Erysipelotrichaceae; Faecalibacillus,GB:AP024085
+lcg,T07231,TAX:1796635,Bacteria; Firmicutes; Erysipelotrichia; Erysipelotrichales; Erysipelotrichaceae; Longicatena,GB:AP024510
+erb,T04439,TAX:1834207,Bacteria; Firmicutes; Erysipelotrichia; Erysipelotrichales; Erysipelotrichaceae,GB:CP015404
+tur,T04254,TAX:1712675,Bacteria; Firmicutes; Erysipelotrichia; Erysipelotrichales; Turicibacteraceae; Turicibacter,GB:CP013476
+tsg,T06584,TAX:154288,Bacteria; Firmicutes; Erysipelotrichia; Erysipelotrichales; Turicibacteraceae; Turicibacter,GB:CP053187
+tbb,T08328,TAX:2735723,Bacteria; Firmicutes; Erysipelotrichia; Erysipelotrichales; Turicibacteraceae; Turicibacter,GB:CP071249
+lpil,T04150,TAX:1555112,Bacteria; Firmicutes; Limnochordia; Limnochordales; Limnochordaceae; Limnochorda,GB:AP014924
+acit,T06606,TAX:1670,Bacteria; Actinobacteria; Micrococcales; Micrococcaceae; Arthrobacter,GB:CP053688

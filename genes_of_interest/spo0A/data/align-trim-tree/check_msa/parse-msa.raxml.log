@@ -1,0 +1,53 @@
+
+RAxML-NG v. 0.9.0git released on 24.05.2019 by The Exelixis Lab.
+Developed by: Alexey M. Kozlov and Alexandros Stamatakis.
+Contributors: Diego Darriba, Tomas Flouri, Benoit Morel, Sarah Lutteropp, Ben Bettisworth.
+Latest version: https://github.com/amkozlov/raxml-ng
+Questions/problems/suggestions? Please visit: https://groups.google.com/forum/#!forum/raxml
+
+RAxML-NG was called at 12-Oct-2022 10:07:12 as follows:
+
+raxml-ng --parse --msa /N/u/danschw/Carbonate/GitHub/spore_amg/genes_of_interest/spo0A/data/align-trim-tree/seq2align_MafftEinsi.trim --data-type AA --model LG+G4 --prefix parse-msa
+
+Analysis options:
+  run mode: Alignment parsing and compression
+  start tree(s): 
+  random seed: 1665583632
+  tip-inner: OFF
+  pattern compression: ON
+  per-rate scalers: OFF
+  site repeats: ON
+  branch lengths: proportional (ML estimate, algorithm: NR-FAST)
+  SIMD kernels: AVX2
+  parallelization: PTHREADS (24 threads), thread pinning: OFF
+
+[00:00:00] Reading alignment from file: /N/u/danschw/Carbonate/GitHub/spore_amg/genes_of_interest/spo0A/data/align-trim-tree/seq2align_MafftEinsi.trim
+[00:00:00] Loaded alignment with 176 taxa and 105 sites
+
+Alignment comprises 1 partitions and 105 patterns
+
+Partition 0: noname
+Model: LG+G4m
+Alignment sites / patterns: 105 / 105
+Gaps: 2.69 %
+Invariant sites: 0.95 %
+
+
+NOTE: Binary MSA file created: parse-msa.raxml.rba
+
+* Estimated memory requirements                : 23 MB
+
+* Recommended number of threads / MPI processes: 2
+
+Please note that numbers given above are rough estimates only. 
+Actual memory consumption and parallel performance on your system may differ!
+
+Alignment can be successfully read by RAxML-NG.
+
+
+Execution log saved to: /geode2/home/u020/danschw/Carbonate/GitHub/spore_amg/genes_of_interest/spo0A/data/align-trim-tree/check_msa/parse-msa.raxml.log
+
+Analysis started: 12-Oct-2022 10:07:12 / finished: 12-Oct-2022 10:07:12
+
+Elapsed time: 0.031 seconds
+
