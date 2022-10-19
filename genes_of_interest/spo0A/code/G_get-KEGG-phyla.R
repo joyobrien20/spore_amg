@@ -62,25 +62,79 @@ for(i in g){
 
 d1 <- d %>% 
   select(lineage) %>% 
-  separate(lineage, letters[1:7], sep = ";")
+  separate(lineage, letters[1:7], sep = ";", remove = F)
 
 d1$a %>% unique()
-# [1] "Bacteria" >>> domain
+# [1] "Bacteria" 
+  # >>> domain
 d1$b %>% unique()
-# [1] " Proteobacteria" " Firmicutes"     " Actinobacteria" >>> phylum
+# [1] " Proteobacteria" " Firmicutes"     " Actinobacteria" 
+  # >>> phylum
 d1$c %>% unique()
-# >>> class/order
+# " Gammaproteobacteria" " Bacilli"             " Clostridia"         
+# " Tissierellia"        " Negativicutes"       " Erysipelotrichia"   
+# " Limnochordia"        " Micrococcales"   
+# >>> All are class, except one.
 # Micrococcales is an order in class Actinomycetia iin phylum Actinobacteria
 # all others are class
+
+# add class above Micrococcales
+  # Remove row with missing class
+  d1 <- d1 %>% 
+    filter(!str_detect(c, "Micrococcales"))
+  # correct and add back
+    d1 <- d %>% 
+      select(lineage) %>% 
+      filter(str_detect(lineage, "Micrococcales")) %>% 
+      mutate(lineage = str_replace(lineage, "Micrococcales", "Actinomycetia; Micrococcales")) %>% 
+      separate(lineage, letters[1:7], sep = ";", remove = F) %>%
+      bind_rows(d1,.)
+  # check
+    d1$c %>% unique()
+  # looks good!
+
 d1$d %>% unique()
-# >>> class/other
-# Micrococcaceae is a family, in order Micrococcales
+# All end with -ales" except one 
+  # >>> Order
 # Sedimentibacter is a genus: Bacteria; Firmicutes; Tissierellia; Sedimentibacter
-# 
+# This entry is missing both Order and Family
+# according to Lawson
+# "Sedimentibacter remains unaffiliated at the family level"
+# Lawson, P.A. (2022). Tissierellaceae. In Bergey's Manual of Systematics of Archaea and Bacteria (eds M.E. Trujillo, S. Dedysh, P. DeVos, B. Hedlund, P. Kämpfer, F.A. Rainey and W.B. Whitman). https://doi.org/10.1002/9781118960608.fbm00275
+# according to LPSN (https://lpsn.dsmz.de/family/eubacteriales-no-family)
+# Order is Eubacteriales, Family is not assigned.
+# class is not Tissierellia but Clostridia
+# using this assignment
+
+# add Order and Family, and change Class above Sedimentibacter
+  # Remove row with missing class
+    d1 <- d1 %>% 
+      filter(!str_detect(d, "Sedimentibacter"))
+  # correct and add back
+    d1 <- d %>% 
+      select(lineage) %>% 
+      filter(str_detect(lineage, "Sedimentibacter")) %>% 
+      mutate(lineage = str_replace(lineage, "Tissierellia.*", "Clostridia; Eubacteriales; Fam_NA; Sedimentibacter")) %>% 
+      separate(lineage, letters[1:7], sep = ";", remove = F) %>%
+      bind_rows(d1,.)
+  # check
+    d1$d %>% unique()
+  # looks good!
+
 d1$e %>% unique()
-# >>> family/others
+# >>> family
 d1$f %>% unique()
 # >>> genus
+
+d <- d1 %>% 
+  rename(domain = a,
+         phylum = b,
+         class = c,
+         order = d,
+         family = e,
+         genus = f) %>% 
+  select(-g) %>% 
+  left_join(d,., by = "lineage")
 
 
 # export data -------------------------------------------------------------
