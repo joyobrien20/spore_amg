@@ -31,7 +31,7 @@ choose_sets <-  function(sg, v.set){
 # extract scaffold annotation data and make plots
 set_groups = c("CSUsets", "GVD", "GPD")
 # loop over gene table
-foreach (i = 1:nrow(d.enriched), .packages = c("tidyverse","here")) %:%
+foreach (i = 1:nrow(d.enriched), .packages =  c("tidyverse","here", "gggenes", "cowplot","qpdf")) %:%
   foreach(j = seq(set_groups)) %dopar% {
   # folders of data to plot
   sets_2_plot <- choose_sets(set_groups[j], sets)

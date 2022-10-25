@@ -18,10 +18,10 @@ d.enriched %>%
   summarise(n=n()) %>% 
   pivot_wider(names_from = enriched, values_from = n)
 
-# spor_gene        enriched `not enriched`
-# <chr>               <int>          <int>
-# 1 other                   5            795
-# 2 sporulation_gene       54            332
+# spor_gene            enriched `not enriched`
+# <chr>                  <int>          <int>
+# 1 Other genes             6            794
+# 2 Sporulation gene       57            329
 
 
 # map back to genes -------------------------------------------------------
