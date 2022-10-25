@@ -90,7 +90,6 @@ p2 <- d.curated.sum %>%
   theme(axis.text.x = element_text(angle = 30, hjust = 1, vjust=1),
         legend.position = "bottom")+
   scale_fill_viridis_d(direction = -1)+
-  # coord_flip()+
   ylab("% scaffolds examined")+
   labs(caption =  "panels reflect AMGs examples validated (viral if >9, not viral if 0)")
 p <- plot_grid(p1,p2, ncol=1, rel_heights = c(.8,1))
@@ -104,14 +103,18 @@ p1 <- d.curated.sum %>%
   rename(is_AMG_Viral = skim_plot_isViral) %>% 
   filter(AMG == "viral") %>%
   ggplot(aes(focal_gene, n_scaffolds))+
+  
   geom_col()+
+  geom_col(data=d.curated.sum %>% filter(AMG == "viral") %>% filter (skim_plot_isViral != "NA"), fill = "red")+
+  
   facet_grid(.~fct_rev(AMG), scales = "free_x",space = "free_x")+
   theme_classic()+
   theme(axis.text.x = element_text(angle = 30, hjust = 1, vjust=1),
         legend.position = "none")+
   scale_fill_viridis_d(direction = -1)+
-  ylab("N scaffolds detected")+
-  ylim(0,1.1e4)
+  ylab("N scaffolds detected")
+  # ylim(0,1.1e4)
+
 
 p2 <- d.curated.sum %>% 
   filter(!(skim_plot_isViral == "NA")) %>%
@@ -119,15 +122,15 @@ p2 <- d.curated.sum %>%
   filter(!(AMG == "viral")) %>%
   ggplot(aes(focal_gene, n_scaffolds))+
   geom_col()+
+  geom_col(data=d.curated.sum %>% filter(AMG != "viral") %>% filter (skim_plot_isViral != "NA"), fill = "red")+
   facet_grid(.~fct_rev(AMG), scales = "free_x",space = "free_x")+
   theme_classic()+
   theme(axis.text.x = element_text(angle = 30, hjust = 1, vjust=1),
         legend.position = "bottom")+
   scale_fill_viridis_d(direction = -1)+
-  # coord_flip()+
-  ylab("N scaffolds detected")+
-  ylim(0,1.1e4)
-p <- plot_grid(p1,p2, ncol=1, rel_heights = c(.8,1))
+  ylab("N scaffolds detected")
+  # ylim(0,1.1e4)
+p <- plot_grid(p1,p2, ncol=1)
 ggsave(filename = here("dram_metaG/plots","scaffolds_detected.png"), plot = p, width = 8, height = 6)
 
 # different way of plotting
