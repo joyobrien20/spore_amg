@@ -89,7 +89,7 @@ amg_phyla <-
   arrange(desc(n)) %>% 
   mutate(firmi = case_when(
     str_detect(gtdb_p, "Firmicutes") ~ "Firmicutes",
-    is.na(gtdb_p) ~ "Unknown host",
+    is.na(gtdb_p) ~ "unk. host",
     TRUE ~"Other phyla"))
 
 # order of KO
@@ -105,11 +105,14 @@ p <- amg_phyla %>%
   mutate(gene_id = factor(gene_id, levels = ko_order)) %>% 
   ggplot(aes(gene_id, gtdb_p))+
   geom_tile(aes(fill = log10(n)))+
-  facet_grid(. ~ firmi, scales = "free")+
+  facet_grid(. ~ firmi, scales = "free", space = "free",
+             labeller = labeller(firmi = label_wrap_gen(width = 8)))+
   scale_fill_viridis_c()+
   theme_classic()+
   panel_border(color = "black")+
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+        strip.text = element_text( face = "bold"),
+        strip.background = element_blank())+
   ylab("Phylum")+
   coord_flip()
 # p
