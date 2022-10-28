@@ -163,7 +163,7 @@ d.enriched <- d.enriched %>%
   mutate(gene_name = case_when(
     !is.na(bs) ~ str_remove(bs, " \\[.*") %>% paste0("Bs_", .),
     !is.na(cd) ~ str_remove(cd, " \\[.*")%>% paste0("Cd_", .),
-    TRUE ~ paste0("NA_",gene_id))) %>% view()
+    TRUE ~ paste0("NA_",gene_id))) 
 
 # add curation calls
 d.enriched <- d.curated.sum %>% 
@@ -200,3 +200,28 @@ p <-
         strip.background = element_blank(),
         strip.text = element_text(face = "bold"))
 ggsave(filename = here("dram_metaG/plots","scrutinized_enrichment.png"), plot = p, width = 8, height = 8)
+
+# host functions of putative AMGs -----------------------------------------
+
+# B. subtilis gene functions from subtiwiki
+sw.genes <- read_csv(here(data_dir,"TIDY_subtiwiki.gene.export.2022-10-27.csv"))
+
+bs.true <- d.enriched %>% 
+  filter(AMG == "viral") %>% 
+  separate(gene_name, into = c("sp", "gene" ), remove = F)
+
+bs.true <-sw.genes %>% 
+  filter(title %in% bs.true$gene) %>% 
+  left_join(bs.true, ., by = c("gene" = "title"))
+
+
+# export
+bs.true %>% 
+  select(gene_name, gene_id, Bs_locus = locus,
+         description, Function = `function`) %>% 
+  #clean
+  mutate(description = str_remove_all(description,"\\[wiki\\||\\[protein\\|")) %>% 
+  mutate(description = str_remove_all(description,"]")) %>% 
+  mutate(Function = str_remove_all(Function,"\\[wiki\\||\\[protein\\|")) %>% 
+  mutate(Function = str_remove_all(Function,"]")) %>% 
+  write_csv(here(data_dir,"viral_sporGenes.csv"))

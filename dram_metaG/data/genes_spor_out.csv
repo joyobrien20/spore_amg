@@ -1,0 +1,60 @@
+ko,strain,loci,symbols,descriptions
+K00390,BSU,10930,yitB, phosphoadenosine phosphosulfate reductase
+K00640,CD630,15950,cysE, Serine acetyltransferase (SAT)
+K00820,CD630,01200,glmS, Glucosamine--fructose-6-phosphate aminotransferase [isomerizing]
+K00974,BSU,22450,cca, CCA-adding enzyme
+K01356,BSU,17850,lexA, lexa repressor
+K01449,BSU,"02600
+22930","cwlJ
+sleB"," cell wall hydrolase CwlJ
+ spore cortex-lytic enzyme"
+K01449,CD630,35630,NA,putative spore cortex-lytic hydrolase
+K02049,BSU,30610,ytlC, ABC transporter ATP-binding protein
+K02343,CD630,00160,dnaX, DNA polymerase III subunits gamma and tau
+K02647,BSU,28670,ysfB, hypothetical protein
+K03086,BSU,25200,sigA, RNA polymerase sigma factor RpoD
+K03091,BSU,"00980
+15320
+15330
+23450","sigH
+sigE
+sigG
+sigF"," RNA polymerase sigma-H factor
+ RNA polymerase sigma-E factor
+ RNA polymerase sigma-G factor
+ RNA polymerase sigma-F factor"
+K03091,CD630,"07720
+12300
+26420
+26430","sigF
+sigK
+sigG
+sigE"," RNA polymerase sigma-F factor
+ Sigma K
+ RNA polymerase sigma-G factor
+ RNA polymerase sigma-E factor"
+K03466,BSU,16800,spoIIIE, spore DNA translocase
+K03469,BSU,21970,ypeP, hypothetical protein
+K03496,BSU,40970,parA, sporulation initiation inhibitor protein Soj
+K03496,CD630,36720,soj," Transcriptional regulator, sporulation initiation inhibitor, chromosome partitioning protein"
+K03497,BSU,40960,parB, stage 0 sporulation protein J
+K03497,CD630,36710,spo0J," Stage 0 sporulation protein J, site-specific DNA-binding protein"
+K03657,CD630,07490,NA,"putative DNA helicase, UvrD/REP type"
+K03664,BSU,33600,smpB, SsrA-binding protein
+K03698,BSU,09930,yhaM, 3'-5' exoribonuclease yhaM
+K04769,BSU,00560,spoVT, stage V sporulation protein T
+K04769,CD630,34990,spoVT, Stage V sporulation protein T
+K06283,BSU,36420,spoIIID, stage III sporulation protein D
+K06283,CD630,01260,spoIIID, Stage III sporulation protein D
+K06284,BSU,00370,abrB, transition state regulatory protein AbrB
+K06381,BSU,36750,spoIID, stage II sporulation protein D
+K06381,CD630,01240,spoIID, Stage II sporulation protein D
+K06412,BSU,00490,spoVG, septation protein SpoVG
+K06412,CD630,35160,spoVG, Regulator required for spore cortex synthesis
+K07171,CD630,34610,EndoA, Endoribonuclease toxin
+K07175,BSU,14810,ylaK, hypothetical protein
+K07699,BSU,24220,spo0A, stage 0 sporulation protein A
+K07699,CD630,12140,spo0A, Stage 0 sporulation protein A
+K07738,CD630,26400,nrdR," Transcriptional regulator, repressor NrdR family"
+K10716,BSU,31322,yugO, potassium channel protein YugO
+K10979,BSU,13410,ykoV, DNA repair protein YkoV
