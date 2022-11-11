@@ -14,6 +14,8 @@ d <- bind_rows(
     mutate(SeqName = str_c("virome_",SeqName)),
   d.bact %>% 
     filter(protClstr_rep) %>% 
+    # removing extreme outlier
+    filter(protein_id != "WP_062471947.1") %>% 
     select(SeqName  = protein_id, seqAA = seq) %>% 
     mutate(SeqName = str_c("cog_",SeqName))
 )  

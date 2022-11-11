@@ -26,7 +26,7 @@ mkdir -p ${ODIR}
 # alignment
 $MUSCLE -align ${PARENT}/data/seq2align.faa -stratified -output ${ODIR}/ensemble.efa -threads 8 -amino
 $MUSCLE -disperse $ODIR/ensemble.efa
-# D_LP=0.04669 D_Cols=0.523
+# D_LP=0.003666 D_Cols=0.05747
 
 # If the dispersion is zero, then all the MSAs in the ensemble
 # are the same and your alignment is robust. Quite likely,

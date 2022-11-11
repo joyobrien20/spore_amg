@@ -14,7 +14,10 @@ IQTREE=${TOOLS}/iqtree-2.1.3-Linux/bin/iqtree2
 
 
 ##### Define paths #####
-PARENT=~/GitHub/spore_amg/genes_of_interest/spo0A_cog
-ALN=$PARENT/data/align-trim-tree/maxcc.afa.trim
+PARENT=~/GitHub/spore_amg/genes_of_interest/spoIIID_cog
+ALN=$PARENT/data/align-trim-tree/maxcc.afa
 
 $IQTREE -s $ALN --alrt 1000 -B 1000 -T AUTO  --threads-max 8 
+
+
+
