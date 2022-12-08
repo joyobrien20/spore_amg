@@ -2,6 +2,7 @@ gene_name,gene_id,Bs_locus,description,Function
 Bs_abrB,K06284,BSU_00370,transcriptional regulator of transition state genes,regulation of gene expression during the transition from growth to stationary phase
 Bs_cca,K00974,BSU_22450,"tRNA nucleotidyltransferase,maturation of the single-copy tRNACys,which lacks an encoded CCA 3 end",tRNA modification
 Bs_cwlJ,K01449,BSU_02600,"spore coat protein,cell wall hydrolase",spore germination
+Bs_exoA,K01142,BSU_40880,"apurinic/apyrimidinic endonuclease,multifunctional DNA-repair enzyme,important for spore dormance",repair of oxidative DNA damage in spores
 Bs_lexA,K01356,BSU_17850,transcriptional repressor of the SOS regulon,regulation of DNA damage repair
 Bs_parA,K03496,BSU_40970,"ATPase,centromere-like function involved in forespore chromosome partitioning / negative regulation of [[category|SW.4.2 initiation,regulator of SMC complex dynamics",forespore chromosome partitioning / negative regulation of [[category|SW.4.2 initiation
 Bs_parB,K03497,BSU_40960,"CTP hydrolase,chromosome positioning near the pole and transport through the polar septum / antagonist of SMC complex to the origin of replication,coordination of early steps in DNA replication with establishment of a medial division site",chromosome positioning before asymmetric septation
@@ -27,4 +28,4 @@ Cd_dnaX,K02343,BSU_00190,DNA polymerase  III (gamma and tau subunits) part of th
 Cd_EndoA,K07171,NA,NA,NA
 Cd_glmS,K00820,BSU_01780,glutamine-fructose-6-phosphate transaminase,cell wall synthesis
 Cd_nrdR,K07738,BSU_29000,negative regulator of transcription of the ribonucleotide reductase <i>nrd </i>operon,control of ribonucleotide reductase expression
-"NA_K03657",K03657,NA,NA,NA
+NA_K03657,K03657,NA,NA,NA

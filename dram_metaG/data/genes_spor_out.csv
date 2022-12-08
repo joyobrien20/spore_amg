@@ -3,6 +3,7 @@ K00390,BSU,10930,yitB, phosphoadenosine phosphosulfate reductase
 K00640,CD630,15950,cysE, Serine acetyltransferase (SAT)
 K00820,CD630,01200,glmS, Glucosamine--fructose-6-phosphate aminotransferase [isomerizing]
 K00974,BSU,22450,cca, CCA-adding enzyme
+K01142,BSU,40880,exoAA, exodeoxyribonuclease
 K01356,BSU,17850,lexA, lexa repressor
 K01449,BSU,"02600
 22930","cwlJ
