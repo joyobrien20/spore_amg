@@ -1,0 +1,31 @@
+gene_name,gene_id,Bs_locus,description,Function
+Bs_abrB,K06284,BSU_00370,transcriptional regulator of transition state genes,regulation of gene expression during the transition from growth to stationary phase
+Bs_cca,K00974,BSU_22450,"tRNA nucleotidyltransferase,maturation of the single-copy tRNACys,which lacks an encoded CCA 3 end",tRNA modification
+Bs_cwlJ,K01449,BSU_02600,"spore coat protein,cell wall hydrolase",spore germination
+Bs_exoA,K01142,BSU_40880,"apurinic/apyrimidinic endonuclease,multifunctional DNA-repair enzyme,important for spore dormance",repair of oxidative DNA damage in spores
+Bs_lexA,K01356,BSU_17850,transcriptional repressor of the SOS regulon,regulation of DNA damage repair
+Bs_parA,K03496,BSU_40970,"ATPase,centromere-like function involved in forespore chromosome partitioning / negative regulation of [[category|SW.4.2 initiation,regulator of SMC complex dynamics",forespore chromosome partitioning / negative regulation of [[category|SW.4.2 initiation
+Bs_parB,K03497,BSU_40960,"CTP hydrolase,chromosome positioning near the pole and transport through the polar septum / antagonist of SMC complex to the origin of replication,coordination of early steps in DNA replication with establishment of a medial division site",chromosome positioning before asymmetric septation
+Bs_sigA,K03086,BSU_25200,RNA polymerase major sigma factor SigA,transcription
+Bs_sigH,K03091,BSU_00980,"RNA polymerase sigma factor SigH,not fully active in laboratory strains due to a mutation (V117A)",transcription of early stationary phase genes (sporulation
+Bs_smpB,K03664,BSU_33600,tmRNA-binding protein,trans-translation
+Bs_spo0A,K07699,BSU_24220,"phosphorelay regulator,initiation of sporulation,coordinates DNA replication and initiation of sporulation by binding to sites close to the <i>oriC</i>",initiation of sporulation
+Bs_spoIID,K06381,BSU_36750,"cell wall hydrolase (lytic transglycosylase),required for complete dissolution of the asymmetric septum",dissolution of the septal cell wall
+Bs_spoIIID,K06283,BSU_36420,transcriptional regulator (repressor or activator) of a subset of [3CB24D493B3282278B7DC61CE3C793DFA815F9E2|sigma E-dependent genes,regulation of mother cell gene expression
+Bs_spoIIIE,K03466,BSU_16800,"ATP-dependent dsDNA translocase,resolution of chromosomal dimers after DNA replication,coordinates chromosome segregation and peptidoglycan remodeling during sporulation,transports the forespore chromosome across the sporulation septum",chromosome partition during sporulation
+Bs_spoVG,K06412,BSU_00490,"RNA-binding regulatory protein,negative effector of asymetric septation at the onset of sporulation",cell division
+Bs_spoVT,K04769,BSU_00560,transcription activator and repressor of [5F24258282F3166B7696B9E9ABC1706E4D06C944-dependent genes,regulation of forespore gene expression
+Bs_yhaM,K03698,BSU_09930,"RNase,3 5 exoribonuclease",RNA degradation
+Bs_yitB,K00390,BSU_10930,phospho-adenylylsulfate sulfotransferase,sulfate reduction and activation
+Bs_ykoV,K10979,BSU_13410,"DNA-end-binding protein Ku,non-homologous end joining DNA repair",non-homologous end joining DNA repair
+Bs_ylaK,K07175,BSU_14810,similar to phosphate starvation inducible protein [6BF4F99DEF2E032A8547B920086305775D04FACF,unknown
+Bs_ypeP,K03469,BSU_21970,similar to RNase HI,unknown
+Bs_ysfB,K02647,BSU_28670,similar to carbohydrate diacid transcriptional activator,unknown
+Bs_ytlC,K02049,BSU_30610,similar to anion transport ABC transporter (ATP-binding protein),unknown
+Bs_yugO,K10716,BSU_31322,potassium channel protein (exporter),potassium exporter
+Cd_cysE,K00640,BSU_00930,serine O-acetyltransferase,biosynthesis of cysteine
+Cd_dnaX,K02343,BSU_00190,DNA polymerase  III (gamma and tau subunits) part of the clamp-loader complex and the replisome,[[category|SW.3.1.1
+Cd_EndoA,K07171,NA,NA,NA
+Cd_glmS,K00820,BSU_01780,glutamine-fructose-6-phosphate transaminase,cell wall synthesis
+Cd_nrdR,K07738,BSU_29000,negative regulator of transcription of the ribonucleotide reductase <i>nrd </i>operon,control of ribonucleotide reductase expression
+NA_K03657,K03657,NA,NA,NA

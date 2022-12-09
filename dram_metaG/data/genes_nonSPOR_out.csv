@@ -1,0 +1,41 @@
+ko,strain,loci,symbols,descriptions
+K00390,BSU,15570,cysH, phosphoadenosine phosphosulfate reductase
+K00640,BSU,00930,cysE, serine acetyltransferase
+K00820,BSU,"01780
+01900","glmS
+ybcM"," glutamine--fructose-6-phosphate aminotransferase
+ hypothetical protein"
+K00974,CD630,24660,NA,putative tRNA-nucleotidyltransferase/Poly(A) polymerase family member
+K01142,CD630,13410,exoA, Exodeoxyribonuclease
+K01356,CD630,19310,lexA," Transcriptional regulator, LexA repressor"
+K01449,BSU,13820,ykvT, hypothetical protein
+K02049,CD630,"10010
+19780
+23610",NA,"ABC-type transport system,nitrate/sulfonate/taurine ATP-binding protein
+ABC-type transport system, ATP-binding protein
+ABC-type transport system,nitrate/sulfonate/taurine ATP-binding protein"
+K02343,BSU,00190,dnaX, DNA polymerase III subunit gamma/tau
+K03086,CD630,"14550
+14980","sigA1
+sigA2"," RNA polymerase sigma factor SigA1 (sigma-43)
+ RNA polymerase sigma factor SigA2 (sigma-43)"
+K03091,CD630,00570,sigH, RNA polymerase factor sigma-70
+K03466,CD630,13240,ftsK, DNA FtsK/SpoIIIE translocase
+K03469,BSU,21990,ypdQ, ribonuclease H-like protein
+K03497,BSU,40990,noc, nucleoid occlusion protein
+K03497,CD630,36730,NA,"putative stage 0 sporulation protein,DNA-binding protein Spo0J-like"
+K03657,BSU,"06610
+11820
+33450","pcrA
+yjcD
+helD"," ATP-dependent DNA helicase PcrA
+ ATP-dependent DNA helicase
+ helicase IV"
+K03657,CD630,"03280
+04550
+10380",NA," DNA helicase, UvrD/REP type
+putative helicase, UvrD family
+putative helicase, superfamily 1, UvrD-family"
+K03664,CD630,31570,smpB, SsrA-binding protein
+K07171,BSU,04660,ndoA, mRNA interferase EndoA
+K07738,BSU,29000,nrdR, transcriptional repressor NrdR

@@ -1,0 +1,177 @@
+--------------------------------------------------------------------------------
+ModelTest-NG vx.y.z
+
+Input data:
+  MSA:        /N/u/danschw/Carbonate/GitHub/spore_amg/genes_of_interest/spo0A/data/align-trim-tree/seq2align_MafftEinsi.trim
+  Tree:       Maximum likelihood
+    file:           -
+  #taxa:            176
+  #sites:           105
+  #patterns:        105
+  Max. thread mem:  44 MB
+
+Output:
+  Log:           /N/u/danschw/Carbonate/GitHub/spore_amg/genes_of_interest/spo0A/data/align-trim-tree/model_test/model_test.log
+  Starting tree: /N/u/danschw/Carbonate/GitHub/spore_amg/genes_of_interest/spo0A/data/align-trim-tree/model_test/model_test.tree
+  Results:       /N/u/danschw/Carbonate/GitHub/spore_amg/genes_of_interest/spo0A/data/align-trim-tree/model_test/model_test.out
+
+Selection options:
+  # protein matrices: 19
+  # protein models:   76
+  include model parameters:
+    Uniform:         true
+    p-inv (+I):      false
+    gamma (+G):      true
+    both (+I+G):     false
+    free rates (+R): false
+    fixed freqs:     true
+    estimated freqs: false
+    #categories:     4
+  gamma rates mode:   mean
+  asc bias:           none
+  epsilon (opt):      0.01
+  epsilon (par):      0.05
+  keep branches:      false
+
+Additional options:
+  verbosity:        very low
+  threads:          8/12
+  RNG seed:         123
+  subtree repeats:  enabled
+--------------------------------------------------------------------------------
+
+BIC       model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  LG+G4              1    -22430.3448     46489.5758         0.0000    0.9949
+       2  LG+G4+F           20    -22391.3958     46500.1030        10.5272    0.0051
+       3  RTREV+G4+F        20    -22521.2022     46759.7158       270.1400    0.0000
+       4  WAG+G4             1    -22566.6268     46762.1398       272.5640    0.0000
+       5  VT+G4              1    -22595.1770     46819.2402       329.6644    0.0000
+       6  RTREV+G4           1    -22641.0579     46911.0019       421.4261    0.0000
+       7  CPREV+G4           1    -22641.9097     46912.7055       423.1297    0.0000
+       8  JTT+G4             1    -22648.2509     46925.3880       435.8122    0.0000
+       9  WAG+G4+F          20    -22609.1943     46935.7000       446.1243    0.0000
+      10  JTT-DCMUT+G4       1    -22655.1859     46939.2579       449.6822    0.0000
+--------------------------------------------------------------------------------
+Best model according to BIC
+---------------------------
+Model:              LG+G4
+lnL:                -22430.3448
+Frequencies:        0.0791 0.0559 0.0420 0.0531 0.0129 0.0408 0.0716 0.0573 0.0224 0.0622 0.0991 0.0646 0.0230 0.0423 0.0440 0.0612 0.0533 0.0121 0.0342 0.0691
+Inv. sites prop:    -
+Gamma shape:        1.0000
+Score:              46489.5758
+Weight:             0.9949
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              -
+Gamma:              1.0000
+Gamma-Inv:          -
+Frequencies:        0.0051
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              -
+Alpha:              1.0008
+Alpha-P.Inv:        -
+P.Inv-Alpha:        -
+Frequencies:        0.0840 0.0622 0.0430 0.0414 0.0079 0.0217 0.0716 0.0497 0.0291 0.1037 0.0788 0.0656 0.0351 0.0283 0.0346 0.0503 0.0672 0.0090 0.0512 0.0657 
+
+Commands:
+  > phyml  -i /N/u/danschw/Carbonate/GitHub/spore_amg/genes_of_interest/spo0A/data/align-trim-tree/seq2align_MafftEinsi.trim -d aa -m LG -f m -v 0 -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s /N/u/danschw/Carbonate/GitHub/spore_amg/genes_of_interest/spo0A/data/align-trim-tree/seq2align_MafftEinsi.trim -m PROTGAMMALG -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa /N/u/danschw/Carbonate/GitHub/spore_amg/genes_of_interest/spo0A/data/align-trim-tree/seq2align_MafftEinsi.trim --model LG+G4
+  > paup -s /N/u/danschw/Carbonate/GitHub/spore_amg/genes_of_interest/spo0A/data/align-trim-tree/seq2align_MafftEinsi.trim
+  > iqtree -s /N/u/danschw/Carbonate/GitHub/spore_amg/genes_of_interest/spo0A/data/align-trim-tree/seq2align_MafftEinsi.trim -m LG+G4
+
+AIC       model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  LG+G4+F           20    -22391.3958     45520.7916         0.0000    1.0000
+       2  LG+G4              1    -22430.3448     45560.6896        39.8980    0.0000
+       3  RTREV+G4+F        20    -22521.2022     45780.4044       259.6128    0.0000
+       4  WAG+G4             1    -22566.6268     45833.2537       312.4621    0.0000
+       5  VT+G4              1    -22595.1770     45890.3541       369.5625    0.0000
+       6  WAG+G4+F          20    -22609.1943     45956.3887       435.5971    0.0000
+       7  VT+G4+F           20    -22611.9864     45961.9728       441.1812    0.0000
+       8  RTREV+G4           1    -22641.0579     45982.1157       461.3241    0.0000
+       9  CPREV+G4           1    -22641.9097     45983.8193       463.0278    0.0000
+      10  JTT+G4             1    -22648.2509     45996.5018       475.7103    0.0000
+--------------------------------------------------------------------------------
+Best model according to AIC
+---------------------------
+Model:              LG+G4+F
+lnL:                -22391.3958
+Frequencies:        0.0840 0.0622 0.0430 0.0414 0.0079 0.0217 0.0716 0.0497 0.0291 0.1037 0.0788 0.0656 0.0351 0.0283 0.0346 0.0503 0.0672 0.0090 0.0512 0.0657
+Inv. sites prop:    -
+Gamma shape:        1.1536
+Score:              45520.7916
+Weight:             1.0000
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              -
+Gamma:              1.0000
+Gamma-Inv:          -
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              -
+Alpha:              1.1536
+Alpha-P.Inv:        -
+P.Inv-Alpha:        -
+Frequencies:        0.0840 0.0622 0.0430 0.0414 0.0079 0.0217 0.0716 0.0497 0.0291 0.1037 0.0788 0.0656 0.0351 0.0283 0.0346 0.0503 0.0672 0.0090 0.0512 0.0657 
+
+Commands:
+  > phyml  -i /N/u/danschw/Carbonate/GitHub/spore_amg/genes_of_interest/spo0A/data/align-trim-tree/seq2align_MafftEinsi.trim -d aa -m LG -f e -v 0 -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s /N/u/danschw/Carbonate/GitHub/spore_amg/genes_of_interest/spo0A/data/align-trim-tree/seq2align_MafftEinsi.trim -m PROTGAMMALGF -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa /N/u/danschw/Carbonate/GitHub/spore_amg/genes_of_interest/spo0A/data/align-trim-tree/seq2align_MafftEinsi.trim --model LG+G4+F
+  > paup -s /N/u/danschw/Carbonate/GitHub/spore_amg/genes_of_interest/spo0A/data/align-trim-tree/seq2align_MafftEinsi.trim
+  > iqtree -s /N/u/danschw/Carbonate/GitHub/spore_amg/genes_of_interest/spo0A/data/align-trim-tree/seq2align_MafftEinsi.trim -m LG+G4+F
+
+AICc      model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  LG+G4              1    -22430.3448    291260.6896         0.0000    1.0000
+       2  WAG+G4             1    -22566.6268    291533.2537       272.5640    0.0000
+       3  VT+G4              1    -22595.1770    291590.3541       329.6644    0.0000
+       4  RTREV+G4           1    -22641.0579    291682.1157       421.4261    0.0000
+       5  CPREV+G4           1    -22641.9097    291683.8193       423.1297    0.0000
+       6  JTT+G4             1    -22648.2509    291696.5018       435.8122    0.0000
+       7  JTT-DCMUT+G4       1    -22655.1859    291710.3718       449.6822    0.0000
+       8  BLOSUM62+G4        1    -22707.4710    291814.9420       554.2524    0.0000
+       9  PMB+G4             1    -22709.0626    291818.1251       557.4355    0.0000
+      10  FLU+G4             1    -22962.8521    292325.7043      1065.0146    0.0000
+--------------------------------------------------------------------------------
+Best model according to AICc
+---------------------------
+Model:              LG+G4
+lnL:                -22430.3448
+Frequencies:        0.0791 0.0559 0.0420 0.0531 0.0129 0.0408 0.0716 0.0573 0.0224 0.0622 0.0991 0.0646 0.0230 0.0423 0.0440 0.0612 0.0533 0.0121 0.0342 0.0691
+Inv. sites prop:    -
+Gamma shape:        1.0000
+Score:              291260.6896
+Weight:             1.0000
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              -
+Gamma:              1.0000
+Gamma-Inv:          -
+Frequencies:        -
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              -
+Alpha:              1.0000
+Alpha-P.Inv:        -
+P.Inv-Alpha:        -
+Frequencies:        -
+
+Commands:
+  > phyml  -i /N/u/danschw/Carbonate/GitHub/spore_amg/genes_of_interest/spo0A/data/align-trim-tree/seq2align_MafftEinsi.trim -d aa -m LG -f m -v 0 -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s /N/u/danschw/Carbonate/GitHub/spore_amg/genes_of_interest/spo0A/data/align-trim-tree/seq2align_MafftEinsi.trim -m PROTGAMMALG -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa /N/u/danschw/Carbonate/GitHub/spore_amg/genes_of_interest/spo0A/data/align-trim-tree/seq2align_MafftEinsi.trim --model LG+G4
+  > paup -s /N/u/danschw/Carbonate/GitHub/spore_amg/genes_of_interest/spo0A/data/align-trim-tree/seq2align_MafftEinsi.trim
+  > iqtree -s /N/u/danschw/Carbonate/GitHub/spore_amg/genes_of_interest/spo0A/data/align-trim-tree/seq2align_MafftEinsi.trim -m LG+G4
+Done
