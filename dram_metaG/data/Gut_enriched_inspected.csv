@@ -1,0 +1,58 @@
+gene_name,sp,gene,AMG,gene_id,spor_gene,unkownSpor_host,nonSpor_host,spor_host,q,m,n,k,p.val,p.adj,significant,bs,cd
+Bs_abrB,Bs,abrB,Likely viral,K06284,Sporulation gene,728,14,177,177,25630,27634,191,2.1587999999999987e-41,7.642799999999997e-41,TRUE,abrB [transition state regulatory protein AbrB],NA
+Bs_asd,Bs,asd,Unlikely viral,K00133,Sporulation gene,1029,84,595,595,25630,27634,679,1.1113e-106,4.030599999999997e-106,TRUE,asd [aspartate-semialdehyde dehydrogenase],NA
+Bs_cca,Bs,cca,Likely viral,K00974,Sporulation gene,637,0,213,213,25630,27634,213,0,0,TRUE,cca [CCA-adding enzyme],NA
+Bs_clsA,Bs,clsA,Possible viral,K06131,Sporulation gene,78,12,61,61,25630,27634,73,6.0722e-11,1.9949e-10,TRUE,clsA [cardiolipin synthase];ywjE [cardiolipin synthetase],NA
+Bs_cotJB,Bs,cotJB,Unlikely viral,K06333,Sporulation gene,349,14,253,253,25630,27634,267,9.724199999999999e-64,3.4737999999999995e-63,TRUE,cotJB [spore coat protein CotJB],cotF [Spore coat peptide assembly protein CotF];cotJB2 [Spore coat peptide assembly protein CotJB 2]
+Bs_cotJC,Bs,cotJC,Unlikely viral,K06334,Sporulation gene,708,32,525,525,25630,27634,557,6.7254999999999974e-127,2.454299999999999e-126,TRUE,cotJC [spore coat peptide assembly protein CotJC],"cotCB [Spore-coat protein, manganese catalase];cotD [Spore coat protein, manganese catalase]"
+Bs_cwlJ,Bs,cwlJ,Likely viral,K01449,Sporulation gene,3298,57,1005,1005,25630,27634,1062,2.2993999999999993e-246,8.495599999999996e-246,TRUE,cwlJ [cell wall hydrolase CwlJ];sleB [spore cortex-lytic enzyme],NA
+Bs_dacB,Bs,dacB,Unlikely viral,K07258,Sporulation gene,200,6,44,44,25630,27634,50,4.3985e-10,1.4331e-9,TRUE,dacB [D-alanyl-D-alanine carboxypeptidase DacB];dacF [D-alanyl-D-alanine carboxypeptidase DacF],dacF [D-alanyl-D-alanine carboxypeptidase (penicillin-binding protein)]
+Bs_dapA,Bs,dapA,Unlikely viral,K01714,Sporulation gene,755,85,190,190,25630,27634,275,5.8369e-13,1.95e-12,TRUE,dapA [4-hydroxy-tetrahydrodipicolinate synthase],NA
+Bs_exoA,Bs,exoA,Likely viral,K01142,Sporulation gene,97,14,58,58,25630,27634,72,3.0751e-9,9.9375e-9,TRUE,exoA [exodeoxyribonuclease],NA
+Bs_gapB,Bs,gapB,Possible viral,K00134,Sporulation gene,688,112,200,200,25630,27634,312,4.4487e-9,1.4337e-8,TRUE,gapB [glyceraldehyde-3-phosphate dehydrogenase 2],NA
+Bs_glgA,Bs,glgA,Possible viral,K00703,Sporulation gene,56,13,88,88,25630,27634,101,2.5854e-17,8.8112e-17,TRUE,glgA [glycogen synthase],NA
+Bs_glgD,Bs,glgD,Unlikely viral,K00975,Sporulation gene,36,10,57,57,25630,27634,67,4.9489e-11,1.6349e-10,TRUE,glgD [glycogen biosynthesis protein GlgD];glgC [glucose-1-phosphate adenylyltransferase],NA
+Bs_lexA,Bs,lexA,Likely viral,K01356,Sporulation gene,4394,229,1359,1359,25630,27634,1588,1.7807999999999978e-221,6.559099999999992e-221,TRUE,lexA [lexa repressor],NA
+Bs_parA,Bs,parA,Likely viral,K03496,Sporulation gene,3408,325,2923,2923,25630,27634,3248,0,0,TRUE,parA [sporulation initiation inhibitor protein Soj],"soj [Transcriptional regulator, sporulation initiation inhibitor, chromosome partitioning protein]"
+Bs_parB,Bs,parB,Likely viral,K03497,Sporulation gene,4070,1469,2940,2940,25630,27634,4409,1.0559999999999995e-148,3.865499999999998e-148,TRUE,parB [stage 0 sporulation protein J],"spo0J [Stage 0 sporulation protein J, site-specific DNA-binding protein]"
+Bs_sigA,Bs,sigA,Likely viral,K03086,Sporulation gene,1051,105,237,237,25630,27634,342,6.2498e-16,2.1118e-15,TRUE,sigA [RNA polymerase sigma factor RpoD],NA
+Bs_sigH,Bs,sigH,Likely viral,K03091,Sporulation gene,978,38,633,633,25630,27634,671,3.0125999999999985e-153,1.1061999999999995e-152,TRUE,sigH [RNA polymerase sigma-H factor];sigE [RNA polymerase sigma-E factor];sigG [RNA polymerase sigma-G factor];sigF [RNA polymerase sigma-F factor],sigF [RNA polymerase sigma-F factor];sigK [Sigma K];sigG [RNA polymerase sigma-G factor];sigE [RNA polymerase sigma-E factor]
+Bs_smpB,Bs,smpB,Likely viral,K03664,Sporulation gene,442,32,146,146,25630,27634,178,1.3788999999999994e-21,4.7957999999999996e-21,TRUE,smpB [SsrA-binding protein],NA
+Bs_spo0A,Bs,spo0A,Likely viral,K07699,Sporulation gene,642,14,421,421,25630,27634,435,8.487099999999999e-115,3.087599999999999e-114,TRUE,spo0A [stage 0 sporulation protein A],spo0A [Stage 0 sporulation protein A]
+Bs_spoIID,Bs,spoIID,Likely viral,K06381,Sporulation gene,106,6,47,47,25630,27634,53,6.5778e-11,2.155e-10,TRUE,spoIID [stage II sporulation protein D],spoIID [Stage II sporulation protein D]
+Bs_spoIIGA,Bs,spoIIGA,Unlikely viral,K06383,Sporulation gene,23,0,62,62,25630,27634,62,0,0,TRUE,spoIIGA [sporulation sigma-E factor-processing peptidase],spoIIGA [Sporulation sigma-E factor processing peptidase]
+Bs_spoIIIAG,Bs,spoIIIAG,Unlikely viral,K06396,Sporulation gene,60,0,49,49,25630,27634,49,0,0,TRUE,spoIIIAG [stage III sporulation protein AG],spoIIIAG [Stage III sporulation protein AG]
+Bs_spoIIID,Bs,spoIIID,Likely viral,K06283,Sporulation gene,76,4,233,233,25630,27634,237,8.267199999999999e-70,2.9711999999999994e-69,TRUE,spoIIID [stage III sporulation protein D],spoIIID [Stage III sporulation protein D]
+Bs_spoIIIE,Bs,spoIIIE,Likely viral,K03466,Sporulation gene,838,222,458,458,25630,27634,680,8.004900000000001e-25,2.8005000000000002e-24,TRUE,spoIIIE [spore DNA translocase],NA
+Bs_spoIVB,Bs,spoIVB,Possible viral,K06399,Sporulation gene,108,7,41,41,25630,27634,48,1.2274e-8,3.9027e-8,TRUE,spoIVB [peptidase S55],"spoIVB [Stage IV sporulation protein B, peptidase S55 family]"
+Bs_spoVAD,Bs,spoVAD,Unlikely viral,K06406,Sporulation gene,27,1,55,55,25630,27634,56,1.5706e-18,5.3992e-18,TRUE,spoVAD [stage V sporulation protein AD],spoVAD [Stage V sporulation protein AD]
+Bs_spoVAEA,Bs,spoVAEA,Unlikely viral,K06407,Sporulation gene,32,2,42,42,25630,27634,44,5.0055e-13,1.677e-12,TRUE,spoVAEA [stage V sporulation protein AE];spoVAEB [stage V sporulation protein AEB],spoVAE [Stage V sporulation protein AE]
+Bs_spoVB,Bs,spoVB,Unlikely viral,K06409,Sporulation gene,63,3,63,63,25630,27634,66,2.6622e-18,9.1253e-18,TRUE,spoVB [stage V sporulation protein B],spoVB [Stage V sporulation protein B]
+Bs_spoVD,Bs,spoVD,Unlikely viral,K08384,Sporulation gene,43,2,58,58,25630,27634,60,5.5183e-18,1.8861e-17,TRUE,spoVD [stage V sporulation protein D],spoVD [Stage V sporulation protein D (Sporulation-specific penicillin-binding protein)]
+Bs_spoVE,Bs,spoVE,Unlikely viral,K03588,Sporulation gene,43,10,48,48,25630,27634,58,9.2447e-9,2.9553e-8,TRUE,spoVE [stage V sporulation protein E],spoVE [Cell division/stage V sporulation protein]
+Bs_spoVG,Bs,spoVG,Likely viral,K06412,Sporulation gene,372,1,62,62,25630,27634,63,9.3035e-21,3.2263e-20,TRUE,spoVG [septation protein SpoVG],spoVG [Regulator required for spore cortex synthesis]
+Bs_spoVT,Bs,spoVT,Likely viral,K04769,Sporulation gene,256,4,56,56,25630,27634,60,3.7977e-15,1.2796e-14,TRUE,spoVT [stage V sporulation protein T],spoVT [Stage V sporulation protein T]
+Bs_yhaM,Bs,yhaM,Likely viral,K03698,Sporulation gene,543,17,166,166,25630,27634,183,8.137e-36,2.8721999999999996e-35,TRUE,yhaM [3'-5' exoribonuclease YhaM],NA
+Bs_yitB,Bs,yitB,Likely viral,K00390,Sporulation gene,4562,1076,1908,1908,25630,27634,2984,5.954699999999999e-72,2.1465999999999996e-71,TRUE,yitB [phosphoadenosine phosphosulfate reductase],NA
+Bs_yknU,Bs,yknU,Unlikely viral,K18889,Sporulation gene,27,1,48,48,25630,27634,49,2.649e-16,8.9763e-16,TRUE,yknU [ABC transporter ATP-binding protein],NA
+Bs_ykoV,Bs,ykoV,Likely viral,K10979,Sporulation gene,42,0,61,61,25630,27634,61,0,0,TRUE,ykoV [DNA repair protein YkoV],NA
+Bs_ylaK,Bs,ylaK,Likely viral,K07175,Sporulation gene,744,10,112,112,25630,27634,122,4.0527999999999997e-26,1.4221000000000002e-25,TRUE,ylaK [hypothetical protein],NA
+Bs_ypeP,Bs,ypeP,Likely viral,K03469,Sporulation gene,2888,811,1479,1479,25630,27634,2290,1.7855999999999999e-59,6.3595e-59,TRUE,ypeP [hypothetical protein],NA
+Bs_yqeW,Bs,yqeW,Unlikely viral,K03324,Sporulation gene,94,11,54,54,25630,27634,65,9.954e-10,3.2344e-9,TRUE,yqeW [hypothetical protein],NA
+Bs_yrbD,Bs,yrbD,Possible viral,K03310,Sporulation gene,119,12,61,61,25630,27634,73,6.0722e-11,1.9949e-10,TRUE,yrbD [sodium/proton-dependent alanine carrier protein YrbD],NA
+Bs_ysfB,Bs,ysfB,Likely viral,K02647,Sporulation gene,233,4,34,34,25630,27634,38,9.5867e-9,3.0564e-8,TRUE,ysfB [hypothetical protein],NA
+Bs_ytlA,Bs,ytlA,Possible viral,K02051,Sporulation gene,464,28,412,412,25630,27634,440,2.7875999999999987e-97,1.0079999999999994e-96,TRUE,ytlA [ABC transporter substrate-binding protein YtlA],NA
+Bs_ytlC,Bs,ytlC,Likely viral,K02049,Sporulation gene,658,8,176,176,25630,27634,184,5.8134e-47,2.0642999999999997e-46,TRUE,ytlC [ABC transporter ATP-binding protein],NA
+Bs_ytlD,Bs,ytlD,Possible viral,K02050,Sporulation gene,210,8,82,82,25630,27634,90,3.3082e-19,1.1406e-18,TRUE,ytlD [ABC transporter permease],NA
+Bs_yugO,Bs,yugO,Likely viral,K10716,Sporulation gene,124,35,95,95,25630,27634,130,2.0206e-9,6.5476e-9,TRUE,yugO [potassium channel protein YugO],NA
+Cd_cysE,Cd,cysE,Likely viral,K00640,Sporulation gene,148,28,150,150,25630,27634,178,1.4609999999999999e-24,5.0963e-24,TRUE,NA,cysE [Serine acetyltransferase (SAT)]
+Cd_dnaX,Cd,dnaX,Likely viral,K02343,Sporulation gene,1466,32,180,180,25630,27634,212,6.856e-30,2.412799999999999e-29,TRUE,NA,dnaX [DNA polymerase III subunits gamma and tau]
+Cd_EndoA,Cd,EndoA,Likely viral,K07171,Sporulation gene,2993,74,1625,1625,25630,27634,1699,0,0,TRUE,NA,EndoA [Endoribonuclease toxin]
+Cd_glmS,Cd,glmS,Likely viral,K00820,Sporulation gene,112,23,79,79,25630,27634,102,3.1673e-10,1.0348e-9,TRUE,NA,glmS [Glucosamine--fructose-6-phosphate aminotransferase [isomerizing]]
+Cd_ispF,Cd,ispF,Unlikely viral,K01770,Sporulation gene,55,11,45,45,25630,27634,56,1.4957e-7,4.6805e-7,TRUE,NA,"ispF [2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase]"
+Cd_nrdR,Cd,nrdR,Likely viral,K07738,Sporulation gene,78,4,73,73,25630,27634,77,3.1240000000000003e-20,1.0802000000000001e-19,TRUE,NA,"nrdR [Transcriptional regulator, repressor NrdR family]"
+Cd_ptsG,Cd,ptsG,Unlikely viral,K20118,Sporulation gene,32,2,40,40,25630,27634,42,2.069e-12,6.8543e-12,TRUE,NA,"ptsG-BC [PTS system, glucose-specific IIBC component]"
+NA_K03657,NA,K03657,Likely viral,K03657,Sporulation gene,799,121,207,207,25630,27634,328,1.6287e-8,5.1648e-8,TRUE,NA,NA
+NA_K06901,NA,K06901,Possible viral,K06901,Sporulation gene,110,9,46,46,25630,27634,55,8.6812e-9,2.7827e-8,TRUE,NA,NA
+NA_K09747,NA,K09747,Unlikely viral,K09747,Sporulation gene,166,7,57,57,25630,27634,64,5.8821e-13,1.9596e-12,TRUE,NA,NA
+NA_K11751,NA,K11751,Possible viral,K11751,Sporulation gene,59,1,43,43,25630,27634,44,1.0316e-14,3.4659e-14,TRUE,NA,NA

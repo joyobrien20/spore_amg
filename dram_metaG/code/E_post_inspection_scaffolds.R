@@ -289,42 +289,7 @@ ggsave(filename = here("dram_metaG/plots","CSU_scaffold_counts.png"),
        plot = p, width = 8, height = 9, bg = "white")
 
 
-# Map CSU validated genes to environment ------------------------------------
-# ecosystem classification
-d.eco <- read_csv(here(data_dir, "ecosystem_details.csv"))
 
-
-
-csu.eco.sum <- 
-  # add ecosytem type data 
-  left_join(d.curated, d.eco) %>% 
-  mutate(gene = str_remove(focal_gene, ".*_") %>% 
-           factor(levels = genes[genes %in% str_remove(likely_viral_genes, ".*_")])) %>% 
-  # only CSU
-  filter(set_group == "CSUsets") %>% 
-  # only likely-viral genes
-  filter(focal_gene %in% likely_viral_genes) %>% 
-  # only validated by manual inspection
-  filter(skim_plot_isViral == "TRUE") %>% 
-  # summarize
-  group_by(gene, ecosystem_type) %>% 
-  summarise(n.scaffolds = n())
-
-
-p <- csu.eco.sum %>%
-  ggplot(aes(gene, ecosystem_type))+
-  geom_tile(aes(fill = n.scaffolds), color = "white")+
-  geom_text(aes(label = n.scaffolds))+
-  facet_grid(.~"Likely-viral")+
-  theme_classic()+
-  panel_border(color = "black")+
-  theme(axis.text.x = element_text(angle = 30, hjust = 1, vjust=1),
-        legend.position = "bottom")+
-  scale_fill_viridis_b(direction = -1)+
-  scale_x_discrete(drop=FALSE)
-
-ggsave(filename = here("dram_metaG/plots","CSUsets_ecosystems.png"),
-       plot = p, width = 8, height = 4, bg = "white")
 # Export validated viral genes --------------------------------------------
 # host functions of putative AMGs
 
@@ -371,4 +336,47 @@ likely_viral %>%
   mutate(Function = str_remove_all(Function,"]")) %>% 
   write_csv(here(data_dir,"viral_sporGenes.csv"))
 
+# export full classification of enriched genes by manual inspection ----------
 
+d.enriched %>% 
+  separate(gene_name, into = c("sp", "gene" ), remove = F) %>% 
+  write_csv(here(data_dir,"Gut_enriched_inspected.csv"))
+
+
+
+# Map CSU validated genes to environment ------------------------------------
+# ecosystem classification
+d.eco <- read_csv(here(data_dir, "ecosystem_details.csv"))
+
+
+
+csu.eco.sum <- 
+  # add ecosytem type data 
+  left_join(d.curated, d.eco) %>% 
+  mutate(gene = str_remove(focal_gene, ".*_") %>% 
+           factor(levels = genes[genes %in% str_remove(likely_viral_genes, ".*_")])) %>% 
+  # only CSU
+  filter(set_group == "CSUsets") %>% 
+  # only likely-viral genes
+  filter(focal_gene %in% likely_viral_genes) %>% 
+  # only validated by manual inspection
+  filter(skim_plot_isViral == "TRUE") %>% 
+  # summarize
+  group_by(gene, ecosystem_type) %>% 
+  summarise(n.scaffolds = n())
+
+
+p <- csu.eco.sum %>%
+  ggplot(aes(gene, ecosystem_type))+
+  geom_tile(aes(fill = n.scaffolds), color = "white")+
+  geom_text(aes(label = n.scaffolds))+
+  facet_grid(.~"Likely-viral")+
+  theme_classic()+
+  panel_border(color = "black")+
+  theme(axis.text.x = element_text(angle = 30, hjust = 1, vjust=1),
+        legend.position = "bottom")+
+  scale_fill_viridis_b(direction = -1)+
+  scale_x_discrete(drop=FALSE)
+
+ggsave(filename = here("dram_metaG/plots","CSUsets_ecosystems.png"),
+       plot = p, width = 8, height = 4, bg = "white")
