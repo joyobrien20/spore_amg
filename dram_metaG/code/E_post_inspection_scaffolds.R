@@ -365,18 +365,30 @@ csu.eco.sum <-
   group_by(gene, ecosystem_type) %>% 
   summarise(n.scaffolds = n())
 
-
-p <- csu.eco.sum %>%
+p <- 
+# trick to fill completly missing factor levels
+tibble(gene = levels(csu.eco.sum$gene), 
+       ecosystem_type = "tmp",
+       n.scaffolds =0) %>% 
+  rbind(csu.eco.sum) %>% 
+  complete(gene, ecosystem_type) %>% 
+  filter(ecosystem_type != "tmp") %>% 
+  
+  # for a nicer legend title
+  rename(`N scaffolds` = n.scaffolds) %>% 
+  
   ggplot(aes(gene, ecosystem_type))+
-  geom_tile(aes(fill = n.scaffolds), color = "white")+
-  geom_text(aes(label = n.scaffolds))+
-  facet_grid(.~"Likely-viral")+
+  geom_tile(aes(fill = `N scaffolds`), color = "black", linewidth = .1)+
+  geom_text(aes(label = `N scaffolds`))+
+  # facet_grid(.~"Likely-viral")+
   theme_classic()+
   panel_border(color = "black")+
   theme(axis.text.x = element_text(angle = 30, hjust = 1, vjust=1),
         legend.position = "bottom")+
-  scale_fill_viridis_b(direction = -1)+
-  scale_x_discrete(drop=FALSE)
+  scale_fill_viridis_b(direction = -1, begin = 0.3, na.value = "white")+
+  scale_x_discrete(drop=FALSE)+
+  ylab("ecosytem type")
+  # guides(fill =  guide_legend(title = "N scaffolds"))
 
 ggsave(filename = here("dram_metaG/plots","CSUsets_ecosystems.png"),
-       plot = p, width = 8, height = 4, bg = "white")
+       plot = p, width = 8, height = 3, bg = "white")
