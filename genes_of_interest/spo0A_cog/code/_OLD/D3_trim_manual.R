@@ -136,5 +136,66 @@ trimmed_aa <-
 write.fasta(names = trimmed_aa$name,
             sequences = str_split(trimmed_aa$seq,pattern = ""),
             file.out = here(cDir, "data", "/align-trim-tree/maxcc.afa.trim"))
+#### -----------
+d.trim_plot <- 
+  d.aa_msa %>% 
+  # trim
+  filter(position %in% seq(trim.start,trim.end)) %>% 
+  # remove gappy virome sequences
+  filter(!name %in% to_exclude) %>% 
+  filter(str_detect(g, "virome")|name=="cog_NP_390302.1") %>% 
+  droplevels() %>% 
+  mutate(name = fct_relevel(name, "cog_NP_390302.1", after = 0) )
 
+
+p1 <- ggplot() +
+  geom_msa(data =  d.trim_plot  ,
+           seq_name =T, border = NA, color = "Zappo_AA")+
+            # by_conservation = T, ignore_gaps = T)+
+           # consensus_views = T, ref =  "cog_NP_390302.1", disagreement = F)+
+  # facet_grid (fct_rev(g)~ ., scales = "free_y", space = "free_y")+
+  theme_classic()+
+  theme(axis.text.y = element_blank(),
+        axis.ticks.y = element_blank(),
+        axis.title.y = element_blank())
+
+ggsave(filename = here(cDir, "plots", "msa_trim_viral.png"), 
+       plot = p1, width = 11.5, height = 4.2)
+
+###--------
+d.trim_plot <- 
+  d.aa_msa %>% 
+  # trim
+  filter(position %in% seq(trim.start,trim.end)) %>% 
+  # remove gappy virome sequences
+  filter(!name %in% to_exclude) %>% 
+  filter(!str_detect(g, "virome")) %>% 
+  droplevels() %>% 
+  mutate(name = fct_relevel(name, "cog_NP_390302.1", after = 0) )
+
+
+p2 <- ggplot() +
+  geom_msa(data =  d.trim_plot  ,
+           seq_name =T, border = NA, color = "Zappo_AA")+
+           # by_conservation = T, ignore_gaps = T)+
+           # consensus_views = T, ref =  "cog_NP_390302.1", disagreement = F)+
+  # facet_grid (fct_rev(g)~ ., scales = "free_y", space = "free_y")+
+  theme_classic()+
+  theme(axis.text.y = element_blank(),
+        axis.ticks.y = element_blank(),
+        axis.title.y = element_blank())
+
+ggsave(filename = here(cDir, "plots", "msa_trim_bacterial.png"), 
+       plot = p2, width = 11.5, height = 4.2)
+
+
+# plot 3 ------------------------------------------------------------------
+
+p3 <- cowplot::plot_grid(p1+  theme(axis.text.x = element_blank(),
+                                    axis.ticks.x = element_blank(),
+                                    axis.title.x = element_blank()),
+                         p2, ncol = 1, rel_heights = c(23,57))
+
+ggsave(filename = here(cDir, "plots", "msa_trim_all.png"), 
+       plot = p3, width = 8, height = 11)
 

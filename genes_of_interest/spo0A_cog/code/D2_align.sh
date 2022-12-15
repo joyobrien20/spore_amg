@@ -10,16 +10,16 @@ srun -p interactive -N 1 --ntasks-per-node=1 --cpus-per-task=8 --time=07:59:00 -
 # local dependencies #
 TOOLS=/N/u/danschw/Carbonate/my_tools
 MUSCLE=${TOOLS}/muscle5.1.linux_intel64
-# muscle 5.1.linux64 [12f0e2]
-TRIMAL=/geode2/home/u020/danschw/Carbonate/my_tools/trimal-trimAl/source
-# trimAl v1.4.rev22 build[2015-05-21]. 2009-2015. Salvador Capella-Gutierrez and Toni Gabaldón.
-# trimAl webpage: http://trimal.cgenomics.org
-# (used in Consuelo Gazitúa wt (2020) paper (Sullivan lab))
+## muscle 5.1.linux64 [12f0e2]
+#TRIMAL=/geode2/home/u020/danschw/Carbonate/my_tools/trimal-trimAl/source
+## trimAl v1.4.rev22 build[2015-05-21]. 2009-2015. Salvador Capella-Gutierrez and Toni Gabaldón.
+## trimAl webpage: http://trimal.cgenomics.org
+## (used in Consuelo Gazitúa wt (2020) paper (Sullivan lab))
 
 
 ##### Define paths #####
 PARENT=~/GitHub/spore_amg/genes_of_interest/spo0A_cog
-ODIR=${PARENT}/data/align-trim-tree
+ODIR=${PARENT}/data/align
 mkdir -p ${ODIR}
 
 
@@ -39,9 +39,9 @@ $MUSCLE -efastats $ODIR/ensemble.efa -log $ODIR/efastats.log
 
 $MUSCLE -maxcc $ODIR/ensemble.efa -output $ODIR/maxcc.afa
 
-# trim alignment
-cd $TRIMAL
-
-./trimal -in ${ODIR}/maxcc.afa  -colnumbering -out ${ODIR}/maxcc.afa.trim -gappyout
-
-# cat ${ODIR}/maxcc.afa.trim
+## trim alignment
+#cd $TRIMAL
+#
+#./trimal -in ${ODIR}/maxcc.afa  -colnumbering -out ${ODIR}/maxcc.afa.trim -gappyout#
+#
+## cat ${ODIR}/maxcc.afa.trim
