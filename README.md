@@ -1,5 +1,6 @@
 # spore_amg
 Sporulation genes in viromes
+
 To satisfy cross dependencies should be run in this order:
 
 1. **spor_gene_list** - compiling a list of sporulation genes. 
