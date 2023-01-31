@@ -1,0 +1,36 @@
+#!/bin/bash
+#SBATCH --nodes=1                  # Number of requested nodes
+#SBATCH --ntasks=2                # Cores per node requested
+#SBATCH --time=7-50:00:00        	# Timelimit
+#SBATCH --mem=2gb                # Job memory (1024gb=1tb)
+#SBATCH --mail-type=BEGIN,END,FAIL         
+#SBATCH --mail-user=jrodram@colostate.edu
+#SBATCH --partition=wrighton-hi,wrighton-low
+
+source /opt/Miniconda2/miniconda2/bin/activate DRAM
+
+cd /home/projects-wrighton/lloyd-price_data/assemby_renamed_for_virsorter_JRR/
+
+#remove bad chars from tab
+#RAM-v.py remove_bad_characters -v /home/projects-wrighton/lloyd-price_data/assemby_renamed_for_virsorter_JRR/affi_tab_files_for_dramv/all_huttenhower_virsorter_affi-contigs.tab -o /home/projects-wrighton/lloyd-price_data/assemby_renamed_for_virsorter_JRR/affi_tab_files_for_dramv/all_huttenhower_virsorter_affi-contigs_nobadchars.tab
+
+#remove bad chars from fasta of concatenated viruses ge10kb
+DRAM-v.py remove_bad_characters -i /home/projects-wrighton/lloyd-price_data/assemby_renamed_for_virsorter_JRR/ge10kb_viral_fasta_unclustered/all_huttenhower_VIRSorter_cat1245_ge10kb.fasta -o /home/projects-wrighton/lloyd-price_data/assemby_renamed_for_virsorter_JRR/ge10kb_viral_fasta_unclustered/all_huttenhower_VIRSorter_cat1245_ge10kb_nobadchars.fasta
+
+
+############### Then we annotate after removing bad headers
+
+
+#!/bin/bash
+
+source /home/rmflynn/miniconda3/bin/activate ame
+DRAM-setup.py import_config --config_loc ~/DRAM_CONFIG_20220116
+# source /opt/Miniconda2/miniconda2/bin/activate DRAM
+
+cd /home/projects-wrighton/lloyd-price_data/assemby_renamed_for_virsorter_JRR/
+
+#annotate
+DRAM-v.py annotate \
+        -i /home/projects-wrighton/lloyd-price_data/assemby_renamed_for_virsorter_JRR/ge10kb_viral_fasta_unclustered/all_huttenhower_VIRSorter_cat1245_ge10kb_nobadchars.fasta \
+        -v /home/projects-wrighton/lloyd-price_data/assemby_renamed_for_virsorter_JRR/affi_tab_files_for_dramv/all_huttenhower_virsorter_affi-contigs_nobadchars.tab \
+        -o /home/projects-wrighton/lloyd-price_data/assemby_renamed_for_virsorter_JRR/dramv_output --min_contig_size 0 --threads 25 &> dramv_no-uniref_log.txt

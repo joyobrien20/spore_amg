@@ -1,0 +1,12 @@
+#!/bin/bash
+#SBATCH --nodes=1                  # Number of requested nodes
+#SBATCH --ntasks=10                # Cores per node requested
+#SBATCH --time=7-50:00:00        	# Timelimit
+#SBATCH --mem=50gb                # Job memory (1024gb=1tb)
+#SBATCH --mail-type=BEGIN,END,FAIL         
+#SBATCH --mail-user=jrodram@colostate.edu
+#SBATCH --partition=wrighton-hi
+
+cd /home/projects/Sporulation_AMG/hmp/vMAG/
+
+Cluster_genomes_5.1.pl -f /home/projects/Sporulation_AMG/hmp/vMAG/hmp_ge10kb_sporAMG_viruses.fasta -c 85 -i 95 -t 10
