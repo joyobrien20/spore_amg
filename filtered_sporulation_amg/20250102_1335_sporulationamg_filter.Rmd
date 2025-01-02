@@ -1,0 +1,93 @@
+---
+title: "0. Filter_sporulation"
+author: "Joy O'Brien"
+date: "2025-01-02"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+# Read in the data
+library(readr)
+
+# Load the data using read_tsv
+amg_summary <- read_tsv("~/GitHub/spore_amg/enrichment/data/Viruses/amg_summary.tsv")
+
+# View the first few rows
+head(amg_summary)
+
+```
+
+
+```{r setup, include=FALSE}
+# Identify the unique modules 
+unique_modules <- unique(amg_summary$module)
+
+# View the unique entries
+unique_modules
+```
+
+
+```{r setup, include=FALSE}
+# Filter rows with "sporulation" in the 'module' column
+# Load the necessary packages
+library(dplyr)
+library(stringr)
+
+# Filter rows with "sporulation" in the 'module' column
+sporulation_data <- amg_summary %>%
+  filter(str_detect(module, regex("sporulation", ignore_case = TRUE)))
+
+# View the first few rows
+head(sporulation_data)
+```
+
+```{r}
+# Read in metadata
+# Load necessary libraries
+library(dplyr)
+library(readr)
+
+# Load the metadata file
+metadata <- read_csv("~/GitHub/spore_amg/enrichment/data/Viruses/refseq_phages_wHost.csv")
+
+```
+```{r}
+# Issue with scaffold and refseq, removing the decimal from the NC reference code of the sporulation_data
+# Load necessary libraries
+library(dplyr)
+library(stringr)
+
+# Remove decimals from a column named 'column_name'
+sporulation_data_edit <- sporulation_data %>%
+  mutate(scaffold = str_replace(scaffold, "\\..*", ""))
+
+# View the updated data
+head(sporulation_data_edit)
+
+```
+
+```{r}
+# Rename the refseqid to scaffold in metadata
+# Load dplyr
+library(dplyr)
+# Rename the column
+metadata <- metadata %>%
+  rename(scaffold = refseq.id.x)
+
+# View the first few rows to confirm
+head(metadata)
+```{r}
+```
+
+
+```{r}
+```
+
+```{r}
+# Merging the metadata with the sporulation amg data
+merged_data <- sporulation_data %>%
+  left_join(metadata, by = "scaffold")
+
+
+```
+
